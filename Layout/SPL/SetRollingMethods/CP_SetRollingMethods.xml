@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="12/18/2015 2:50:04 PM">
+  <div id="PageTop">
+    <p> 受理行号：	                  
+      <span id='SubBankId'></span>         
+    </p>
+    <p> 状态：	                  
+      <span id='DevStatus'>00000（00）</span>
+    </p>
+  </div>
+  <div class="stateWrap">
+    <img src="Framework/style/Graphics/stateLine.png" alt="" srcset="" class="stateLine" />
+    <span class="stateTitle">参数设置</span>
+  </div>
+  <div id="PageSubject">
+    <div class="InputDiv middleDiv ">
+      <p class="selectMinus">
+        <span >轧账方式：</span>                    			                             
+        <select id="select_id" class="selectOption">
+          <option value ="2">终端轧账</option>
+          <option value ="1">预轧账</option>
+        </select>
+      </p>
+	        <p>
+        <span >柜员号：</span>
+                      			                              
+        <input class="AdminInput backgroundY" id="TellerInput" type="text"   placeholder="请输入柜员号"/>
+        <label class="span_tip" id ="user_tip"> </label>
+      </p>
+	   <div class="div_tip" id="tipdiv" style="color:red;"> </div>
+    </div>
+			<div class="TipDiv">
+     		温馨提示：请选择轧账方式，点击确定完成。
+    	</div>
+    <div id="KeysDiv" > </div>
+  </div>
+  <div id="PageButton" class="threeBtn">
+    <button type="button"  id="Back">返回</button>
+    <button type="button"  id="OK">确定</button>
+    <!-- <button type="button"  id="Back" class="middle">返回</button> -->
+  </div>
+<button type="button" id="PageRoot">退出登录</button>
+  <!-- 错误状态 提示   -->
+  <div id="errorWrap">
+    <div class="errorTips">
+      <div class="errorTipsText">
+        <div class="InfoTitle">信息提示                                                   
+          <span id="countDown"></span>
+        </div>
+        <div id="InfoTip">读证失败，请重新插入。</div>
+      </div>
+    </div>
+  </div>
+  <div id="networkWrap">
+    <div class="networkWrapTips">
+      <p class="networkPicture"></p>
+      <p id="networkTip">正在通讯中，请稍后...</p>
+    </div>
+  </div>
+</div>

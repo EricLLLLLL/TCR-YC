@@ -1,0 +1,146 @@
+[
+   {
+      "gargnnam" : "北京市",
+      "provcod" : 11
+   },
+   {
+      "gargnnam" : "天津市",
+      "provcod" : 12
+   },
+   {
+      "gargnnam" : "河北省",
+      "provcod" : 13
+   },
+   {
+      "gargnnam" : "山西省",
+      "provcod" : 14
+   },
+   {
+      "gargnnam" : "内蒙古自治区",
+      "provcod" : 15
+   },
+   {
+      "gargnnam" : "辽宁省（不含大连市）",
+      "provcod" : 21
+   },
+   {
+      "gargnnam" : "吉林省",
+      "provcod" : 22
+   },
+   {
+      "gargnnam" : "黑龙江省",
+      "provcod" : 23
+   },
+   {
+      "gargnnam" : "上海市",
+      "provcod" : 31
+   },
+   {
+      "gargnnam" : "江苏省",
+      "provcod" : 32
+   },
+   {
+      "gargnnam" : "浙江省（不含宁波市）",
+      "provcod" : 33
+   },
+   {
+      "gargnnam" : "安徽省",
+      "provcod" : 34
+   },
+   {
+      "gargnnam" : "福建省（不含厦门市）",
+      "provcod" : 35
+   },
+   {
+      "gargnnam" : "江西省",
+      "provcod" : 36
+   },
+   {
+      "gargnnam" : "山东省（不含青岛市）",
+      "provcod" : 37
+   },
+   {
+      "gargnnam" : "河南省",
+      "provcod" : 41
+   },
+   {
+      "gargnnam" : "湖北省",
+      "provcod" : 42
+   },
+   {
+      "gargnnam" : "湖南省",
+      "provcod" : 43
+   },
+   {
+      "gargnnam" : "广东省（不含深圳市）",
+      "provcod" : 44
+   },
+   {
+      "gargnnam" : "广西省",
+      "provcod" : 45
+   },
+   {
+      "gargnnam" : "海南省",
+      "provcod" : 46
+   },
+   {
+      "gargnnam" : "四川省",
+      "provcod" : 51
+   },
+   {
+      "gargnnam" : "贵州省",
+      "provcod" : 52
+   },
+   {
+      "gargnnam" : "云南省",
+      "provcod" : 53
+   },
+   {
+      "gargnnam" : "西藏自治区",
+      "provcod" : 54
+   },
+   {
+      "gargnnam" : "重庆市",
+      "provcod" : 55
+   },
+   {
+      "gargnnam" : "陕西省",
+      "provcod" : 61
+   },
+   {
+      "gargnnam" : "甘肃省",
+      "provcod" : 62
+   },
+   {
+      "gargnnam" : "青海省",
+      "provcod" : 63
+   },
+   {
+      "gargnnam" : "宁夏回族自治区",
+      "provcod" : 64
+   },
+   {
+      "gargnnam" : "新疆维吾尔族自治区",
+      "provcod" : 65
+   },
+   {
+      "gargnnam" : "深圳市",
+      "provcod" : 81
+   },
+   {
+      "gargnnam" : "宁波市",
+      "provcod" : 82
+   },
+   {
+      "gargnnam" : "厦门市",
+      "provcod" : 83
+   },
+   {
+      "gargnnam" : "青岛市",
+      "provcod" : 84
+   },
+   {
+      "gargnnam" : "大连市",
+      "provcod" : 85
+   }
+]

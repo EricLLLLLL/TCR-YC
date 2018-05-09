@@ -1,0 +1,276 @@
+[
+   {
+      "area" : [
+         {
+            "gafeecod" : "3010",
+            "gargnnam" : "南京市"
+         },
+         {
+            "gafeecod" : "3014",
+            "gargnnam" : "溧水县"
+         },
+         {
+            "gafeecod" : "3015",
+            "gargnnam" : "高淳县"
+         },
+         {
+            "gafeecod" : "3020",
+            "gargnnam" : "无锡市"
+         },
+         {
+            "gafeecod" : "3022",
+            "gargnnam" : "江阴市"
+         },
+         {
+            "gafeecod" : "3023",
+            "gargnnam" : "宜兴市"
+         },
+         {
+            "gafeecod" : "3030",
+            "gargnnam" : "徐州市"
+         },
+         {
+            "gafeecod" : "3031",
+            "gargnnam" : "丰县"
+         },
+         {
+            "gafeecod" : "3032",
+            "gargnnam" : "沛县"
+         },
+         {
+            "gafeecod" : "3033",
+            "gargnnam" : "铜山县"
+         },
+         {
+            "gafeecod" : "3034",
+            "gargnnam" : "睢宁县"
+         },
+         {
+            "gafeecod" : "3035",
+            "gargnnam" : "邳州市"
+         },
+         {
+            "gafeecod" : "3036",
+            "gargnnam" : "新沂市"
+         },
+         {
+            "gafeecod" : "3040",
+            "gargnnam" : "常州市"
+         },
+         {
+            "gafeecod" : "3042",
+            "gargnnam" : "金坛市"
+         },
+         {
+            "gafeecod" : "3043",
+            "gargnnam" : "溧阳市"
+         },
+         {
+            "gafeecod" : "3050",
+            "gargnnam" : "苏州市"
+         },
+         {
+            "gafeecod" : "3051",
+            "gargnnam" : "太仓市"
+         },
+         {
+            "gafeecod" : "3052",
+            "gargnnam" : "昆山市"
+         },
+         {
+            "gafeecod" : "3054",
+            "gargnnam" : "吴江市"
+         },
+         {
+            "gafeecod" : "3055",
+            "gargnnam" : "常熟市"
+         },
+         {
+            "gafeecod" : "3056",
+            "gargnnam" : "张家港市"
+         },
+         {
+            "gafeecod" : "3060",
+            "gargnnam" : "南通市"
+         },
+         {
+            "gafeecod" : "3061",
+            "gargnnam" : "海安县"
+         },
+         {
+            "gafeecod" : "3062",
+            "gargnnam" : "如皋市"
+         },
+         {
+            "gafeecod" : "3063",
+            "gargnnam" : "如东县"
+         },
+         {
+            "gafeecod" : "3064",
+            "gargnnam" : "通州市"
+         },
+         {
+            "gafeecod" : "3065",
+            "gargnnam" : "海门市"
+         },
+         {
+            "gafeecod" : "3066",
+            "gargnnam" : "启东市"
+         },
+         {
+            "gafeecod" : "3070",
+            "gargnnam" : "连云港市"
+         },
+         {
+            "gafeecod" : "3071",
+            "gargnnam" : "赣榆县"
+         },
+         {
+            "gafeecod" : "3072",
+            "gargnnam" : "东海县"
+         },
+         {
+            "gafeecod" : "3073",
+            "gargnnam" : "灌云县"
+         },
+         {
+            "gafeecod" : "3074",
+            "gargnnam" : "灌南县"
+         },
+         {
+            "gafeecod" : "3080",
+            "gargnnam" : "淮安市"
+         },
+         {
+            "gafeecod" : "3085",
+            "gargnnam" : "涟水县"
+         },
+         {
+            "gafeecod" : "3087",
+            "gargnnam" : "洪泽县"
+         },
+         {
+            "gafeecod" : "3088",
+            "gargnnam" : "盱眙县"
+         },
+         {
+            "gafeecod" : "3089",
+            "gargnnam" : "金湖县"
+         },
+         {
+            "gafeecod" : "3094",
+            "gargnnam" : "宿豫县"
+         },
+         {
+            "gafeecod" : "3110",
+            "gargnnam" : "盐城市"
+         },
+         {
+            "gafeecod" : "3111",
+            "gargnnam" : "响水县"
+         },
+         {
+            "gafeecod" : "3112",
+            "gargnnam" : "滨海县"
+         },
+         {
+            "gafeecod" : "3113",
+            "gargnnam" : "阜宁县"
+         },
+         {
+            "gafeecod" : "3114",
+            "gargnnam" : "射阳县"
+         },
+         {
+            "gafeecod" : "3115",
+            "gargnnam" : "建湖县"
+         },
+         {
+            "gafeecod" : "3116",
+            "gargnnam" : "大丰市"
+         },
+         {
+            "gafeecod" : "3117",
+            "gargnnam" : "东台市"
+         },
+         {
+            "gafeecod" : "3118",
+            "gargnnam" : "盐都县"
+         },
+         {
+            "gafeecod" : "3120",
+            "gargnnam" : "扬州市"
+         },
+         {
+            "gafeecod" : "3121",
+            "gargnnam" : "高邮市"
+         },
+         {
+            "gafeecod" : "3122",
+            "gargnnam" : "宝应县"
+         },
+         {
+            "gafeecod" : "3125",
+            "gargnnam" : "江都市"
+         },
+         {
+            "gafeecod" : "3129",
+            "gargnnam" : "仪征市"
+         },
+         {
+            "gafeecod" : "3140",
+            "gargnnam" : "镇江市"
+         },
+         {
+            "gafeecod" : "3142",
+            "gargnnam" : "句容市"
+         },
+         {
+            "gafeecod" : "3143",
+            "gargnnam" : "扬中市"
+         },
+         {
+            "gafeecod" : "3144",
+            "gargnnam" : "丹阳市"
+         },
+         {
+            "gafeecod" : "3160",
+            "gargnnam" : "泰州市"
+         },
+         {
+            "gafeecod" : "3161",
+            "gargnnam" : "兴化市"
+         },
+         {
+            "gafeecod" : "3162",
+            "gargnnam" : "靖江市"
+         },
+         {
+            "gafeecod" : "3163",
+            "gargnnam" : "泰兴市"
+         },
+         {
+            "gafeecod" : "3164",
+            "gargnnam" : "姜堰市"
+         },
+         {
+            "gafeecod" : "3180",
+            "gargnnam" : "宿迁市"
+         },
+         {
+            "gafeecod" : "3181",
+            "gargnnam" : "沭阳县"
+         },
+         {
+            "gafeecod" : "3182",
+            "gargnnam" : "泗阳县"
+         },
+         {
+            "gafeecod" : "3183",
+            "gargnnam" : "泗洪县"
+         }
+      ],
+      "gargnnam" : "江苏省",
+      "provcod" : 32
+   }
+]

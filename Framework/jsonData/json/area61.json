@@ -1,0 +1,384 @@
+[
+   {
+      "area" : [
+         {
+            "gafeecod" : "7910",
+            "gargnnam" : "西安市"
+         },
+         {
+            "gafeecod" : "7912",
+            "gargnnam" : "蓝田县"
+         },
+         {
+            "gafeecod" : "7914",
+            "gargnnam" : "周至县"
+         },
+         {
+            "gafeecod" : "7915",
+            "gargnnam" : "户县"
+         },
+         {
+            "gafeecod" : "7916",
+            "gargnnam" : "高陵县"
+         },
+         {
+            "gafeecod" : "7920",
+            "gargnnam" : "铜川市"
+         },
+         {
+            "gafeecod" : "7921",
+            "gargnnam" : "耀县"
+         },
+         {
+            "gafeecod" : "7922",
+            "gargnnam" : "宜君县"
+         },
+         {
+            "gafeecod" : "7930",
+            "gargnnam" : "宝鸡市"
+         },
+         {
+            "gafeecod" : "7932",
+            "gargnnam" : "凤翔县"
+         },
+         {
+            "gafeecod" : "7933",
+            "gargnnam" : "岐山县"
+         },
+         {
+            "gafeecod" : "7934",
+            "gargnnam" : "扶风县"
+         },
+         {
+            "gafeecod" : "7935",
+            "gargnnam" : "眉县"
+         },
+         {
+            "gafeecod" : "7936",
+            "gargnnam" : "陇县"
+         },
+         {
+            "gafeecod" : "7937",
+            "gargnnam" : "千阳县"
+         },
+         {
+            "gafeecod" : "7938",
+            "gargnnam" : "麟游县"
+         },
+         {
+            "gafeecod" : "7939",
+            "gargnnam" : "凤县"
+         },
+         {
+            "gafeecod" : "7941",
+            "gargnnam" : "太白县"
+         },
+         {
+            "gafeecod" : "7950",
+            "gargnnam" : "咸阳市"
+         },
+         {
+            "gafeecod" : "7951",
+            "gargnnam" : "兴平市"
+         },
+         {
+            "gafeecod" : "7952",
+            "gargnnam" : "三原县"
+         },
+         {
+            "gafeecod" : "7953",
+            "gargnnam" : "泾阳县"
+         },
+         {
+            "gafeecod" : "7954",
+            "gargnnam" : "乾县"
+         },
+         {
+            "gafeecod" : "7955",
+            "gargnnam" : "礼泉县"
+         },
+         {
+            "gafeecod" : "7956",
+            "gargnnam" : "永寿县"
+         },
+         {
+            "gafeecod" : "7957",
+            "gargnnam" : "彬县"
+         },
+         {
+            "gafeecod" : "7958",
+            "gargnnam" : "长武县"
+         },
+         {
+            "gafeecod" : "7959",
+            "gargnnam" : "旬邑县"
+         },
+         {
+            "gafeecod" : "7961",
+            "gargnnam" : "淳化县"
+         },
+         {
+            "gafeecod" : "7962",
+            "gargnnam" : "武功县"
+         },
+         {
+            "gafeecod" : "7970",
+            "gargnnam" : "渭南市"
+         },
+         {
+            "gafeecod" : "7972",
+            "gargnnam" : "韩城市"
+         },
+         {
+            "gafeecod" : "7973",
+            "gargnnam" : "华县"
+         },
+         {
+            "gafeecod" : "7974",
+            "gargnnam" : "华阴市"
+         },
+         {
+            "gafeecod" : "7975",
+            "gargnnam" : "潼关县"
+         },
+         {
+            "gafeecod" : "7976",
+            "gargnnam" : "大荔县"
+         },
+         {
+            "gafeecod" : "7977",
+            "gargnnam" : "蒲城县"
+         },
+         {
+            "gafeecod" : "7978",
+            "gargnnam" : "澄城县"
+         },
+         {
+            "gafeecod" : "7979",
+            "gargnnam" : "白水县"
+         },
+         {
+            "gafeecod" : "7981",
+            "gargnnam" : "合阳县"
+         },
+         {
+            "gafeecod" : "7982",
+            "gargnnam" : "富平县"
+         },
+         {
+            "gafeecod" : "7990",
+            "gargnnam" : "汉中市"
+         },
+         {
+            "gafeecod" : "7992",
+            "gargnnam" : "南郑县"
+         },
+         {
+            "gafeecod" : "7993",
+            "gargnnam" : "城固县"
+         },
+         {
+            "gafeecod" : "7994",
+            "gargnnam" : "洋县"
+         },
+         {
+            "gafeecod" : "7995",
+            "gargnnam" : "西乡县"
+         },
+         {
+            "gafeecod" : "7996",
+            "gargnnam" : "勉县"
+         },
+         {
+            "gafeecod" : "7997",
+            "gargnnam" : "宁强县"
+         },
+         {
+            "gafeecod" : "7998",
+            "gargnnam" : "略阳县"
+         },
+         {
+            "gafeecod" : "7999",
+            "gargnnam" : "镇巴县"
+         },
+         {
+            "gafeecod" : "8001",
+            "gargnnam" : "留坝县"
+         },
+         {
+            "gafeecod" : "8002",
+            "gargnnam" : "佛坪县"
+         },
+         {
+            "gafeecod" : "8010",
+            "gargnnam" : "安康市"
+         },
+         {
+            "gafeecod" : "8012",
+            "gargnnam" : "汉阴县"
+         },
+         {
+            "gafeecod" : "8013",
+            "gargnnam" : "石泉县"
+         },
+         {
+            "gafeecod" : "8014",
+            "gargnnam" : "宁陕县"
+         },
+         {
+            "gafeecod" : "8015",
+            "gargnnam" : "紫阳县"
+         },
+         {
+            "gafeecod" : "8016",
+            "gargnnam" : "岚皋县"
+         },
+         {
+            "gafeecod" : "8017",
+            "gargnnam" : "平利县"
+         },
+         {
+            "gafeecod" : "8018",
+            "gargnnam" : "镇坪县"
+         },
+         {
+            "gafeecod" : "8019",
+            "gargnnam" : "旬阳县"
+         },
+         {
+            "gafeecod" : "8021",
+            "gargnnam" : "白河县"
+         },
+         {
+            "gafeecod" : "8030",
+            "gargnnam" : "商洛市"
+         },
+         {
+            "gafeecod" : "8032",
+            "gargnnam" : "洛南县"
+         },
+         {
+            "gafeecod" : "8033",
+            "gargnnam" : "丹凤县"
+         },
+         {
+            "gafeecod" : "8034",
+            "gargnnam" : "商南县"
+         },
+         {
+            "gafeecod" : "8035",
+            "gargnnam" : "山阳县"
+         },
+         {
+            "gafeecod" : "8036",
+            "gargnnam" : "镇安县"
+         },
+         {
+            "gafeecod" : "8037",
+            "gargnnam" : "柞水县"
+         },
+         {
+            "gafeecod" : "8040",
+            "gargnnam" : "延安市"
+         },
+         {
+            "gafeecod" : "8042",
+            "gargnnam" : "延长县"
+         },
+         {
+            "gafeecod" : "8043",
+            "gargnnam" : "延川县"
+         },
+         {
+            "gafeecod" : "8044",
+            "gargnnam" : "子长县"
+         },
+         {
+            "gafeecod" : "8045",
+            "gargnnam" : "安塞县"
+         },
+         {
+            "gafeecod" : "8046",
+            "gargnnam" : "志丹县"
+         },
+         {
+            "gafeecod" : "8047",
+            "gargnnam" : "吴旗县"
+         },
+         {
+            "gafeecod" : "8048",
+            "gargnnam" : "甘泉县"
+         },
+         {
+            "gafeecod" : "8049",
+            "gargnnam" : "富县"
+         },
+         {
+            "gafeecod" : "8051",
+            "gargnnam" : "洛川县"
+         },
+         {
+            "gafeecod" : "8052",
+            "gargnnam" : "宜川县"
+         },
+         {
+            "gafeecod" : "8053",
+            "gargnnam" : "黄龙县"
+         },
+         {
+            "gafeecod" : "8054",
+            "gargnnam" : "黄陵县"
+         },
+         {
+            "gafeecod" : "8060",
+            "gargnnam" : "榆林市"
+         },
+         {
+            "gafeecod" : "8062",
+            "gargnnam" : "神木县"
+         },
+         {
+            "gafeecod" : "8063",
+            "gargnnam" : "府谷县"
+         },
+         {
+            "gafeecod" : "8064",
+            "gargnnam" : "横山县"
+         },
+         {
+            "gafeecod" : "8065",
+            "gargnnam" : "靖边县"
+         },
+         {
+            "gafeecod" : "8066",
+            "gargnnam" : "定边县"
+         },
+         {
+            "gafeecod" : "8067",
+            "gargnnam" : "绥德县"
+         },
+         {
+            "gafeecod" : "8068",
+            "gargnnam" : "米脂县"
+         },
+         {
+            "gafeecod" : "8069",
+            "gargnnam" : "佳县"
+         },
+         {
+            "gafeecod" : "8071",
+            "gargnnam" : "吴堡县"
+         },
+         {
+            "gafeecod" : "8072",
+            "gargnnam" : "清涧县"
+         },
+         {
+            "gafeecod" : "8073",
+            "gargnnam" : "子洲县"
+         }
+      ],
+      "gargnnam" : "陕西省",
+      "provcod" : 61
+   }
+]

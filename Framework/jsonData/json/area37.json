@@ -1,0 +1,416 @@
+[
+   {
+      "area" : [
+         {
+            "gafeecod" : "4510",
+            "gargnnam" : "济南市"
+         },
+         {
+            "gafeecod" : "4511",
+            "gargnnam" : "章丘市"
+         },
+         {
+            "gafeecod" : "4513",
+            "gargnnam" : "平阴县"
+         },
+         {
+            "gafeecod" : "4514",
+            "gargnnam" : "济阳县"
+         },
+         {
+            "gafeecod" : "4515",
+            "gargnnam" : "商河县"
+         },
+         {
+            "gafeecod" : "4530",
+            "gargnnam" : "淄博市"
+         },
+         {
+            "gafeecod" : "4531",
+            "gargnnam" : "桓台县"
+         },
+         {
+            "gafeecod" : "4532",
+            "gargnnam" : "高青县"
+         },
+         {
+            "gafeecod" : "4533",
+            "gargnnam" : "沂源县"
+         },
+         {
+            "gafeecod" : "4540",
+            "gargnnam" : "枣庄市"
+         },
+         {
+            "gafeecod" : "4541",
+            "gargnnam" : "滕州市"
+         },
+         {
+            "gafeecod" : "4550",
+            "gargnnam" : "东营市"
+         },
+         {
+            "gafeecod" : "4551",
+            "gargnnam" : "垦利县"
+         },
+         {
+            "gafeecod" : "4552",
+            "gargnnam" : "利津县"
+         },
+         {
+            "gafeecod" : "4553",
+            "gargnnam" : "广饶县"
+         },
+         {
+            "gafeecod" : "4560",
+            "gargnnam" : "烟台市"
+         },
+         {
+            "gafeecod" : "4561",
+            "gargnnam" : "蓬莱市"
+         },
+         {
+            "gafeecod" : "4562",
+            "gargnnam" : "招远市"
+         },
+         {
+            "gafeecod" : "4563",
+            "gargnnam" : "栖霞市"
+         },
+         {
+            "gafeecod" : "4564",
+            "gargnnam" : "海阳市"
+         },
+         {
+            "gafeecod" : "4566",
+            "gargnnam" : "长岛县"
+         },
+         {
+            "gafeecod" : "4567",
+            "gargnnam" : "龙口市"
+         },
+         {
+            "gafeecod" : "4568",
+            "gargnnam" : "莱阳市"
+         },
+         {
+            "gafeecod" : "4569",
+            "gargnnam" : "莱州市"
+         },
+         {
+            "gafeecod" : "4580",
+            "gargnnam" : "潍坊市"
+         },
+         {
+            "gafeecod" : "4581",
+            "gargnnam" : "安丘市"
+         },
+         {
+            "gafeecod" : "4582",
+            "gargnnam" : "寿光市"
+         },
+         {
+            "gafeecod" : "4583",
+            "gargnnam" : "临朐县"
+         },
+         {
+            "gafeecod" : "4584",
+            "gargnnam" : "昌乐县"
+         },
+         {
+            "gafeecod" : "4585",
+            "gargnnam" : "昌邑市"
+         },
+         {
+            "gafeecod" : "4586",
+            "gargnnam" : "高密市"
+         },
+         {
+            "gafeecod" : "4588",
+            "gargnnam" : "青州市"
+         },
+         {
+            "gafeecod" : "4589",
+            "gargnnam" : "诸城市"
+         },
+         {
+            "gafeecod" : "4610",
+            "gargnnam" : "济宁市"
+         },
+         {
+            "gafeecod" : "4611",
+            "gargnnam" : "兖州市"
+         },
+         {
+            "gafeecod" : "4612",
+            "gargnnam" : "邹城市"
+         },
+         {
+            "gafeecod" : "4613",
+            "gargnnam" : "微山县"
+         },
+         {
+            "gafeecod" : "4614",
+            "gargnnam" : "鱼台县"
+         },
+         {
+            "gafeecod" : "4615",
+            "gargnnam" : "金乡县"
+         },
+         {
+            "gafeecod" : "4616",
+            "gargnnam" : "嘉祥县"
+         },
+         {
+            "gafeecod" : "4617",
+            "gargnnam" : "汶上县"
+         },
+         {
+            "gafeecod" : "4618",
+            "gargnnam" : "泗水县"
+         },
+         {
+            "gafeecod" : "4619",
+            "gargnnam" : "曲阜市"
+         },
+         {
+            "gafeecod" : "4621",
+            "gargnnam" : "梁山县"
+         },
+         {
+            "gafeecod" : "4630",
+            "gargnnam" : "泰安市"
+         },
+         {
+            "gafeecod" : "4631",
+            "gargnnam" : "宁阳县"
+         },
+         {
+            "gafeecod" : "4632",
+            "gargnnam" : "肥城市"
+         },
+         {
+            "gafeecod" : "4633",
+            "gargnnam" : "东平县"
+         },
+         {
+            "gafeecod" : "4635",
+            "gargnnam" : "新泰市"
+         },
+         {
+            "gafeecod" : "4650",
+            "gargnnam" : "威海市"
+         },
+         {
+            "gafeecod" : "4651",
+            "gargnnam" : "乳山市"
+         },
+         {
+            "gafeecod" : "4652",
+            "gargnnam" : "文登市"
+         },
+         {
+            "gafeecod" : "4653",
+            "gargnnam" : "荣成市"
+         },
+         {
+            "gafeecod" : "4660",
+            "gargnnam" : "滨州市"
+         },
+         {
+            "gafeecod" : "4662",
+            "gargnnam" : "惠民县"
+         },
+         {
+            "gafeecod" : "4663",
+            "gargnnam" : "阳信县"
+         },
+         {
+            "gafeecod" : "4664",
+            "gargnnam" : "无棣县"
+         },
+         {
+            "gafeecod" : "4665",
+            "gargnnam" : "沾化县"
+         },
+         {
+            "gafeecod" : "4666",
+            "gargnnam" : "博兴县"
+         },
+         {
+            "gafeecod" : "4667",
+            "gargnnam" : "邹平县"
+         },
+         {
+            "gafeecod" : "4680",
+            "gargnnam" : "德州市"
+         },
+         {
+            "gafeecod" : "4682",
+            "gargnnam" : "乐陵市"
+         },
+         {
+            "gafeecod" : "4683",
+            "gargnnam" : "陵县"
+         },
+         {
+            "gafeecod" : "4684",
+            "gargnnam" : "平原县"
+         },
+         {
+            "gafeecod" : "4685",
+            "gargnnam" : "夏津县"
+         },
+         {
+            "gafeecod" : "4686",
+            "gargnnam" : "武城县"
+         },
+         {
+            "gafeecod" : "4687",
+            "gargnnam" : "齐河县"
+         },
+         {
+            "gafeecod" : "4688",
+            "gargnnam" : "禹城市"
+         },
+         {
+            "gafeecod" : "4689",
+            "gargnnam" : "临邑县"
+         },
+         {
+            "gafeecod" : "4693",
+            "gargnnam" : "宁津县"
+         },
+         {
+            "gafeecod" : "4694",
+            "gargnnam" : "庆云县"
+         },
+         {
+            "gafeecod" : "4710",
+            "gargnnam" : "聊城市"
+         },
+         {
+            "gafeecod" : "4712",
+            "gargnnam" : "临清市"
+         },
+         {
+            "gafeecod" : "4713",
+            "gargnnam" : "阳谷县"
+         },
+         {
+            "gafeecod" : "4714",
+            "gargnnam" : "莘县"
+         },
+         {
+            "gafeecod" : "4715",
+            "gargnnam" : "茌平县"
+         },
+         {
+            "gafeecod" : "4716",
+            "gargnnam" : "东阿县"
+         },
+         {
+            "gafeecod" : "4717",
+            "gargnnam" : "冠县"
+         },
+         {
+            "gafeecod" : "4718",
+            "gargnnam" : "高唐县"
+         },
+         {
+            "gafeecod" : "4730",
+            "gargnnam" : "临沂市"
+         },
+         {
+            "gafeecod" : "4733",
+            "gargnnam" : "郯城县"
+         },
+         {
+            "gafeecod" : "4734",
+            "gargnnam" : "苍山县"
+         },
+         {
+            "gafeecod" : "4735",
+            "gargnnam" : "莒南县"
+         },
+         {
+            "gafeecod" : "4737",
+            "gargnnam" : "沂水县"
+         },
+         {
+            "gafeecod" : "4739",
+            "gargnnam" : "蒙阴县"
+         },
+         {
+            "gafeecod" : "4741",
+            "gargnnam" : "平邑县"
+         },
+         {
+            "gafeecod" : "4742",
+            "gargnnam" : "费县"
+         },
+         {
+            "gafeecod" : "4743",
+            "gargnnam" : "沂南县"
+         },
+         {
+            "gafeecod" : "4744",
+            "gargnnam" : "临沭县"
+         },
+         {
+            "gafeecod" : "4750",
+            "gargnnam" : "菏泽市"
+         },
+         {
+            "gafeecod" : "4752",
+            "gargnnam" : "曹县"
+         },
+         {
+            "gafeecod" : "4753",
+            "gargnnam" : "定陶县"
+         },
+         {
+            "gafeecod" : "4754",
+            "gargnnam" : "成武县"
+         },
+         {
+            "gafeecod" : "4755",
+            "gargnnam" : "单县"
+         },
+         {
+            "gafeecod" : "4756",
+            "gargnnam" : "巨野县"
+         },
+         {
+            "gafeecod" : "4758",
+            "gargnnam" : "郓城县"
+         },
+         {
+            "gafeecod" : "4759",
+            "gargnnam" : "鄄城县"
+         },
+         {
+            "gafeecod" : "4761",
+            "gargnnam" : "东明县"
+         },
+         {
+            "gafeecod" : "4770",
+            "gargnnam" : "日照市"
+         },
+         {
+            "gafeecod" : "4771",
+            "gargnnam" : "五莲县"
+         },
+         {
+            "gafeecod" : "4772",
+            "gargnnam" : "莒县"
+         },
+         {
+            "gafeecod" : "4790",
+            "gargnnam" : "莱芜市"
+         }
+      ],
+      "gargnnam" : "山东省（不含青岛市）",
+      "provcod" : 37
+   }
+]

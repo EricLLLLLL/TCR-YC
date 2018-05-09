@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="12/8/2015 3:46:58 PM">
+  <div id="PageTop">
+    <div id="PageTitle">
+      打印冠字号信息
+    </div>
+    <div id="ShowTime">
+    </div>
+  </div>
+  <div id="PageSubject" class="MiddleDiv" style="text-align:center">
+    <div style="padding-top: 110px;letter-spacing:1px;">
+      您现在共有1000条冠字号信息，<br/>
+      需要分5次打印，是否继续打印？
+      <div style="margin-top:45px;text-align:left;margin-left:60px;"> 温馨提示：</div>
+      <p>（本机支持200条内可直接打印，</p>
+      <p> 超过200条需分批次打印。）</p>
+    </div>
+  </div>
+  <div id="PageButton">
+    <a href='#' class='Left_4' id='Exit' >取消</a>
+    <a href='#' class='Right_4' id='Print' >继续打印</a>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<div class="advDiv">
+    <ul class="slider">
+        <li>
+            <img src="./Framework/style/Graphics/advert.jpg" width="790" height="758"  style="display:block"/>
+        </li>
+        <li>
+            <img src="./Framework/style/Graphics/advert1.jpg" width="790" height="758"/>
+        </li>
+    </ul>
+</div>

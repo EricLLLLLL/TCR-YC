@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div class="PageContent" id="PageContent" >
+    <div id="PageTop">
+       <div id="PageTitle"> Welcome To Insert The Card
+       </div>
+       <div id="ShowTime">
+       </div>
+    </div>
+    <div id="PageSubject">
+       <!-- <img id="Pic" src="Framework/style/Graphics/DIPCARD.GIF"> -->
+    </div>
+    <div id="PageButton">
+        <a href='#' class='Right_3' id='AsynInvoke' >Dispense card</a>
+    </div>
+
+</div>

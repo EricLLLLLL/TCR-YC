@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<xml>
+	<ASS
+		AssAddr = "http://10.232.56.84:80/BASS/channelRequestEx_dispatch.action"
+		AppCheck= "f7a97289-5a49-4g49-a1hj-3fb47678a889"
+		AppNo ="99019"
+		UserNo="8285"
+		BranchCode="41000"
+		BatchNo="1201"
+	></ASS>
+	<VTS VtsAddr="http://10.191.3.241:8052/VTSWS29/Service.svc/"
+		 MachNO="HM001"
+		 TradeTypeId="1201"
+		 TerminalNo="13018285"
+		 TellerNo="8285"
+		 PointNo="0078"
+	></VTS> 	
+</xml>
+	

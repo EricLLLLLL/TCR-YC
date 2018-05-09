@@ -1,0 +1,196 @@
+[
+   {
+      "area" : [
+         {
+            "gafeecod" : "8510",
+            "gargnnam" : "西宁市"
+         },
+         {
+            "gafeecod" : "8511",
+            "gargnnam" : "大通回族土族自治县"
+         },
+         {
+            "gafeecod" : "8512",
+            "gargnnam" : "湟中县"
+         },
+         {
+            "gafeecod" : "8513",
+            "gargnnam" : "湟源县"
+         },
+         {
+            "gafeecod" : "8520",
+            "gargnnam" : "海东地区"
+         },
+         {
+            "gafeecod" : "8521",
+            "gargnnam" : "平安县"
+         },
+         {
+            "gafeecod" : "8522",
+            "gargnnam" : "民和回族土族自治县"
+         },
+         {
+            "gafeecod" : "8523",
+            "gargnnam" : "乐都县"
+         },
+         {
+            "gafeecod" : "8526",
+            "gargnnam" : "互助土族自治县"
+         },
+         {
+            "gafeecod" : "8527",
+            "gargnnam" : "化隆回族自治县"
+         },
+         {
+            "gafeecod" : "8528",
+            "gargnnam" : "循化撒拉族自治县"
+         },
+         {
+            "gafeecod" : "8540",
+            "gargnnam" : "海北藏族自治州"
+         },
+         {
+            "gafeecod" : "8541",
+            "gargnnam" : "门源回族自治县"
+         },
+         {
+            "gafeecod" : "8542",
+            "gargnnam" : "祁连县"
+         },
+         {
+            "gafeecod" : "8543",
+            "gargnnam" : "海晏县"
+         },
+         {
+            "gafeecod" : "8544",
+            "gargnnam" : "刚察县"
+         },
+         {
+            "gafeecod" : "8550",
+            "gargnnam" : "黄南藏族自治州"
+         },
+         {
+            "gafeecod" : "8551",
+            "gargnnam" : "同仁县"
+         },
+         {
+            "gafeecod" : "8552",
+            "gargnnam" : "尖扎县"
+         },
+         {
+            "gafeecod" : "8553",
+            "gargnnam" : "泽库县"
+         },
+         {
+            "gafeecod" : "8554",
+            "gargnnam" : "河南蒙古族自治县"
+         },
+         {
+            "gafeecod" : "8560",
+            "gargnnam" : "海南藏族自治州"
+         },
+         {
+            "gafeecod" : "8561",
+            "gargnnam" : "共和县"
+         },
+         {
+            "gafeecod" : "8562",
+            "gargnnam" : "同德县"
+         },
+         {
+            "gafeecod" : "8563",
+            "gargnnam" : "贵德县"
+         },
+         {
+            "gafeecod" : "8564",
+            "gargnnam" : "兴海县"
+         },
+         {
+            "gafeecod" : "8565",
+            "gargnnam" : "贵南县"
+         },
+         {
+            "gafeecod" : "8570",
+            "gargnnam" : "果洛藏族自治州"
+         },
+         {
+            "gafeecod" : "8571",
+            "gargnnam" : "玛沁县"
+         },
+         {
+            "gafeecod" : "8572",
+            "gargnnam" : "班玛县"
+         },
+         {
+            "gafeecod" : "8573",
+            "gargnnam" : "甘德县"
+         },
+         {
+            "gafeecod" : "8574",
+            "gargnnam" : "达日县"
+         },
+         {
+            "gafeecod" : "8575",
+            "gargnnam" : "久治县"
+         },
+         {
+            "gafeecod" : "8576",
+            "gargnnam" : "玛多县"
+         },
+         {
+            "gafeecod" : "8580",
+            "gargnnam" : "玉树藏族自治州"
+         },
+         {
+            "gafeecod" : "8581",
+            "gargnnam" : "玉树县"
+         },
+         {
+            "gafeecod" : "8582",
+            "gargnnam" : "杂多县"
+         },
+         {
+            "gafeecod" : "8583",
+            "gargnnam" : "称多县"
+         },
+         {
+            "gafeecod" : "8584",
+            "gargnnam" : "治多县"
+         },
+         {
+            "gafeecod" : "8585",
+            "gargnnam" : "囊谦县"
+         },
+         {
+            "gafeecod" : "8586",
+            "gargnnam" : "曲麻莱县"
+         },
+         {
+            "gafeecod" : "8590",
+            "gargnnam" : "海西蒙古族藏族自治州"
+         },
+         {
+            "gafeecod" : "8591",
+            "gargnnam" : "格尔木市"
+         },
+         {
+            "gafeecod" : "8592",
+            "gargnnam" : "德令哈市"
+         },
+         {
+            "gafeecod" : "8593",
+            "gargnnam" : "乌兰县"
+         },
+         {
+            "gafeecod" : "8594",
+            "gargnnam" : "都兰县"
+         },
+         {
+            "gafeecod" : "8595",
+            "gargnnam" : "天峻县"
+         }
+      ],
+      "gargnnam" : "青海省",
+      "provcod" : 63
+   }
+]

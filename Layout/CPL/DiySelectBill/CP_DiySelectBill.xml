@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="12/8/2015 3:46:58 PM">
+  <div id="PageTop">
+    <div id="PageTitle" style="margin-top:-60px;">
+    </div>
+    <div id="ShowTime">
+    </div>
+  </div>
+  <div id="PageSubject" class="MiddleDiv" style="width:716px; height:586px;margin-top:0px;margin-left:150px;">
+    <div id="TipDiv">
+      请输入您需要的金额币种数量（张）
+    </div>
+    <div class="CinfoInputDiv" style="text-align:center;margin-left:28px;margin-top:10px;" >
+      <table id="CinfoInputDiv_T" border="0" style="text-align:left;margin-top:35px;line-height:65px;">
+        <tr height="77px">
+          <td>
+            <img src="Framework/style/Graphics/m100.png" style="vertical-align:middle;"/>
+            <label>100元 : </label><input type="button" name="BtnJian" class="btn_jian"/> <input class="CinfoInput2" type="text" name="Cash" value="0" maxlength="5" style="margin-left:0;width:66px;background-position-y:-526px;" readonly="readonly" unselectable="on"/><input type="button" name="BtnJia" class="btn_jia"/>
+          </td>
+          <td style="padding-left:50px;">
+            <img src="Framework/style/Graphics/m50.png" style="vertical-align:middle;"/>
+            <label>50元 : </label><input type="button" name="BtnJian" class="btn_jian"/>  <input class="CinfoInput2" type="text" name="Cash" value="0" maxlength="5" style="margin-left:0;width:66px;background-position-y:-526px;" readonly="readonly" unselectable="on"/><input type="button" name="BtnJia" class="btn_jia"/>
+          </td>
+        </tr>
+        <tr height="77px">
+          <td>
+            <img src="Framework/style/Graphics/m20.png" style="vertical-align:middle;"/>
+            <label style="margin-left:12px">20元 : </label>
+            <input type="button" name="BtnJian" class="btn_jian"/>
+            <input class="CinfoInput2" type="text" name="Cash" value="0" maxlength="5" style="margin-left:0;width:66px;background-position-y:-526px;" readonly="readonly" unselectable="on"/><input type="button" name="BtnJia" class="btn_jia"/>
+          </td>
+          <td style="padding-left:50px;">
+            <img src="Framework/style/Graphics/m10.png" style="vertical-align:middle;"/>
+            10元 : <input type="button" name="BtnJian" class="btn_jian"/> <input class="CinfoInput2" type="text" name="Cash" value="0" maxlength="5" style="margin-left:0;width:66px;background-position-y:-526px;" readonly="readonly" unselectable="on"/><input type="button" name="BtnJia" class="btn_jia"/>
+          </td>
+        </tr>
+        <tr height="77px">
+          <td>
+            <img src="Framework/style/Graphics/m5.png" style="vertical-align:middle;"/>
+            <label style="margin-left:24px">5元 : </label>
+            <input type="button" name="BtnJian" class="btn_jian"/>
+            <input class="CinfoInput2" type="text" name="Cash" value="0" maxlength="5" style="margin-left:0;width:66px;background-position-y:-526px;" readonly="readonly" unselectable="on"/><input type="button" name="BtnJia" class="btn_jia"/>
+          </td>
+          <td style="padding-left:50px;">
+            <img src="Framework/style/Graphics/m1.png" style="vertical-align:middle;"/>
+            <label style="margin-left:12px">1元 : </label>
+            <input type="button" name="BtnJian" class="btn_jian"/>
+            <input class="CinfoInput2" type="text" name="Cash" value="0" maxlength="5" style="margin-left:0;width:66px;background-position-y:-526px;" readonly="readonly" unselectable="on"/><input type="button" name="BtnJia" class="btn_jia"/>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" style="padding-top:20px;text-align:center">
+            总金额（元）: <input class="CinfoInput2" type="text" id="CashMoney" value="0" style="margin-left:0;width:159px;background-position-y:-220px;" readonly="readonly" unselectable="on"/>
+          </td>
+        </tr>
+      </table>
+
+      <div  id="ErrorTip" style="color: #e21d1d;font-size: 24px;margin-top:18px;"></div>
+    </div>
+  </div>
+  <div id="PageButton">
+    <a href='#' class='Left_4' id='Exit' >取消</a>
+    <a href='#' class='Right_4' id='OK' >确定</a>
+  </div>
+</div>

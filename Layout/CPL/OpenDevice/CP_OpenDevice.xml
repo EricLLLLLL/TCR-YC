@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div class="PageContent" id="PageContent" style="width: 1280px;height: 1024px;position: absolute;padding:0 0;background-image: url('Framework/style/Graphics/backgroundIndex.png');background-size: 100% 100%;">
+	<div id="PageTop">
+		<!-- <span id="TimeShow">2018年2月1日 星期三 15:38</span> -->
+		<span id="ShowTime" style="display:none"></span>
+	</div>
+	<div id="PageSubject" class="openDevice">
+		<!-- 交易等待广告图 备选方案  两个img只能二选一-->
+		<!-- <img src="Framework/style/Graphics/advertWait.jpg" alt="" srcset="" class="advertWait" /> -->
+		<!-- 花朵动图  -->
+		<img src="Framework/style/Graphics/loadingTop.gif" alt="" srcset=""/>
+		<p class="init">设备正在初始化，请稍后...</p>
+	</div>
+	<a href='#' class='Left_SPL' id='SPL1'></a>
+	<a href='#' class='Right_SPL' id='SPL2'></a>
+	<div id="errorWrap">
+		<div class="errorTips">
+			<div class="errorTipsText">
+				<div class="InfoTitle">信息提示 					
+					<span id="countDown"></span>
+				</div>
+				<div id="InfoTip">初始化失败，请重试。</div>
+			</div>
+		</div>
+	</div>
+	<div id="networkWrap">
+		<div class="networkWrapTips">
+			<p class="networkPicture"></p>
+			<p id="networkTip">设备正在初始化，请稍后...</p>
+		</div>
+	</div>
+ <div id="shade" class="localWrap wihteWrap" style="display:none">
+        <div class="networkWrapTips">
+            <p class="networkPicture"></p>
+            <p id="networkTip">设备通讯中，请稍后...</p>
+        </div>
+    </div>
+<!--	<div id="shade" class="localWrap">
+		<div class="shadeWrapTips">
+			<p class="shadePicture"></p>
+			<p id="shadeTip">设备通讯中，请稍后...</p>
+		</div>
+	</div>
+</div>--!>

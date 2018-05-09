@@ -1,0 +1,376 @@
+[
+   {
+      "area" : [
+         {
+            "gafeecod" : "4210",
+            "gargnnam" : "湾里"
+         },
+         {
+            "gafeecod" : "4210",
+            "gargnnam" : "湾里"
+         },
+         {
+            "gafeecod" : "4211",
+            "gargnnam" : "南昌县"
+         },
+         {
+            "gafeecod" : "4212",
+            "gargnnam" : "新建县"
+         },
+         {
+            "gafeecod" : "4213",
+            "gargnnam" : "安义县"
+         },
+         {
+            "gafeecod" : "4214",
+            "gargnnam" : "进贤县"
+         },
+         {
+            "gafeecod" : "4220",
+            "gargnnam" : "景德镇市"
+         },
+         {
+            "gafeecod" : "4221",
+            "gargnnam" : "乐平市"
+         },
+         {
+            "gafeecod" : "4222",
+            "gargnnam" : "浮梁县"
+         },
+         {
+            "gafeecod" : "4230",
+            "gargnnam" : "萍乡市"
+         },
+         {
+            "gafeecod" : "4231",
+            "gargnnam" : "莲花县"
+         },
+         {
+            "gafeecod" : "4232",
+            "gargnnam" : "上栗县"
+         },
+         {
+            "gafeecod" : "4233",
+            "gargnnam" : "芦溪县"
+         },
+         {
+            "gafeecod" : "4240",
+            "gargnnam" : "九江市"
+         },
+         {
+            "gafeecod" : "4241",
+            "gargnnam" : "九江县"
+         },
+         {
+            "gafeecod" : "4242",
+            "gargnnam" : "瑞昌市"
+         },
+         {
+            "gafeecod" : "4243",
+            "gargnnam" : "武宁县"
+         },
+         {
+            "gafeecod" : "4244",
+            "gargnnam" : "修水县"
+         },
+         {
+            "gafeecod" : "4245",
+            "gargnnam" : "永修县"
+         },
+         {
+            "gafeecod" : "4246",
+            "gargnnam" : "德安县"
+         },
+         {
+            "gafeecod" : "4247",
+            "gargnnam" : "星子县"
+         },
+         {
+            "gafeecod" : "4248",
+            "gargnnam" : "都昌县"
+         },
+         {
+            "gafeecod" : "4249",
+            "gargnnam" : "湖口县"
+         },
+         {
+            "gafeecod" : "4251",
+            "gargnnam" : "彭泽县"
+         },
+         {
+            "gafeecod" : "4260",
+            "gargnnam" : "新余市"
+         },
+         {
+            "gafeecod" : "4261",
+            "gargnnam" : "分宜县"
+         },
+         {
+            "gafeecod" : "4270",
+            "gargnnam" : "鹰潭市"
+         },
+         {
+            "gafeecod" : "4271",
+            "gargnnam" : "贵溪市"
+         },
+         {
+            "gafeecod" : "4272",
+            "gargnnam" : "余江县"
+         },
+         {
+            "gafeecod" : "4280",
+            "gargnnam" : "赣州市"
+         },
+         {
+            "gafeecod" : "4282",
+            "gargnnam" : "赣县"
+         },
+         {
+            "gafeecod" : "4283",
+            "gargnnam" : "南康市"
+         },
+         {
+            "gafeecod" : "4284",
+            "gargnnam" : "信丰县"
+         },
+         {
+            "gafeecod" : "4285",
+            "gargnnam" : "大余县"
+         },
+         {
+            "gafeecod" : "4286",
+            "gargnnam" : "上犹县"
+         },
+         {
+            "gafeecod" : "4287",
+            "gargnnam" : "崇义县"
+         },
+         {
+            "gafeecod" : "4288",
+            "gargnnam" : "安远县"
+         },
+         {
+            "gafeecod" : "4289",
+            "gargnnam" : "龙南县"
+         },
+         {
+            "gafeecod" : "4291",
+            "gargnnam" : "定南县"
+         },
+         {
+            "gafeecod" : "4292",
+            "gargnnam" : "全南县"
+         },
+         {
+            "gafeecod" : "4293",
+            "gargnnam" : "宁都县"
+         },
+         {
+            "gafeecod" : "4294",
+            "gargnnam" : "于都县"
+         },
+         {
+            "gafeecod" : "4295",
+            "gargnnam" : "兴国县"
+         },
+         {
+            "gafeecod" : "4296",
+            "gargnnam" : "瑞金市"
+         },
+         {
+            "gafeecod" : "4297",
+            "gargnnam" : "会昌县"
+         },
+         {
+            "gafeecod" : "4298",
+            "gargnnam" : "寻乌县"
+         },
+         {
+            "gafeecod" : "4299",
+            "gargnnam" : "石城县"
+         },
+         {
+            "gafeecod" : "4310",
+            "gargnnam" : "宜春市"
+         },
+         {
+            "gafeecod" : "4312",
+            "gargnnam" : "丰城市"
+         },
+         {
+            "gafeecod" : "4313",
+            "gargnnam" : "樟树市"
+         },
+         {
+            "gafeecod" : "4314",
+            "gargnnam" : "高安市"
+         },
+         {
+            "gafeecod" : "4315",
+            "gargnnam" : "奉新县"
+         },
+         {
+            "gafeecod" : "4316",
+            "gargnnam" : "万载县"
+         },
+         {
+            "gafeecod" : "4317",
+            "gargnnam" : "上高县"
+         },
+         {
+            "gafeecod" : "4318",
+            "gargnnam" : "宜丰县"
+         },
+         {
+            "gafeecod" : "4319",
+            "gargnnam" : "靖安县"
+         },
+         {
+            "gafeecod" : "4321",
+            "gargnnam" : "铜鼓县"
+         },
+         {
+            "gafeecod" : "4330",
+            "gargnnam" : "上饶市"
+         },
+         {
+            "gafeecod" : "4332",
+            "gargnnam" : "上饶县"
+         },
+         {
+            "gafeecod" : "4333",
+            "gargnnam" : "广丰县"
+         },
+         {
+            "gafeecod" : "4334",
+            "gargnnam" : "玉山县"
+         },
+         {
+            "gafeecod" : "4335",
+            "gargnnam" : "铅山县"
+         },
+         {
+            "gafeecod" : "4336",
+            "gargnnam" : "横峰县"
+         },
+         {
+            "gafeecod" : "4337",
+            "gargnnam" : "弋阳县"
+         },
+         {
+            "gafeecod" : "4338",
+            "gargnnam" : "余干县"
+         },
+         {
+            "gafeecod" : "4339",
+            "gargnnam" : "鄱阳县"
+         },
+         {
+            "gafeecod" : "4341",
+            "gargnnam" : "万年县"
+         },
+         {
+            "gafeecod" : "4342",
+            "gargnnam" : "德兴市"
+         },
+         {
+            "gafeecod" : "4343",
+            "gargnnam" : "婺源县"
+         },
+         {
+            "gafeecod" : "4350",
+            "gargnnam" : "吉安市"
+         },
+         {
+            "gafeecod" : "4352",
+            "gargnnam" : "井冈山市"
+         },
+         {
+            "gafeecod" : "4353",
+            "gargnnam" : "吉安县"
+         },
+         {
+            "gafeecod" : "4354",
+            "gargnnam" : "吉水县"
+         },
+         {
+            "gafeecod" : "4355",
+            "gargnnam" : "峡江县"
+         },
+         {
+            "gafeecod" : "4356",
+            "gargnnam" : "新干县"
+         },
+         {
+            "gafeecod" : "4357",
+            "gargnnam" : "永丰县"
+         },
+         {
+            "gafeecod" : "4358",
+            "gargnnam" : "泰和县"
+         },
+         {
+            "gafeecod" : "4359",
+            "gargnnam" : "遂川县"
+         },
+         {
+            "gafeecod" : "4361",
+            "gargnnam" : "万安县"
+         },
+         {
+            "gafeecod" : "4362",
+            "gargnnam" : "安福县"
+         },
+         {
+            "gafeecod" : "4363",
+            "gargnnam" : "永新县"
+         },
+         {
+            "gafeecod" : "4370",
+            "gargnnam" : "抚州市"
+         },
+         {
+            "gafeecod" : "4372",
+            "gargnnam" : "南城县"
+         },
+         {
+            "gafeecod" : "4373",
+            "gargnnam" : "黎川县"
+         },
+         {
+            "gafeecod" : "4374",
+            "gargnnam" : "南丰县"
+         },
+         {
+            "gafeecod" : "4375",
+            "gargnnam" : "崇仁县"
+         },
+         {
+            "gafeecod" : "4376",
+            "gargnnam" : "乐安县"
+         },
+         {
+            "gafeecod" : "4377",
+            "gargnnam" : "宜黄县"
+         },
+         {
+            "gafeecod" : "4378",
+            "gargnnam" : "金溪县"
+         },
+         {
+            "gafeecod" : "4379",
+            "gargnnam" : "资溪县"
+         },
+         {
+            "gafeecod" : "4381",
+            "gargnnam" : "东乡县"
+         },
+         {
+            "gafeecod" : "4382",
+            "gargnnam" : "广昌县"
+         }
+      ],
+      "gargnnam" : "江西省",
+      "provcod" : 36
+   }
+]

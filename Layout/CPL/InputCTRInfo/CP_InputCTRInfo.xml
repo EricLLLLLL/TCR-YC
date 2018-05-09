@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="9/14/2017 3:42:59 PM">
+	<div id="PageTop">
+		<div id="PageTitle">
+	</div>
+		<div id="ShowTime">
+	</div>
+	</div>
+	<div id="PageSubject">
+		<div id="TrabsferkInfo" style="display:block;margin-left:200px;" class="">
+			<div id="TipDiv" style="margin-left:-200px">
+				转账信息
+			</div>
+			<div class="">
+				<span class="bigSpan">账&#160;&#160;&#160;&#160;号：</span>
+				<span class="TrabsferkInfo cardNum" style="margin-left:20px"></span>
+			</div>
+			<div class="">
+				<span class="bigSpan">户&#160;&#160;&#160;&#160;名：</span>
+				<span class="TrabsferkInfo name" style="margin-left:20px"></span>
+			</div>
+			<div class="">
+				<span class="bigSpan">交易金额：</span>
+				<input class="CinfoInput money" type="text" id="CNMoney" value="" unselectable="on" readonly="readonly" style="margin-left:28px; margin-top: 10px;"/>
+			</div>
+			<div class="" style="margin-top:10px;">
+				<span class="bigSpan " style="">存&#160;&#160;&#160;&#160;期:</span>
+				<select class="CommentSelect saveTime" style="margin-left:40px">
+					<option value="M003">三个月</option>
+					<option value="M006">六个月</option>
+					<option value="Y001">一年</option>
+					<option value="Y003">三年</option>
+					<option value="Y005">五年</option>
+				</select>
+			</div>
+			<div class="" style="margin-top:10px;">
+				<span class="bigSpan " style="">转存类型:</span>
+				<select class="CommentSelect saveToType" style="margin-left:40px">
+					<option value="1">约定转存</option>
+					<option value="2">不约定转存</option>
+				</select>
+			</div>
+			<div class="saveToTimeWrap" style="margin-top:10px;">
+				<span class="bigSpan " style="">约定转存存期:</span>
+				<select class="CommentSelect saveToTime" style="margin-left:40px">
+					<option value="M003">三个月</option>
+					<option value="M006">六个月</option>
+					<option value="Y001">一年</option>
+					<option value="Y003">三年</option>
+					<option value="Y005">五年</option>
+				</select>
+			</div>
+		</div>
+
+		<div class="TrabsferkTip">
+			<p class="errTip"></p>
+		</div>
+	</div>
+	<div id="PageButton">
+		<a href="#" class="Left_4" id="Exit">取消</a>
+		<a href="#" class="Right_4" id="OK">确认</a>
+	</div>
+
+</div>

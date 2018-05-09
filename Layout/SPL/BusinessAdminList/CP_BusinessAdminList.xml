@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="12/18/2015 2:50:04 PM">
+  <div id="PageTop">
+    <p> 受理行号：
+      																																																																				                              
+      <span id='SubBankId'></span>
+    </p>
+    <p> 状态：
+      																																																																				                              
+      <span id='DevStatus'>00000（00）</span>
+    </p>
+  </div>
+  <div class="stateWrap">
+    <img src="Framework/style/Graphics/stateLine.png" alt="" srcset="" class="stateLine" />
+    <span class="stateTitle">管理员列表</span>
+  </div>
+  <div id="PageSubject">
+    <label class="span_tip" id ="span_tip" style="display:inline-block;margin:20px 500px;width:234px;text-align:center;font-size:22px;height:50px;"></label>
+    <div class="container_fluid">
+      <div id="right_div1">
+        <div id="right_divx">
+          <table id="right_table1" class="table table-bordered">
+            <tr>
+              <th>序号</th>
+              <th>账号</th>
+              <th>密码</th>
+              <th>身份证号码</th>
+              <th>机构号</th>
+              <th>操作</th>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div id="right_div2">
+       <table id="tab" class="table table-bordered">
+    
+<!--           <tr>
+            <td>01</td>
+            <td>99999</td>
+            <td>00000000</td>
+            <td>431003199104173223</td>
+            <td>431003223</td>
+            <td><input name ='delBtn' type='button' class='delBtn'/></td>
+          </tr>
+          <tr>
+            <td>序号</td>
+            <td>序号</td>
+            <td>序号</td>
+            <td>序号</td>
+            <td>序号</td>
+            <td>序号</td>
+          </tr>
+          <tr>
+            <td>序号</td>
+            <td>序号</td>
+            <td>序号</td>
+            <td>序号</td>
+            <td>序号</td>
+            <td>序号</td>
+          </tr>
+          <tr>
+            <td>序号</td>
+            <td>序号</td>
+            <td>序号</td>
+            <td>序号</td>
+            <td>序号</td>
+            <td>序号</td>
+          </tr> -->
+
+
+        </table>
+      </div>
+    </div>
+    <div class="span_tip" id="errortip" style="text-align:center;left:442px;top:250px;font-size:28px;">
+      暂无管理员数据，请添加!
+    </div>
+    <div class="TipDiv">
+     	温馨提示：点击表格中的删除按钮删除相应管理员信息。
+    	</div>
+  </div>
+  <div id="PageButton">
+    <button type="button" id="Back" class="middle">返回</button>
+  </div>
+  <button type="button" id="PageRoot">退出登录</button>
+  <div id="errorWrap">
+    <div class="errorTips">
+      <div class="errorTipsText">
+        <div class="InfoTitle">信息提示 								
+          <span id="countDown"></span>
+        </div>
+        <div id="InfoTip">设置失败，请重试。</div>
+      </div>
+    </div>
+  </div>
+  <!-- 通讯提示 style="display:block;" -->
+  <div id="networkWrap">
+    <div class="networkWrapTips">
+      <p class="networkPicture"></p>
+      <p id="networkTip">正在处理中，请稍后..</p>
+    </div>
+  </div>
+</div>

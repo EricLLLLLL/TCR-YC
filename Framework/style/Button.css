@@ -1,0 +1,532 @@
+﻿.Left_1 {
+    line-height: 50px;
+    height: 49px;
+    width: 150px;
+    top: 350px;
+    background-image: url('Graphics/btn_normal_03.png');
+    position: fixed;
+    color: #000;
+    font-size: 22px;
+    font-family: "微软简老宋";
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-left:20px;
+}
+.Left_1:active {
+    background-image: url('Graphics/btn_normal_hover.png');
+}
+
+.Left_2 {
+    line-height: 50px;
+    height: 49px;
+    width: 150px;
+    top: 440px;
+    position: fixed;
+    background-image: url('Graphics/btn_normal_03.png');
+    color: #000;
+    font-size: 22px;
+    font-family: "微软简老宋";
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-left:20px;
+}
+.Left_2:active {
+    background-image: url('Graphics/btn_normal_hover.png');
+}
+
+.Left_3 {
+    line-height: 50px;
+    height: 49px;
+    width: 150px;
+    top: 530px;
+    position: fixed;
+    color: #000;
+    background-image: url('Graphics/btn_normal_03.png');
+    font-size: 22px;
+    font-family: "微软简老宋";
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-left:20px;
+}
+
+.Left_3:active {
+    background-image: url('Graphics/btn_normal_hover.png');
+}
+.Left_4 {
+    line-height: 50px;
+    height: 49px;
+    width: 150px;
+    top: 620px;
+    position: fixed;
+    color: #000;
+    background-image: url('Graphics/btn_normal_03.png');
+    font-size: 22px;
+    font-family: "微软简老宋";
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-left:20px;
+}
+
+.Left_4:active {
+    background-image: url('Graphics/btn_normal_hover.png');
+}
+
+.Left_5{
+    line-height: 50px;
+    height: 49px;
+    width: 150px;
+    top: 710px;
+    position: fixed;
+    color: #000;
+    background-image: url('Graphics/btn_normal_03.png');
+    font-size: 22px;
+    font-family: "微软简老宋";
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-left:20px;
+}
+.Left_5:active {
+    background-image: url('Graphics/btn_normal_hover.png');
+}
+.Right_1 {
+    line-height: 50px;
+    height: 49px;
+    width: 150px;
+    top: 350px;
+    left: 870px;
+    position: fixed;
+    color: #000;
+    background-image: url('Graphics/btn_normal_03.png');
+    /*background-position-x: -154px;*/
+    font-size: 22px;
+    font-family: "微软简老宋";
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-left:-20px;
+}
+.Right_1:active {
+    background-image: url('Graphics/btn_normal_hover.png');
+}
+.Left_SPL {
+    line-height: 50px;
+    height: 100px;
+    width: 100px;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    color: #ffffff;
+    font-size: 22px;
+    font-family: "simHei";
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-indent: 40px;
+}
+.Right_SPL {
+    line-height: 50px;
+    height: 100px;
+    width: 100px;
+    top: 0px;
+    right: 0px;
+    position: fixed;
+    color: #ffffff;
+    font-size: 22px;
+    font-family: "simHei";
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-indent: 40px;
+}
+
+.Right_2 {
+    line-height: 50px;
+    height: 49px;
+    width: 150px;
+    top: 440px;
+    left: 870px;
+    position: fixed;
+    color: #000;
+    background-image: url('Graphics/btn_normal_03.png');
+    font-size: 22px;
+    font-family: "微软简老宋";
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-left:-20px;
+}
+.Right_2:active {
+    background-image: url('Graphics/btn_normal_hover.png');
+}
+
+.Right_3 {
+    line-height: 50px;
+    height: 49px;
+    width: 150px;
+    top: 530px;
+    left: 870px;
+    position: fixed;
+    color: #000;
+    background-image: url('Graphics/btn_normal_03.png');
+    font-size: 22px;
+    font-family: "微软简老宋";
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-left:-20px;
+}
+.Right_3:active {
+    background-image: url('Graphics/btn_normal_hover.png');
+}
+.Right_4 {
+    line-height: 50px;
+    height: 49px;
+    width: 150px;
+    top: 620px;
+    left: 870px;
+    position: fixed;
+    color: #000;
+    background-image: url('Graphics/btn_normal_03.png');
+    font-size: 22px;
+    font-family: "微软简老宋";
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    outline: none;
+    margin-left:-20px;
+}
+.Right_4:active {
+    background-image: url('Graphics/btn_normal_hover.png');
+}
+.Right_5 {
+    line-height: 50px;
+    height: 49px;
+    width: 150px;
+    top: 710px;
+    left: 870px;
+    position: fixed;
+    color: #000;
+    background-image: url('Graphics/btn_normal_03.png');
+    font-size: 22px;
+    font-family: "微软简老宋";
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    outline: none;
+    margin-left:-20px;
+}
+.Right_5:active {
+    background-image: url('Graphics/btn_normal_hover.png');
+}
+
+.deal-btn-wrap {
+    position: absolute;
+    top: 350px;
+    left: 689px;
+    width: 260px;
+    height: auto;
+    /*border: 1px solid red;*/
+}
+/*.BusinessBtn{
+    width: 172px;
+    height: 198px;
+    background-color: transparent;
+    outline: none;
+}*/
+.BusinessBtn{
+    display: block;
+    width: 260px;
+    height: 64px;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+.Business {
+    width: 172px;
+    height: 125px;
+    position: absolute;
+    margin-left: 656px;
+    background-color: transparent;
+    outline: none;
+}
+
+#Business1 {
+    top: 150px;
+    background-image: url('Graphics/nomal_06.png');
+}
+
+    #Business1:active {
+        background-image: url('Graphics/hover_06.png');
+    }
+
+#Business2 {
+    top: 150px;
+    margin-left: 839px;
+    background-image: url('Graphics/nomal_09.png');
+}
+
+    #Business2:active {
+        background-image: url('Graphics/hover_09.png');
+    }
+
+#Business3 {
+    top: 320px;
+    background-image: url('Graphics/nomal_03.png');
+}
+
+    #Business3:active {
+        background-image: url('Graphics/hover_03.png');
+    }
+
+/*#Business4 {
+    position: absolute;
+    top: 480px;
+    left: 503px;
+    background-image: url('Graphics/nomal_03.png');
+}
+
+    #Business4:active {
+        background-image: url('Graphics/hover_03.png');
+    }*/
+#Business4 {
+    /*position: absolute;
+    left: 689px;
+    top: 614px;*/
+    background: url("Graphics/index-btn04.png");
+}
+
+    /*#Business4:active {
+        background-image: url('Graphics/hover_03.png');
+    }*/
+
+/*#Business5 {
+    position:absolute;
+    top:325px;
+    left:795px;
+    background-image: url('Graphics/nomal_05.png');
+}
+
+    #Business5:active {
+        background-image: url('Graphics/hover_05.png');
+        background-repeat:  no-repeat ;
+    }*/
+#Business5 {
+    /*position:absolute;
+    left:689px;
+    top:350px;*/
+    background: url("Graphics/index-btn05.png");
+}
+
+    /*#Business5:active {
+        background-image: url('Graphics/hover_05.png');
+        background-repeat:  no-repeat ;
+    }*/
+
+/*#Business6 {
+    position:absolute;
+    top:480px;
+    left:698px;
+    background-image: url('Graphics/nomal_01.png');
+    align:center;
+}
+
+    #Business6:active {
+        background-image: url('Graphics/hover_01.png');
+        background-repeat:  no-repeat ;
+    }*/
+#Business6 {
+    /*position:absolute;
+    left: 689px;
+    top: 526px;*/
+    background: url("Graphics/index-btn06.png");
+}
+
+    /*#Business6:active {
+        background-image: url('Graphics/hover_01.png');
+        background-repeat:  no-repeat ;
+    }*/
+    
+/*#Business7 {
+    position:absolute;
+    top:325px;
+    left:600px;
+    background-image: url('Graphics/nomal_11.png');
+    align:center;
+}
+
+    #Business7:active {
+      background-image: url('Graphics/hover_11.png');
+        background-repeat:  no-repeat ;
+    }*/
+#Business7 {
+    /*position:absolute;
+    left: 689px;
+    top: 438px;*/
+    background: url("Graphics/index-btn07.png");
+}
+
+   /* #Business7:active {
+      background-image: url('Graphics/hover_11.png');
+        background-repeat:  no-repeat ;
+    }*/
+
+
+a {
+    outline: none;
+}
+
+    a:focus {
+        outline: none;
+    }
+
+    a:active {
+        outline: none;
+    }
+
+/*#CWD {
+    background-image: url('Graphics/qk.png');
+}
+
+    #CWD:hover {
+        background-image: url('Graphics/qk_hover.png');
+    }*/
+
+#PWD {
+    background-image: url('Graphics/pwd.png');
+}
+
+    #PWD:active {
+        background-image: url('Graphics/pwd_hover.png');
+    }
+
+/*#INQ {
+    background-image: url('Graphics/serch.png');
+}
+
+    #INQ:hover {
+        background-image: url('Graphics/serch_hover.png');
+    }*/
+
+/*#DEP {
+    background-image: url('Graphics/ck.png');
+}
+
+    #DEP:hover {
+        background-image: url('Graphics/ck_hover.png');
+    }*/
+
+/*交易存取款按钮*/
+.TranBtnsLeft3 {
+    line-height: 50px;
+    height: 54px;
+    width: 154px;
+    top: 535px;
+    position: fixed;
+    color: #ffffff;
+    background-image: url('Graphics/btns.png');
+    background-position-x:0px;
+    background-position-y: -124px;
+    font-size: 22px;
+    font-family: "simHei";
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-indent: -40px;
+}
+
+    .TranBtnsLeft3:active {
+        background-position-y: -186px;
+    }
+.TranBtnsRight2 {
+    line-height: 50px;
+    height: 54px;
+    width: 154px;
+    top: 445px;
+    left: 870px;
+    position: fixed;
+    color: #ffffff;
+    background-image: url('Graphics/btns.png');
+    background-position-x: -154px;
+    background-position-y: -124px;
+    font-size: 22px;
+    font-family: "simHei";
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-indent: 40px;
+}
+
+    .TranBtnsRight2:active {
+        background-position-y: -186px;
+    }
+	
+.TranBtnsRight3 {
+    line-height: 50px;
+    height: 54px;
+    width: 154px;
+    top: 535px;
+    left: 870px;
+    position: fixed;
+    color: #ffffff;
+    background-image: url('Graphics/btns.png');
+    background-position-x: -154px;
+    background-position-y: -124px;
+    font-size: 22px;
+    font-family: "simHei";
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-indent: 40px;
+}
+
+    .TranBtnsRight3:active {
+        background-position-y: -186px;
+    }
+
+.TranBtnsRight4 {
+    line-height: 50px;
+    height: 54px;
+    width: 154px;
+    top: 625px;
+    left: 870px;
+    position: fixed;
+    color: #ffffff;
+    background-image: url('Graphics/btns.png');
+    background-position-x: -154px;
+    background-position-y: -124px;
+    font-size: 22px;
+    font-family: "simHei";
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-indent: 40px;
+    outline: none;
+}
+
+    .TranBtnsRight4:active {
+        background-position-y: -186px;
+    }
+
+/************************************/
+.hide { display: none;}

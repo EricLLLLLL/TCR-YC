@@ -1,0 +1,32 @@
+[
+   {
+      "area" : [
+         {
+            "gafeecod" : "3320",
+            "gargnnam" : "宁波市"
+         },
+         {
+            "gafeecod" : "3321",
+            "gargnnam" : "象山县"
+         },
+         {
+            "gafeecod" : "3322",
+            "gargnnam" : "宁海县"
+         },
+         {
+            "gafeecod" : "3324",
+            "gargnnam" : "余姚市"
+         },
+         {
+            "gafeecod" : "3325",
+            "gargnnam" : "慈溪市"
+         },
+         {
+            "gafeecod" : "3326",
+            "gargnnam" : "奉化市"
+         }
+      ],
+      "gargnnam" : "宁波市",
+      "provcod" : 82
+   }
+]

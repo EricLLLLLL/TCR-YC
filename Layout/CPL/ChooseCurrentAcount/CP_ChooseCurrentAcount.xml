@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="9/13/2017 3:07:47 PM">
+	<div id="PageTop">
+		<div id="PageTitle">
+		</div>
+		<div id="ShowTime">
+		</div>
+	</div>
+	<div id="PageSubject">
+		<div id="TipDiv">
+			请选择定期子账号
+		</div>
+		<div class="ScrollDiv">
+			<table class="middleTable" id="accountTable" style="color:black">
+				<tr style="height:50px">
+					<th style="width:100px"></th>
+					<th style="width:250px">账户性质</th>
+					<th style="width:300px">账户序号</th>
+					<th style="width:300px">开户日期</th>
+					<th style="width:200px">币种</th>
+					<th style="width:250px">钞汇性质</th>
+					<th style="width:250px">存期</th>
+					<th style="width:250px">存款本金</th>
+					<!-- <th style="width:250px">可用余额</th> -->
+				</tr>
+				<!-- <tr>
+					<td id="1">
+						<div class="radio-wrap">
+							<input type="radio" id="radio1" name="radio" value="1" />
+							<label for="radio1" class=""></label>
+						</div>
+					</td>
+					<td>银行卡</td>
+					<td>436573453453543453</td>
+					<td>20170924</td>
+					<td>人民币</td>
+					<td>汇</td>
+					<td>五年</td>
+					<td>50000.00</td>
+					<td>50000.00</td>
+				</tr> -->
+			</table>
+		</div>
+        <div id="AgentErrTip" style="color:red;text-align:left;font-size:20px;line-height:30px;position:absolute;left:320px;top:400px;">
+            <p></p>
+        </div>
+	</div>
+	<div id="PageButton">
+		<a href="#" class="Left_4" id="Exit">退出</a>
+		<a href="#" class="Right_4" id="OK">确定</a>
+	</div>
+
+</div>

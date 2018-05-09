@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="12/15/2015 3:22:49 PM">
+  <div id="PageTop">
+    <div id="PageTitle">
+      <img src="Framework/style/Graphics/btn/m1.jpg" style="float:left;"/>
+      <div class="title_text">初始化EPP键盘</div>
+    </div>
+    <div id="ShowTime">
+    </div>
+  </div>
+  <div class="TopText">
+    <div style="float:left;">
+      受理行号：<span id='SubBankId'>00000000-12345678号机</span>
+      <br/>
+      状态：<span id='DevStatus'>00000（00）</span>
+    </div>
+  </div>
+  <div class="TopTimer" id="LocalTime">
+    2015-12-16  10:54
+  </div>
+  <div id="PageSubject">
+    <div style="margin-top:180px;margin-left:320px;font-size:22px;">
+      <img src="Framework/style/Graphics/box_ico_2.png" style="float:left;margin-top:-3px;margin-right:5px;"/>
+      将要初始化键盘，需要重新设定
+      <br/>
+      主密钥及申请全部工作密钥
+    </div>
+    <br/>
+    <div class="TipDiv" style="margin-left:375px;">
+      温馨提示：
+      <br/>
+      <br/>
+      按左边按钮结束动作，按右边按钮继续执行
+    </div>
+  </div>
+  <div class="PageLeftButton" id="Back"></div>
+  <div class="PageRightButton" id="OK"></div>
+</div>

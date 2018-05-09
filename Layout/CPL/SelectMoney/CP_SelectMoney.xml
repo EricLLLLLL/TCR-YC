@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="11/26/2015 5:42:21 PM">
+  <div id="PageTop">
+    <div id="PageTitle">
+    </div>
+    <div id="ShowTime">
+    </div>
+  </div>
+  <div id="PageSubject">
+    <div class="ChooseBusinesstImg" style="text-align:center;">
+      <div id="TipDiv">请选择您的取款金额</div>
+    </div>
+    <div style="color: #593b02;margin:0 auto;font-size:18px;margin-top:30px;letter-spacing:1px;width: 400px;">
+      <p> 温馨提示：5万以内点击 "小额取款" 按钮。</p>
+      <p> 大于5万（含 5万）点击 "大额取款" 按钮。</p>
+      <p> 取零钱（1万以内）点击 "零钞取款" 按钮。</p>
+    </div>
+  </div>
+  <div id="PageButton">
+    <a href='#' class='Left_3' id='MoneyBtn4'></a>
+    <a href='#' class='Left_4' id='Exit'>退出</a>
+    <a href='#' class='Right_3' id='MoneyBtn3' style='display:none'></a>
+    <a href='#' class='Right_3' id='MoneyBtn1'></a>
+  </div>
+</div>

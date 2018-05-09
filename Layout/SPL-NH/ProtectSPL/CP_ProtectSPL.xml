@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="7/7/2017 10:43:23 AM">
+	<div style="margin-left:300px;margin-top:170px;color:red;font-size:20px;">
+		操作错误，请返回前屏使用正确操作切换到后屏！！！
+	</div>
+	<input type="button" value="返回前屏" class="BackCPLBtn" id="backCPL"/>
+</div>

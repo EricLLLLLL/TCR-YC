@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="12/18/2015 2:50:02 PM">
+  <div id="PageTop">
+    <div id="PageTitle">
+      <img src="Framework/style/Graphics/btn/m1.jpg" style="float:left;"/>
+      <div class="title_text">指纹录入</div>
+    </div>
+    <div id="ShowTime">
+    </div>
+  </div>
+  <div class="TopText">
+    <div style="float:left;">
+      受理行号：<span id='SubBankId'>00000000-12345678号机</span>
+      <br/>
+      状态：<span id='DevStatus'>00000（00）</span>
+    </div>
+  </div>
+  <div class="TopTimer" id="LocalTime">
+    2015-12-16  10:54
+  </div>
+  <div id="PageSubject">
+    <div class="PromptDiv" style="margin-left:-145px;margin-top:150px;">
+	<!-- comment by art for 天诚 begin
+      指纹一： <input id="PromptIcon1" type="button" class="PromptIcon"/><br/>
+      指纹二： <input id="PromptIcon2" type="button" style="margin-top:20px;" class="PromptIcon"/><br/>
+      指纹三： <input id="PromptIcon3" type="button" style="margin-top:20px;" class="PromptIcon"/>
+	 comment by art for 天诚 end -->
+      指纹录入： <input id="PromptIcon3" type="button" class="PromptIcon"/><br/>  <!-- add by art for 天诚 -->
+	 
+    </div>
+    <div class="TipDiv" id="FingerTipDiv" style="margin-left:365px;">
+      温馨提示：请把手指放在指纹仪上进行指纹录入，
+      <br/>
+      <br/>
+     <!-- 分3次放入。若录入失败，请再次放入手指进行指纹录入。-->
+      请在滴~滴~滴~三声后再移开手指。若录入失败，请再次放入手指进行指纹录入。
+	 
+    </div>
+  </div>
+  <div class="PageLeftButton" id="Exit"></div>
+  <!--<div class="PageRightButton" id="OK"></div>-->
+</div>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="12/15/2015 3:22:49 PM">
+    <div id="PageTop">
+        <div id="PageTitle">
+            <img src="Framework/style/Graphics/btn/m1.jpg" style="float:left;"/>
+            <div class="title_text">统计数据结果</div>
+        </div>
+        <div id="ShowTime">
+        </div>
+    </div>
+    <div class="TopText">
+        <div style="float:left;">
+            受理行号：
+            <span id='SubBankId'>00000000-12345678号机</span>
+            <br/>
+            状态：
+            <span id='DevStatus'>00000（00）</span>
+        </div>
+    </div>
+    <div class="TopTimer" id="LocalTime">
+        2015-12-16 10:54
+    </div>
+    <div id="PageSubject">
+        <div class="table-wrap">
+            <table cellpadding="0" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th id="timeScope">2017/01/01-2017/02/03</th>
+                        <th>笔数</th>
+                        <th>金额（元）</th>
+                        <th>失败笔数</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>银行卡小额取款</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>银行卡大额取款</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>存折取款</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr class="total-tr">
+                        <th>取款业务数据统计</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>银行卡小额存款</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>银行卡大额存款</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>无卡无折小额存款</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>无卡无折大额存款</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>对公业务存款</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr class="total-tr">
+                        <th>存款业务数据合计</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>微信销户</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>转账销户</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr class="total-tr">
+                        <th>销户业务数据合计</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>行内转账</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>行外转账</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr class="total-tr">
+                        <th>转账业务数据合计</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>转账撤销</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th>总计</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <!-- <table class="ServiceInfo_tab" cellpadding="0" cellspacing="0"  style="text-align:center">
+            <tr class="th" height="50px">
+                <td width="300px" id="timeScope">2017/01/01-2017/02/03</td>
+                <td width="200px">笔数</td>
+                <td width="175px">金额（元）</td>
+                <td width="175px">失败笔数</td>
+            </tr>
+            <tr class="doub_tr" name="data" height="45px">
+                <td width="300px">银行卡小额取款</td>
+                <td width="200px"></td>
+                <td width="175px"></td>
+                <td width="175px"></td>
+            </tr>
+            <tr class="doub_tr" name="data" height="45px">
+                <td width="300px">银行卡大额取款</td>
+                <td width="200px"></td>
+                <td width="175px"></td>
+                <td width="175px"></td>
+            </tr>
+            <tr class="doub_tr" name="data" height="45px">
+                <td width="300px">存折取款</td>
+                <td width="200px"></td>
+                <td width="175px"></td>
+                <td width="175px"></td>
+            </tr>
+            <tr class="doub_tr" id="cwd" height="45px">
+                <td width="300px" style="background-color:#f2c381">取款业务数据统计</td>
+                <td width="200px" style="background-color:#f2c381"></td>
+                <td width="175px" style="background-color:#f2c381"></td>
+                <td width="175px" style="background-color:#f2c381"></td>
+            </tr>
+            <tr class="doub_tr" name="data" height="45px">
+                <td width="300px">银行卡小额存款</td>
+                <td width="200px"></td>
+                <td width="175px"></td>
+                <td width="175px"></td>
+            </tr>
+            <tr class="doub_tr" name="data" height="45px">
+                <td width="300px">银行卡大额存款</td>
+                <td width="200px"></td>
+                <td width="175px"></td>
+                <td width="175px"></td>
+            </tr>
+            <tr class="doub_tr" name="data" height="45px">
+                <td width="300px">无卡无折小额存款</td>
+                <td width="200px"></td>
+                <td width="175px"></td>
+                <td width="175px"></td>
+            </tr>
+            <tr class="doub_tr" name="data" height="45px">
+                <td width="300px">无卡无折大额存款</td>
+                <td width="200px"></td>
+                <td width="175px"></td>
+                <td width="175px"></td>
+            </tr>
+            <tr class="doub_tr" name="data" height="45px">
+                <td width="300px">对公业务存款</td>
+                <td width="200px"></td>
+                <td width="175px"></td>
+                <td width="175px"></td>
+            </tr>
+            <tr class="doub_tr" id="dep" height="45px">
+                <td width="300px" style="background-color:#f2c381">存款业务数据合计</td>
+                <td width="200px" style="background-color:#f2c381"></td>
+                <td width="175px" style="background-color:#f2c381"></td>
+                <td width="175px" style="background-color:#f2c381"></td>
+            </tr>
+            <tr class="doub_tr" name="data" height="45px">
+                <td width="300px">微信销户</td>
+                <td width="200px"></td>
+                <td width="175px"></td>
+                <td width="175px"></td>
+            </tr>
+            <tr class="doub_tr" name="data" height="45px">
+                <td width="300px">转账销户</td>
+                <td width="200px"></td>
+                <td width="175px"></td>
+                <td width="175px"></td>
+            </tr>
+            <tr class="doub_tr" id="dep" height="45px">
+                <td width="300px" style="background-color:#f2c381">销户业务数据合计</td>
+                <td width="200px" style="background-color:#f2c381"></td>
+                <td width="175px" style="background-color:#f2c381"></td>
+                <td width="175px" style="background-color:#f2c381"></td>
+            </tr>
+            <tr class="doub_tr" name="data" height="45px">
+                <td width="300px">行内转账</td>
+                <td width="200px"></td>
+                <td width="175px"></td>
+                <td width="175px"></td>
+            </tr>
+            <tr class="doub_tr" name="data" height="45px">
+                <td width="300px">行外转账</td>
+                <td width="200px"></td>
+                <td width="175px"></td>
+                <td width="175px"></td>
+            </tr>
+            <tr class="doub_tr" id="dep" height="45px">
+                <td width="300px" style="background-color:#f2c381">转账业务数据合计</td>
+                <td width="200px" style="background-color:#f2c381"></td>
+                <td width="175px" style="background-color:#f2c381"></td>
+                <td width="175px" style="background-color:#f2c381"></td>
+            </tr>
+            <tr class="doub_tr" name="data" height="45px">
+                <td width="300px">转账撤销</td>
+                <td width="200px"></td>
+                <td width="175px"></td>
+                <td width="175px"></td>
+            </tr>
+            <tr class="doub_tr" id="total" height="45px">
+                <td width="300px" style="background-color:#fe8e70">总计</td>
+                <td width="200px" style="background-color:#fe8e70"></td>
+                <td width="175px" style="background-color:#fe8e70"></td>
+                <td width="175px" style="background-color:#fe8e70"></td>
+            </tr>
+        </table> -->
+        <div class="span_tip" style="margin-left: 84px;margin-top:15px;">
+        </div>
+    </div>
+    <div class="PageLeftButton" id="Exit"></div>
+</div>

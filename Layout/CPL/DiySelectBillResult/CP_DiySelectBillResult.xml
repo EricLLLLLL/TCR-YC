@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="11/26/2015 5:42:21 PM">
+  <div id="PageTop">
+    <div id="PageTitle">
+    </div>
+    <div id="ShowTime">
+    </div>
+  </div>
+  <div id="PageSubject" class="MiddleDiv" style="margin-top:100px;margin-left:250px;display:inline-block;text-align:center;">
+    <img class="PageSubjectImg" src="Framework/style/Graphics/box_ico_1.png"/>
+    <div id="SubjectTip" style="font-size:26px;color:#000">是否打印凭条</div>
+  </div>
+  <div id="PageButton">
+    <a href="#" class="Left_4" id="Exit">退出</a>
+    <a href="#" class="Right_4" id="OK">打印凭条</a>
+  </div>
+</div>

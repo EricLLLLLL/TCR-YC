@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div class="PageContent" id="PageContent" >
+  <div id="PageTop">
+    <div id="PageTitle">
+    </div>
+    <div id="ShowTime">
+    </div>
+  </div>
+  <div id="PageSubject" style="margin-top:100px;">
+    <span style="margin-left:320px;font-size:24px;color: #593b02;">请选择审核用户工号</span>
+    <select id="cusId" class="selection">
+    </select>
+  </div>
+  <div id="PageButton">
+    <a href='#' class='Right_3' id='OK' >确认</a>
+    <a href='#' class='Left_3' id='Exit' >退出</a>
+  </div>
+</div>
+

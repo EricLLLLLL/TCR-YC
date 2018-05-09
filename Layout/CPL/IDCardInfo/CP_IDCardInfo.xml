@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="2/6/2018 6:21:29 PM">
+  <div id="PageTop">
+    <span id="TimeShow">2018年2月1日 星期三 15:38</span>
+    <span id="ShowTime"></span>
+  </div>
+  <div id="PageSubject">
+    <ul id="steps">
+      <li>
+        <span class="stepNum">1</span>业务选择												                                                      
+      </li>
+      <li class="middle">
+        <span class="stepNum">2</span>信息读取												                                                      
+      </li>
+      <li class="middle">>
+        <span class="stepNum">3</span>验证												                                                      
+      </li>
+      <li>
+        <span class="stepNum">4</span>插卡												                                                      
+      </li>
+      <li>
+        <span class="stepNum">5</span>信息确认												                                                      
+      </li>
+      <li >
+        <span class="stepNum">6</span>交易完成												                                                      
+      </li>
+    </ul>
+    <div class="stateWrap">
+      <div id="state">指纹授权																                                                                        
+        <span id="stateEn">Fingerprint authorization</span>
+      </div>
+    </div>
+  </div>
+  <div class="stateComtent auth">
+    <ul class="authLists">
+      <li>姓名：
+                                                                        
+        <span id="authName"></span>
+      </li>
+      <li>证件类型：
+                                                                        
+        <span id="authIDType"></span>
+      </li>
+      <li>身份证号码：
+                                                                        
+        <span id="authIDNumber"></span>
+      </li>
+      <li>卡号：
+                                                                        
+        <span id="authNumber"></span>
+      </li>
+      <li>户名：
+                                                                        
+        <span id="authAccount"></span>
+      </li>
+      <li>交易类型：
+                                                                        
+        <span id="authTranType"></span>
+      </li>
+      <li class="authLast">联网核查结果：
+                                                                        
+        <span id="authResult"></span>
+      </li>
+    </ul>
+    <div class="customerPhoto">
+      <img id="customerPhotoLocal" src="Framework/style/Graphics/authPhotoLocal.png" alt="" srcset="" />
+      <img id="customerPhotoMiddle" src="Framework/style/Graphics/authPhotoLocal.png" alt="" srcset="" />
+      <img id="customerPhotoInternet" src="Framework/style/Graphics/authPhotoLocal.png" alt="" srcset="" />
+    </div>
+    <div class="customerIDcardPhoto">
+      <img id="customerIDcardPhotoFront" class="folat_l" src="Framework/style/Graphics/IDcardPhotoFront.png" alt="" srcset="" />
+      <img id="customerIDcardPhotoReverse" class="folat_r" src="Framework/style/Graphics/IDcardPhotoReverse.png" alt="" srcset="" />
+    </div>
+    <!-- <div class="authPhoto"><img id="authPhotoLocal" src="Framework/style/Graphics/authPhotoLocal.png" alt="" srcset="" /><span>本地照片</span></div><div class="authPhoto"><img id="authPhotoInternet" src="Framework/style/Graphics/authPhotoLocal.png" alt="" srcset="" /><span>联网照片</span></div> -->
+    <!-- <div id="Select" class="WorkersSelectWrap">
+      请选择工号：            
+      <select id="WorkersSelect" class="selectOption"></select></div> -->
+  </div>
+  <p class="warmPromptTip bottomTip">
+    <span class="warmPrompt PSBCgreen ">
+      <img src="" alt="" srcset=""/> 温馨提示:
+				                                    
+    </span>请"银行审核员"对信息进行审核后，在指纹感应区按指纹授权 		                    
+  </p>
+  <!-- <div class="WorkersSelectWrap">
+      请选择工号：  
+    <select id="WorkersSelect" class="selectOption"><option value="1111">1111</option><option value="2222">2222</option></select></div> -->
+  <div id="numberWrap">
+  		网点机构号：														                                    
+    <span id="numberDot">01234567</span>
+  		设备号：																		                                    
+    <span id="numberDevice">12345678</span>
+  </div>
+  <div id="PageButton">
+    <div id="btnWrap">
+      <button type="button" id="Exit"></button>
+      <button type="button" id="Accredit"></button>
+    </div>
+  </div>
+  <button type="button" id="PageRoot">返回首页/
+								                                      
+    <span id="togoEn">return</span>
+  </button>
+  <!-- 员工号选择弹框    -->
+  <!--<div id="WorkersWrap" style="display:block;"><div class="WorkersTips"><div class="errorTipsText"><div class="InfoTitle">选择提示 </div><div class="inputTextPWD" id="WorkerInfoTip">
+          工号：
+          
+          <select id="WorkersSelect" class="selectOption"><option value="1111">1111</option><option value="2222">222</option></select></div><div id="WorkerInfoBtn"><button type="button" id="Exit" class="folat_l"></button><button type="button" id="OK" class="folat_r"></button></div></div></div></div>  -->
+  <!-- 错误状态 提示   -->
+  <div id="errorWrap">
+    <div class="errorTips">
+      <div class="errorTipsText">
+        <div class="InfoTitle">信息提示                                                                                           
+          <span id="countDown"></span>
+        </div>
+        <div id="InfoTip">读证失败，请重新插入。</div>
+      </div>
+    </div>
+  </div>
+  <div id="networkWrap">
+    <div class="networkWrapTips">
+      <p class="networkPicture"></p>
+      <p id="networkTip">正在通讯中，请稍后...</p>
+    </div>
+  </div>
+</div>

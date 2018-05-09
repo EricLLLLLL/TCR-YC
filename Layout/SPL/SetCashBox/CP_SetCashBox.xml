@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="12/18/2015 2:50:04 PM">
+	<div id="PageTop">
+		<p> 受理行号：																												
+			<span id='SubBankId'></span>			
+		</p>
+		<p> 状态：																												
+			<span id='DevStatus'>00000（00）</span>
+		</p>
+	</div>
+	<div class="stateWrap">
+		<img src="Framework/style/Graphics/stateLine.png" alt="" srcset="" class="stateLine" />
+		<span class="stateTitle">钞箱设定</span>
+	</div>
+  <div id="PageSubject">
+    <div id="KeyboardDiv"> </div>
+    <div class="MouduleDiv CashBoxDiv">
+      <span >钞箱类型设定</span>
+      <span>(0=存款箱；1=取款箱；2=循环箱；3=回收箱)</span>
+      <div class="cashInput"> 
+      钞箱1：<input class="AdminInput" id ="CashBox1TypeInput" type="text" maxlength ="1" value=""  />
+      钞箱2：<input class="AdminInput" id ="CashBox2TypeInput" type="text" maxlength ="1" value=""  />
+      钞箱3：<input class="AdminInput" id ="CashBox3TypeInput" type="text" maxlength ="1" value=""  />
+      钞箱4：<input class="AdminInput" id ="CashBox4TypeInput" type="text" maxlength ="1" value=""  />
+      钞箱5：<input class="AdminInput" id ="CashBox5TypeInput" type="text" maxlength ="1" value="" />
+      </div>
+      <div align="center" class="span_tip">输入值不能为空！</div>
+    </div>
+    <div class="MouduleDiv CashBoxDiv">
+      <span >钞箱面额设定</span>
+      <span>(0=100元；1=50元；2=20元；3=10元)</span>
+      <div class="cashInput">
+      钞箱1：<input class="AdminInput" id ="MoneyType1Input" type="text" maxlength ="1" value=""  />
+      钞箱2：<input class="AdminInput" id ="MoneyType2Input" type="text" maxlength ="1" value=""  />
+      钞箱3：<input class="AdminInput" id ="MoneyType3Input" type="text" maxlength ="1" value=""  />
+      钞箱4：<input class="AdminInput" id ="MoneyType4Input" type="text" maxlength ="1" value=""  />
+      钞箱5：<input class="AdminInput" id ="MoneyType5Input" type="text" maxlength ="1" value="" />
+       </div>
+      <div align="center" class="span_tip">输入值不能为空！</div>
+    </div>
+    <div class="MouduleDiv CashBoxDiv">
+      <span >存款允许面额</span>
+      <span>(0=不支持；1=支持；)</span>
+      <div class="cashInput"> 
+      100元：<input class="AdminInput" id ="DEPAllowMoney1Input" type="text" maxlength ="1" value=""  />
+      50元：<input class="AdminInput" id ="DEPAllowMoney2Input" type="text" maxlength ="1" value=""  />
+      20元：<input class="AdminInput" id ="DEPAllowMoney3Input" type="text" maxlength ="1" value=""  />
+      10元：<input class="AdminInput" id ="DEPAllowMoney4Input" type="text" maxlength ="1" value="" />
+      </div>
+      <div align="center" class="span_tip">输入值不能为空！</div>
+    </div>
+    <div class="MouduleDiv CashBoxDiv">
+      <span >存款最大张数设定</span>
+      <div class="cashInput Remit"> 
+      存款最大张数：<input class="AdminInput" id ="DEPMaxNumInput" type="text" value="" />
+      取款最大张数：<input class="AdminInput" id ="CWDMaxNumInput" type="text" value="" />
+      </div>
+      <div align="center" class="span_tip">输入值不能为空！</div>
+    </div>
+  </div>
+  <div id="PageButton">
+      <button type="button"  id="Back">返回</button>
+      <button type="button"  id="OK">设定</button>
+	</div>
+<button type="button" id="PageRoot">退出登录</button>
+	<!-- 错误状态 提示 style="display:block;"  -->
+	<div id="errorWrap">
+		<div class="errorTips">
+			<div class="errorTipsText">
+				<div class="InfoTitle">信息提示 								<span id="countDown"> </span>
+				</div>
+				<div id="InfoTip">设置失败，请重试。</div>
+			</div>
+		</div>
+	</div>
+	<!-- 通讯提示 style="display:block;" -->
+	<div id="networkWrap">
+		<div class="networkWrapTips">
+			<p class="networkPicture"> </p>
+			<p id="networkTip">正在处理中，请稍后..</p>
+		</div>
+	</div>
+</div>

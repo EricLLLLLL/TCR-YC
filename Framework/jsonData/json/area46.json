@@ -1,0 +1,84 @@
+[
+   {
+      "area" : [
+         {
+            "gafeecod" : "6410",
+            "gargnnam" : "琼海市"
+         },
+         {
+            "gafeecod" : "6410",
+            "gargnnam" : "琼海市"
+         },
+         {
+            "gafeecod" : "6410",
+            "gargnnam" : "琼海市"
+         },
+         {
+            "gafeecod" : "6410",
+            "gargnnam" : "琼海市"
+         },
+         {
+            "gafeecod" : "6410",
+            "gargnnam" : "琼海市"
+         },
+         {
+            "gafeecod" : "6410",
+            "gargnnam" : "琼海市"
+         },
+         {
+            "gafeecod" : "6410",
+            "gargnnam" : "琼海市"
+         },
+         {
+            "gafeecod" : "6410",
+            "gargnnam" : "琼海市"
+         },
+         {
+            "gafeecod" : "6420",
+            "gargnnam" : "三亚市"
+         },
+         {
+            "gafeecod" : "6426",
+            "gargnnam" : "定安县"
+         },
+         {
+            "gafeecod" : "6427",
+            "gargnnam" : "屯昌县"
+         },
+         {
+            "gafeecod" : "6428",
+            "gargnnam" : "澄迈县"
+         },
+         {
+            "gafeecod" : "6429",
+            "gargnnam" : "临高县"
+         },
+         {
+            "gafeecod" : "6432",
+            "gargnnam" : "白沙县"
+         },
+         {
+            "gafeecod" : "6433",
+            "gargnnam" : "昌江县"
+         },
+         {
+            "gafeecod" : "6435",
+            "gargnnam" : "乐东县"
+         },
+         {
+            "gafeecod" : "6436",
+            "gargnnam" : "陵水县"
+         },
+         {
+            "gafeecod" : "6437",
+            "gargnnam" : "保亭县"
+         },
+         {
+            "gafeecod" : "6438",
+            "gargnnam" : "琼中县"
+         }
+      ],
+      "gargnnam" : "海南省",
+      "provcod" : 46
+   }
+]

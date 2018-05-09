@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div class="PageContent" id="PageContent" >
+  <div id="PageTop">
+    <div id="PageTitle" style="left:-136px;">
+    </div>
+    <div id="ShowTime">
+    </div>
+  </div>
+  <div id="PageSubject" class="MiddleDiv">
+    <div id="TipDiv">
+      请输入您的手机号码
+    </div>
+    <input class="CinfoInput" type="text" id="InputNum-input" value="" maxlength ="24" readonly="readonly" style="text-align:center;"/>
+    <div id="InputPwd-error" style="font-size: 20px;margin-top:10px;width: 500px;line-height:30px;margin-right:150px;letter-spacing:1px;display:none;">
+      <p>手机号码输入有误,请重新输入</p>
+    </div>
+    </div>
+  <div id="PageButton">
+	<a href='#' class='Left_3' id='Back' >返回</a>
+    <a href='#' class='Left_4' id='Exit' >退出</a>
+    <a href='#' class='Right_4' id='OK' >确定</a>
+  </div>
+</div>

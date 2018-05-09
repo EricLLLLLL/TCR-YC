@@ -1,0 +1,332 @@
+[
+   {
+      "area" : [
+         {
+            "gafeecod" : "7010",
+            "gargnnam" : "贵阳市"
+         },
+         {
+            "gafeecod" : "7011",
+            "gargnnam" : "开阳县"
+         },
+         {
+            "gafeecod" : "7012",
+            "gargnnam" : "息烽县"
+         },
+         {
+            "gafeecod" : "7013",
+            "gargnnam" : "修文县"
+         },
+         {
+            "gafeecod" : "7014",
+            "gargnnam" : "清镇市"
+         },
+         {
+            "gafeecod" : "7020",
+            "gargnnam" : "六盘水市"
+         },
+         {
+            "gafeecod" : "7021",
+            "gargnnam" : "六枝特区"
+         },
+         {
+            "gafeecod" : "7022",
+            "gargnnam" : "盘县"
+         },
+         {
+            "gafeecod" : "7030",
+            "gargnnam" : "遵义市"
+         },
+         {
+            "gafeecod" : "7032",
+            "gargnnam" : "遵义县"
+         },
+         {
+            "gafeecod" : "7033",
+            "gargnnam" : "桐梓县"
+         },
+         {
+            "gafeecod" : "7034",
+            "gargnnam" : "绥阳县"
+         },
+         {
+            "gafeecod" : "7035",
+            "gargnnam" : "正安县"
+         },
+         {
+            "gafeecod" : "7036",
+            "gargnnam" : "道真县"
+         },
+         {
+            "gafeecod" : "7037",
+            "gargnnam" : "务川县"
+         },
+         {
+            "gafeecod" : "7038",
+            "gargnnam" : "凤冈县"
+         },
+         {
+            "gafeecod" : "7039",
+            "gargnnam" : "湄潭县"
+         },
+         {
+            "gafeecod" : "7041",
+            "gargnnam" : "余庆县"
+         },
+         {
+            "gafeecod" : "7042",
+            "gargnnam" : "仁怀市"
+         },
+         {
+            "gafeecod" : "7043",
+            "gargnnam" : "赤水市"
+         },
+         {
+            "gafeecod" : "7044",
+            "gargnnam" : "习水县"
+         },
+         {
+            "gafeecod" : "7051",
+            "gargnnam" : "铜仁市"
+         },
+         {
+            "gafeecod" : "7052",
+            "gargnnam" : "江口县"
+         },
+         {
+            "gafeecod" : "7053",
+            "gargnnam" : "玉屏县"
+         },
+         {
+            "gafeecod" : "7054",
+            "gargnnam" : "石阡县"
+         },
+         {
+            "gafeecod" : "7055",
+            "gargnnam" : "思南县"
+         },
+         {
+            "gafeecod" : "7056",
+            "gargnnam" : "印江县"
+         },
+         {
+            "gafeecod" : "7057",
+            "gargnnam" : "德江县"
+         },
+         {
+            "gafeecod" : "7058",
+            "gargnnam" : "沿河县"
+         },
+         {
+            "gafeecod" : "7059",
+            "gargnnam" : "松桃县"
+         },
+         {
+            "gafeecod" : "7061",
+            "gargnnam" : "万山特区"
+         },
+         {
+            "gafeecod" : "7071",
+            "gargnnam" : "兴义市"
+         },
+         {
+            "gafeecod" : "7072",
+            "gargnnam" : "兴仁县"
+         },
+         {
+            "gafeecod" : "7073",
+            "gargnnam" : "普安县"
+         },
+         {
+            "gafeecod" : "7074",
+            "gargnnam" : "晴隆县"
+         },
+         {
+            "gafeecod" : "7075",
+            "gargnnam" : "贞丰县"
+         },
+         {
+            "gafeecod" : "7076",
+            "gargnnam" : "望漠县"
+         },
+         {
+            "gafeecod" : "7077",
+            "gargnnam" : "册亨县"
+         },
+         {
+            "gafeecod" : "7078",
+            "gargnnam" : "安龙县"
+         },
+         {
+            "gafeecod" : "7091",
+            "gargnnam" : "毕节市"
+         },
+         {
+            "gafeecod" : "7092",
+            "gargnnam" : "大方县"
+         },
+         {
+            "gafeecod" : "7093",
+            "gargnnam" : "黔西县"
+         },
+         {
+            "gafeecod" : "7094",
+            "gargnnam" : "金沙县"
+         },
+         {
+            "gafeecod" : "7095",
+            "gargnnam" : "织金县"
+         },
+         {
+            "gafeecod" : "7096",
+            "gargnnam" : "纳雍县"
+         },
+         {
+            "gafeecod" : "7097",
+            "gargnnam" : "威宁县"
+         },
+         {
+            "gafeecod" : "7098",
+            "gargnnam" : "赫章县"
+         },
+         {
+            "gafeecod" : "7110",
+            "gargnnam" : "安顺市"
+         },
+         {
+            "gafeecod" : "7117",
+            "gargnnam" : "平坝县"
+         },
+         {
+            "gafeecod" : "7118",
+            "gargnnam" : "普定县"
+         },
+         {
+            "gafeecod" : "7119",
+            "gargnnam" : "关岭县"
+         },
+         {
+            "gafeecod" : "7121",
+            "gargnnam" : "镇宁县"
+         },
+         {
+            "gafeecod" : "7122",
+            "gargnnam" : "紫云县"
+         },
+         {
+            "gafeecod" : "7131",
+            "gargnnam" : "凯里市"
+         },
+         {
+            "gafeecod" : "7132",
+            "gargnnam" : "黄平县"
+         },
+         {
+            "gafeecod" : "7133",
+            "gargnnam" : "施秉县"
+         },
+         {
+            "gafeecod" : "7134",
+            "gargnnam" : "三穗县"
+         },
+         {
+            "gafeecod" : "7135",
+            "gargnnam" : "镇远县"
+         },
+         {
+            "gafeecod" : "7136",
+            "gargnnam" : "岑巩县"
+         },
+         {
+            "gafeecod" : "7137",
+            "gargnnam" : "天柱县"
+         },
+         {
+            "gafeecod" : "7138",
+            "gargnnam" : "锦屏县"
+         },
+         {
+            "gafeecod" : "7139",
+            "gargnnam" : "剑河县"
+         },
+         {
+            "gafeecod" : "7141",
+            "gargnnam" : "台江县"
+         },
+         {
+            "gafeecod" : "7142",
+            "gargnnam" : "黎平县"
+         },
+         {
+            "gafeecod" : "7143",
+            "gargnnam" : "榕江县"
+         },
+         {
+            "gafeecod" : "7144",
+            "gargnnam" : "从江县"
+         },
+         {
+            "gafeecod" : "7145",
+            "gargnnam" : "雷山县"
+         },
+         {
+            "gafeecod" : "7146",
+            "gargnnam" : "麻江县"
+         },
+         {
+            "gafeecod" : "7147",
+            "gargnnam" : "丹寨县"
+         },
+         {
+            "gafeecod" : "7151",
+            "gargnnam" : "都匀市"
+         },
+         {
+            "gafeecod" : "7152",
+            "gargnnam" : "荔波县"
+         },
+         {
+            "gafeecod" : "7153",
+            "gargnnam" : "贵定县"
+         },
+         {
+            "gafeecod" : "7154",
+            "gargnnam" : "福泉市"
+         },
+         {
+            "gafeecod" : "7155",
+            "gargnnam" : "瓮安县"
+         },
+         {
+            "gafeecod" : "7156",
+            "gargnnam" : "独山县"
+         },
+         {
+            "gafeecod" : "7157",
+            "gargnnam" : "平塘县"
+         },
+         {
+            "gafeecod" : "7158",
+            "gargnnam" : "罗甸县"
+         },
+         {
+            "gafeecod" : "7159",
+            "gargnnam" : "长顺县"
+         },
+         {
+            "gafeecod" : "7161",
+            "gargnnam" : "龙里县"
+         },
+         {
+            "gafeecod" : "7162",
+            "gargnnam" : "惠水县"
+         },
+         {
+            "gafeecod" : "7163",
+            "gargnnam" : "三都县"
+         }
+      ],
+      "gargnnam" : "贵州省",
+      "provcod" : 52
+   }
+]

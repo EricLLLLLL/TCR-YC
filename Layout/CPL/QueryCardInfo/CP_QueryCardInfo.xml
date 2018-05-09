@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="12/8/2015 1:47:48 PM">
+  <div id="PageTop">
+    <div id="PageTitle">
+    </div>
+    <div id="ShowTime">
+    </div>
+  </div>
+  <div id="PageSubject" align="center" style="margin-left:0px;">
+    <img src="Framework/style/Graphics/loading.png" style="margin-top:67px;"/>
+    <br/>
+    <br/>
+    <br/>
+    <img style="vertical-align:middle;margin-right:15px;" src="Framework/style/Graphics/box_loading.gif"/>
+    <span style="vertical-align:middle;color:#000;font-size:30px;">正在通讯中，请稍候...</span>
+  </div>
+</div>

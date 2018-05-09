@@ -1,0 +1,320 @@
+[
+   {
+      "area" : [
+         {
+            "gafeecod" : "3610",
+            "gargnnam" : "合肥市"
+         },
+         {
+            "gafeecod" : "3611",
+            "gargnnam" : "长丰县"
+         },
+         {
+            "gafeecod" : "3612",
+            "gargnnam" : "肥东县"
+         },
+         {
+            "gafeecod" : "3613",
+            "gargnnam" : "肥西县"
+         },
+         {
+            "gafeecod" : "3620",
+            "gargnnam" : "芜湖市"
+         },
+         {
+            "gafeecod" : "3621",
+            "gargnnam" : "芜湖县"
+         },
+         {
+            "gafeecod" : "3622",
+            "gargnnam" : "繁昌县"
+         },
+         {
+            "gafeecod" : "3623",
+            "gargnnam" : "南陵县"
+         },
+         {
+            "gafeecod" : "3630",
+            "gargnnam" : "蚌埠市"
+         },
+         {
+            "gafeecod" : "3631",
+            "gargnnam" : "怀远县"
+         },
+         {
+            "gafeecod" : "3632",
+            "gargnnam" : "五河县"
+         },
+         {
+            "gafeecod" : "3633",
+            "gargnnam" : "固镇县"
+         },
+         {
+            "gafeecod" : "3640",
+            "gargnnam" : "淮南市"
+         },
+         {
+            "gafeecod" : "3641",
+            "gargnnam" : "凤台县"
+         },
+         {
+            "gafeecod" : "3650",
+            "gargnnam" : "马鞍山市"
+         },
+         {
+            "gafeecod" : "3651",
+            "gargnnam" : "当涂县"
+         },
+         {
+            "gafeecod" : "3660",
+            "gargnnam" : "淮北市"
+         },
+         {
+            "gafeecod" : "3661",
+            "gargnnam" : "濉溪县"
+         },
+         {
+            "gafeecod" : "3670",
+            "gargnnam" : "铜陵市"
+         },
+         {
+            "gafeecod" : "3671",
+            "gargnnam" : "铜陵县"
+         },
+         {
+            "gafeecod" : "3680",
+            "gargnnam" : "安庆市"
+         },
+         {
+            "gafeecod" : "3681",
+            "gargnnam" : "桐城市"
+         },
+         {
+            "gafeecod" : "3682",
+            "gargnnam" : "怀宁县"
+         },
+         {
+            "gafeecod" : "3683",
+            "gargnnam" : "枞阳县"
+         },
+         {
+            "gafeecod" : "3684",
+            "gargnnam" : "潜山县"
+         },
+         {
+            "gafeecod" : "3685",
+            "gargnnam" : "太湖县"
+         },
+         {
+            "gafeecod" : "3686",
+            "gargnnam" : "宿松县"
+         },
+         {
+            "gafeecod" : "3687",
+            "gargnnam" : "望江县"
+         },
+         {
+            "gafeecod" : "3688",
+            "gargnnam" : "岳西县"
+         },
+         {
+            "gafeecod" : "3710",
+            "gargnnam" : "黄山市"
+         },
+         {
+            "gafeecod" : "3711",
+            "gargnnam" : "歙县"
+         },
+         {
+            "gafeecod" : "3712",
+            "gargnnam" : "休宁县"
+         },
+         {
+            "gafeecod" : "3713",
+            "gargnnam" : "黟县"
+         },
+         {
+            "gafeecod" : "3714",
+            "gargnnam" : "祁门县"
+         },
+         {
+            "gafeecod" : "3720",
+            "gargnnam" : "阜阳市"
+         },
+         {
+            "gafeecod" : "3724",
+            "gargnnam" : "临泉县"
+         },
+         {
+            "gafeecod" : "3725",
+            "gargnnam" : "太和县"
+         },
+         {
+            "gafeecod" : "3728",
+            "gargnnam" : "阜南县"
+         },
+         {
+            "gafeecod" : "3729",
+            "gargnnam" : "颍上县"
+         },
+         {
+            "gafeecod" : "3731",
+            "gargnnam" : "界首市"
+         },
+         {
+            "gafeecod" : "3740",
+            "gargnnam" : "宿州市"
+         },
+         {
+            "gafeecod" : "3742",
+            "gargnnam" : "砀山县"
+         },
+         {
+            "gafeecod" : "3743",
+            "gargnnam" : "萧县"
+         },
+         {
+            "gafeecod" : "3745",
+            "gargnnam" : "灵璧县"
+         },
+         {
+            "gafeecod" : "3746",
+            "gargnnam" : "泗县"
+         },
+         {
+            "gafeecod" : "3750",
+            "gargnnam" : "滁州市"
+         },
+         {
+            "gafeecod" : "3752",
+            "gargnnam" : "天长市"
+         },
+         {
+            "gafeecod" : "3753",
+            "gargnnam" : "来安县"
+         },
+         {
+            "gafeecod" : "3754",
+            "gargnnam" : "全椒县"
+         },
+         {
+            "gafeecod" : "3755",
+            "gargnnam" : "定远县"
+         },
+         {
+            "gafeecod" : "3756",
+            "gargnnam" : "凤阳县"
+         },
+         {
+            "gafeecod" : "3757",
+            "gargnnam" : "明光市"
+         },
+         {
+            "gafeecod" : "3760",
+            "gargnnam" : "六安市"
+         },
+         {
+            "gafeecod" : "3763",
+            "gargnnam" : "寿县"
+         },
+         {
+            "gafeecod" : "3764",
+            "gargnnam" : "霍邱县"
+         },
+         {
+            "gafeecod" : "3765",
+            "gargnnam" : "舒城县"
+         },
+         {
+            "gafeecod" : "3766",
+            "gargnnam" : "金寨县"
+         },
+         {
+            "gafeecod" : "3767",
+            "gargnnam" : "霍山县"
+         },
+         {
+            "gafeecod" : "3770",
+            "gargnnam" : "宣城市"
+         },
+         {
+            "gafeecod" : "3772",
+            "gargnnam" : "郎溪县"
+         },
+         {
+            "gafeecod" : "3773",
+            "gargnnam" : "广德县"
+         },
+         {
+            "gafeecod" : "3774",
+            "gargnnam" : "宁国市"
+         },
+         {
+            "gafeecod" : "3775",
+            "gargnnam" : "泾县"
+         },
+         {
+            "gafeecod" : "3776",
+            "gargnnam" : "旌德县"
+         },
+         {
+            "gafeecod" : "3777",
+            "gargnnam" : "绩溪县"
+         },
+         {
+            "gafeecod" : "3780",
+            "gargnnam" : "巢湖市"
+         },
+         {
+            "gafeecod" : "3782",
+            "gargnnam" : "庐江县"
+         },
+         {
+            "gafeecod" : "3783",
+            "gargnnam" : "无为县"
+         },
+         {
+            "gafeecod" : "3784",
+            "gargnnam" : "含山县"
+         },
+         {
+            "gafeecod" : "3785",
+            "gargnnam" : "和县"
+         },
+         {
+            "gafeecod" : "3790",
+            "gargnnam" : "池州市"
+         },
+         {
+            "gafeecod" : "3792",
+            "gargnnam" : "东至县"
+         },
+         {
+            "gafeecod" : "3793",
+            "gargnnam" : "石台县"
+         },
+         {
+            "gafeecod" : "3794",
+            "gargnnam" : "青阳县"
+         },
+         {
+            "gafeecod" : "3810",
+            "gargnnam" : "亳州市"
+         },
+         {
+            "gafeecod" : "3811",
+            "gargnnam" : "涡阳县"
+         },
+         {
+            "gafeecod" : "3812",
+            "gargnnam" : "蒙城县"
+         },
+         {
+            "gafeecod" : "3813",
+            "gargnnam" : "利辛县"
+         }
+      ],
+      "gargnnam" : "安徽省",
+      "provcod" : 34
+   }
+]

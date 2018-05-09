@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="12/18/2015 2:50:04 PM">
+  <div id="PageTop">
+    <p> 受理行号：
+      																																																																				                  
+      <span id='SubBankId'></span>
+																																												            
+    </p>
+    <p> 状态：
+      																																																																				                  
+      <span id='DevStatus'>00000（00）</span>
+    </p>
+  </div>
+  <div class="stateWrap">
+    <img src="Framework/style/Graphics/stateLine.png" alt="" srcset="" class="stateLine" />
+    <span class="stateTitle">轧账设置</span>
+  </div>
+  <div id="PageSubject">
+    <div class="InputDiv middleDiv addAdmin ">
+      <p class="selectP">
+        <span >轧账方式：</span>
+                      			                             
+        <select id="select_id" class="selectOption">
+          <option value ="终端轧账">终端轧账</option>
+          <option value ="预轧账">预轧账</option>
+        </select>
+        <label class="span_tip" id ="user_tip"></label>
+      </p>
+      <p>
+        <span >加钞方式：</span>
+                      			                              
+        <input class="AdminInput backgroundY" id="RollingInput" type="text" maxlength="18"  value="人工加钞"  slecet="on"/>
+<label class="span_tip" id ="user_tip"></label>
+      </p>
+      <p>
+        <span >柜员号：</span>
+                      			                              
+        <input class="AdminInput backgroundY" id="TellerInput" type="text"   placeholder="请输入柜员号"/>
+        <label class="span_tip" id ="TellerInput_tip"> </label>
+      </p>
+      <p class="rollingMoney">
+        <span >轧账金额：</span>
+                      			                                
+        <input class="AdminInput backgroundY" id="MoneyInput" type="text"  placeholder="请输入金额" />
+        <label class="span_tip" id ="MoneyInput_tip"> </label>
+      </p>
+      <div align="center">
+        <div id="span_tip" style="color:red;"> </div>
+      </div>
+    </div>
+    <div id="KeyboardDiv" class="alphabet"> </div>
+  </div>
+  <div id="PageButton" class="threeBtn">
+    <button type="button"  id="Back">返回</button>
+    <!-- <button type="buton" id="Remake">更正</button> -->
+    <button type="button"  id="OK">确定</button>
+    <!-- <button type="button"  id="Back" class="middle">返回</button> -->
+  </div>
+<button type="button" id="PageRoot">退出登录</button>
+</div>

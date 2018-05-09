@@ -1,0 +1,1750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowConfigs autogenerate_time="2018/5/9 15:15:10">
+	<FlowsItem id="BusinessItem" entrance="Start">
+		<BusinessItem id="Start" entrance="1" tracename="CC_Start_C">
+			<Item id="1" type="F" name="设备状态检测">
+				<Response code="OpenDevice" next="2"/>
+				<Response code="OffLine" next="4"/>
+				<Response code="OnLine" next="3"/>
+			</Item>
+			<Item id="2" type="P" name="打开初始化设备画面">
+				<Response code="OffLine" next="4"/>
+				<Response code="OnLine" next="3"/>
+				<Response code="Back" next="13"/>
+			</Item>
+			<Item id="3" type="P" name="待机等待插卡页面">
+				<Response code="CardInsert" next="5"/>
+				<Response code="NoCardDep" next="9"/>
+				<Response code="Exchange" next="7"/>
+				<Response code="BusinessDep" next="8"/>
+				<Response code="BookBank" next="6"/>
+				<Response code="OffLine" next="4"/>
+				<Response code="NoPrint" next="10"/>
+				<Response code="LossOfHouseholds" next="11"/>
+				<Response code="BigTrader" next="12"/>
+			</Item>
+			<Item id="4" type="P" name="暂停服务页面">
+				<Response code="OnLine" next="2"/>
+			</Item>
+			<Item id="5" type="C" name="数据验证">
+				<Response code="Exit" next="1"/>
+				<Response code="CWC_OK" next="1"/>
+				<Response code="CWC_NG" next="1"/>
+				<Response code="BackHomepage" next="3"/>
+			</Item>
+			<Item id="6" type="C" name="存折业务">
+			</Item>
+			<Item id="7" type="C" name="取零业务">
+			</Item>
+			<Item id="8" type="C" name="对公存款">
+			</Item>
+			<Item id="9" type="C" name="无卡交易">
+				<Response code="Exit" next="3"/>
+				<Response code="BackHomepage" next="3"/>
+			</Item>
+			<Item id="10" type="P" name="无法打印凭条提示页面">
+				<Response code="Exit" next="3"/>
+				<Response code="NoCardDep" next="9"/>
+				<Response code="Exchange" next="7"/>
+				<Response code="BusinessDep" next="8"/>
+				<Response code="BookBank" next="6"/>
+				<Response code="TimeOut" next="3"/>
+				<Response code="BigTrader" next="12"/>
+			</Item>
+			<Item id="11" type="C" name="账户挂失销户">
+			</Item>
+			<Item id="12" type="C" name="大额交易">
+				<Response code="Exit" next="3"/>
+				<Response code="TimeOut" next="3"/>
+				<Response code="Back" next="3"/>
+				<Response code="BackHomepage" next="3"/>
+			</Item>
+			<Item id="13" type="P" name="管理员签到页面">
+				<Response code="Exit" next="14"/>
+				<Response code="OffLine" next="4"/>
+				<Response code="OnLine" next="3"/>
+			</Item>
+			<Item id="14" type="P" name="管理员签到失败页面">
+				<Response code="Exit" next="13"/>
+				<Response code="OffLine" next="4"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="取款" entrance="1" tracename="CC_Cash_C">
+			<Item id="1" type="P" name="选择或输入取款金额页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="OK" next="8"/>
+				<Response code="Back" next="E"/>
+				<Response code="CWD_OK" next="8"/>
+				<Response code="CWD_NG" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="2" type="P" name="交易处理中页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="PassBookCWD" next="E"/>
+				<Response code="INQ_OK" next="6"/>
+				<Response code="INQ_NG" next="E"/>
+				<Response code="CWD_OK" next="8"/>
+				<Response code="CWD_NG" next="E"/>
+				<Response code="Error" next="E"/>
+				<Response code="ReInputPsw" next="7"/>
+				<Response code="Capture" next="E"/>
+				<Response code="QRYCWDMONEY_OK" next="1"/>
+				<Response code="DEP_OK" next="E"/>
+				<Response code="DEP_NG" next="E"/>
+				<Response code="TransactionFee" next="8"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="3" type="P" name="输入密码页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="OK" next="2"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="4" type="P" name="设备出钞页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="OK" next="9"/>
+				<Response code="Capture" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="5" type="P" name="交易成功页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="OK" next="E"/>
+				<Response code="NeedInitData" next="E"/>
+				<Response code="INQ" next="2"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="6" type="P" name="账户余额显示页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="OK" next="E"/>
+				<Response code="NeedInitData" next="5"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="7" type="P" name="重新输入密码页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="OK" next="2"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="8" type="P" name="显示此笔交易手续费页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="OK" next="5"/>
+				<Response code="Back" next="1"/>
+				<Response code="CashSeizing" next="11"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="9" type="P" name="客户取钞页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="5"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="10" type="P" name="显示取款资费信息页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="OK" next="1"/>
+				<Response code="Back" next="E"/>
+				<Response code="CashSeizing" next="11"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="11" type="P" name="信息提示页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="OK" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="账户查询" entrance="1" tracename="CC_BalanceQuery_C">
+			<Item id="1" type="F" name="判断是否为第一次大额交易">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="2"/>
+				<Response code="NotFirstTrade" next="2"/>
+			</Item>
+			<Item id="2" type="P" name="查询类型选择页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="3"/>
+				<Response code="Exit" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+				<Response code="INQ_OK" next="4"/>
+				<Response code="ReInputPsw" next="6"/>
+				<Response code="INQ_DETAIL_OK" next="5"/>
+			</Item>
+			<Item id="3" type="P" name="交易处理中页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="INQ_OK" next="4"/>
+				<Response code="INQ_NG" next="E"/>
+				<Response code="Error" next="E"/>
+				<Response code="ReInputPsw" next="6"/>
+				<Response code="Capture" next="E"/>
+				<Response code="INQ_DETAIL_OK" next="5"/>
+			</Item>
+			<Item id="4" type="P" name="账户余额显示页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+				<Response code="ReInputPsw" next="E"/>
+				<Response code="NeedInitData" next="E"/>
+				<Response code="NeedInitData" next="E"/>
+			</Item>
+			<Item id="5" type="P" name="交易明细显示页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+				<Response code="ReInputPsw" next="E"/>
+				<Response code="NeedInitData" next="E"/>
+				<Response code="NeedInitData" next="E"/>
+			</Item>
+			<Item id="6" type="P" name="输入密码页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="2"/>
+				<Response code="Exit" next="E"/>
+				<Response code="NotINQ" next="2"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="户名查询" entrance="1" tracename="CC_NameQuery_C">
+			<Item id="1" type="F" name="交易通讯筛选">
+				<Response code="TradeFailed" next="3"/>
+				<Response code="QRYCUSTNAME" next="2"/>
+				<Response code="INQ" next="2"/>
+				<Response code="DEP" next="2"/>
+				<Response code="CWD" next="2"/>
+				<Response code="CWC" next="2"/>
+			</Item>
+			<Item id="2" type="P" name="交易处理中页面">
+				<Response code="TimeOut" next="3"/>
+				<Response code="TradeFailed" next="3"/>
+				<Response code="OK" next="E"/>
+				<Response code="QRYCUSTNAME" next="E"/>
+				<Response code="CWC" next="E"/>
+			</Item>
+			<Item id="3" type="P" name="交易失败画面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="TradeFailed" next="E"/>
+				<Response code="QRYCUSTNAME" next="E"/>
+				<Response code="CWC" next="E"/>
+				<Response code="Capture" next="E"/>
+				<Response code="ReInputPsw" next="4"/>
+			</Item>
+			<Item id="4" type="P" name="输入密码页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="OK" next="1"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="改密" entrance="1" tracename="CC_PWD_C">
+			<Item id="1" type="P" name="输入原密码页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="OK" next="2"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="2" type="P" name="输入新密码页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="OK" next="3"/>
+				<Response code="RePsw" next="1"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="3" type="P" name="交易成功页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="OK" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+				<Response code="NeedInitData" next="E"/>
+			</Item>
+			<Item id="4" type="P" name="信息提示页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="OK" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="存款" entrance="1" tracename="CC_Save_C">
+			<Item id="1" type="P" name="入钞页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="2"/>
+				<Response code="Back" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="CashSeizing" next="4"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="2" type="P" name="存款信息确认页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="3"/>
+				<Response code="Exit" next="E"/>
+				<Response code="ContinueAddMoney" next="1"/>
+				<Response code="DEP_OK" next="3"/>
+				<Response code="DEP_NG" next="5"/>
+				<Response code="BackHomepage" next="E"/>
+				<Response code="TimeoutNotAll" next="5"/>
+			</Item>
+			<Item id="3" type="P" name="交易成功页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Print" next="E"/>
+				<Response code="NeedInitData" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="4" type="P" name="卡钞提示页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="5" type="P" name="信息提示页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="E"/>
+				<Response code="Back" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="数据验证" entrance="2" tracename="CC_Identify_C">
+			<Item id="1" type="P" name="协议画面">
+				<Response code="TimeOut" next="9"/>
+				<Response code="OK" next="2"/>
+				<Response code="Exit" next="9"/>
+			</Item>
+			<Item id="2" type="P" name="读取卡片信息处理中页面">
+				<Response code="TimeOut" next="9"/>
+				<Response code="OK" next="4"/>
+				<Response code="NoPrint" next="3"/>
+				<Response code="Exit" next="9"/>
+				<Response code="CHIPCARDcontinue" next="8"/>
+			</Item>
+			<Item id="3" type="P" name="无法打印凭条提示页面">
+				<Response code="TimeOut" next="9"/>
+				<Response code="OK" next="4"/>
+				<Response code="Exit" next="9"/>
+				<Response code="CHIPCARDcontinue" next="8"/>
+			</Item>
+			<Item id="4" type="P" name="输入密码页面">
+				<Response code="TimeOut" next="9"/>
+				<Response code="OK" next="8"/>
+				<Response code="CWD" next="10"/>
+				<Response code="Exit" next="9"/>
+				<Response code="BackHomepage" next="9"/>
+				<Response code="QRYCWDMONEY_OK" next="10"/>
+			</Item>
+			<Item id="5" type="P" name="交易处理中页面">
+				<Response code="TimeOut" next="9"/>
+				<Response code="ReInputPsw" next="4"/>
+				<Response code="Capture" next="15"/>
+				<Response code="QRYCWDMONEY_OK" next="10"/>
+				<Response code="QRYCWDMONEY_NG" next="8"/>
+				<Response code="QRYCUSTNAME_OK" next="8"/>
+				<Response code="QRYCUSTNAME_NG" next="9"/>
+				<Response code="CWC_OK" next="E"/>
+				<Response code="CWC_NG" next="E"/>
+				<Response code="INQ_OK" next="7"/>
+				<Response code="INQ_NG" next="9"/>
+				<Response code="QRYACCOUNTTYPE_OK" next="4"/>
+				<Response code="QRYACCOUNTTYPE_NG" next="9"/>
+				<Response code="Error" next="E"/>
+			</Item>
+			<Item id="6" type="F" name="需要查询账户类型">
+				<Response code="OK" next="5"/>
+			</Item>
+			<Item id="7" type="F" name="需要查询户名">
+				<Response code="OK" next="5"/>
+			</Item>
+			<Item id="8" type="P" name="业务选择画面">
+				<Response code="TimeOut" next="9"/>
+				<Response code="ChangePassword" next="13"/>
+				<Response code="CWD" next="10"/>
+				<Response code="DEP" next="11"/>
+				<Response code="INQ" next="12"/>
+				<Response code="Exit" next="9"/>
+				<Response code="Back" next="9"/>
+				<Response code="CWDcontinue" next="10"/>
+				<Response code="Transfer" next="19"/>
+			</Item>
+			<Item id="9" type="P" name="退卡页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="CWC" next="5"/>
+				<Response code="Capture" next="15"/>
+			</Item>
+			<Item id="10" type="C" name="取款">
+				<Response code="TimeOut" next="9"/>
+				<Response code="OK" next="9"/>
+				<Response code="Exit" next="9"/>
+				<Response code="Back" next="8"/>
+				<Response code="BackHomepage" next="8"/>
+				<Response code="CWC" next="4"/>
+				<Response code="NeedInitData" next="17"/>
+				<Response code="Capture" next="15"/>
+				<Response code="INQ_NG" next="9"/>
+				<Response code="QRYACCOUNTTYPE_NG" next="9"/>
+				<Response code="CWD_NG" next="9"/>
+				<Response code="DEP_NG" next="9"/>
+				<Response code="Error" next="9"/>
+				<Response code="DEP_OK" next="9"/>
+			</Item>
+			<Item id="11" type="C" name="存款">
+				<Response code="TimeOut" next="9"/>
+				<Response code="OK" next="9"/>
+				<Response code="Exit" next="9"/>
+				<Response code="Back" next="8"/>
+				<Response code="BackHomepage" next="8"/>
+				<Response code="NoRollback" next="9"/>
+				<Response code="DeviceError" next="9"/>
+				<Response code="CWC" next="4"/>
+				<Response code="NeedInitData" next="17"/>
+				<Response code="Capture" next="15"/>
+				<Response code="INQ_NG" next="9"/>
+				<Response code="QRYACCOUNTTYPE_NG" next="9"/>
+				<Response code="DEP_NG" next="9"/>
+				<Response code="Error" next="9"/>
+			</Item>
+			<Item id="12" type="C" name="账户查询">
+				<Response code="TimeOut" next="9"/>
+				<Response code="OK" next="8"/>
+				<Response code="Exit" next="9"/>
+				<Response code="BackHomepage" next="8"/>
+				<Response code="NeedInitData" next="17"/>
+				<Response code="Capture" next="15"/>
+				<Response code="INQ_NG" next="9"/>
+				<Response code="QRYACCOUNTTYPE_NG" next="9"/>
+				<Response code="CWD_NG" next="9"/>
+				<Response code="Error" next="9"/>
+			</Item>
+			<Item id="13" type="C" name="改密">
+				<Response code="TimeOut" next="9"/>
+				<Response code="OK" next="8"/>
+				<Response code="Exit" next="9"/>
+				<Response code="BackHomepage" next="8"/>
+				<Response code="NeedInitData" next="17"/>
+			</Item>
+			<Item id="14" type="C" name="交易报文通讯">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="8"/>
+				<Response code="Exit" next="9"/>
+				<Response code="CWC" next="E"/>
+				<Response code="ReInputPsw" next="4"/>
+				<Response code="Capture" next="E"/>
+			</Item>
+			<Item id="15" type="P" name="吞卡页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="CWC" next="14"/>
+			</Item>
+			<Item id="16" type="P" name="无异行卡业务提示画面">
+				<Response code="Exit" next="9"/>
+			</Item>
+			<Item id="17" type="F" name="继续交易前数据初始化">
+				<Response code="OK" next="20"/>
+				<Response code="CHIPCARDcontinue" next="2"/>
+			</Item>
+			<Item id="18" type="F" name="验密后判断是否连续交易">
+				<Response code="OK" next="5"/>
+				<Response code="CWDcontinue" next="10"/>
+			</Item>
+			<Item id="19" type="C" name="转账汇款">
+				<Response code="TimeOut" next="9"/>
+				<Response code="OK" next="9"/>
+				<Response code="Exit" next="9"/>
+				<Response code="Back" next="8"/>
+				<Response code="BackHomepage" next="8"/>
+				<Response code="NeedInitData" next="17"/>
+				<Response code="QRYCUSTNAME_NG" next="9"/>
+				<Response code="INQ_NG" next="9"/>
+				<Response code="QRYACCOUNTTYPE_NG" next="9"/>
+				<Response code="SmallComplete_OK" next="9"/>
+				<Response code="SmallComplete_NG" next="9"/>
+				<Response code="QueryRegularAccount_NG" next="9"/>
+				<Response code="RegularToCurrent_NG" next="9"/>
+				<Response code="QueryCurrentAccount_NG" next="9"/>
+				<Response code="QueryInterestRate_NG" next="9"/>
+				<Response code="CurrentToRegular_NG" next="9"/>
+				<Response code="TransferCancel_NG" next="9"/>
+				<Response code="QueryCancelInfo_NG" next="9"/>
+				<Response code="QueryCharge_NG" next="9"/>
+			</Item>
+			<Item id="20" type="P" name="继续交易插卡页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="21"/>
+				<Response code="Exit" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="21" type="P" name="输入密码页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="8"/>
+				<Response code="Exit" next="E"/>
+				<Response code="BackHomepage" next="9"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="交易报文通讯" entrance="1" tracename="CC_Communicate_C">
+			<Item id="1" type="F" name="交易通讯筛选">
+				<Response code="TradeFailed" next="3"/>
+				<Response code="QRYCUSTNAME" next="2"/>
+				<Response code="INQ" next="2"/>
+				<Response code="DEP" next="2"/>
+				<Response code="CWD" next="2"/>
+				<Response code="BUSSINESSDEP" next="2"/>
+				<Response code="NOCARDDEP" next="2"/>
+				<Response code="CWC" next="2"/>
+				<Response code="FillPassbook" next="2"/>
+				<Response code="MasterDataQuery" next="2"/>
+			</Item>
+			<Item id="2" type="P" name="交易处理中页面">
+				<Response code="TimeOut" next="3"/>
+				<Response code="TradeFailed" next="3"/>
+				<Response code="OK" next="E"/>
+				<Response code="QRYCUSTNAME" next="E"/>
+				<Response code="INQ" next="E"/>
+				<Response code="BUSSINESSDEP" next="E"/>
+				<Response code="NOCARDDEP" next="E"/>
+				<Response code="CWC" next="E"/>
+				<Response code="EXCWD" next="E"/>
+				<Response code="FillPassbook" next="E"/>
+				<Response code="DirectAccount" next="E"/>
+			</Item>
+			<Item id="3" type="P" name="交易失败画面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="TradeFailed" next="E"/>
+				<Response code="QRYCUSTNAME" next="E"/>
+				<Response code="BUSSINESSDEP" next="E"/>
+				<Response code="NOCARDDEP" next="E"/>
+				<Response code="CWC" next="E"/>
+				<Response code="Capture" next="E"/>
+				<Response code="NoRollback" next="E"/>
+				<Response code="ReInputPsw" next="E"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="存折业务" entrance="1" tracename="CC_BankBook_C">
+			<Item id="1" type="P" name="输入密码页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="2"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="2" type="P" name="交易处理中页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="QRYACCOUNTTYPE_OK" next="3"/>
+				<Response code="QRYACCOUNTTYPE_NG" next="E"/>
+				<Response code="QRYCWDMONEY_OK" next="6"/>
+				<Response code="QRYCWDMONEY_NG" next="E"/>
+				<Response code="QRYCUSTNAME_OK" next="3"/>
+				<Response code="QRYCUSTNAME_NG" next="E"/>
+				<Response code="Error" next="E"/>
+				<Response code="CWC_OK" next="E"/>
+				<Response code="CWC_NG" next="E"/>
+			</Item>
+			<Item id="3" type="P" name="显示存折卡号画面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="4"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="4" type="P" name="存折业务选择画面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="DEP" next="5"/>
+				<Response code="CWD" next="1"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="5" type="C" name="存款">
+				<Response code="TimeOut" next="7"/>
+				<Response code="OK" next="7"/>
+				<Response code="NeedInitData" next="4"/>
+				<Response code="Back" next="4"/>
+				<Response code="Exit" next="7"/>
+				<Response code="DEP_NG" next="7"/>
+				<Response code="Error" next="7"/>
+				<Response code="Capture" next="7"/>
+			</Item>
+			<Item id="6" type="C" name="取款">
+				<Response code="TimeOut" next="7"/>
+				<Response code="OK" next="7"/>
+				<Response code="NeedInitData" next="4"/>
+				<Response code="Back" next="4"/>
+				<Response code="Exit" next="7"/>
+				<Response code="Error" next="7"/>
+				<Response code="CWD_NG" next="7"/>
+				<Response code="Capture" next="7"/>
+				<Response code="CWC" next="7"/>
+			</Item>
+			<Item id="7" type="P" name="退卡页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="CWC" next="2"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="无卡交易" entrance="1" tracename="CC_NoCardDep_C">
+			<Item id="1" type="P" name="无卡无折协议画面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="2"/>
+				<Response code="Exit" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="2" type="P" name="输入汇款账号页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="3"/>
+				<Response code="Back" next="1"/>
+				<Response code="Exit" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+				<Response code="DifferentAccount" next="7"/>
+			</Item>
+			<Item id="3" type="P" name="确认转账户名信息页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="4"/>
+				<Response code="Back" next="2"/>
+				<Response code="Exit" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="4" type="P" name="入钞页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="5"/>
+				<Response code="Back" next="3"/>
+				<Response code="Exit" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+				<Response code="CashSeizing" next="10"/>
+			</Item>
+			<Item id="5" type="P" name="存款信息确认页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="6"/>
+				<Response code="Exit" next="E"/>
+				<Response code="ContinueAddMoney" next="4"/>
+				<Response code="BackHomepage" next="E"/>
+				<Response code="TimeoutNotAll" next="7"/>
+			</Item>
+			<Item id="6" type="P" name="汇款信息确认页面">
+				<Response code="TimeOut" next="7"/>
+				<Response code="OK" next="8"/>
+				<Response code="Back" next="5"/>
+				<Response code="CashTransferFail" next="7"/>
+				<Response code="Exit" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="7" type="P" name="信息提示页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="E"/>
+				<Response code="Back" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="8" type="P" name="交易成功页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="E"/>
+				<Response code="Back" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="9" type="P" name="暂停服务页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Back" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="10" type="P" name="卡钞提示页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="对公存款" entrance="1" tracename="CC_BusinessDep_C">
+			<Item id="1" type="P" name="对公存款账号输入页面">
+				<Response code="TimeOut" next="11"/>
+				<Response code="OK" next="2"/>
+				<Response code="Exit" next="11"/>
+			</Item>
+			<Item id="2" type="P" name="交易处理中页面">
+				<Response code="TimeOut" next="11"/>
+				<Response code="Exit" next="11"/>
+				<Response code="DirectAccount" next="12"/>
+				<Response code="QRYBUSSINESSACCOUNT_OK" next="3"/>
+				<Response code="QRYBUSSINESSACCOUNT_NG" next="11"/>
+				<Response code="DEP_OK" next="9"/>
+				<Response code="DEP_NG" next="11"/>
+				<Response code="Capture" next="11"/>
+				<Response code="Error" next="11"/>
+				<Response code="CashinErrorReset" next="13"/>
+			</Item>
+			<Item id="3" type="P" name="对公存款金额选择画面">
+				<Response code="TimeOut" next="11"/>
+				<Response code="OK" next="4"/>
+				<Response code="Back" next="3"/>
+				<Response code="Exit" next="11"/>
+			</Item>
+			<Item id="4" type="P" name="客户附言画面">
+				<Response code="TimeOut" next="11"/>
+				<Response code="OK" next="5"/>
+				<Response code="Back" next="3"/>
+				<Response code="Exit" next="11"/>
+			</Item>
+			<Item id="5" type="P" name="入钞画面">
+				<Response code="TimeOut" next="8"/>
+				<Response code="OK" next="7"/>
+				<Response code="Back" next="3"/>
+				<Response code="Exit" next="11"/>
+			</Item>
+			<Item id="6" type="P" name="继续加钞画面">
+				<Response code="TimeOut" next="8"/>
+				<Response code="OK" next="7"/>
+				<Response code="Back" next="3"/>
+				<Response code="EndPutMoney" next="8"/>
+				<Response code="Exit" next="11"/>
+			</Item>
+			<Item id="7" type="P" name="验钞画面">
+				<Response code="TimeOut" next="11"/>
+				<Response code="OK" next="8"/>
+				<Response code="Exit" next="12"/>
+				<Response code="DirectAccount" next="2"/>
+			</Item>
+			<Item id="8" type="P" name="存款信息确认画面">
+				<Response code="TimeOut" next="11"/>
+				<Response code="OK" next="2"/>
+				<Response code="ContinueAddMoney" next="6"/>
+				<Response code="Exit" next="11"/>
+			</Item>
+			<Item id="9" type="P" name="存款完成画面">
+				<Response code="TimeOut" next="11"/>
+				<Response code="OK" next="11"/>
+				<Response code="Print" next="10"/>
+				<Response code="Exit" next="11"/>
+			</Item>
+			<Item id="10" type="P" name="凭条打印画面">
+				<Response code="TimeOut" next="11"/>
+				<Response code="OK" next="11"/>
+				<Response code="Back" next="11"/>
+				<Response code="Exit" next="11"/>
+			</Item>
+			<Item id="11" type="P" name="退卡页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="12" type="P" name="存款卡钞提示画面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="E"/>
+				<Response code="Back" next="E"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="13" type="P" name="存款卡钞复位画面">
+				<Response code="TimeOut" next="12"/>
+				<Response code="OK" next="12"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="取零业务" entrance="1" tracename="CC_exchange_C">
+			<Item id="1" type="P" name="手机号码输入画面">
+				<Response code="TimeOut" next="9"/>
+				<Response code="Exit" next="9"/>
+				<Response code="OK" next="2"/>
+				<Response code="Back" next="9"/>
+			</Item>
+			<Item id="2" type="P" name="入钞画面">
+				<Response code="TimeOut" next="9"/>
+				<Response code="Exit" next="9"/>
+				<Response code="OK" next="3"/>
+				<Response code="DEPCansel" next="5"/>
+				<Response code="Back" next="9"/>
+			</Item>
+			<Item id="3" type="P" name="验钞画面">
+				<Response code="TimeOut" next="9"/>
+				<Response code="Exit" next="9"/>
+				<Response code="OK" next="6"/>
+				<Response code="DEPCansel" next="5"/>
+			</Item>
+			<Item id="4" type="P" name="继续加钞画面">
+				<Response code="TimeOut" next="9"/>
+				<Response code="Exit" next="9"/>
+				<Response code="OK" next="3"/>
+				<Response code="EndPutMoney" next="6"/>
+			</Item>
+			<Item id="5" type="P" name="取消存款画面">
+				<Response code="TimeOut" next="9"/>
+				<Response code="Exit" next="9"/>
+				<Response code="OK" next="9"/>
+				<Response code="Capture" next="9"/>
+			</Item>
+			<Item id="6" type="P" name="选择面值张数画面">
+				<Response code="TimeOut" next="9"/>
+				<Response code="Exit" next="9"/>
+				<Response code="OK" next="7"/>
+				<Response code="ContinueAddMoney" next="4"/>
+				<Response code="DEPCansel" next="5"/>
+			</Item>
+			<Item id="7" type="P" name="取零兑换画面">
+				<Response code="TimeOut" next="9"/>
+				<Response code="Exit" next="8"/>
+				<Response code="OK" next="8"/>
+				<Response code="NoPrint" next="9"/>
+			</Item>
+			<Item id="8" type="P" name="零钞兑换结果画面">
+				<Response code="TimeOut" next="9"/>
+				<Response code="Exit" next="9"/>
+				<Response code="OK" next="9"/>
+			</Item>
+			<Item id="9" type="P" name="退卡页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="OK" next="E"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="存折补登" entrance="1" tracename="CC_FillPassbook_C">
+			<Item id="1" type="P" name="提示存折放入打印机画面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="3"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="2" type="P" name="显示存折卡号画面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="3"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="3" type="C" name="交易报文通讯">
+				<Response code="OK" next="4"/>
+				<Response code="TradeFailed" next="5"/>
+				<Response code="FillPassbook" next="3"/>
+				<Response code="Error" next="E"/>
+			</Item>
+			<Item id="4" type="P" name="存折补登画面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="5"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="5" type="P" name="退卡页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="E"/>
+				<Response code="Back" next="E"/>
+				<Response code="Print" next="E"/>
+				<Response code="PrintFSN" next="E"/>
+				<Response code="LargeDeposit" next="E"/>
+				<Response code="ContinueAddMoney" next="E"/>
+				<Response code="DEPCansel" next="E"/>
+				<Response code="DeviceError" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="ReInputPsw" next="E"/>
+				<Response code="TradeFailed" next="E"/>
+				<Response code="Capture" next="E"/>
+				<Response code="NoRollback" next="E"/>
+				<Response code="BankBookDEP" next="E"/>
+				<Response code="Error" next="E"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="验密" entrance="1" tracename="CC_ValidatePw_C">
+			<Item id="1" type="F" name="交易通讯筛选">
+				<Response code="TradeFailed" next="3"/>
+				<Response code="QRYCUSTNAME" next="2"/>
+				<Response code="INQ" next="2"/>
+				<Response code="DEP" next="2"/>
+				<Response code="CWD" next="2"/>
+				<Response code="NOCARDDEP" next="2"/>
+				<Response code="CWC" next="2"/>
+				<Response code="FillPassbook" next="2"/>
+				<Response code="MasterDataQuery" next="2"/>
+			</Item>
+			<Item id="2" type="P" name="交易处理中页面">
+				<Response code="TimeOut" next="3"/>
+				<Response code="TradeFailed" next="3"/>
+				<Response code="OK" next="E"/>
+				<Response code="QRYCUSTNAME" next="E"/>
+				<Response code="NOCARDDEP" next="E"/>
+				<Response code="CWC" next="E"/>
+				<Response code="EXCWD" next="E"/>
+				<Response code="FillPassbook" next="E"/>
+			</Item>
+			<Item id="3" type="P" name="交易失败画面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="TradeFailed" next="E"/>
+				<Response code="QRYCUSTNAME" next="E"/>
+				<Response code="NOCARDDEP" next="E"/>
+				<Response code="CWC" next="E"/>
+				<Response code="Capture" next="E"/>
+				<Response code="NoRollback" next="E"/>
+				<Response code="ReInputPsw" next="E"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="身份认证" entrance="1" tracename="CC_IdCardIdentity_C">
+			<Item id="1" type="P" name="身份证读取页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="2"/>
+				<Response code="ErrTip" next="7"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="2" type="P" name="身份证信息显示页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="3"/>
+				<Response code="ErrTip" next="7"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="3" type="P" name="联网核查完成页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="4"/>
+				<Response code="ErrTip" next="7"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="4" type="P" name="人脸识别页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="5"/>
+				<Response code="ErrTip" next="7"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="5" type="P" name="人脸识别结果页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="E"/>
+				<Response code="ErrTip" next="7"/>
+				<Response code="ReAuthor" next="6"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+				<Response code="FaceCheckFail" next="8"/>
+			</Item>
+			<Item id="6" type="P" name="客户信息确认页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="E"/>
+				<Response code="ErrTip" next="7"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="7" type="P" name="信息提示页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="8" type="P" name="人脸识别失败页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="账户挂失销户" entrance="1" tracename="CC_LossOfHouseholds_C">
+			<Item id="1" type="P" name="身份证读取页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="2"/>
+				<Response code="Back" next="E"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="2" type="P" name="联网核查页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="3"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="3" type="P" name="后台审核页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="4"/>
+				<Response code="Back" next="1"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="4" type="P" name="指纹授权信息显示页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="5"/>
+				<Response code="Exit" next="E"/>
+				<Response code="ReAuthor" next="4"/>
+			</Item>
+			<Item id="5" type="P" name="转账通讯画面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="QRYACCOUNTCANCEL_OK" next="6"/>
+				<Response code="QRYACCOUNTCANCEL_NG" next="E"/>
+				<Response code="ACCOUNTCANCELLTION_OK" next="12"/>
+				<Response code="ACCOUNTCANCELLTION_NG" next="E"/>
+				<Response code="WXCancelAccount_OK" next="13"/>
+				<Response code="WXCancelAccount_NG" next="E"/>
+			</Item>
+			<Item id="6" type="P" name="选择销户账号页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="7"/>
+				<Response code="Back" next="1"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="7" type="P" name="选择销户方式页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Back" next="6"/>
+				<Response code="Exit" next="E"/>
+				<Response code="CancelAccountByWX" next="9"/>
+				<Response code="CancelAccountByTransfer" next="8"/>
+			</Item>
+			<Item id="8" type="P" name="输入转入账号画面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="9"/>
+				<Response code="Back" next="7"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="9" type="P" name="手机号码输入画面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="10"/>
+				<Response code="Back" next="7"/>
+				<Response code="Exit" next="E"/>
+				<Response code="CancelAccountByWX" next="5"/>
+			</Item>
+			<Item id="10" type="P" name="交易处理中页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="QRYCUSTNAME_OK" next="11"/>
+				<Response code="QRYCUSTNAME_NG" next="E"/>
+			</Item>
+			<Item id="11" type="P" name="核对转入账户信息页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="5"/>
+				<Response code="Back" next="6"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="12" type="P" name="销户完成画面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="E"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="13" type="P" name="微信销户完成画面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="E"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="转账业务" entrance="1" tracename="CC_TransferkBusiness_C">
+			<Item id="1" type="P" name="转账业务选择画面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Back" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="TransferRemittance" next="2"/>
+				<Response code="TransferCancellation" next="3"/>
+				<Response code="PeriodicCurrentAccount" next="4"/>
+				<Response code="CurrentToRegular" next="5"/>
+			</Item>
+			<Item id="2" type="C" name="转账汇款">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="E"/>
+				<Response code="Back" next="1"/>
+				<Response code="Exit" next="E"/>
+				<Response code="NeedInitData" next="E"/>
+				<Response code="SmallComplete_OK" next="E"/>
+				<Response code="SmallComplete_NG" next="E"/>
+				<Response code="INQ_NG" next="E"/>
+				<Response code="QRYCUSTNAME_NG" next="E"/>
+				<Response code="QueryCharge_NG" next="E"/>
+			</Item>
+			<Item id="3" type="C" name="转账撤销">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Back" next="1"/>
+				<Response code="Exit" next="E"/>
+				<Response code="NeedInitData" next="E"/>
+				<Response code="TransferCancel_NG" next="E"/>
+				<Response code="QueryCancelInfo_NG" next="E"/>
+			</Item>
+			<Item id="4" type="C" name="定转活">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Back" next="1"/>
+				<Response code="Exit" next="E"/>
+				<Response code="NeedInitData" next="E"/>
+				<Response code="QueryRegularAccount_NG" next="E"/>
+				<Response code="RegularToCurrent_NG" next="E"/>
+			</Item>
+			<Item id="5" type="C" name="活转定">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Back" next="1"/>
+				<Response code="Exit" next="E"/>
+				<Response code="NeedInitData" next="E"/>
+				<Response code="QueryCurrentAccount_NG" next="E"/>
+				<Response code="QueryInterestRate_NG" next="E"/>
+				<Response code="CurrentToRegular_NG" next="E"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="转账汇款" entrance="1" tracename="CC_TransferRemittance_C">
+			<Item id="1" type="F" name="银行卡别判断">
+				<Response code="OK" next="2"/>
+				<Response code="ChooseOutBank" next="3"/>
+			</Item>
+			<Item id="2" type="P" name="选择转账方式界面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Back" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+				<Response code="ChooseOutBank" next="3"/>
+				<Response code="ChooseInBank" next="3"/>
+			</Item>
+			<Item id="3" type="P" name="输入转入账号画面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Back" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+				<Response code="QRYCUSTNAME_OK" next="4"/>
+				<Response code="QRYCUSTNAME_NG" next="E"/>
+				<Response code="TransferComplete_OK" next="6"/>
+				<Response code="OutLineFlag" next="4"/>
+				<Response code="SmallComplete_OK" next="6"/>
+				<Response code="SmallComplete_NG" next="E"/>
+			</Item>
+			<Item id="4" type="P" name="输入转账金额画面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Back" next="3"/>
+				<Response code="Exit" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+				<Response code="InLineFlag" next="5"/>
+				<Response code="OutLineFlag" next="5"/>
+			</Item>
+			<Item id="5" type="P" name="转账信息确认画面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Back" next="3"/>
+				<Response code="Exit" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+				<Response code="TransferComplete_OK" next="6"/>
+				<Response code="SmallComplete_OK" next="6"/>
+				<Response code="SmallComplete_NG" next="E"/>
+			</Item>
+			<Item id="6" type="P" name="转账完成页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Back" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+				<Response code="NeedInitData" next="E"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="转账撤销" entrance="1" tracename="CC_TransferCancellation_C">
+			<Item id="1" type="P" name="转账通讯画面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Back" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="QueryCancelInfo_OK" next="6"/>
+				<Response code="QueryCancelInfo_NG" next="E"/>
+				<Response code="TransferCancel_OK" next="7"/>
+				<Response code="TransferCancel_NG" next="E"/>
+			</Item>
+			<Item id="2" type="P" name="身份证读取页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="3"/>
+				<Response code="Back" next="E"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="3" type="P" name="联网核查页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="4"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="4" type="P" name="后台审核页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="5"/>
+				<Response code="Back" next="2"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="5" type="P" name="指纹授权画面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="1"/>
+				<Response code="Exit" next="E"/>
+				<Response code="ReAuthor" next="5"/>
+			</Item>
+			<Item id="6" type="P" name="选择转账撤销交易页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="2"/>
+				<Response code="Back" next="E"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="7" type="P" name="转账完成画面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Back" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="NeedInitData" next="E"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="定转活" entrance="1" tracename="CC_PeriodicCurrentAccount_C">
+			<Item id="1" type="P" name="身份证读取页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="2"/>
+				<Response code="Back" next="E"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="2" type="P" name="联网核查页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="3"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="3" type="P" name="后台审核页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="4"/>
+				<Response code="Back" next="1"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="4" type="P" name="指纹授权画面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="5"/>
+				<Response code="Exit" next="E"/>
+				<Response code="ReAuthor" next="4"/>
+			</Item>
+			<Item id="5" type="P" name="转账通讯画面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Back" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="QueryRegularAccount_OK" next="6"/>
+				<Response code="QueryRegularAccount_NG" next="E"/>
+				<Response code="RegularToCurrent_OK" next="9"/>
+				<Response code="RegularToCurrent_NG" next="E"/>
+			</Item>
+			<Item id="6" type="P" name="选择定期子账户页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="7"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="7" type="P" name="定转活交易输入画面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="8"/>
+				<Response code="Back" next="6"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="8" type="P" name="定转活信息确认画面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="5"/>
+				<Response code="Back" next="7"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="9" type="P" name="转账完成画面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="NeedInitData" next="E"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="活转定" entrance="1" tracename="CC_CurrentToRegular_C">
+			<Item id="1" type="P" name="转账通讯画面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="QueryCurrentAccount_OK" next="2"/>
+				<Response code="QueryCurrentAccount_NG" next="E"/>
+				<Response code="QueryInterestRate_OK" next="4"/>
+				<Response code="QueryInterestRate_NG" next="E"/>
+				<Response code="CurrentToRegular_OK" next="5"/>
+				<Response code="CurrentToRegular_NG" next="E"/>
+			</Item>
+			<Item id="2" type="P" name="活期账户显示页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="3"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="3" type="P" name="活转定交易输入画面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="1"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="4" type="P" name="活转定信息确认画面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="1"/>
+				<Response code="Back" next="3"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="5" type="P" name="转账完成画面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="NeedInitData" next="E"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="大额交易" entrance="1" tracename="CC_LargeAmountsTransaction_C">
+			<Item id="1" type="P" name="大额一级菜单页面">
+				<Response code="TimeOut" next="7"/>
+				<Response code="Exit" next="7"/>
+				<Response code="Back" next="7"/>
+				<Response code="LargeAmountsDeposit" next="2"/>
+				<Response code="LargeAmountsWithdrawal" next="3"/>
+				<Response code="LargeAmountsTransferAccounts" next="4"/>
+				<Response code="LargeAmountsCashRemittance" next="5"/>
+				<Response code="BackHomepage" next="7"/>
+			</Item>
+			<Item id="2" type="C" name="大额存款">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="1"/>
+				<Response code="NeedInitData" next="6"/>
+				<Response code="BackHomepage" next="1"/>
+			</Item>
+			<Item id="3" type="C" name="大额取款">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="1"/>
+				<Response code="NeedInitData" next="6"/>
+				<Response code="BackHomepage" next="1"/>
+			</Item>
+			<Item id="4" type="C" name="大额转账">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="1"/>
+				<Response code="NeedInitData" next="6"/>
+				<Response code="BackHomepage" next="1"/>
+			</Item>
+			<Item id="5" type="C" name="大额现金汇款">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="1"/>
+				<Response code="NeedInitData" next="6"/>
+				<Response code="BackHomepage" next="1"/>
+			</Item>
+			<Item id="6" type="F" name="继续交易前数据初始化">
+				<Response code="OK" next="8"/>
+				<Response code="LargeAmountsCashRemittance" next="1"/>
+			</Item>
+			<Item id="7" type="P" name="退卡页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="OK" next="E"/>
+			</Item>
+			<Item id="8" type="P" name="继续交易插卡页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="OK" next="9"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="9" type="P" name="输入密码页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="OK" next="1"/>
+				<Response code="NeedInitData" next="E"/>
+				<Response code="BackHomepage" next="7"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="大额存款" entrance="1" tracename="CC_LargeAmountsDeposit_C">
+			<Item id="1" type="P" name="大额交易信息提示页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="2"/>
+				<Response code="Exit" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="2" type="F" name="判断是否为第一次大额交易">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="3"/>
+				<Response code="NotFirstTrade" next="9"/>
+				<Response code="ContinueButNotFirst" next="4"/>
+			</Item>
+			<Item id="3" type="C" name="身份认证">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="4"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="4" type="P" name="大额插卡页面">
+				<Response code="TimeOut" next="11"/>
+				<Response code="OK" next="5"/>
+				<Response code="Exit" next="11"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="5" type="P" name="输入密码页面">
+				<Response code="TimeOut" next="11"/>
+				<Response code="OK" next="6"/>
+				<Response code="Exit" next="11"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="6" type="P" name="查询户名页面">
+				<Response code="TimeOut" next="11"/>
+				<Response code="OK" next="7"/>
+				<Response code="Exit" next="11"/>
+				<Response code="DifferentAccount" next="10"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="7" type="P" name="户名信息确认页面">
+				<Response code="TimeOut" next="11"/>
+				<Response code="OK" next="8"/>
+				<Response code="Exit" next="11"/>
+				<Response code="NotFirstTrade" next="9"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="8" type="P" name="管理员授权页面">
+				<Response code="TimeOut" next="11"/>
+				<Response code="OK" next="9"/>
+				<Response code="Exit" next="11"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="9" type="C" name="存款">
+				<Response code="TimeOut" next="11"/>
+				<Response code="Exit" next="11"/>
+				<Response code="Back" next="7"/>
+				<Response code="NeedInitData" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="10" type="P" name="信息提示页面">
+				<Response code="TimeOut" next="11"/>
+				<Response code="Exit" next="11"/>
+				<Response code="BackHomepage" next="11"/>
+			</Item>
+			<Item id="11" type="P" name="退卡页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Capture" next="12"/>
+			</Item>
+			<Item id="12" type="P" name="吞卡页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="E"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="大额取款" entrance="1" tracename="CC_LargeAmountsWithdrawal_C">
+			<Item id="1" type="F" name="判断是否为第一次大额交易">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="2"/>
+				<Response code="NotFirstTrade" next="7"/>
+				<Response code="ContinueButNotFirst" next="3"/>
+			</Item>
+			<Item id="2" type="C" name="身份认证">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="3"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="3" type="P" name="大额插卡页面">
+				<Response code="TimeOut" next="12"/>
+				<Response code="OK" next="4"/>
+				<Response code="Exit" next="12"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="4" type="P" name="输入密码页面">
+				<Response code="TimeOut" next="12"/>
+				<Response code="OK" next="5"/>
+				<Response code="Exit" next="12"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="5" type="P" name="查询户名页面">
+				<Response code="TimeOut" next="12"/>
+				<Response code="OK" next="6"/>
+				<Response code="Exit" next="12"/>
+				<Response code="DifferentAccount" next="11"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="6" type="P" name="户名信息确认页面">
+				<Response code="TimeOut" next="12"/>
+				<Response code="OK" next="7"/>
+				<Response code="Exit" next="12"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="7" type="P" name="选择或输入取款金额页面">
+				<Response code="TimeOut" next="12"/>
+				<Response code="OK" next="8"/>
+				<Response code="Exit" next="12"/>
+				<Response code="Back" next="E"/>
+				<Response code="NotFirstTrade" next="9"/>
+				<Response code="BackHomepage" next="E"/>
+				<Response code="CWD_OK" next="8"/>
+				<Response code="CWD_NG" next="E"/>
+			</Item>
+			<Item id="8" type="P" name="管理员授权页面">
+				<Response code="TimeOut" next="12"/>
+				<Response code="OK" next="9"/>
+				<Response code="Exit" next="12"/>
+				<Response code="BackHomepage" next="E"/>
+				<Response code="CWD_OK" next="9"/>
+				<Response code="CWD_NG" next="E"/>
+			</Item>
+			<Item id="9" type="P" name="显示此笔交易手续费页面">
+				<Response code="TimeOut" next="12"/>
+				<Response code="OK" next="10"/>
+				<Response code="Exit" next="12"/>
+				<Response code="Back" next="7"/>
+				<Response code="BackHomepage" next="E"/>
+				<Response code="CashSeizing" next="11"/>
+			</Item>
+			<Item id="10" type="P" name="交易成功页面">
+				<Response code="TimeOut" next="12"/>
+				<Response code="OK" next="12"/>
+				<Response code="Exit" next="12"/>
+				<Response code="BackHomepage" next="E"/>
+				<Response code="NeedInitData" next="E"/>
+			</Item>
+			<Item id="11" type="P" name="信息提示页面">
+				<Response code="TimeOut" next="12"/>
+				<Response code="OK" next="12"/>
+				<Response code="Exit" next="12"/>
+				<Response code="NeedInitData" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="12" type="P" name="退卡页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Capture" next="13"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="13" type="P" name="吞卡页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="大额转账" entrance="1" tracename="CC_LargeAmountsTransferAccounts_C">
+			<Item id="1" type="F" name="判断是否为第一次大额交易">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="2"/>
+				<Response code="NotFirstTrade" next="8"/>
+				<Response code="ContinueButNotFirst" next="3"/>
+			</Item>
+			<Item id="2" type="C" name="身份认证">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="3"/>
+				<Response code="Back" next="E"/>
+				<Response code="Exit" next="10"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="3" type="P" name="大额插卡页面">
+				<Response code="TimeOut" next="10"/>
+				<Response code="OK" next="4"/>
+				<Response code="Exit" next="10"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="4" type="P" name="输入密码页面">
+				<Response code="TimeOut" next="10"/>
+				<Response code="OK" next="5"/>
+				<Response code="Exit" next="10"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="5" type="P" name="查询户名页面">
+				<Response code="TimeOut" next="10"/>
+				<Response code="OK" next="6"/>
+				<Response code="Exit" next="10"/>
+				<Response code="DifferentAccount" next="9"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="6" type="P" name="户名信息确认页面">
+				<Response code="TimeOut" next="10"/>
+				<Response code="OK" next="7"/>
+				<Response code="Exit" next="10"/>
+				<Response code="NotFirstTrade" next="8"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="7" type="P" name="管理员授权页面">
+				<Response code="TimeOut" next="10"/>
+				<Response code="OK" next="8"/>
+				<Response code="Exit" next="10"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="8" type="C" name="转账汇款">
+				<Response code="TimeOut" next="10"/>
+				<Response code="Back" next="6"/>
+				<Response code="Exit" next="10"/>
+				<Response code="NeedInitData" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="9" type="P" name="信息提示页面">
+				<Response code="TimeOut" next="10"/>
+				<Response code="Exit" next="10"/>
+				<Response code="BackHomepage" next="10"/>
+			</Item>
+			<Item id="10" type="P" name="退卡页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Capture" next="11"/>
+			</Item>
+			<Item id="11" type="P" name="吞卡页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="E"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="大额现金汇款" entrance="1" tracename="CC_LargeAmountsCashRemittance_C">
+			<Item id="1" type="F" name="判断是否为第一次大额交易">
+				<Response code="OK" next="3"/>
+				<Response code="NotFirstTrade" next="2"/>
+				<Response code="BackHomepage" next="E"/>
+				<Response code="ContinueButNotFirst" next="2"/>
+			</Item>
+			<Item id="2" type="P" name="是否继续此汇款账号页面">
+				<Response code="OK" next="7"/>
+				<Response code="BackHomepage" next="E"/>
+				<Response code="NotSure" next="4"/>
+			</Item>
+			<Item id="3" type="C" name="身份认证">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="4"/>
+				<Response code="Exit" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+				<Response code="Back" next="E"/>
+			</Item>
+			<Item id="4" type="P" name="输入汇款账号页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="5"/>
+				<Response code="Exit" next="E"/>
+				<Response code="DifferentAccount" next="10"/>
+				<Response code="BackHomepage" next="E"/>
+				<Response code="Back" next="E"/>
+			</Item>
+			<Item id="5" type="P" name="确认转账户名信息页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="6"/>
+				<Response code="Exit" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+				<Response code="Back" next="4"/>
+			</Item>
+			<Item id="6" type="P" name="管理员授权页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="7"/>
+				<Response code="Exit" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+				<Response code="Back" next="E"/>
+			</Item>
+			<Item id="7" type="P" name="入钞页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="8"/>
+				<Response code="Exit" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+				<Response code="Back" next="E"/>
+				<Response code="CashSeizing" next="11"/>
+			</Item>
+			<Item id="8" type="P" name="存款信息确认页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="9"/>
+				<Response code="Exit" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+				<Response code="ContinueAddMoney" next="7"/>
+				<Response code="TimeoutNotAll" next="12"/>
+			</Item>
+			<Item id="9" type="P" name="汇款信息确认页面">
+				<Response code="TimeOut" next="12"/>
+				<Response code="OK" next="10"/>
+				<Response code="Exit" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="10" type="P" name="交易成功页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="NeedInitData" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="11" type="P" name="卡钞提示页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+			</Item>
+			<Item id="12" type="P" name="信息提示页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="BackHomepage" next="E"/>
+				<Response code="ContinueButNotFirst" next="E"/>
+			</Item>
+		</BusinessItem>
+	</FlowsItem>
+	<PageItem id="PageList">
+		<Page id="业务选择画面" tracename="CP_Business" foldername="Business" timeout="60"/>
+		<Page id="读取卡片信息处理中页面" tracename="CP_ReadCard" foldername="ReadCard" timeout="60"/>
+		<Page id="输入密码页面" tracename="CP_PasswordInput" foldername="PasswordInput" timeout="60"/>
+		<Page id="待机等待插卡页面" tracename="CP_DealSelect" foldername="DealSelect" timeout="60"/>
+		<Page id="无卡无折协议画面" tracename="CP_NoCardAgreement" foldername="NoCardAgreement" timeout="60"/>
+		<Page id="协议画面" tracename="CP_Agreement" foldername="Agreement" timeout="60"/>
+		<Page id="身份证读取页面" tracename="CP_ReadIDCard" foldername="ReadIDCard" timeout="60"/>
+		<Page id="管理员授权页面" tracename="CP_IDCardInfo" foldername="IDCardInfo" timeout="180"/>
+		<Page id="入钞页面" tracename="CP_CashAcceptor" foldername="CashAcceptor" timeout="180"/>
+		<Page id="继续加钞画面" tracename="CP_ContinueCashAcceptor" foldername="ContinueCashAcceptor" timeout="180"/>
+		<Page id="验钞画面" tracename="CP_CheckMoney" foldername="CheckMoney" timeout="800"/>
+		<Page id="存款信息确认页面" tracename="CP_DepositInfoConfirm" foldername="DepositInfoConfirm" timeout="180"/>
+		<Page id="存款完成画面" tracename="CP_DepositCompleted" foldername="DepositCompleted" timeout="60"/>
+		<Page id="取消存款画面" tracename="CP_RollBack" foldername="RollBack" timeout="0"/>
+		<Page id="退卡页面" tracename="CP_TakeCard" foldername="TakeCard" timeout="60"/>
+		<Page id="查询结果画面" tracename="CP_QueryConform" foldername="QueryConform" timeout="60"/>
+		<Page id="选择或输入取款金额页面" tracename="CP_InputMoney" foldername="InputMoney" timeout="60"/>
+		<Page id="存款金额选择画面" tracename="CP_ChooseMoney" foldername="ChooseMoney" timeout="60"/>
+		<Page id="交易处理中页面" tracename="CP_Communicate" foldername="Communicate" timeout="60"/>
+		<Page id="交易成功页面" tracename="CP_WithDrawCompleted" foldername="WithDrawCompleted" timeout="60"/>
+		<Page id="设备出钞页面" tracename="CP_CashDispenser" foldername="CashDispenser" timeout="300"/>
+		<Page id="凭条打印画面" tracename="CP_PrintForm" foldername="PrintForm" timeout="60"/>
+		<Page id="暂停服务页面" tracename="CP_OutService" foldername="OutService" timeout="0"/>
+		<Page id="打开初始化设备画面" tracename="CP_OpenDevice" foldername="OpenDevice" timeout="90"/>
+		<Page id="显示存折卡号画面" tracename="CP_ShowBankInfo" foldername="ShowBankInfo" timeout="60"/>
+		<Page id="选择面值张数画面" tracename="CP_SelectBill" foldername="SelectBill" timeout="0"/>
+		<Page id="联网核查页面" tracename="CP_CheckIDCard" foldername="CheckIDCard" timeout="60"/>
+		<Page id="联网核查完成页面" tracename="CP_CheckCompleted" foldername="CheckCompleted" timeout="60"/>
+		<Page id="取零兑换画面" tracename="CP_Exchange" foldername="Exchange" timeout="300"/>
+		<Page id="自配选择面值张数画面" tracename="CP_DiySelectBill" foldername="DiySelectBill" timeout="0"/>
+		<Page id="零钞兑换结果画面" tracename="CP_DiySelectBillResult" foldername="DiySelectBillResult" timeout="60"/>
+		<Page id="输入卡号画面" tracename="CP_InputBankInfo" foldername="InputBankInfo" timeout="180"/>
+		<Page id="打印冠字号画面" tracename="CP_PrintFSN" foldername="PrintFSN" timeout="30"/>
+		<Page id="无法打印凭条提示页面" tracename="CP_NoPrintTip" foldername="NoPrintTip" timeout="60"/>
+		<Page id="存折业务选择画面" tracename="CP_BankBookBusiness" foldername="BankBookBusiness" timeout="60"/>
+		<Page id="手机号码输入画面" tracename="CP_InputMoblieNumber" foldername="InputMoblieNumber" timeout="60"/>
+		<Page id="后台审核页面" tracename="CP_PostAudit" foldername="PostAudit" timeout="180"/>
+		<Page id="对公存款账号输入页面" tracename="CP_InputBusinessInfo" foldername="InputBusinessInfo" timeout="180"/>
+		<Page id="对公存款金额选择画面" tracename="CP_ChooseBusinessMoney" foldername="ChooseBusinessMoney" timeout="60"/>
+		<Page id="取款限额提示画面" tracename="CP_CWDNeedCheckTip" foldername="CWDNeedCheckTip" timeout="6"/>
+		<Page id="代理人办理提示画面" tracename="CP_AgentTip" foldername="AgentTip" timeout="60"/>
+		<Page id="卡钞提示页面" tracename="CP_CashinErrorTip" foldername="CashinErrorTip" timeout="5"/>
+		<Page id="选择办理类型画面" tracename="CP_ChooseAgentType" foldername="ChooseAgentType" timeout="60"/>
+		<Page id="客户附言画面" tracename="CP_ClientPostscript" foldername="ClientPostscript" timeout="300"/>
+		<Page id="无卡折存款金额选择画面" tracename="CP_NoCardChooseMoney" foldername="NoCardChooseMoney" timeout="60"/>
+		<Page id="无卡折存款身份认证画面" tracename="CP_NoCardCheckID" foldername="NoCardCheckID" timeout="60"/>
+		<Page id="吞卡页面" tracename="CP_CaptureCard" foldername="CaptureCard" timeout="60"/>
+		<Page id="重新输入密码页面" tracename="CP_ReinputPW" foldername="ReinputPW" timeout="60"/>
+		<Page id="存款卡钞复位画面" tracename="CP_DepErrorReset" foldername="DepErrorReset" timeout="200"/>
+		<Page id="转账业务选择画面" tracename="CP_ChooseTransferkBusiness" foldername="ChooseTransferkBusiness" timeout="60"/>
+		<Page id="输入转入账号画面" tracename="CP_InputTrabsferkNum" foldername="InputTrabsferkNum" timeout="60"/>
+		<Page id="输入转账金额画面" tracename="CP_InputTrabsferkMoney" foldername="InputTrabsferkMoney" timeout="60"/>
+		<Page id="转账信息确认画面" tracename="CP_ConfirmTrabsferkInfo" foldername="ConfirmTrabsferkInfo" timeout="60"/>
+		<Page id="选择销户账号页面" tracename="CP_ChooseCancellationAccount" foldername="ChooseCancellationAccount" timeout="60"/>
+		<Page id="销户信息确认页面" tracename="CP_ComfirmCancellationInfo" foldername="ComfirmCancellationInfo" timeout="60"/>
+		<Page id="核对转入账户信息页面" tracename="CP_CheckTrabsAccount" foldername="CheckTrabsAccount" timeout="60"/>
+		<Page id="核对转账交易信息页面" tracename="CP_CheckTrabsTransactionInfo" foldername="CheckTrabsTransactionInfo" timeout="60"/>
+		<Page id="销户提示画面" tracename="CP_AccountCancellationTip" foldername="AccountCancellationTip" timeout="30"/>
+		<Page id="定转活交易输入画面" tracename="CP_InputPCAInfo" foldername="InputPCAInfo" timeout="60"/>
+		<Page id="活转定交易输入画面" tracename="CP_InputCTRInfo" foldername="InputCTRInfo" timeout="60"/>
+		<Page id="选择转账撤销交易页面" tracename="CP_ChooseTransferCancellation" foldername="ChooseTransferCancellation" timeout="60"/>
+		<Page id="定转活信息确认画面" tracename="CP_PeriodicCurrentAccountConfirm" foldername="PeriodicCurrentAccountConfirm" timeout="60"/>
+		<Page id="活转定信息确认画面" tracename="CP_CurrentToRegularConfirm" foldername="CurrentToRegularConfirm" timeout="60"/>
+		<Page id="转账通讯画面" tracename="CP_TransferkCommunicate" foldername="TransferkCommunicate" timeout="60"/>
+		<Page id="转账完成页面" tracename="CP_TransferkComplete" foldername="TransferkComplete" timeout="60"/>
+		<Page id="选择定期子账户页面" tracename="CP_ChooseCurrentAcount" foldername="ChooseCurrentAcount" timeout="60"/>
+		<Page id="选择活期子账户页面" tracename="CP_ChooseRegularAcount" foldername="ChooseRegularAcount" timeout="60"/>
+		<Page id="销户完成画面" tracename="CP_AccountCancellationComplete" foldername="AccountCancellationComplete" timeout="60"/>
+		<Page id="活期账户显示页面" tracename="CP_ShowCTRInfo" foldername="ShowCTRInfo" timeout="60"/>
+		<Page id="指纹授权信息显示页面" tracename="CP_ShowCheckCompleted" foldername="ShowCheckCompleted" timeout="180"/>
+		<Page id="选择转账方式界面" tracename="CP_TransferMethod" foldername="TransferMethod" timeout="60"/>
+		<Page id="输入收款方户名画面" tracename="CP_InputCustomerName" foldername="InputCustomerName" timeout="60"/>
+		<Page id="跨行地区信息输入画面" tracename="CP_InputAreaInfo" foldername="InputAreaInfo" timeout="200"/>
+		<Page id="选择销户方式页面" tracename="CP_ChooseCancelType" foldername="ChooseCancelType" timeout="60"/>
+		<Page id="微信销户完成画面" tracename="CP_WXCancelCompleted" foldername="WXCancelCompleted" timeout="30"/>
+		<Page id="显示取款资费信息页面" tracename="CP_WithdrawalRateInformation" foldername="WithdrawalRateInformation" timeout="60"/>
+		<Page id="显示此笔交易手续费页面" tracename="CP_TransactionFee" foldername="TransactionFee" timeout="60"/>
+		<Page id="客户取钞页面" tracename="CP_CustomersTakeMoney" foldername="CustomersTakeMoney" timeout="60"/>
+		<Page id="大额一级菜单页面" tracename="CP_LargeAmountsMenuLevel1" foldername="LargeAmountsMenuLevel1" timeout="60"/>
+		<Page id="身份证信息显示页面" tracename="CP_IDCardInfomation" foldername="IDCardInfomation" timeout="60"/>
+		<Page id="查询类型选择页面" tracename="CP_QueryBalanceType" foldername="QueryBalanceType" timeout="60"/>
+		<Page id="账户余额显示页面" tracename="CP_ShowBalance" foldername="ShowBalance" timeout="60"/>
+		<Page id="交易明细显示页面" tracename="CP_TransDetail" foldername="TransDetail" timeout="60"/>
+		<Page id="输入汇款账号页面" tracename="CP_InputRemittanceAccount" foldername="InputRemittanceAccount" timeout="60"/>
+		<Page id="户名信息确认页面" tracename="CP_ShowAccountInfo" foldername="ShowAccountInfo" timeout="60"/>
+		<Page id="汇款信息确认页面" tracename="CP_ShowJudgementInfo" foldername="ShowJudgementInfo" timeout="60"/>
+		<Page id="拍照页面" tracename="CP_TakePhoto" foldername="TakePhoto" timeout="60"/>
+		<Page id="人脸识别页面" tracename="CP_FaceRecognition" foldername="FaceRecognition" timeout="60"/>
+		<Page id="人脸识别结果页面" tracename="CP_FaceRecognitionResult" foldername="FaceRecognitionResult" timeout="60"/>
+		<Page id="信息提示页面" tracename="CP_MessageTip" foldername="MessageTip" timeout="10"/>
+		<Page id="输入原密码页面" tracename="CP_InputOldPsw" foldername="InputOldPsw" timeout="60"/>
+		<Page id="输入新密码页面" tracename="CP_InputNewPsw" foldername="InputNewPsw" timeout="60"/>
+		<Page id="客户信息确认页面" tracename="CP_CustomerInfoConfirm" foldername="CustomerInfoConfirm" timeout="60"/>
+		<Page id="大额插卡页面" tracename="CP_LargeInsertCard" foldername="LargeInsertCard" timeout="60"/>
+		<Page id="查询户名页面" tracename="CP_QueryCustomerName" foldername="QueryCustomerName" timeout="60"/>
+		<Page id="管理员签到页面" tracename="CP_AdminSignIn" foldername="AdminSignIn" timeout="0"/>
+		<Page id="管理员签到失败页面" tracename="CP_AdminSignInFailed" foldername="AdminSignInFailed" timeout="0"/>
+		<Page id="确认转账户名信息页面" tracename="CP_ShowTfrAccountInfo" foldername="ShowTfrAccountInfo" timeout="60"/>
+		<Page id="是否继续此汇款账号页面" tracename="CP_ContinueUseRemittanceAccount" foldername="ContinueUseRemittanceAccount" timeout="60"/>
+		<Page id="人脸识别失败页面" tracename="CP_FaceRecognitionFailed" foldername="FaceRecognitionFailed" timeout="60"/>
+		<Page id="大额交易信息提示页面" tracename="CP_LargeTradeTip" foldername="LargeTradeTip" timeout="60"/>
+		<Page id="继续交易插卡页面" tracename="CP_ContinueTradeInserdCard" foldername="ContinueTradeInserdCard" timeout="60"/>
+	</PageItem>
+	<FunctionItem id="FunctionList">
+		<Function id="输入数据初始化" tracename="CF_InputCounterInit" filename="InnerFunction" timeout=""/>
+		<Function id="输入次数超限判断" tracename="CF_InputCounterOverJudge" filename="InnerFunction" timeout=""/>
+		<Function id="刷新钞箱信息" tracename="CF_RefreshCashInfo" filename="InnerFunction" timeout=""/>
+		<Function id="设备状态检测" tracename="CF_CheckStatus" filename="InnerFunction" timeout=""/>
+		<Function id="交易通讯筛选" tracename="CF_Communicate" filename="InnerFunction" timeout=""/>
+		<Function id="凭条状态判断" tracename="CF_CheckPrintStatus" filename="InnerFunction" timeout=""/>
+		<Function id="当前交易金额是否需要联网核查" tracename="CF_IsCheckIDCardAboutTheAmount" filename="InnerFunction" timeout=""/>
+		<Function id="需要查询账户类型" tracename="CF_NeedQueryAccountType" filename="InnerFunction" timeout=""/>
+		<Function id="需要查询户名" tracename="CF_NeedQueryName" filename="InnerFunction" timeout=""/>
+		<Function id="继续交易前数据初始化" tracename="CF_DataInitBeforeContinue" filename="InnerFunction" timeout=""/>
+		<Function id="验密后判断是否连续交易" tracename="CF_IsContinueTransAfterPWD" filename="InnerFunction" timeout=""/>
+		<Function id="判断卡类型" tracename="CF_CheckCardType" filename="InnerFunction" timeout=""/>
+		<Function id="修改交易类型" tracename="CF_ChangeGTransactiontype" filename="InnerFunction" timeout=""/>
+		<Function id="判断是否为第一次大额交易" tracename="CF_IsTheFirstTimeToLargeTrade" filename="InnerFunction" timeout=""/>
+		<Function id="银行卡别判断" tracename="CF_IsOwnOrOtherBank" filename="InnerFunction" timeout=""/>
+	</FunctionItem>
+</FlowConfigs>

@@ -1,0 +1,312 @@
+[
+   {
+      "area" : [
+         {
+            "gafeecod" : "5210",
+            "gargnnam" : "武汉市"
+         },
+         {
+            "gafeecod" : "5220",
+            "gargnnam" : "黄石市"
+         },
+         {
+            "gafeecod" : "5221",
+            "gargnnam" : "大冶市"
+         },
+         {
+            "gafeecod" : "5222",
+            "gargnnam" : "阳新县"
+         },
+         {
+            "gafeecod" : "5230",
+            "gargnnam" : "十堰市"
+         },
+         {
+            "gafeecod" : "5231",
+            "gargnnam" : "郧县"
+         },
+         {
+            "gafeecod" : "5232",
+            "gargnnam" : "郧西县"
+         },
+         {
+            "gafeecod" : "5233",
+            "gargnnam" : "竹山县"
+         },
+         {
+            "gafeecod" : "5234",
+            "gargnnam" : "竹溪县"
+         },
+         {
+            "gafeecod" : "5235",
+            "gargnnam" : "房县"
+         },
+         {
+            "gafeecod" : "5236",
+            "gargnnam" : "丹江口市"
+         },
+         {
+            "gafeecod" : "5250",
+            "gargnnam" : "宜昌市"
+         },
+         {
+            "gafeecod" : "5251",
+            "gargnnam" : "宜都市"
+         },
+         {
+            "gafeecod" : "5262",
+            "gargnnam" : "当阳市"
+         },
+         {
+            "gafeecod" : "5263",
+            "gargnnam" : "宜昌县"
+         },
+         {
+            "gafeecod" : "5264",
+            "gargnnam" : "枝江市"
+         },
+         {
+            "gafeecod" : "5265",
+            "gargnnam" : "远安县"
+         },
+         {
+            "gafeecod" : "5266",
+            "gargnnam" : "兴山县"
+         },
+         {
+            "gafeecod" : "5267",
+            "gargnnam" : "秭归县"
+         },
+         {
+            "gafeecod" : "5268",
+            "gargnnam" : "长阳县"
+         },
+         {
+            "gafeecod" : "5269",
+            "gargnnam" : "五峰县"
+         },
+         {
+            "gafeecod" : "5270",
+            "gargnnam" : "随州市"
+         },
+         {
+            "gafeecod" : "5271",
+            "gargnnam" : "广水市"
+         },
+         {
+            "gafeecod" : "5280",
+            "gargnnam" : "襄樊市"
+         },
+         {
+            "gafeecod" : "5282",
+            "gargnnam" : "宜城县"
+         },
+         {
+            "gafeecod" : "5283",
+            "gargnnam" : "南漳县"
+         },
+         {
+            "gafeecod" : "5284",
+            "gargnnam" : "谷城县"
+         },
+         {
+            "gafeecod" : "5285",
+            "gargnnam" : "保康县"
+         },
+         {
+            "gafeecod" : "5287",
+            "gargnnam" : "老河口市"
+         },
+         {
+            "gafeecod" : "5288",
+            "gargnnam" : "枣阳市"
+         },
+         {
+            "gafeecod" : "5310",
+            "gargnnam" : "鄂州市"
+         },
+         {
+            "gafeecod" : "5311",
+            "gargnnam" : "神农架林区"
+         },
+         {
+            "gafeecod" : "5320",
+            "gargnnam" : "荆门市"
+         },
+         {
+            "gafeecod" : "5321",
+            "gargnnam" : "京山县"
+         },
+         {
+            "gafeecod" : "5322",
+            "gargnnam" : "沙洋县"
+         },
+         {
+            "gafeecod" : "5323",
+            "gargnnam" : "钟祥市"
+         },
+         {
+            "gafeecod" : "5330",
+            "gargnnam" : "黄冈市"
+         },
+         {
+            "gafeecod" : "5331",
+            "gargnnam" : "麻城市"
+         },
+         {
+            "gafeecod" : "5332",
+            "gargnnam" : "武穴市"
+         },
+         {
+            "gafeecod" : "5333",
+            "gargnnam" : "团风县"
+         },
+         {
+            "gafeecod" : "5334",
+            "gargnnam" : "红安县"
+         },
+         {
+            "gafeecod" : "5335",
+            "gargnnam" : "罗田县"
+         },
+         {
+            "gafeecod" : "5336",
+            "gargnnam" : "英山县"
+         },
+         {
+            "gafeecod" : "5337",
+            "gargnnam" : "浠水县"
+         },
+         {
+            "gafeecod" : "5338",
+            "gargnnam" : "蕲春县"
+         },
+         {
+            "gafeecod" : "5339",
+            "gargnnam" : "黄梅县"
+         },
+         {
+            "gafeecod" : "5350",
+            "gargnnam" : "孝感市"
+         },
+         {
+            "gafeecod" : "5351",
+            "gargnnam" : "孝昌县"
+         },
+         {
+            "gafeecod" : "5352",
+            "gargnnam" : "应城市"
+         },
+         {
+            "gafeecod" : "5353",
+            "gargnnam" : "安陆市"
+         },
+         {
+            "gafeecod" : "5355",
+            "gargnnam" : "大悟县"
+         },
+         {
+            "gafeecod" : "5356",
+            "gargnnam" : "云梦县"
+         },
+         {
+            "gafeecod" : "5357",
+            "gargnnam" : "汉川县"
+         },
+         {
+            "gafeecod" : "5360",
+            "gargnnam" : "咸宁市"
+         },
+         {
+            "gafeecod" : "5363",
+            "gargnnam" : "嘉鱼县"
+         },
+         {
+            "gafeecod" : "5364",
+            "gargnnam" : "通城县"
+         },
+         {
+            "gafeecod" : "5365",
+            "gargnnam" : "崇阳县"
+         },
+         {
+            "gafeecod" : "5366",
+            "gargnnam" : "通山县"
+         },
+         {
+            "gafeecod" : "5367",
+            "gargnnam" : "赤壁市"
+         },
+         {
+            "gafeecod" : "5370",
+            "gargnnam" : "荆州市"
+         },
+         {
+            "gafeecod" : "5371",
+            "gargnnam" : "仙桃市"
+         },
+         {
+            "gafeecod" : "5372",
+            "gargnnam" : "石首市"
+         },
+         {
+            "gafeecod" : "5373",
+            "gargnnam" : "洪湖市"
+         },
+         {
+            "gafeecod" : "5374",
+            "gargnnam" : "天门市"
+         },
+         {
+            "gafeecod" : "5375",
+            "gargnnam" : "潜江市"
+         },
+         {
+            "gafeecod" : "5377",
+            "gargnnam" : "松滋市"
+         },
+         {
+            "gafeecod" : "5378",
+            "gargnnam" : "公安县"
+         },
+         {
+            "gafeecod" : "5379",
+            "gargnnam" : "监利县"
+         },
+         {
+            "gafeecod" : "5410",
+            "gargnnam" : "恩施州"
+         },
+         {
+            "gafeecod" : "5412",
+            "gargnnam" : "利川市"
+         },
+         {
+            "gafeecod" : "5413",
+            "gargnnam" : "建始县"
+         },
+         {
+            "gafeecod" : "5414",
+            "gargnnam" : "巴东县"
+         },
+         {
+            "gafeecod" : "5415",
+            "gargnnam" : "宣恩县"
+         },
+         {
+            "gafeecod" : "5416",
+            "gargnnam" : "咸丰县"
+         },
+         {
+            "gafeecod" : "5417",
+            "gargnnam" : "来凤县"
+         },
+         {
+            "gafeecod" : "5418",
+            "gargnnam" : "鹤峰县"
+         }
+      ],
+      "gargnnam" : "湖北省",
+      "provcod" : 42
+   }
+]

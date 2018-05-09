@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="12/4/2015 7:48:34 PM">
+  <div id="PageTop">
+    <div id="PageTitle">
+      <img src="Framework/style/Graphics/btn/m1.jpg" style="float:left;"/>
+      <div class="title_text">密钥设定</div>
+    </div>
+    <div id="ShowTime">
+    </div>
+  </div>
+  <div class="TopText">
+    <div style="float:left;">
+      受理行号：<span id='SubBankId'>00000000-12345678号机</span>
+      <br/>
+      状态：<span id='DevStatus'>00000（00）</span>
+    </div>
+  </div>
+  <div class="TopTimer" id="LocalTime">
+    2015-12-16  10:54
+  </div>
+  <div id="PageSubject">
+    <div id="KeyboardDiv"  style="left:720px;"></div>
+    <div class="InputDiv">
+      密钥C：<input class="AdminInput" id="FirstInput" maxlength="16" type="text" value="" readonly="readonly" style="background-position-y: -132px;"/>
+      <br/>
+      <input class="AdminInput" id="SecondInput" maxlength="16" type="text" value="" readonly="readonly" style="margin-top:10px;margin-left:77px;background-position-y: -132px;"/>
+      <span  id="ErrorTip" style="color:red;margin-left:8px;font-size:16px;display:none"> * 输入密钥的长度不够！</span>
+      <br/>
+      校验码：<input class="AdminInput" id="CheckCode" maxlength="16" type="text" value="" readonly="readonly" style="margin-top:10px;margin-left:5px;background-position-y: -176px;"/>
+    </div>
+    <br/>
+    <div class="TipDiv" style="margin-left:170px;">
+      温馨提示：请输入密钥参数，请按右边 "<font style="color:#222222;">设定</font>" 按钮生成校验码，
+      <br/><br/>
+      生成校验码之后，请核对是否正确，如不正确，请重新输入。
+      <br/><br/>
+      如果校验码正确，请点击右边"<font style="color:#222222;">箭头</font>"图标确认。
+    </div>
+  </div>
+  <div class="PageLeftButton" id="Exit"></div>
+  <div class="PageRightButton" id="OK" style="display:none;"></div>
+</div>

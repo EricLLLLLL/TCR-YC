@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="12/8/2015 1:47:48 PM">
+  <div id="PageTop">
+    <div id="PageTitle">
+    </div>
+    <div id="ShowTime">
+    </div>
+  </div>
+  <div id="PageSubject" class="MiddleDiv">
+    <!---->
+    <div id="TipDiv">
+      正在出钞，请稍候...
+    </div>
+    <div id="AD" style="margin-top:10px;width:500px;margin-left:220px;text-align:center;display:block;">
+      <img src="Framework/style/Graphics/3.jpg"/>
+    </div>
+    <div class="CinfoInputDiv" style="padding-top:10px;margin-left:200px;display:none;" id="CinfoMoney">
+      <label style="padding-left:40px;">已出金额:</label><input class="CinfoInput" id="outMoney" type="text" value="" unselectable="on" readonly="readonly" style="margin-left: 10px;"/>
+      <br/>
+      剩余未取金额:<input class="CinfoInput" id="RemainMoney" type="text" value="" unselectable="on" readonly="readonly" style="margin-left: 10px;"/>
+      <p style="color:#ed8312;padding-left:140px;margin-top:30px;">当次出钞金额:<label id="CurOutMoney" style="color:#ed8312">  </label> 元</p>
+    </div>
+    <div class="TipDiv" id="CinfoTip" style="margin-left:380px;margin-top:60px;display:none;">
+      温馨提示：
+      <p>
+        每次出钞完成时，请您取走已出钞票。
+      </p>
+      <p id="CnextTip">
+        稍后将会继续出钞...
+      </p>
+    </div>
+  </div>
+  <div id="PageButton">
+    <a href="#" class="Right_4" id="OK" style="display:none">确定</a>
+    <a href='#' class='Left_4' id='Exit' style="display:none">退出</a>
+  </div>
+</div>

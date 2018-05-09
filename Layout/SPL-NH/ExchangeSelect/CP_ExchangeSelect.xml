@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="12/15/2015 3:22:48 PM">
+  <div id="PageTop">
+    <div id="PageTitle">
+      <img src="Framework/style/Graphics/btn/m1.jpg" style="float:left;"/>
+      <div class="title_text">清机加钞</div>
+    </div>
+    <div id="ShowTime">
+    </div>
+  </div>
+  <div class="TopText">
+    <div style="float:left;">
+      受理行号：<span id='SubBankId'>00000000-12345678号机</span>
+      <br/>
+      状态：<span id='DevStatus'>00000（00）</span>
+    </div>
+  </div>
+  <div class="TopTimer" id="LocalTime">
+    2015-12-16  10:54
+  </div>
+  <div id="PageSubject">
+    <p id="NoPtrTip" style="left:256px;position:absolute;top:190px;color:red;display:none">无凭条纸！</p>
+    <input type="button" value="轧 账" id="Exchange" class="FunctionBtn" style="margin-left:250px;"/>
+    <input type="button" value="加钞设定" id="AddNote" class="FunctionBtn"/>
+    <br/>
+    <input type="button" value="纸币余量查询" id="NoteRemainQuery" class="FunctionBtn" style="margin-top:50px;margin-left:250px;"/>
+    <input type="button" value="数据统计" id="StatisticsData" style="margin-top:50px;" class="FunctionBtn"/>
+    <br/>
+	  <input type="button" value="打开钞门" id="OpenShutter" class="FunctionBtn" style="margin-top:50px;margin-left:250px;"/>
+    <input type="button" value="关闭钞门" id="CloseShutter" style="margin-top:50px;" class="FunctionBtn"/>
+    <br/>
+    <input type="button" value="轧账参数维护" id="ATMPMODE" class="FunctionBtn" style="margin-top:50px;margin-left:250px;"/>
+    <br/>
+    <br/>
+    <div class="TipDiv" style="margin-top:50px;margin-left:250px;">温馨提示：请选择设定项，按下相应按钮进行设定</div>
+  </div>
+  <div class="PageLeftButton" id="Exit"></div>
+</div>

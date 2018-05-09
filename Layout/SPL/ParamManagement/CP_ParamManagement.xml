@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="3/6/2018 11:09:12 AM">
+  <div id="PageTop">
+    <p> 受理行号：
+      																																      
+      <span id='SubBankId'></span>
+    </p>
+    <p> 状态：
+      																																      
+      <span id='DevStatus'>00000（00）</span>
+    </p>
+  </div>
+  <div class="stateWrap">
+    <img src="Framework/style/Graphics/stateLine.png" alt="" srcset="" class="stateLine" />
+    <span class="stateTitle">参数设置</span>
+  </div>
+  <div id="PageSubject">
+    <div class="lists">
+      <button type="button" id="TerminalNumber">设置终端号</button>
+      <button type="button" id="AgencyNumber">设置机构号</button>
+      <button type="button" id="BankNumber">设置网点机构号</button>
+      <button type="button" id="Test">通讯测试</button>
+      <button type="button" id="Methods">设置轧账方式</button>
+      <button type="button" id="Param">设置通讯参数</button>
+      <button type="button" id="View">查看通讯参数</button>
+      <button type="button" id="CashBox" disabled="disabled">取款钞箱参数</button>
+      <button type="button" id="Action" disabled="disabled">启用禁用参数</button>
+      <button type="button" id="AddNoteMode" disabled="disabled">设置加钞模式</button>
+    </div>
+    <div class="TipDiv">
+     温馨提示：请选择设定项，并按相应按钮设定
+    </div>
+  </div>
+  <div id="PageButton">
+    <button type="button"  id="Back" class="middle">返回</button>
+    <!-- <button type="button"  id="OK">确定</button> -->
+    <!-- <button type="button"  id="OK" class="middle">设定</button> -->
+  </div>
+<button type="button" id="PageRoot">退出登录</button>
+  <!-- 错误状态 提示 style="display:block;"  -->
+  <div id="errorWrap">
+    <div class="errorTips">
+      <div class="errorTipsText">
+        <div class="InfoTitle">信息提示 																																								          
+          <span id="countDown"></span>
+        </div>
+        <div id="InfoTip">设置失败，请重试。</div>
+      </div>
+    </div>
+  </div>
+  <!-- 通讯提示 style="display:block;" -->
+  <div id="networkWrap">
+    <div class="networkWrapTips">
+      <p class="networkPicture"></p>
+      <p id="networkTip">正在处理中，请稍后..</p>
+    </div>
+  </div>
+</div>
+

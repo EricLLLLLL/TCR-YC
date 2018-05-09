@@ -1,0 +1,191 @@
+﻿.KeyboardNum {
+    width: 212px;
+    height: 337px;
+    background-repeat: no-repeat;
+    background-image: url("../../style/Graphics/btn/btnbg.png");
+    padding-left: 4px;
+    padding-top: 2px;
+}
+.KeyboardNum_f{
+    width: 206px;
+    height: 333px;
+    background-repeat: no-repeat;
+    background-image: url("../../style/Graphics/btn/fkeybg.png");
+    padding-left: 0.2px;
+    padding-top: 1px;
+}
+.KeyboardKeys {
+    width: 905px;
+    height: 228px;
+    padding-left: 25px;
+    padding-top: 11.5px;
+    background-repeat: no-repeat;
+    background-image: url("../../style/Graphics/btn/keyboardkey.png");
+}
+
+.KeyboardKey {
+    float: left;
+    width: 54px;
+    height: 55px;
+    margin-top: 10px;
+    margin-left: 11px;
+    line-height: 55px;
+    border: 0;
+    outline: none;
+    background-image: url("../../style/Graphics/btn/key_board.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    text-align: center;
+    font-family: 微软雅黑;
+    color: #222222;
+    font-size: 18px;
+}
+
+    .KeyboardKey:active {
+        background-image: url("../../style/Graphics/btn/key_board_active.png");
+    }
+
+    .KeyboardKey:hover {
+        background-image: url("../../style/Graphics/btn/key_board_active.png");
+    }
+
+#KeyboardKey_login {
+    float: left;
+    width: 182px;
+    height: 55px;
+    border: 0;
+    outline: none;
+    margin-top: 9px;
+    margin-left: 11px;
+    background-image: url("../../style/Graphics/btn/Login.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+    #KeyboardKey_login:active {
+        background-image: url("../../style/Graphics/btn/Login_hover.png");
+    }
+
+    #KeyboardKey_login:hover {
+        background-image: url("../../style/Graphics/btn/Login_hover.png");
+    }
+    
+#KeyboardKey_set {
+    float: left;
+    width: 182px;
+    height: 55px;
+    border: 0;
+    outline: none;
+    margin-top: 9px;
+    margin-left: 11px;
+    background-image: url("../../style/Graphics/btn/key_set.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+    #KeyboardKey_set:active {
+        background-image: url("../../style/Graphics/btn/activekey_set.png");
+    }
+
+    #KeyboardKey_set:hover {
+        background-image: url("../../style/Graphics/btn/activekey_set.png");
+    }
+
+#KeyboardKeys_set {
+    float: left;
+    width: 122px;
+    height: 55px;
+    border: 0;
+    outline: none;
+    margin-top: 9px;
+    margin-left: 11px;
+    background-image: url("../../style/Graphics/btn/set01.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+    #KeyboardKeys_set:active {
+        background-image: url("../../style/Graphics/btn/set02.png");
+    }
+
+    #KeyboardKeys_set:hover {
+        background-image: url("../../style/Graphics/btn/set02.png");
+    }
+
+
+.KeyboardNum9{
+    width: 450px;
+    height: 333px;
+    background-repeat: no-repeat;
+    padding-left: 0.2px;
+    padding-top: 1px;
+}
+
+
+.Keyboard9 {
+    float: left;
+    width: 134px;
+    height: 69px;
+    margin-top: 1px;
+    margin-left: 1px;
+    line-height: 55px;
+    border: 0;
+    outline: none;
+    background-image: url('../../style/Graphics/btn/SW0.png');
+    background-repeat: no-repeat;
+    cursor: pointer;
+    text-align: center;
+    font-family: 微软简老宋;
+    color: #ffffff;
+    font-size: 36px ;
+}
+
+.Keyboard9:active {
+    background-image: url('../../style/Graphics/btn/SD1.png');
+}
+
+
+.Keyboard_clear {
+    float: left;
+    width: 134px;
+    height: 69px;
+    margin-top: 1px;
+    margin-left: 1px;
+    line-height: 55px;
+    border: 0;
+    outline: none;
+    background-image: url('../../style/Graphics/btn/SDCL.png');
+    background-repeat: no-repeat;
+    cursor: pointer;
+    text-align: center;
+    font-family: 微软简老宋;
+    color: #ffffff;
+    font-size: 36px ;
+}
+
+.Keyboard_clear:active {
+    background-image: url('../../style/Graphics/btn/SWCL.png');
+}
+
+.Keyboard_back {
+    float: left;
+    width: 134px;
+    height: 69px;
+    margin-top: 1px;
+    margin-left: 1px;
+    line-height: 55px;
+    border: 0;
+    outline: none;
+    background-image: url('../../style/Graphics/btn/SWR.png');
+    background-repeat: no-repeat;
+    cursor: pointer;
+    text-align: center;
+    font-family: 微软简老宋;
+    color: #ffffff;
+    font-size: 36px ;
+}
+
+.Keyboard_back:active {
+    background-image: url('../../style/Graphics/btn/SDR.png');
+}
+

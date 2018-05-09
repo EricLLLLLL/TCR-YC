@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="12/15/2015 3:22:49 PM">
+  <div id="PageTop">
+    <div id="PageTitle">
+      <img src="Framework/style/Graphics/btn/m1.jpg" style="float:left;"/>
+      <div class="title_text">纸币余量查询</div>
+    </div>
+    <div id="ShowTime">
+    </div>
+  </div>
+  <div class="TopText">
+    <div style="float:left;">
+      受理行号：<span id='SubBankId'>00000000-12345678号机</span>
+      <br/>
+      状态：<span id='DevStatus'>00000（00）</span>
+    </div>
+  </div>
+  <div class="TopTimer" id="LocalTime">
+    2015-12-16  10:54
+  </div>
+  <div id="PageSubject">
+    <div class="InputDiv" style="margin-left:300px;">
+      <div id="CountOfUnits1" style="display:none;">
+        <label id="NoteValueLabel1">纸币钱箱</label>
+        <input class="AdminInput" id ="CashBox1" type="text" value="" unselectable="on" readonly="readonly" style="background-position-y: -176px;"/> 张
+      </div>
+      <div id="CountOfUnits2" style="display:none;">
+        <label id="NoteValueLabel2">纸币钱箱</label>
+        <input class="AdminInput" id ="CashBox2" type="text" value="" unselectable="on" readonly="readonly" style="margin-top:10px;background-position-y: -176px;"/> 张
+      </div>
+      <div id="CountOfUnits3" style="display:none;">
+        <label id="NoteValueLabel3">纸币钱箱</label>
+        <input class="AdminInput" id ="CashBox3" type="text" value="" unselectable="on" readonly="readonly" style="margin-top:10px;background-position-y: -176px;"/> 张
+      </div>
+      <div id="CountOfUnits4" style="display:none;">
+        <label id="NoteValueLabel4">纸币钱箱</label>
+        <input class="AdminInput" id ="CashBox4" type="text" value="" unselectable="on" readonly="readonly" style="margin-top:10px;background-position-y: -176px;"/> 张
+      </div>
+      <div id="CountOfUnits5" style="display:none;">
+        <label id="NoteValueLabel5">纸币钱箱</label>
+        <input class="AdminInput" id ="CashBox5" type="text" value="" unselectable="on" readonly="readonly" style="margin-top:10px;background-position-y: -176px;"/> 张
+      </div>
+      <div id="CountOfUnits6" style="display:none;">
+        <label id="NoteValueLabel6">纸币钱箱</label>
+        <input class="AdminInput" id ="CashBox6" type="text" value="" unselectable="on" readonly="readonly" style="margin-top:10px;background-position-y: -176px;"/> 张
+      </div>
+      <div id="CountOfUnits7" style="display:none;">
+        <label id="NoteValueLabel7">纸币钱箱</label>
+        <input class="AdminInput" id ="CashBox7" type="text" value="" unselectable="on" readonly="readonly" style="margin-top:10px;background-position-y: -176px;"/> 张
+      </div>
+      
+      <div class="TipDiv" style="margin-left:0px;">
+        温馨提示：
+        <br/>
+        100:面值100元；050:面值50元；020:面值20元
+        <br/>
+        010:面值10元；005:面值5元；001:面值1元
+        <br/>
+        *以上显示为纸币钱箱中的剩余张数
+      </div>
+    </div>
+  </div>
+  <div class="PageLeftButton" id="Exit"></div>
+  <div class="PageRightButton2" id="OK" style="display:none;"></div>
+</div>

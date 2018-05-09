@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="12/8/2015 1:47:47 PM">
+  <div id="PageTop">
+    <div id="PageTitle">
+      <label id="lab_title" style="font-size:30px;">请把您的身份证摆放在指定位置</label>
+      <p id="AgentTip" style="margin-top:5px;display:none;">并点击<label style="color:#f95413;">"确定"</label>按钮！</p>
+    </div>
+    <div id="ShowTime">
+    </div>
+  </div>
+  <div id="PageSubject" class="MiddleDiv" style="margin-top:260px;text-align:center;">
+    <div id="err-tip" style="color:#f95413;font-size:25px;"></div>
+  </div>
+  <div id="AgentErrTip" style="color:#f95413;text-align:left;font-size:20px;line-height:30px;margin-left:355px;display:none">
+    <p>身份证姓名与银行卡姓名不一致！</p>
+    <p>请将您的身份证放置感应区重新感应！</p>
+  </div>
+  <div id="PageButton">
+    <a href="#" class="Left_4" id="Exit">退出</a>
+  </div>
+
+</div>

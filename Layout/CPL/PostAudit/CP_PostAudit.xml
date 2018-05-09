@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent">
+  <div id="PageTop">   
+    <div id="ShowTime">
+    </div>
+  </div>
+  <div id="PageSubject" class="MiddleDiv" style="margin-left:260px;margin-top:130px;width:491px; height:397px;">
+	<div id="prompting" style="display:">	
+		<div id="TipDiv">
+		  正在进行远程拍照审核
+		</div>
+		<div style="margin-left:90px;width:345px;margin-top:40px;">
+		  <img id="TakePic" src="Framework/style/Graphics/checkphoto.gif" style="min-width: 314px;min-height: 213px;max-width: 314px;max-height: 213px;"/>
+		  <!--<label id="TakePicTime" style="position:absolute;color:red;font-size:36px;margin-left:-50px;margin-top:10px;">3</label>-->
+		</div>
+		<div style="width:275px;color:#77471d;font-size:16px;letter-spacing:1px;margin-left:110px;margin-top:10px;">
+		  温馨提示：正在进行远程拍照审核,请<span style="color:red;">面部正对</span>摄像头,审核过程中，请您耐心等候!<!--<span style="color:red;">3秒后开始拍照</span>。-->
+		</div>
+		<div id="ErrorTip" style='color:red;margin-top:10px;position:absolute;overflow:auto;left: 0;font-size: 24px;text-align: center;width: 1022px;'>
+		</div>
+	</div>
+	<div id="promptError" style="display:none;">	
+		<div id="promptErrorTip" style="text-align: center;font-family: 微软雅黑;font-size: 28px;color: #000;margin-top:220px;margin-left:45px;width:400px;">
+		 
+		</div>		
+	</div>
+  </div>
+  <div id="PageButton">
+	<a href="#" class="Left_3" id="Back">重新审核</a>
+    <a href="#" class="Left_4" id="Exit">退出</a>
+  </div>
+</div>

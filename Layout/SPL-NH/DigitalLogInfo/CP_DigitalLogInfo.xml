@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="12/18/2015 2:50:04 PM">
+  <div id="PageTop">
+    <div id="PageTitle">
+      <img src="Framework/style/Graphics/btn/m1.jpg" style="float:left;"/>
+      <div class="title_text">电子日志信息</div>
+    </div>
+    <div id="ShowTime">
+    </div>
+  </div>
+  <div class="TopText">
+    <div style="float:left;">
+      受理行号：<span id='SubBankId'>00000000-12345678号机</span>
+      <br/>
+      状态：<span id='DevStatus'>00000（00）</span>
+    </div>
+  </div>
+  <div class="TopTimer" id="LocalTime">
+    2015-12-16  10:54
+  </div>
+  <div id="PageSubject">
+    <div class="VersionInfoDiv" style="width:640px;height:600px;margin-left: 100px;">
+      <div id="divText" style="margin-left:12px;width:600px;height:450px;overflow:hidden;font-family:'宋体'">
+      </div>
+      <input type="button" value="" class="DialogBtn" id="UpPage" style="margin-left: 25px;background-position-y:-252px;"/>
+      <input type="button" value="" class="DialogBtn" id="DownPage" style="background-position-y:-294px;"/>
+      <input type="button" value="" class="DialogBtn" id="UpLine" style="background-position-y:-84px;"/>
+      <input type="button" value="" class="DialogBtn" id="DownLine" style="background-position-y:-126px;"/>
+    </div>
+    <div style="margin-top: -323px;">
+      <input type="button" value="" class="DialogBtn" id="ReSearch" style="margin-left:800px;margin-top:90px;background-position-y:-462px;"/>
+      <input type="button" value="" class="DialogBtn" id="NextOne" style="margin-left:800px;margin-top:40px;background-position-y:-378px;"/>
+      <div id="Tip" style="color:red;font-size:18px;margin-left:818px;margin-top:20px;display:none">已无匹配项！</div>
+    </div>
+  </div>
+      
+  <div class="PageLeftButton" id="Exit"></div>
+</div>

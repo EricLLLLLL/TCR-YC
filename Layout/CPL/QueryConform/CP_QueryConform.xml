@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div class="PageContent" id="PageContent" >
+  <div id="PageTop">
+    <div id="PageTitle">
+    </div>
+    <div id="ShowTime">
+    </div>
+  </div>
+  <div id="PageSubject" class="MiddleDiv">
+    <div id="TipDiv">
+      交易成功
+    </div>
+    <div class="CinfoInputDiv" style="text-align:center">
+    账号金额：<input class="CinfoInput" type="text" id="Balance" value="" unselectable="on" readonly="readonly" style="margin-left:10px;margin-top:60px"/>
+    <br/>
+   可用金额：<input class="CinfoInput" type="text" id="AvailableBalance" value="" unselectable="on" readonly="readonly" style="margin-left:10px"/>
+</div>
+    <div class="TipDiv" id="CinfoTip" style="margin-top:200px;margin-left:420px;letter-spacing:1px;width: 400px;line-height:25px;">
+      温馨提示:<br/><br/>
+      确认周围环境是否安全<br/><br/>
+    </div>
+  </div>
+  <div id="PageButton">
+    <a href='#' class='Right_3' id='Back' >返回</a>
+    <a href='#' class='Right_4' id='Exit' >退卡</a>
+  </div>
+</div>

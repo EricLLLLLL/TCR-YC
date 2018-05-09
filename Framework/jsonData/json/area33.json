@@ -1,0 +1,260 @@
+[
+   {
+      "area" : [
+         {
+            "gafeecod" : "3310",
+            "gargnnam" : "杭州市"
+         },
+         {
+            "gafeecod" : "3311",
+            "gargnnam" : "桐庐县"
+         },
+         {
+            "gafeecod" : "3312",
+            "gargnnam" : "富阳市"
+         },
+         {
+            "gafeecod" : "3313",
+            "gargnnam" : "临安市"
+         },
+         {
+            "gafeecod" : "3315",
+            "gargnnam" : "建德市"
+         },
+         {
+            "gafeecod" : "3316",
+            "gargnnam" : "淳安县"
+         },
+         {
+            "gafeecod" : "3330",
+            "gargnnam" : "温州市"
+         },
+         {
+            "gafeecod" : "3332",
+            "gargnnam" : "洞头县"
+         },
+         {
+            "gafeecod" : "3333",
+            "gargnnam" : "乐清市"
+         },
+         {
+            "gafeecod" : "3334",
+            "gargnnam" : "永嘉县"
+         },
+         {
+            "gafeecod" : "3335",
+            "gargnnam" : "平阳县"
+         },
+         {
+            "gafeecod" : "3336",
+            "gargnnam" : "苍南县"
+         },
+         {
+            "gafeecod" : "3337",
+            "gargnnam" : "文成县"
+         },
+         {
+            "gafeecod" : "3338",
+            "gargnnam" : "泰顺县"
+         },
+         {
+            "gafeecod" : "3339",
+            "gargnnam" : "瑞安市"
+         },
+         {
+            "gafeecod" : "3350",
+            "gargnnam" : "嘉兴市"
+         },
+         {
+            "gafeecod" : "3351",
+            "gargnnam" : "嘉善县"
+         },
+         {
+            "gafeecod" : "3352",
+            "gargnnam" : "平湖市"
+         },
+         {
+            "gafeecod" : "3353",
+            "gargnnam" : "海盐县"
+         },
+         {
+            "gafeecod" : "3354",
+            "gargnnam" : "桐乡市"
+         },
+         {
+            "gafeecod" : "3355",
+            "gargnnam" : "海宁市"
+         },
+         {
+            "gafeecod" : "3360",
+            "gargnnam" : "湖州市"
+         },
+         {
+            "gafeecod" : "3361",
+            "gargnnam" : "德清县"
+         },
+         {
+            "gafeecod" : "3362",
+            "gargnnam" : "长兴县"
+         },
+         {
+            "gafeecod" : "3363",
+            "gargnnam" : "安吉县"
+         },
+         {
+            "gafeecod" : "3370",
+            "gargnnam" : "绍兴市"
+         },
+         {
+            "gafeecod" : "3371",
+            "gargnnam" : "绍兴县"
+         },
+         {
+            "gafeecod" : "3372",
+            "gargnnam" : "上虞市"
+         },
+         {
+            "gafeecod" : "3373",
+            "gargnnam" : "嵊州市"
+         },
+         {
+            "gafeecod" : "3374",
+            "gargnnam" : "新昌县"
+         },
+         {
+            "gafeecod" : "3375",
+            "gargnnam" : "诸暨市"
+         },
+         {
+            "gafeecod" : "3380",
+            "gargnnam" : "金华市"
+         },
+         {
+            "gafeecod" : "3382",
+            "gargnnam" : "永康市"
+         },
+         {
+            "gafeecod" : "3383",
+            "gargnnam" : "武义县"
+         },
+         {
+            "gafeecod" : "3384",
+            "gargnnam" : "浦江县"
+         },
+         {
+            "gafeecod" : "3385",
+            "gargnnam" : "磐安县"
+         },
+         {
+            "gafeecod" : "3386",
+            "gargnnam" : "兰溪市"
+         },
+         {
+            "gafeecod" : "3387",
+            "gargnnam" : "义乌市"
+         },
+         {
+            "gafeecod" : "3388",
+            "gargnnam" : "东阳市"
+         },
+         {
+            "gafeecod" : "3410",
+            "gargnnam" : "衢州市"
+         },
+         {
+            "gafeecod" : "3412",
+            "gargnnam" : "常山县"
+         },
+         {
+            "gafeecod" : "3413",
+            "gargnnam" : "开化县"
+         },
+         {
+            "gafeecod" : "3414",
+            "gargnnam" : "龙游县"
+         },
+         {
+            "gafeecod" : "3415",
+            "gargnnam" : "江山市"
+         },
+         {
+            "gafeecod" : "3420",
+            "gargnnam" : "舟山市"
+         },
+         {
+            "gafeecod" : "3421",
+            "gargnnam" : "岱山县"
+         },
+         {
+            "gafeecod" : "3422",
+            "gargnnam" : "嵊泗县"
+         },
+         {
+            "gafeecod" : "3430",
+            "gargnnam" : "丽水市"
+         },
+         {
+            "gafeecod" : "3432",
+            "gargnnam" : "青田县"
+         },
+         {
+            "gafeecod" : "3433",
+            "gargnnam" : "云和县"
+         },
+         {
+            "gafeecod" : "3434",
+            "gargnnam" : "庆元县"
+         },
+         {
+            "gafeecod" : "3435",
+            "gargnnam" : "缙云县"
+         },
+         {
+            "gafeecod" : "3436",
+            "gargnnam" : "遂昌县"
+         },
+         {
+            "gafeecod" : "3437",
+            "gargnnam" : "松阳县"
+         },
+         {
+            "gafeecod" : "3438",
+            "gargnnam" : "景宁县"
+         },
+         {
+            "gafeecod" : "3439",
+            "gargnnam" : "龙泉市"
+         },
+         {
+            "gafeecod" : "3450",
+            "gargnnam" : "台州市"
+         },
+         {
+            "gafeecod" : "3452",
+            "gargnnam" : "临海市"
+         },
+         {
+            "gafeecod" : "3454",
+            "gargnnam" : "温岭市"
+         },
+         {
+            "gafeecod" : "3455",
+            "gargnnam" : "仙居县"
+         },
+         {
+            "gafeecod" : "3456",
+            "gargnnam" : "天台县"
+         },
+         {
+            "gafeecod" : "3457",
+            "gargnnam" : "三门县"
+         },
+         {
+            "gafeecod" : "3458",
+            "gargnnam" : "玉环县"
+         }
+      ],
+      "gargnnam" : "浙江省（不含宁波市）",
+      "provcod" : 33
+   }
+]

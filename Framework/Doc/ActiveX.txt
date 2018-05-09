@@ -1,0 +1,14 @@
+1、编写OCX控件时，默认是没有窗口的，如果需要使用窗口的句柄，则无法正确获取。
+  m_hWnd的值为NULL，若想取得窗口句柄，需要重写OnSetClientSite函数，同时在函数
+  需要确保调用RecreateControlWindow。注释掉父类的函数调用，实际代码如下：
+  void CAsynOcxCtrl::OnSetClientSite()
+{
+	// TODO: Add your specialized code here and/or call the base class
+
+	//if (AmbientUserMode()){
+        RecreateControlWindow();
+    //}
+    /*
+    COleControl::OnSetClientSite();
+    */
+}

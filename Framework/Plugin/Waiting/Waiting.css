@@ -1,0 +1,49 @@
+﻿#mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+	background-color:black;
+	opacity:0.5;
+	filter: alpha(opacity=50); 
+}
+
+#wait {
+    position: absolute;
+    z-index: 1001;
+    left: 340px;
+    top: 362px;
+    width: 600px;
+    height: 300px;
+    /* background: white; */
+}
+
+#inform {
+    position: absolute;
+    top:150px;
+    left: 0;
+    font-size: 32px;
+    width: 600px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    overflow: auto;
+    z-index: 1001;
+    color: white;
+}
+
+.waitCon {
+	z-index: 1001;
+    position: absolute;
+    width: 600px;
+    height: 150px;
+    background: url('../../style/Graphics/loadingTop.gif') center center no-repeat;
+}
+
+.NoBankCard {
+    z-index: 1001;
+    position: absolute;
+    width: 600px;
+    height: 192px;
+    background: url('../../style/Graphics/pbErrorTip.png') center center no-repeat;
+}

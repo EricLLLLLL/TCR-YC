@@ -1,0 +1,20 @@
+﻿<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <title>Test</title>
+    <link rel="stylesheet" type="text/css" href="Advert.css" />
+    <script type="text/javascript" src="../../../Utilitys/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="../../ScriptEngine/DynamicLoadFiles.js"></script>
+    <script type="text/javascript" src="Advert.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var pl = new Advert();
+            //**************测试前，修改路径 ../../style/Graphics/02.png****************//
+            pl.InsertAdv("AdvParentDiv");
+        });
+    </script>
+</head>
+<body>
+    <div id="AdvParentDiv"></div>
+</body>
+</html>

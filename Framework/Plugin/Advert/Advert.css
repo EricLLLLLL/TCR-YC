@@ -1,0 +1,32 @@
+﻿body, div, ul, ol, li{
+	padding: 0;
+	margin: 0;
+}
+#AdvParentDiv{
+	position:absolute;
+	top:90px;
+	left:10px;
+}
+.advDiv,#AdvParentDiv {
+    border:0;
+	/*width:620px;
+	/*height:418px;*/
+	width: 790px;
+    height: 758px;
+	overflow:hidden;
+	position:relative;
+    background-image: url('D:/abnormal.png');
+}
+
+.slider li{ 
+    margin:0 0;
+    padding:0 0;
+	list-style:none;
+	display:inline;
+}
+.slider img{ 
+    border: 0;
+	/*width:557px;*/
+	/*height:418px;*/
+	display:none;
+}

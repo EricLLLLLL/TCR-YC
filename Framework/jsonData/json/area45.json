@@ -1,0 +1,368 @@
+[
+   {
+      "area" : [
+         {
+            "gafeecod" : "6110",
+            "gargnnam" : "邕宁县"
+         },
+         {
+            "gafeecod" : "6110",
+            "gargnnam" : "邕宁县"
+         },
+         {
+            "gafeecod" : "6112",
+            "gargnnam" : "武鸣县"
+         },
+         {
+            "gafeecod" : "6122",
+            "gargnnam" : "横县"
+         },
+         {
+            "gafeecod" : "6123",
+            "gargnnam" : "宾阳县"
+         },
+         {
+            "gafeecod" : "6124",
+            "gargnnam" : "上林县"
+         },
+         {
+            "gafeecod" : "6125",
+            "gargnnam" : "隆安县"
+         },
+         {
+            "gafeecod" : "6126",
+            "gargnnam" : "马山县"
+         },
+         {
+            "gafeecod" : "6140",
+            "gargnnam" : "柳州市"
+         },
+         {
+            "gafeecod" : "6141",
+            "gargnnam" : "柳江县"
+         },
+         {
+            "gafeecod" : "6142",
+            "gargnnam" : "柳城县"
+         },
+         {
+            "gafeecod" : "6152",
+            "gargnnam" : "鹿寨县"
+         },
+         {
+            "gafeecod" : "6156",
+            "gargnnam" : "融安县"
+         },
+         {
+            "gafeecod" : "6157",
+            "gargnnam" : "三江县"
+         },
+         {
+            "gafeecod" : "6158",
+            "gargnnam" : "融水县"
+         },
+         {
+            "gafeecod" : "6170",
+            "gargnnam" : "桂林市"
+         },
+         {
+            "gafeecod" : "6171",
+            "gargnnam" : "阳朔县"
+         },
+         {
+            "gafeecod" : "6172",
+            "gargnnam" : "临桂县"
+         },
+         {
+            "gafeecod" : "6181",
+            "gargnnam" : "灵川县"
+         },
+         {
+            "gafeecod" : "6182",
+            "gargnnam" : "全州县"
+         },
+         {
+            "gafeecod" : "6183",
+            "gargnnam" : "兴安县"
+         },
+         {
+            "gafeecod" : "6184",
+            "gargnnam" : "永福县"
+         },
+         {
+            "gafeecod" : "6185",
+            "gargnnam" : "灌阳县"
+         },
+         {
+            "gafeecod" : "6186",
+            "gargnnam" : "龙胜县"
+         },
+         {
+            "gafeecod" : "6187",
+            "gargnnam" : "资源县"
+         },
+         {
+            "gafeecod" : "6188",
+            "gargnnam" : "平乐县"
+         },
+         {
+            "gafeecod" : "6189",
+            "gargnnam" : "荔浦县"
+         },
+         {
+            "gafeecod" : "6191",
+            "gargnnam" : "恭城县"
+         },
+         {
+            "gafeecod" : "6210",
+            "gargnnam" : "梧州市"
+         },
+         {
+            "gafeecod" : "6211",
+            "gargnnam" : "苍梧县"
+         },
+         {
+            "gafeecod" : "6221",
+            "gargnnam" : "岑溪市"
+         },
+         {
+            "gafeecod" : "6222",
+            "gargnnam" : "藤县"
+         },
+         {
+            "gafeecod" : "6224",
+            "gargnnam" : "蒙山县"
+         },
+         {
+            "gafeecod" : "6230",
+            "gargnnam" : "北海市"
+         },
+         {
+            "gafeecod" : "6231",
+            "gargnnam" : "合浦县"
+         },
+         {
+            "gafeecod" : "6240",
+            "gargnnam" : "玉林市"
+         },
+         {
+            "gafeecod" : "6245",
+            "gargnnam" : "容县"
+         },
+         {
+            "gafeecod" : "6246",
+            "gargnnam" : "北流市"
+         },
+         {
+            "gafeecod" : "6247",
+            "gargnnam" : "陆川县"
+         },
+         {
+            "gafeecod" : "6248",
+            "gargnnam" : "博白县"
+         },
+         {
+            "gafeecod" : "6249",
+            "gargnnam" : "兴业县"
+         },
+         {
+            "gafeecod" : "6260",
+            "gargnnam" : "百色市"
+         },
+         {
+            "gafeecod" : "6262",
+            "gargnnam" : "田阳县"
+         },
+         {
+            "gafeecod" : "6263",
+            "gargnnam" : "田东县"
+         },
+         {
+            "gafeecod" : "6264",
+            "gargnnam" : "平果县"
+         },
+         {
+            "gafeecod" : "6265",
+            "gargnnam" : "德保县"
+         },
+         {
+            "gafeecod" : "6266",
+            "gargnnam" : "靖西县"
+         },
+         {
+            "gafeecod" : "6267",
+            "gargnnam" : "那坡县"
+         },
+         {
+            "gafeecod" : "6268",
+            "gargnnam" : "凌云县"
+         },
+         {
+            "gafeecod" : "6269",
+            "gargnnam" : "乐业县"
+         },
+         {
+            "gafeecod" : "6271",
+            "gargnnam" : "田林县"
+         },
+         {
+            "gafeecod" : "6272",
+            "gargnnam" : "隆林县"
+         },
+         {
+            "gafeecod" : "6273",
+            "gargnnam" : "西林县"
+         },
+         {
+            "gafeecod" : "6280",
+            "gargnnam" : "河池市"
+         },
+         {
+            "gafeecod" : "6282",
+            "gargnnam" : "宜州市"
+         },
+         {
+            "gafeecod" : "6283",
+            "gargnnam" : "罗城县"
+         },
+         {
+            "gafeecod" : "6284",
+            "gargnnam" : "环江县"
+         },
+         {
+            "gafeecod" : "6285",
+            "gargnnam" : "南丹县"
+         },
+         {
+            "gafeecod" : "6286",
+            "gargnnam" : "天峨县"
+         },
+         {
+            "gafeecod" : "6287",
+            "gargnnam" : "凤山县"
+         },
+         {
+            "gafeecod" : "6288",
+            "gargnnam" : "东兰县"
+         },
+         {
+            "gafeecod" : "6289",
+            "gargnnam" : "巴马县"
+         },
+         {
+            "gafeecod" : "6291",
+            "gargnnam" : "都安县"
+         },
+         {
+            "gafeecod" : "6292",
+            "gargnnam" : "大化县"
+         },
+         {
+            "gafeecod" : "6310",
+            "gargnnam" : "钦州市"
+         },
+         {
+            "gafeecod" : "6314",
+            "gargnnam" : "灵山县"
+         },
+         {
+            "gafeecod" : "6315",
+            "gargnnam" : "浦北县"
+         },
+         {
+            "gafeecod" : "6320",
+            "gargnnam" : "防城港市"
+         },
+         {
+            "gafeecod" : "6321",
+            "gargnnam" : "上思县"
+         },
+         {
+            "gafeecod" : "6322",
+            "gargnnam" : "东兴市"
+         },
+         {
+            "gafeecod" : "6330",
+            "gargnnam" : "贵港市"
+         },
+         {
+            "gafeecod" : "6331",
+            "gargnnam" : "平南县"
+         },
+         {
+            "gafeecod" : "6332",
+            "gargnnam" : "桂平市"
+         },
+         {
+            "gafeecod" : "6340",
+            "gargnnam" : "贺州市"
+         },
+         {
+            "gafeecod" : "6341",
+            "gargnnam" : "昭平县"
+         },
+         {
+            "gafeecod" : "6342",
+            "gargnnam" : "钟山县"
+         },
+         {
+            "gafeecod" : "6343",
+            "gargnnam" : "富川县"
+         },
+         {
+            "gafeecod" : "6350",
+            "gargnnam" : "来宾市"
+         },
+         {
+            "gafeecod" : "6351",
+            "gargnnam" : "忻城县"
+         },
+         {
+            "gafeecod" : "6352",
+            "gargnnam" : "象州县"
+         },
+         {
+            "gafeecod" : "6353",
+            "gargnnam" : "武宣县"
+         },
+         {
+            "gafeecod" : "6354",
+            "gargnnam" : "金秀县"
+         },
+         {
+            "gafeecod" : "6355",
+            "gargnnam" : "合山市"
+         },
+         {
+            "gafeecod" : "6360",
+            "gargnnam" : "崇左市"
+         },
+         {
+            "gafeecod" : "6361",
+            "gargnnam" : "扶绥县"
+         },
+         {
+            "gafeecod" : "6362",
+            "gargnnam" : "宁明县"
+         },
+         {
+            "gafeecod" : "6363",
+            "gargnnam" : "龙州县"
+         },
+         {
+            "gafeecod" : "6364",
+            "gargnnam" : "大新县"
+         },
+         {
+            "gafeecod" : "6365",
+            "gargnnam" : "天等县"
+         },
+         {
+            "gafeecod" : "6366",
+            "gargnnam" : "凭祥市"
+         }
+      ],
+      "gargnnam" : "广西省",
+      "provcod" : 45
+   }
+]

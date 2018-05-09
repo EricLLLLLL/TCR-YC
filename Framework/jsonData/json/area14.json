@@ -1,0 +1,432 @@
+[
+   {
+      "area" : [
+         {
+            "gafeecod" : "1610",
+            "gargnnam" : "太原市"
+         },
+         {
+            "gafeecod" : "1611",
+            "gargnnam" : "清徐县"
+         },
+         {
+            "gafeecod" : "1612",
+            "gargnnam" : "阳曲县"
+         },
+         {
+            "gafeecod" : "1613",
+            "gargnnam" : "娄烦县"
+         },
+         {
+            "gafeecod" : "1614",
+            "gargnnam" : "古交市"
+         },
+         {
+            "gafeecod" : "1620",
+            "gargnnam" : "大同市"
+         },
+         {
+            "gafeecod" : "1631",
+            "gargnnam" : "阳高县"
+         },
+         {
+            "gafeecod" : "1632",
+            "gargnnam" : "天镇县"
+         },
+         {
+            "gafeecod" : "1633",
+            "gargnnam" : "广灵县"
+         },
+         {
+            "gafeecod" : "1634",
+            "gargnnam" : "灵邱县"
+         },
+         {
+            "gafeecod" : "1635",
+            "gargnnam" : "浑源县"
+         },
+         {
+            "gafeecod" : "1637",
+            "gargnnam" : "左云县"
+         },
+         {
+            "gafeecod" : "1639",
+            "gargnnam" : "大同县"
+         },
+         {
+            "gafeecod" : "1650",
+            "gargnnam" : "阳泉市"
+         },
+         {
+            "gafeecod" : "1651",
+            "gargnnam" : "平定县"
+         },
+         {
+            "gafeecod" : "1652",
+            "gargnnam" : "盂县"
+         },
+         {
+            "gafeecod" : "1660",
+            "gargnnam" : "长治市"
+         },
+         {
+            "gafeecod" : "1661",
+            "gargnnam" : "长治县"
+         },
+         {
+            "gafeecod" : "1662",
+            "gargnnam" : "潞城市"
+         },
+         {
+            "gafeecod" : "1663",
+            "gargnnam" : "襄垣县"
+         },
+         {
+            "gafeecod" : "1664",
+            "gargnnam" : "屯留县"
+         },
+         {
+            "gafeecod" : "1665",
+            "gargnnam" : "平顺县"
+         },
+         {
+            "gafeecod" : "1666",
+            "gargnnam" : "黎城县"
+         },
+         {
+            "gafeecod" : "1667",
+            "gargnnam" : "壶关县"
+         },
+         {
+            "gafeecod" : "1668",
+            "gargnnam" : "长子县"
+         },
+         {
+            "gafeecod" : "1669",
+            "gargnnam" : "武乡县"
+         },
+         {
+            "gafeecod" : "1671",
+            "gargnnam" : "沁县"
+         },
+         {
+            "gafeecod" : "1672",
+            "gargnnam" : "沁源县"
+         },
+         {
+            "gafeecod" : "1680",
+            "gargnnam" : "晋城市"
+         },
+         {
+            "gafeecod" : "1681",
+            "gargnnam" : "沁水县"
+         },
+         {
+            "gafeecod" : "1682",
+            "gargnnam" : "阳城县"
+         },
+         {
+            "gafeecod" : "1683",
+            "gargnnam" : "高平市"
+         },
+         {
+            "gafeecod" : "1684",
+            "gargnnam" : "陵川县"
+         },
+         {
+            "gafeecod" : "1690",
+            "gargnnam" : "朔州市"
+         },
+         {
+            "gafeecod" : "1691",
+            "gargnnam" : "山阴县"
+         },
+         {
+            "gafeecod" : "1692",
+            "gargnnam" : "应县"
+         },
+         {
+            "gafeecod" : "1693",
+            "gargnnam" : "右玉县"
+         },
+         {
+            "gafeecod" : "1694",
+            "gargnnam" : "怀仁县"
+         },
+         {
+            "gafeecod" : "1710",
+            "gargnnam" : "忻州市"
+         },
+         {
+            "gafeecod" : "1712",
+            "gargnnam" : "定襄县"
+         },
+         {
+            "gafeecod" : "1713",
+            "gargnnam" : "五台县"
+         },
+         {
+            "gafeecod" : "1714",
+            "gargnnam" : "原平市"
+         },
+         {
+            "gafeecod" : "1715",
+            "gargnnam" : "代县"
+         },
+         {
+            "gafeecod" : "1716",
+            "gargnnam" : "繁峙县"
+         },
+         {
+            "gafeecod" : "1717",
+            "gargnnam" : "宁武县"
+         },
+         {
+            "gafeecod" : "1718",
+            "gargnnam" : "静乐县"
+         },
+         {
+            "gafeecod" : "1719",
+            "gargnnam" : "神池县"
+         },
+         {
+            "gafeecod" : "1721",
+            "gargnnam" : "五寨县"
+         },
+         {
+            "gafeecod" : "1722",
+            "gargnnam" : "岢岚县"
+         },
+         {
+            "gafeecod" : "1723",
+            "gargnnam" : "河曲县"
+         },
+         {
+            "gafeecod" : "1724",
+            "gargnnam" : "保德县"
+         },
+         {
+            "gafeecod" : "1725",
+            "gargnnam" : "偏关县"
+         },
+         {
+            "gafeecod" : "1730",
+            "gargnnam" : "吕梁市"
+         },
+         {
+            "gafeecod" : "1731",
+            "gargnnam" : "汾阳市"
+         },
+         {
+            "gafeecod" : "1732",
+            "gargnnam" : "文水县"
+         },
+         {
+            "gafeecod" : "1733",
+            "gargnnam" : "交城县"
+         },
+         {
+            "gafeecod" : "1734",
+            "gargnnam" : "孝义市"
+         },
+         {
+            "gafeecod" : "1735",
+            "gargnnam" : "兴县"
+         },
+         {
+            "gafeecod" : "1736",
+            "gargnnam" : "临县"
+         },
+         {
+            "gafeecod" : "1737",
+            "gargnnam" : "柳林县"
+         },
+         {
+            "gafeecod" : "1738",
+            "gargnnam" : "石楼县"
+         },
+         {
+            "gafeecod" : "1739",
+            "gargnnam" : "岚县"
+         },
+         {
+            "gafeecod" : "1741",
+            "gargnnam" : "方山县"
+         },
+         {
+            "gafeecod" : "1743",
+            "gargnnam" : "中阳县"
+         },
+         {
+            "gafeecod" : "1744",
+            "gargnnam" : "交口县"
+         },
+         {
+            "gafeecod" : "1750",
+            "gargnnam" : "晋中市"
+         },
+         {
+            "gafeecod" : "1752",
+            "gargnnam" : "榆社县"
+         },
+         {
+            "gafeecod" : "1753",
+            "gargnnam" : "左权县"
+         },
+         {
+            "gafeecod" : "1754",
+            "gargnnam" : "和顺县"
+         },
+         {
+            "gafeecod" : "1755",
+            "gargnnam" : "昔阳县"
+         },
+         {
+            "gafeecod" : "1756",
+            "gargnnam" : "寿阳县"
+         },
+         {
+            "gafeecod" : "1757",
+            "gargnnam" : "太谷县"
+         },
+         {
+            "gafeecod" : "1758",
+            "gargnnam" : "祁县"
+         },
+         {
+            "gafeecod" : "1759",
+            "gargnnam" : "平遥县"
+         },
+         {
+            "gafeecod" : "1761",
+            "gargnnam" : "介休市"
+         },
+         {
+            "gafeecod" : "1762",
+            "gargnnam" : "灵石县"
+         },
+         {
+            "gafeecod" : "1770",
+            "gargnnam" : "临汾市"
+         },
+         {
+            "gafeecod" : "1772",
+            "gargnnam" : "侯马市"
+         },
+         {
+            "gafeecod" : "1773",
+            "gargnnam" : "曲沃县"
+         },
+         {
+            "gafeecod" : "1774",
+            "gargnnam" : "翼城县"
+         },
+         {
+            "gafeecod" : "1775",
+            "gargnnam" : "襄汾县"
+         },
+         {
+            "gafeecod" : "1776",
+            "gargnnam" : "洪洞县"
+         },
+         {
+            "gafeecod" : "1777",
+            "gargnnam" : "霍州市"
+         },
+         {
+            "gafeecod" : "1778",
+            "gargnnam" : "古县"
+         },
+         {
+            "gafeecod" : "1779",
+            "gargnnam" : "安泽县"
+         },
+         {
+            "gafeecod" : "1781",
+            "gargnnam" : "浮山县"
+         },
+         {
+            "gafeecod" : "1782",
+            "gargnnam" : "吉县"
+         },
+         {
+            "gafeecod" : "1783",
+            "gargnnam" : "乡宁县"
+         },
+         {
+            "gafeecod" : "1784",
+            "gargnnam" : "蒲县"
+         },
+         {
+            "gafeecod" : "1785",
+            "gargnnam" : "大宁县"
+         },
+         {
+            "gafeecod" : "1786",
+            "gargnnam" : "永和县"
+         },
+         {
+            "gafeecod" : "1787",
+            "gargnnam" : "隰县"
+         },
+         {
+            "gafeecod" : "1788",
+            "gargnnam" : "汾西县"
+         },
+         {
+            "gafeecod" : "1810",
+            "gargnnam" : "运城市"
+         },
+         {
+            "gafeecod" : "1812",
+            "gargnnam" : "永济市"
+         },
+         {
+            "gafeecod" : "1813",
+            "gargnnam" : "芮城县"
+         },
+         {
+            "gafeecod" : "1814",
+            "gargnnam" : "临猗县"
+         },
+         {
+            "gafeecod" : "1815",
+            "gargnnam" : "万荣县"
+         },
+         {
+            "gafeecod" : "1816",
+            "gargnnam" : "新绛县"
+         },
+         {
+            "gafeecod" : "1817",
+            "gargnnam" : "稷山县"
+         },
+         {
+            "gafeecod" : "1818",
+            "gargnnam" : "河津市"
+         },
+         {
+            "gafeecod" : "1819",
+            "gargnnam" : "闻喜县"
+         },
+         {
+            "gafeecod" : "1821",
+            "gargnnam" : "夏县"
+         },
+         {
+            "gafeecod" : "1822",
+            "gargnnam" : "绛县"
+         },
+         {
+            "gafeecod" : "1823",
+            "gargnnam" : "平陆县"
+         },
+         {
+            "gafeecod" : "1824",
+            "gargnnam" : "垣曲县"
+         }
+      ],
+      "gargnnam" : "山西省",
+      "provcod" : 14
+   }
+]

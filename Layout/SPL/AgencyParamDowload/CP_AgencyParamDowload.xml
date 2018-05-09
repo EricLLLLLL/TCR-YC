@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="12/18/2015 2:50:04 PM">
+  <div id="PageTop">
+    <p> 受理行号：	                  
+      <span id='SubBankId'></span>         
+    </p>
+    <p> 状态：	                  
+      <span id='DevStatus'>00000（00）</span>
+    </p>
+  </div>
+  <div class="stateWrap">
+    <img src="Framework/style/Graphics/stateLine.png" alt="" srcset="" class="stateLine" />
+    <span class="stateTitle">参数下载</span>
+  </div>
+  <div id="PageSubject">
+    <div class="InputDiv middleDiv long">
+      <p>
+        <span>代理业务下载：</span>                  			                             
+        <select id="ParamSelect" class="selectOption">
+          <option value ="公益">公益</option>
+          <option value ="代理业务2">代理业务2</option>
+        </select>
+      </p>
+	   <!-- <div class="div_tip" id="tipdiv" style="color:red;"> </div> -->
+    </div>
+			<div class="TipDiv">
+     		温馨提示：请选择代理业务参数，点击设定完成。
+    	</div>
+    <!-- <div id="KeyboardDiv" class="alphabet"> </div> -->
+  </div>
+  <div id="PageButton" class="threeBtn">
+    <button type="button"  id="Back">返回</button>
+    <button type="button"  id="OK">确定</button>
+    <!-- <button type="button"  id="Back" class="middle">返回</button> -->
+  </div>
+<button type="button" id="PageRoot">退出登录</button>
+</div>

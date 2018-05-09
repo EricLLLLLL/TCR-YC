@@ -1,0 +1,204 @@
+[
+   {
+      "area" : [
+         {
+            "gafeecod" : "2410",
+            "gargnnam" : "长春市"
+         },
+         {
+            "gafeecod" : "2411",
+            "gargnnam" : "榆树市"
+         },
+         {
+            "gafeecod" : "2412",
+            "gargnnam" : "农安县"
+         },
+         {
+            "gafeecod" : "2413",
+            "gargnnam" : "德惠市"
+         },
+         {
+            "gafeecod" : "2415",
+            "gargnnam" : "九台市"
+         },
+         {
+            "gafeecod" : "2420",
+            "gargnnam" : "吉林市"
+         },
+         {
+            "gafeecod" : "2421",
+            "gargnnam" : "永吉县"
+         },
+         {
+            "gafeecod" : "2422",
+            "gargnnam" : "临江市"
+         },
+         {
+            "gafeecod" : "2423",
+            "gargnnam" : "磐石市"
+         },
+         {
+            "gafeecod" : "2424",
+            "gargnnam" : "蛟河市"
+         },
+         {
+            "gafeecod" : "2425",
+            "gargnnam" : "桦甸市"
+         },
+         {
+            "gafeecod" : "2426",
+            "gargnnam" : "舒兰市"
+         },
+         {
+            "gafeecod" : "2430",
+            "gargnnam" : "四平市"
+         },
+         {
+            "gafeecod" : "2431",
+            "gargnnam" : "梨树县"
+         },
+         {
+            "gafeecod" : "2432",
+            "gargnnam" : "伊通县"
+         },
+         {
+            "gafeecod" : "2433",
+            "gargnnam" : "双辽市"
+         },
+         {
+            "gafeecod" : "2434",
+            "gargnnam" : "公主岭市"
+         },
+         {
+            "gafeecod" : "2440",
+            "gargnnam" : "辽源市"
+         },
+         {
+            "gafeecod" : "2441",
+            "gargnnam" : "东丰县"
+         },
+         {
+            "gafeecod" : "2442",
+            "gargnnam" : "东辽县"
+         },
+         {
+            "gafeecod" : "2450",
+            "gargnnam" : "通化市"
+         },
+         {
+            "gafeecod" : "2451",
+            "gargnnam" : "通化县"
+         },
+         {
+            "gafeecod" : "2452",
+            "gargnnam" : "辉南县"
+         },
+         {
+            "gafeecod" : "2453",
+            "gargnnam" : "柳河县"
+         },
+         {
+            "gafeecod" : "2454",
+            "gargnnam" : "梅河口市"
+         },
+         {
+            "gafeecod" : "2455",
+            "gargnnam" : "集安市"
+         },
+         {
+            "gafeecod" : "2460",
+            "gargnnam" : "白山市"
+         },
+         {
+            "gafeecod" : "2461",
+            "gargnnam" : "抚松县"
+         },
+         {
+            "gafeecod" : "2462",
+            "gargnnam" : "靖宇县"
+         },
+         {
+            "gafeecod" : "2463",
+            "gargnnam" : "长白县"
+         },
+         {
+            "gafeecod" : "2464",
+            "gargnnam" : "江源县"
+         },
+         {
+            "gafeecod" : "2470",
+            "gargnnam" : "白城市"
+         },
+         {
+            "gafeecod" : "2472",
+            "gargnnam" : "洮南市"
+         },
+         {
+            "gafeecod" : "2474",
+            "gargnnam" : "大安市"
+         },
+         {
+            "gafeecod" : "2477",
+            "gargnnam" : "镇赉县"
+         },
+         {
+            "gafeecod" : "2478",
+            "gargnnam" : "通榆县"
+         },
+         {
+            "gafeecod" : "2491",
+            "gargnnam" : "延吉市"
+         },
+         {
+            "gafeecod" : "2492",
+            "gargnnam" : "图们市"
+         },
+         {
+            "gafeecod" : "2493",
+            "gargnnam" : "敦化市"
+         },
+         {
+            "gafeecod" : "2494",
+            "gargnnam" : "珲春市"
+         },
+         {
+            "gafeecod" : "2495",
+            "gargnnam" : "龙井市"
+         },
+         {
+            "gafeecod" : "2496",
+            "gargnnam" : "和龙市"
+         },
+         {
+            "gafeecod" : "2497",
+            "gargnnam" : "汪清县"
+         },
+         {
+            "gafeecod" : "2498",
+            "gargnnam" : "安图县"
+         },
+         {
+            "gafeecod" : "2510",
+            "gargnnam" : "松原市"
+         },
+         {
+            "gafeecod" : "2511",
+            "gargnnam" : "扶余县"
+         },
+         {
+            "gafeecod" : "2512",
+            "gargnnam" : "长岭县"
+         },
+         {
+            "gafeecod" : "2513",
+            "gargnnam" : "前郭县"
+         },
+         {
+            "gafeecod" : "2514",
+            "gargnnam" : "乾安县"
+         }
+      ],
+      "gargnnam" : "吉林省",
+      "provcod" : 22
+   }
+]

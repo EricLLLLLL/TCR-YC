@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div class="PageContent" id="PageContent" >
+  <div id="PageTop">
+    <div id="PageTitle">
+      请按操作提示刷取您的存折！
+    </div>
+    <div id="ShowTime">
+    </div>
+  </div>
+  <div id="PageSubject" class="MiddleDiv">
+    <img class="PageSubjectImg" src="Framework/style/Graphics/scz.gif" style="margin-left: 130px;margin-top: 100px;"/>    
+  </div>
+  <div id="PageButton">
+    <a href="#" class="Left_4" id="Exit">取消</a>
+  </div>
+</div>
+

@@ -1,0 +1,648 @@
+[
+   {
+      "area" : [
+         {
+            "gafeecod" : "6510",
+            "gargnnam" : "温江区"
+         },
+         {
+            "gafeecod" : "6510",
+            "gargnnam" : "温江区"
+         },
+         {
+            "gafeecod" : "6510",
+            "gargnnam" : "温江区"
+         },
+         {
+            "gafeecod" : "6511",
+            "gargnnam" : "金堂县"
+         },
+         {
+            "gafeecod" : "6512",
+            "gargnnam" : "双流县"
+         },
+         {
+            "gafeecod" : "6514",
+            "gargnnam" : "郫县"
+         },
+         {
+            "gafeecod" : "6516",
+            "gargnnam" : "彭州市"
+         },
+         {
+            "gafeecod" : "6517",
+            "gargnnam" : "崇州市"
+         },
+         {
+            "gafeecod" : "6518",
+            "gargnnam" : "大邑县"
+         },
+         {
+            "gafeecod" : "6519",
+            "gargnnam" : "邛崃市"
+         },
+         {
+            "gafeecod" : "6521",
+            "gargnnam" : "蒲江县"
+         },
+         {
+            "gafeecod" : "6522",
+            "gargnnam" : "新津县"
+         },
+         {
+            "gafeecod" : "6523",
+            "gargnnam" : "都江堰市"
+         },
+         {
+            "gafeecod" : "6550",
+            "gargnnam" : "自贡市"
+         },
+         {
+            "gafeecod" : "6551",
+            "gargnnam" : "荣县"
+         },
+         {
+            "gafeecod" : "6552",
+            "gargnnam" : "富顺县"
+         },
+         {
+            "gafeecod" : "6560",
+            "gargnnam" : "攀枝花市"
+         },
+         {
+            "gafeecod" : "6561",
+            "gargnnam" : "米易县"
+         },
+         {
+            "gafeecod" : "6562",
+            "gargnnam" : "盐边县"
+         },
+         {
+            "gafeecod" : "6570",
+            "gargnnam" : "泸州市"
+         },
+         {
+            "gafeecod" : "6571",
+            "gargnnam" : "泸县"
+         },
+         {
+            "gafeecod" : "6572",
+            "gargnnam" : "合江县"
+         },
+         {
+            "gafeecod" : "6573",
+            "gargnnam" : "纳溪区"
+         },
+         {
+            "gafeecod" : "6574",
+            "gargnnam" : "叙永县"
+         },
+         {
+            "gafeecod" : "6575",
+            "gargnnam" : "古蔺县"
+         },
+         {
+            "gafeecod" : "6580",
+            "gargnnam" : "德阳市"
+         },
+         {
+            "gafeecod" : "6581",
+            "gargnnam" : "绵竹市"
+         },
+         {
+            "gafeecod" : "6582",
+            "gargnnam" : "中江县"
+         },
+         {
+            "gafeecod" : "6583",
+            "gargnnam" : "什邡市"
+         },
+         {
+            "gafeecod" : "6584",
+            "gargnnam" : "广汉市"
+         },
+         {
+            "gafeecod" : "6585",
+            "gargnnam" : "罗江县"
+         },
+         {
+            "gafeecod" : "6590",
+            "gargnnam" : "绵阳市"
+         },
+         {
+            "gafeecod" : "6591",
+            "gargnnam" : "三台县"
+         },
+         {
+            "gafeecod" : "6592",
+            "gargnnam" : "盐亭县"
+         },
+         {
+            "gafeecod" : "6593",
+            "gargnnam" : "安县"
+         },
+         {
+            "gafeecod" : "6594",
+            "gargnnam" : "梓潼县"
+         },
+         {
+            "gafeecod" : "6595",
+            "gargnnam" : "北川县"
+         },
+         {
+            "gafeecod" : "6596",
+            "gargnnam" : "平武县"
+         },
+         {
+            "gafeecod" : "6597",
+            "gargnnam" : "江油市"
+         },
+         {
+            "gafeecod" : "6610",
+            "gargnnam" : "广元市"
+         },
+         {
+            "gafeecod" : "6611",
+            "gargnnam" : "旺苍县"
+         },
+         {
+            "gafeecod" : "6612",
+            "gargnnam" : "青川县"
+         },
+         {
+            "gafeecod" : "6613",
+            "gargnnam" : "剑阁县"
+         },
+         {
+            "gafeecod" : "6614",
+            "gargnnam" : "苍溪县"
+         },
+         {
+            "gafeecod" : "6620",
+            "gargnnam" : "遂宁市"
+         },
+         {
+            "gafeecod" : "6621",
+            "gargnnam" : "蓬溪县"
+         },
+         {
+            "gafeecod" : "6622",
+            "gargnnam" : "射洪县"
+         },
+         {
+            "gafeecod" : "6623",
+            "gargnnam" : "大英县"
+         },
+         {
+            "gafeecod" : "6630",
+            "gargnnam" : "内江市"
+         },
+         {
+            "gafeecod" : "6634",
+            "gargnnam" : "威远县"
+         },
+         {
+            "gafeecod" : "6635",
+            "gargnnam" : "资中县"
+         },
+         {
+            "gafeecod" : "6638",
+            "gargnnam" : "隆昌县"
+         },
+         {
+            "gafeecod" : "6650",
+            "gargnnam" : "乐山市"
+         },
+         {
+            "gafeecod" : "6652",
+            "gargnnam" : "眉山市"
+         },
+         {
+            "gafeecod" : "6653",
+            "gargnnam" : "犍为县"
+         },
+         {
+            "gafeecod" : "6654",
+            "gargnnam" : "井研县"
+         },
+         {
+            "gafeecod" : "6655",
+            "gargnnam" : "夹江县"
+         },
+         {
+            "gafeecod" : "6656",
+            "gargnnam" : "洪雅县"
+         },
+         {
+            "gafeecod" : "6659",
+            "gargnnam" : "青神县"
+         },
+         {
+            "gafeecod" : "6662",
+            "gargnnam" : "峨边县"
+         },
+         {
+            "gafeecod" : "6663",
+            "gargnnam" : "马边县"
+         },
+         {
+            "gafeecod" : "6664",
+            "gargnnam" : "峨眉山市"
+         },
+         {
+            "gafeecod" : "6665",
+            "gargnnam" : "丹棱县"
+         },
+         {
+            "gafeecod" : "6671",
+            "gargnnam" : "仁寿县"
+         },
+         {
+            "gafeecod" : "6672",
+            "gargnnam" : "彭山县"
+         },
+         {
+            "gafeecod" : "6691",
+            "gargnnam" : "岳池县"
+         },
+         {
+            "gafeecod" : "6693",
+            "gargnnam" : "南川市"
+         },
+         {
+            "gafeecod" : "6710",
+            "gargnnam" : "宜宾市"
+         },
+         {
+            "gafeecod" : "6712",
+            "gargnnam" : "宜宾县"
+         },
+         {
+            "gafeecod" : "6713",
+            "gargnnam" : "南溪县"
+         },
+         {
+            "gafeecod" : "6714",
+            "gargnnam" : "江安县"
+         },
+         {
+            "gafeecod" : "6715",
+            "gargnnam" : "长宁县"
+         },
+         {
+            "gafeecod" : "6716",
+            "gargnnam" : "高县"
+         },
+         {
+            "gafeecod" : "6717",
+            "gargnnam" : "筠连县"
+         },
+         {
+            "gafeecod" : "6718",
+            "gargnnam" : "珙县"
+         },
+         {
+            "gafeecod" : "6719",
+            "gargnnam" : "兴文县"
+         },
+         {
+            "gafeecod" : "6721",
+            "gargnnam" : "屏山县"
+         },
+         {
+            "gafeecod" : "6730",
+            "gargnnam" : "南充市"
+         },
+         {
+            "gafeecod" : "6732",
+            "gargnnam" : "华蓥市"
+         },
+         {
+            "gafeecod" : "6734",
+            "gargnnam" : "南部县"
+         },
+         {
+            "gafeecod" : "6736",
+            "gargnnam" : "营山县"
+         },
+         {
+            "gafeecod" : "6737",
+            "gargnnam" : "广安市"
+         },
+         {
+            "gafeecod" : "6738",
+            "gargnnam" : "蓬安县"
+         },
+         {
+            "gafeecod" : "6739",
+            "gargnnam" : "仪陇县"
+         },
+         {
+            "gafeecod" : "6741",
+            "gargnnam" : "武胜县"
+         },
+         {
+            "gafeecod" : "6742",
+            "gargnnam" : "西充县"
+         },
+         {
+            "gafeecod" : "6743",
+            "gargnnam" : "阆中市"
+         },
+         {
+            "gafeecod" : "6750",
+            "gargnnam" : "达州市"
+         },
+         {
+            "gafeecod" : "6752",
+            "gargnnam" : "达县"
+         },
+         {
+            "gafeecod" : "6753",
+            "gargnnam" : "宣汉县"
+         },
+         {
+            "gafeecod" : "6754",
+            "gargnnam" : "开江县"
+         },
+         {
+            "gafeecod" : "6755",
+            "gargnnam" : "万源市"
+         },
+         {
+            "gafeecod" : "6756",
+            "gargnnam" : "通江县"
+         },
+         {
+            "gafeecod" : "6757",
+            "gargnnam" : "南江县"
+         },
+         {
+            "gafeecod" : "6758",
+            "gargnnam" : "巴中市"
+         },
+         {
+            "gafeecod" : "6759",
+            "gargnnam" : "平昌县"
+         },
+         {
+            "gafeecod" : "6761",
+            "gargnnam" : "大竹县"
+         },
+         {
+            "gafeecod" : "6762",
+            "gargnnam" : "渠县"
+         },
+         {
+            "gafeecod" : "6763",
+            "gargnnam" : "邻水县"
+         },
+         {
+            "gafeecod" : "6770",
+            "gargnnam" : "雅安市"
+         },
+         {
+            "gafeecod" : "6772",
+            "gargnnam" : "名山县"
+         },
+         {
+            "gafeecod" : "6773",
+            "gargnnam" : "荥经县"
+         },
+         {
+            "gafeecod" : "6774",
+            "gargnnam" : "汉源县"
+         },
+         {
+            "gafeecod" : "6775",
+            "gargnnam" : "石棉县"
+         },
+         {
+            "gafeecod" : "6776",
+            "gargnnam" : "天全县"
+         },
+         {
+            "gafeecod" : "6777",
+            "gargnnam" : "芦山县"
+         },
+         {
+            "gafeecod" : "6778",
+            "gargnnam" : "宝兴县"
+         },
+         {
+            "gafeecod" : "6791",
+            "gargnnam" : "汶川县"
+         },
+         {
+            "gafeecod" : "6792",
+            "gargnnam" : "理县"
+         },
+         {
+            "gafeecod" : "6793",
+            "gargnnam" : "茂县"
+         },
+         {
+            "gafeecod" : "6794",
+            "gargnnam" : "松潘县"
+         },
+         {
+            "gafeecod" : "6795",
+            "gargnnam" : "九寨沟县"
+         },
+         {
+            "gafeecod" : "6796",
+            "gargnnam" : "金川县"
+         },
+         {
+            "gafeecod" : "6797",
+            "gargnnam" : "小金县"
+         },
+         {
+            "gafeecod" : "6798",
+            "gargnnam" : "黑水县"
+         },
+         {
+            "gafeecod" : "6799",
+            "gargnnam" : "马尔康县"
+         },
+         {
+            "gafeecod" : "6801",
+            "gargnnam" : "壤塘县"
+         },
+         {
+            "gafeecod" : "6802",
+            "gargnnam" : "阿坝县"
+         },
+         {
+            "gafeecod" : "6803",
+            "gargnnam" : "若尔盖县"
+         },
+         {
+            "gafeecod" : "6804",
+            "gargnnam" : "红原县"
+         },
+         {
+            "gafeecod" : "6811",
+            "gargnnam" : "康定县"
+         },
+         {
+            "gafeecod" : "6812",
+            "gargnnam" : "泸定县"
+         },
+         {
+            "gafeecod" : "6813",
+            "gargnnam" : "丹巴县"
+         },
+         {
+            "gafeecod" : "6814",
+            "gargnnam" : "九龙县"
+         },
+         {
+            "gafeecod" : "6815",
+            "gargnnam" : "雅江县"
+         },
+         {
+            "gafeecod" : "6816",
+            "gargnnam" : "道孚县"
+         },
+         {
+            "gafeecod" : "6817",
+            "gargnnam" : "炉霍县"
+         },
+         {
+            "gafeecod" : "6818",
+            "gargnnam" : "甘孜县"
+         },
+         {
+            "gafeecod" : "6819",
+            "gargnnam" : "新龙县"
+         },
+         {
+            "gafeecod" : "6821",
+            "gargnnam" : "德格县"
+         },
+         {
+            "gafeecod" : "6822",
+            "gargnnam" : "白玉县"
+         },
+         {
+            "gafeecod" : "6823",
+            "gargnnam" : "石渠县"
+         },
+         {
+            "gafeecod" : "6824",
+            "gargnnam" : "色达县"
+         },
+         {
+            "gafeecod" : "6825",
+            "gargnnam" : "理塘县"
+         },
+         {
+            "gafeecod" : "6826",
+            "gargnnam" : "巴塘县"
+         },
+         {
+            "gafeecod" : "6827",
+            "gargnnam" : "乡城县"
+         },
+         {
+            "gafeecod" : "6828",
+            "gargnnam" : "稻城县"
+         },
+         {
+            "gafeecod" : "6829",
+            "gargnnam" : "得荣县"
+         },
+         {
+            "gafeecod" : "6841",
+            "gargnnam" : "西昌市"
+         },
+         {
+            "gafeecod" : "6842",
+            "gargnnam" : "木里县"
+         },
+         {
+            "gafeecod" : "6843",
+            "gargnnam" : "盐源县"
+         },
+         {
+            "gafeecod" : "6844",
+            "gargnnam" : "德昌县"
+         },
+         {
+            "gafeecod" : "6845",
+            "gargnnam" : "会理县"
+         },
+         {
+            "gafeecod" : "6846",
+            "gargnnam" : "会东县"
+         },
+         {
+            "gafeecod" : "6847",
+            "gargnnam" : "宁南县"
+         },
+         {
+            "gafeecod" : "6848",
+            "gargnnam" : "普格县"
+         },
+         {
+            "gafeecod" : "6849",
+            "gargnnam" : "布拖县"
+         },
+         {
+            "gafeecod" : "6851",
+            "gargnnam" : "金阳县"
+         },
+         {
+            "gafeecod" : "6852",
+            "gargnnam" : "昭觉县"
+         },
+         {
+            "gafeecod" : "6853",
+            "gargnnam" : "喜德县"
+         },
+         {
+            "gafeecod" : "6854",
+            "gargnnam" : "冕宁县"
+         },
+         {
+            "gafeecod" : "6855",
+            "gargnnam" : "越西县"
+         },
+         {
+            "gafeecod" : "6856",
+            "gargnnam" : "甘洛县"
+         },
+         {
+            "gafeecod" : "6857",
+            "gargnnam" : "美姑县"
+         },
+         {
+            "gafeecod" : "6858",
+            "gargnnam" : "雷波县"
+         },
+         {
+            "gafeecod" : "6880",
+            "gargnnam" : "资阳市"
+         },
+         {
+            "gafeecod" : "6881",
+            "gargnnam" : "安岳县"
+         },
+         {
+            "gafeecod" : "6882",
+            "gargnnam" : "乐至县"
+         },
+         {
+            "gafeecod" : "6883",
+            "gargnnam" : "简阳市"
+         },
+         {
+            "gafeecod" : "6928",
+            "gargnnam" : "云阳县"
+         }
+      ],
+      "gargnnam" : "四川省",
+      "provcod" : 51
+   }
+]

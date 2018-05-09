@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="2/6/2018 6:21:29 PM">
+	<div id="PageTop">
+		<span id="TimeShow">2018年2月1日 星期三 15:38</span>
+		<span id="ShowTime"></span>
+	</div>
+	<div id="PageSubject">
+		<ul id="steps">
+			<li>
+				<span class="stepNum">1</span>业务选择																		
+			</li>
+			<li >
+				<span class="stepNum">2</span>信息读取																		
+			</li>
+			<li>
+				<span class="stepNum">3</span>信息录入																		
+			</li>
+			<li>
+				<span class="stepNum">4</span>验证																		
+			</li>
+			<li>
+				<span class="stepNum">5</span>信息确认																		
+			</li>
+			<li >
+				<span class="stepNum">6</span>交易完成																		
+			</li>
+		</ul>
+		<div class="stateWrap">
+			<div id="state">请选择业务																								
+				<span id="stateEn">Please choose bussine</span>
+			</div>
+		</div>
+	</div>
+	<div class="stateComtent queryBalType">
+		<button type="button" id="ownTransfer"></button>
+		<button type="button" id="otherTransfer"></button>
+	</div>
+	<div id="numberWrap">
+  		网点机构号：																		
+		<span id="numberDot">01234567</span>
+  		设备号：																						
+		<span id="numberDevice">12345678</span>
+	</div>
+	<div id="PageButton">
+		<div id="btnWrap" class="only">
+			<button type="button" id="Exit"></button>
+			<!-- <button type="button" id="OK"></button> -->
+			<!-- <button type="button" id="Alter"></button><button type="button" id="Print"></button><button type="button" id="Remake"></button> -->
+		</div>
+	</div>
+		<button type="button" id="PageRoot">返回首页/ 										         				
+		<span id="togoEn">return</span></button>
+
+	<!-- 错误状态 提示   -->
+	<div id="errorWrap">
+		<div class="errorTips">
+			<div class="errorTipsText">
+				<div class="InfoTitle">信息提示 										
+					<span id="countDown"></span>
+				</div>
+				<div id="InfoTip">读证失败，请重新插入。</div>
+			</div>
+		</div>
+	</div>
+	<div id="networkWrap">
+		<div class="networkWrapTips">
+			<p class="networkPicture"></p>
+			<p id="networkTip">正在通讯中，请稍后...</p>
+		</div>
+	</div>
+</div>

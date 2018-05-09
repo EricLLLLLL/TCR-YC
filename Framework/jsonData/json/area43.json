@@ -1,0 +1,400 @@
+[
+   {
+      "area" : [
+         {
+            "gafeecod" : "5510",
+            "gargnnam" : "长沙市"
+         },
+         {
+            "gafeecod" : "5512",
+            "gargnnam" : "望城县"
+         },
+         {
+            "gafeecod" : "5513",
+            "gargnnam" : "浏阳市"
+         },
+         {
+            "gafeecod" : "5514",
+            "gargnnam" : "宁乡县"
+         },
+         {
+            "gafeecod" : "5520",
+            "gargnnam" : "株洲市"
+         },
+         {
+            "gafeecod" : "5521",
+            "gargnnam" : "株洲县"
+         },
+         {
+            "gafeecod" : "5522",
+            "gargnnam" : "攸县"
+         },
+         {
+            "gafeecod" : "5523",
+            "gargnnam" : "茶陵县"
+         },
+         {
+            "gafeecod" : "5524",
+            "gargnnam" : "炎陵县"
+         },
+         {
+            "gafeecod" : "5525",
+            "gargnnam" : "醴陵市"
+         },
+         {
+            "gafeecod" : "5530",
+            "gargnnam" : "湘潭市"
+         },
+         {
+            "gafeecod" : "5532",
+            "gargnnam" : "湘乡市"
+         },
+         {
+            "gafeecod" : "5533",
+            "gargnnam" : "韶山市"
+         },
+         {
+            "gafeecod" : "5540",
+            "gargnnam" : "衡阳市"
+         },
+         {
+            "gafeecod" : "5541",
+            "gargnnam" : "衡阳县"
+         },
+         {
+            "gafeecod" : "5542",
+            "gargnnam" : "衡南县"
+         },
+         {
+            "gafeecod" : "5543",
+            "gargnnam" : "衡山县"
+         },
+         {
+            "gafeecod" : "5544",
+            "gargnnam" : "衡东县"
+         },
+         {
+            "gafeecod" : "5545",
+            "gargnnam" : "常宁市"
+         },
+         {
+            "gafeecod" : "5546",
+            "gargnnam" : "祁东县"
+         },
+         {
+            "gafeecod" : "5547",
+            "gargnnam" : "耒阳市"
+         },
+         {
+            "gafeecod" : "5550",
+            "gargnnam" : "邵阳市"
+         },
+         {
+            "gafeecod" : "5551",
+            "gargnnam" : "邵东县"
+         },
+         {
+            "gafeecod" : "5552",
+            "gargnnam" : "新邵县"
+         },
+         {
+            "gafeecod" : "5553",
+            "gargnnam" : "邵阳县"
+         },
+         {
+            "gafeecod" : "5554",
+            "gargnnam" : "隆回县"
+         },
+         {
+            "gafeecod" : "5555",
+            "gargnnam" : "洞口县"
+         },
+         {
+            "gafeecod" : "5556",
+            "gargnnam" : "武冈市"
+         },
+         {
+            "gafeecod" : "5557",
+            "gargnnam" : "绥宁县"
+         },
+         {
+            "gafeecod" : "5558",
+            "gargnnam" : "新宁县"
+         },
+         {
+            "gafeecod" : "5559",
+            "gargnnam" : "城步县"
+         },
+         {
+            "gafeecod" : "5570",
+            "gargnnam" : "岳阳市"
+         },
+         {
+            "gafeecod" : "5571",
+            "gargnnam" : "岳阳县"
+         },
+         {
+            "gafeecod" : "5572",
+            "gargnnam" : "临湘市"
+         },
+         {
+            "gafeecod" : "5573",
+            "gargnnam" : "华容县"
+         },
+         {
+            "gafeecod" : "5574",
+            "gargnnam" : "湘阴县"
+         },
+         {
+            "gafeecod" : "5575",
+            "gargnnam" : "平江县"
+         },
+         {
+            "gafeecod" : "5576",
+            "gargnnam" : "汩罗市"
+         },
+         {
+            "gafeecod" : "5580",
+            "gargnnam" : "常德市"
+         },
+         {
+            "gafeecod" : "5581",
+            "gargnnam" : "安乡县"
+         },
+         {
+            "gafeecod" : "5582",
+            "gargnnam" : "汉寿县"
+         },
+         {
+            "gafeecod" : "5583",
+            "gargnnam" : "澧县"
+         },
+         {
+            "gafeecod" : "5584",
+            "gargnnam" : "临澧县"
+         },
+         {
+            "gafeecod" : "5585",
+            "gargnnam" : "桃源县"
+         },
+         {
+            "gafeecod" : "5586",
+            "gargnnam" : "石门县"
+         },
+         {
+            "gafeecod" : "5587",
+            "gargnnam" : "津市市"
+         },
+         {
+            "gafeecod" : "5590",
+            "gargnnam" : "张家界市"
+         },
+         {
+            "gafeecod" : "5591",
+            "gargnnam" : "慈利县"
+         },
+         {
+            "gafeecod" : "5592",
+            "gargnnam" : "桑植县"
+         },
+         {
+            "gafeecod" : "5610",
+            "gargnnam" : "益阳市"
+         },
+         {
+            "gafeecod" : "5612",
+            "gargnnam" : "沅江市"
+         },
+         {
+            "gafeecod" : "5614",
+            "gargnnam" : "南县"
+         },
+         {
+            "gafeecod" : "5615",
+            "gargnnam" : "桃江县"
+         },
+         {
+            "gafeecod" : "5616",
+            "gargnnam" : "安化县"
+         },
+         {
+            "gafeecod" : "5620",
+            "gargnnam" : "娄底市"
+         },
+         {
+            "gafeecod" : "5622",
+            "gargnnam" : "冷水江市"
+         },
+         {
+            "gafeecod" : "5623",
+            "gargnnam" : "涟源市"
+         },
+         {
+            "gafeecod" : "5624",
+            "gargnnam" : "双峰县"
+         },
+         {
+            "gafeecod" : "5625",
+            "gargnnam" : "新化县"
+         },
+         {
+            "gafeecod" : "5630",
+            "gargnnam" : "郴州市"
+         },
+         {
+            "gafeecod" : "5632",
+            "gargnnam" : "资兴市"
+         },
+         {
+            "gafeecod" : "5634",
+            "gargnnam" : "桂阳县"
+         },
+         {
+            "gafeecod" : "5635",
+            "gargnnam" : "永兴县"
+         },
+         {
+            "gafeecod" : "5636",
+            "gargnnam" : "宜章县"
+         },
+         {
+            "gafeecod" : "5637",
+            "gargnnam" : "嘉禾县"
+         },
+         {
+            "gafeecod" : "5638",
+            "gargnnam" : "临武县"
+         },
+         {
+            "gafeecod" : "5639",
+            "gargnnam" : "汝城县"
+         },
+         {
+            "gafeecod" : "5641",
+            "gargnnam" : "桂东县"
+         },
+         {
+            "gafeecod" : "5642",
+            "gargnnam" : "安仁县"
+         },
+         {
+            "gafeecod" : "5650",
+            "gargnnam" : "永州市"
+         },
+         {
+            "gafeecod" : "5653",
+            "gargnnam" : "东安县"
+         },
+         {
+            "gafeecod" : "5654",
+            "gargnnam" : "道县"
+         },
+         {
+            "gafeecod" : "5655",
+            "gargnnam" : "宁远县"
+         },
+         {
+            "gafeecod" : "5656",
+            "gargnnam" : "江永县"
+         },
+         {
+            "gafeecod" : "5657",
+            "gargnnam" : "江华县"
+         },
+         {
+            "gafeecod" : "5658",
+            "gargnnam" : "蓝山县"
+         },
+         {
+            "gafeecod" : "5659",
+            "gargnnam" : "新田县"
+         },
+         {
+            "gafeecod" : "5661",
+            "gargnnam" : "双牌县"
+         },
+         {
+            "gafeecod" : "5662",
+            "gargnnam" : "祁阳县"
+         },
+         {
+            "gafeecod" : "5670",
+            "gargnnam" : "怀化市"
+         },
+         {
+            "gafeecod" : "5672",
+            "gargnnam" : "洪江市"
+         },
+         {
+            "gafeecod" : "5674",
+            "gargnnam" : "沅陵县"
+         },
+         {
+            "gafeecod" : "5675",
+            "gargnnam" : "辰溪县"
+         },
+         {
+            "gafeecod" : "5676",
+            "gargnnam" : "溆浦县"
+         },
+         {
+            "gafeecod" : "5677",
+            "gargnnam" : "麻阳县"
+         },
+         {
+            "gafeecod" : "5678",
+            "gargnnam" : "新晃县"
+         },
+         {
+            "gafeecod" : "5679",
+            "gargnnam" : "芷江县"
+         },
+         {
+            "gafeecod" : "5681",
+            "gargnnam" : "会同县"
+         },
+         {
+            "gafeecod" : "5682",
+            "gargnnam" : "靖州县"
+         },
+         {
+            "gafeecod" : "5683",
+            "gargnnam" : "通道县"
+         },
+         {
+            "gafeecod" : "5691",
+            "gargnnam" : "吉首市"
+         },
+         {
+            "gafeecod" : "5692",
+            "gargnnam" : "泸溪县"
+         },
+         {
+            "gafeecod" : "5693",
+            "gargnnam" : "凤凰县"
+         },
+         {
+            "gafeecod" : "5694",
+            "gargnnam" : "花垣县"
+         },
+         {
+            "gafeecod" : "5695",
+            "gargnnam" : "保靖县"
+         },
+         {
+            "gafeecod" : "5696",
+            "gargnnam" : "古丈县"
+         },
+         {
+            "gafeecod" : "5697",
+            "gargnnam" : "永顺县"
+         },
+         {
+            "gafeecod" : "5698",
+            "gargnnam" : "龙山县"
+         }
+      ],
+      "gargnnam" : "湖南省",
+      "provcod" : 43
+   }
+]

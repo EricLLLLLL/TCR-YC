@@ -1,0 +1,596 @@
+[
+   {
+      "area" : [
+         {
+            "gafeecod" : "1210",
+            "gargnnam" : "石家庄市"
+         },
+         {
+            "gafeecod" : "1211",
+            "gargnnam" : "井陉县"
+         },
+         {
+            "gafeecod" : "1212",
+            "gargnnam" : "鹿泉市"
+         },
+         {
+            "gafeecod" : "1213",
+            "gargnnam" : "正定县"
+         },
+         {
+            "gafeecod" : "1214",
+            "gargnnam" : "栾城县"
+         },
+         {
+            "gafeecod" : "1221",
+            "gargnnam" : "辛集市"
+         },
+         {
+            "gafeecod" : "1222",
+            "gargnnam" : "晋州市"
+         },
+         {
+            "gafeecod" : "1223",
+            "gargnnam" : "深泽县"
+         },
+         {
+            "gafeecod" : "1224",
+            "gargnnam" : "无极县"
+         },
+         {
+            "gafeecod" : "1225",
+            "gargnnam" : "藁城市"
+         },
+         {
+            "gafeecod" : "1226",
+            "gargnnam" : "赵县"
+         },
+         {
+            "gafeecod" : "1227",
+            "gargnnam" : "新乐市"
+         },
+         {
+            "gafeecod" : "1228",
+            "gargnnam" : "高邑县"
+         },
+         {
+            "gafeecod" : "1229",
+            "gargnnam" : "元氏县"
+         },
+         {
+            "gafeecod" : "1231",
+            "gargnnam" : "赞皇县"
+         },
+         {
+            "gafeecod" : "1232",
+            "gargnnam" : "平山县"
+         },
+         {
+            "gafeecod" : "1233",
+            "gargnnam" : "灵寿县"
+         },
+         {
+            "gafeecod" : "1234",
+            "gargnnam" : "行唐县"
+         },
+         {
+            "gafeecod" : "1240",
+            "gargnnam" : "唐山市"
+         },
+         {
+            "gafeecod" : "1243",
+            "gargnnam" : "滦县"
+         },
+         {
+            "gafeecod" : "1244",
+            "gargnnam" : "滦南县"
+         },
+         {
+            "gafeecod" : "1245",
+            "gargnnam" : "乐亭县"
+         },
+         {
+            "gafeecod" : "1246",
+            "gargnnam" : "迁安市"
+         },
+         {
+            "gafeecod" : "1247",
+            "gargnnam" : "迁西县"
+         },
+         {
+            "gafeecod" : "1248",
+            "gargnnam" : "遵化市"
+         },
+         {
+            "gafeecod" : "1249",
+            "gargnnam" : "玉田县"
+         },
+         {
+            "gafeecod" : "1251",
+            "gargnnam" : "唐海县"
+         },
+         {
+            "gafeecod" : "1260",
+            "gargnnam" : "秦皇岛市"
+         },
+         {
+            "gafeecod" : "1261",
+            "gargnnam" : "青龙县"
+         },
+         {
+            "gafeecod" : "1262",
+            "gargnnam" : "昌黎县"
+         },
+         {
+            "gafeecod" : "1263",
+            "gargnnam" : "抚宁县"
+         },
+         {
+            "gafeecod" : "1264",
+            "gargnnam" : "卢龙县"
+         },
+         {
+            "gafeecod" : "1270",
+            "gargnnam" : "邯郸市"
+         },
+         {
+            "gafeecod" : "1271",
+            "gargnnam" : "邯郸县"
+         },
+         {
+            "gafeecod" : "1281",
+            "gargnnam" : "大名县"
+         },
+         {
+            "gafeecod" : "1282",
+            "gargnnam" : "魏县"
+         },
+         {
+            "gafeecod" : "1283",
+            "gargnnam" : "曲周县"
+         },
+         {
+            "gafeecod" : "1284",
+            "gargnnam" : "邱县"
+         },
+         {
+            "gafeecod" : "1285",
+            "gargnnam" : "鸡泽县"
+         },
+         {
+            "gafeecod" : "1286",
+            "gargnnam" : "肥乡县"
+         },
+         {
+            "gafeecod" : "1287",
+            "gargnnam" : "广平县"
+         },
+         {
+            "gafeecod" : "1288",
+            "gargnnam" : "成安县"
+         },
+         {
+            "gafeecod" : "1289",
+            "gargnnam" : "临漳县"
+         },
+         {
+            "gafeecod" : "1291",
+            "gargnnam" : "磁县"
+         },
+         {
+            "gafeecod" : "1292",
+            "gargnnam" : "涉县"
+         },
+         {
+            "gafeecod" : "1293",
+            "gargnnam" : "永年县"
+         },
+         {
+            "gafeecod" : "1294",
+            "gargnnam" : "馆陶县"
+         },
+         {
+            "gafeecod" : "1295",
+            "gargnnam" : "武安市"
+         },
+         {
+            "gafeecod" : "1310",
+            "gargnnam" : "邢台市"
+         },
+         {
+            "gafeecod" : "1311",
+            "gargnnam" : "邢台县"
+         },
+         {
+            "gafeecod" : "1321",
+            "gargnnam" : "南宫市"
+         },
+         {
+            "gafeecod" : "1322",
+            "gargnnam" : "沙河市"
+         },
+         {
+            "gafeecod" : "1323",
+            "gargnnam" : "临城县"
+         },
+         {
+            "gafeecod" : "1324",
+            "gargnnam" : "内邱县"
+         },
+         {
+            "gafeecod" : "1325",
+            "gargnnam" : "柏乡县"
+         },
+         {
+            "gafeecod" : "1326",
+            "gargnnam" : "隆尧县"
+         },
+         {
+            "gafeecod" : "1327",
+            "gargnnam" : "任县"
+         },
+         {
+            "gafeecod" : "1328",
+            "gargnnam" : "南和县"
+         },
+         {
+            "gafeecod" : "1329",
+            "gargnnam" : "宁晋县"
+         },
+         {
+            "gafeecod" : "1331",
+            "gargnnam" : "巨鹿县"
+         },
+         {
+            "gafeecod" : "1332",
+            "gargnnam" : "新河县"
+         },
+         {
+            "gafeecod" : "1333",
+            "gargnnam" : "广宗县"
+         },
+         {
+            "gafeecod" : "1334",
+            "gargnnam" : "平乡县"
+         },
+         {
+            "gafeecod" : "1335",
+            "gargnnam" : "威县"
+         },
+         {
+            "gafeecod" : "1336",
+            "gargnnam" : "清河县"
+         },
+         {
+            "gafeecod" : "1337",
+            "gargnnam" : "临西县"
+         },
+         {
+            "gafeecod" : "1340",
+            "gargnnam" : "保定市"
+         },
+         {
+            "gafeecod" : "1341",
+            "gargnnam" : "满城县"
+         },
+         {
+            "gafeecod" : "1342",
+            "gargnnam" : "清苑县"
+         },
+         {
+            "gafeecod" : "1351",
+            "gargnnam" : "定州市"
+         },
+         {
+            "gafeecod" : "1352",
+            "gargnnam" : "涿州市"
+         },
+         {
+            "gafeecod" : "1353",
+            "gargnnam" : "易县"
+         },
+         {
+            "gafeecod" : "1354",
+            "gargnnam" : "徐水县"
+         },
+         {
+            "gafeecod" : "1355",
+            "gargnnam" : "涞源县"
+         },
+         {
+            "gafeecod" : "1356",
+            "gargnnam" : "定兴县"
+         },
+         {
+            "gafeecod" : "1357",
+            "gargnnam" : "顺平县"
+         },
+         {
+            "gafeecod" : "1358",
+            "gargnnam" : "唐县"
+         },
+         {
+            "gafeecod" : "1359",
+            "gargnnam" : "望都县"
+         },
+         {
+            "gafeecod" : "1361",
+            "gargnnam" : "涞水县"
+         },
+         {
+            "gafeecod" : "1362",
+            "gargnnam" : "高阳县"
+         },
+         {
+            "gafeecod" : "1363",
+            "gargnnam" : "安新县"
+         },
+         {
+            "gafeecod" : "1364",
+            "gargnnam" : "雄县"
+         },
+         {
+            "gafeecod" : "1365",
+            "gargnnam" : "容城县"
+         },
+         {
+            "gafeecod" : "1366",
+            "gargnnam" : "高碑店市"
+         },
+         {
+            "gafeecod" : "1367",
+            "gargnnam" : "曲阳县"
+         },
+         {
+            "gafeecod" : "1368",
+            "gargnnam" : "阜平县"
+         },
+         {
+            "gafeecod" : "1369",
+            "gargnnam" : "安国市"
+         },
+         {
+            "gafeecod" : "1371",
+            "gargnnam" : "博野县"
+         },
+         {
+            "gafeecod" : "1372",
+            "gargnnam" : "蠡县"
+         },
+         {
+            "gafeecod" : "1380",
+            "gargnnam" : "张家口市"
+         },
+         {
+            "gafeecod" : "1381",
+            "gargnnam" : "宣化县"
+         },
+         {
+            "gafeecod" : "1391",
+            "gargnnam" : "张北县"
+         },
+         {
+            "gafeecod" : "1392",
+            "gargnnam" : "康保县"
+         },
+         {
+            "gafeecod" : "1393",
+            "gargnnam" : "沽源县"
+         },
+         {
+            "gafeecod" : "1394",
+            "gargnnam" : "尚义县"
+         },
+         {
+            "gafeecod" : "1395",
+            "gargnnam" : "蔚县"
+         },
+         {
+            "gafeecod" : "1396",
+            "gargnnam" : "阳原县"
+         },
+         {
+            "gafeecod" : "1397",
+            "gargnnam" : "怀安县"
+         },
+         {
+            "gafeecod" : "1398",
+            "gargnnam" : "万全县"
+         },
+         {
+            "gafeecod" : "1399",
+            "gargnnam" : "怀来县"
+         },
+         {
+            "gafeecod" : "1401",
+            "gargnnam" : "涿鹿县"
+         },
+         {
+            "gafeecod" : "1402",
+            "gargnnam" : "赤城县"
+         },
+         {
+            "gafeecod" : "1403",
+            "gargnnam" : "崇礼县"
+         },
+         {
+            "gafeecod" : "1410",
+            "gargnnam" : "承德市"
+         },
+         {
+            "gafeecod" : "1411",
+            "gargnnam" : "承德县"
+         },
+         {
+            "gafeecod" : "1421",
+            "gargnnam" : "宽城县"
+         },
+         {
+            "gafeecod" : "1422",
+            "gargnnam" : "兴隆县"
+         },
+         {
+            "gafeecod" : "1423",
+            "gargnnam" : "平泉县"
+         },
+         {
+            "gafeecod" : "1424",
+            "gargnnam" : "滦平县"
+         },
+         {
+            "gafeecod" : "1425",
+            "gargnnam" : "丰宁县"
+         },
+         {
+            "gafeecod" : "1426",
+            "gargnnam" : "隆化县"
+         },
+         {
+            "gafeecod" : "1427",
+            "gargnnam" : "围场县"
+         },
+         {
+            "gafeecod" : "1430",
+            "gargnnam" : "沧州市"
+         },
+         {
+            "gafeecod" : "1431",
+            "gargnnam" : "沧县"
+         },
+         {
+            "gafeecod" : "1432",
+            "gargnnam" : "青县"
+         },
+         {
+            "gafeecod" : "1441",
+            "gargnnam" : "泊头市"
+         },
+         {
+            "gafeecod" : "1442",
+            "gargnnam" : "任丘市"
+         },
+         {
+            "gafeecod" : "1443",
+            "gargnnam" : "河间市"
+         },
+         {
+            "gafeecod" : "1444",
+            "gargnnam" : "肃宁县"
+         },
+         {
+            "gafeecod" : "1445",
+            "gargnnam" : "献县"
+         },
+         {
+            "gafeecod" : "1446",
+            "gargnnam" : "吴桥县"
+         },
+         {
+            "gafeecod" : "1447",
+            "gargnnam" : "东光县"
+         },
+         {
+            "gafeecod" : "1448",
+            "gargnnam" : "南皮县"
+         },
+         {
+            "gafeecod" : "1449",
+            "gargnnam" : "盐山县"
+         },
+         {
+            "gafeecod" : "1451",
+            "gargnnam" : "黄骅市"
+         },
+         {
+            "gafeecod" : "1452",
+            "gargnnam" : "孟村县"
+         },
+         {
+            "gafeecod" : "1453",
+            "gargnnam" : "海兴县"
+         },
+         {
+            "gafeecod" : "1460",
+            "gargnnam" : "廊坊市"
+         },
+         {
+            "gafeecod" : "1461",
+            "gargnnam" : "三河市"
+         },
+         {
+            "gafeecod" : "1462",
+            "gargnnam" : "固安县"
+         },
+         {
+            "gafeecod" : "1463",
+            "gargnnam" : "永清县"
+         },
+         {
+            "gafeecod" : "1464",
+            "gargnnam" : "香河县"
+         },
+         {
+            "gafeecod" : "1465",
+            "gargnnam" : "大城县"
+         },
+         {
+            "gafeecod" : "1466",
+            "gargnnam" : "文安县"
+         },
+         {
+            "gafeecod" : "1467",
+            "gargnnam" : "霸州市"
+         },
+         {
+            "gafeecod" : "1468",
+            "gargnnam" : "大厂县"
+         },
+         {
+            "gafeecod" : "1480",
+            "gargnnam" : "衡水市"
+         },
+         {
+            "gafeecod" : "1482",
+            "gargnnam" : "冀州市"
+         },
+         {
+            "gafeecod" : "1483",
+            "gargnnam" : "枣强县"
+         },
+         {
+            "gafeecod" : "1484",
+            "gargnnam" : "武邑县"
+         },
+         {
+            "gafeecod" : "1485",
+            "gargnnam" : "深州市"
+         },
+         {
+            "gafeecod" : "1486",
+            "gargnnam" : "武强县"
+         },
+         {
+            "gafeecod" : "1487",
+            "gargnnam" : "饶阳县"
+         },
+         {
+            "gafeecod" : "1488",
+            "gargnnam" : "安平县"
+         },
+         {
+            "gafeecod" : "1489",
+            "gargnnam" : "故城县"
+         },
+         {
+            "gafeecod" : "1491",
+            "gargnnam" : "景县"
+         },
+         {
+            "gafeecod" : "1492",
+            "gargnnam" : "阜城县"
+         }
+      ],
+      "gargnnam" : "河北省",
+      "provcod" : 13
+   }
+]

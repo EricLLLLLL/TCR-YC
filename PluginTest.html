@@ -1,0 +1,45 @@
+﻿<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <title>模块测试页面</title>
+    <link rel="stylesheet" type="text/css" href="./Framework/Plugin/Waiting/Waiting.css" />
+    <link rel="stylesheet" type="text/css" href="./Framework/Plugin/keyboard/keyboard.css" />
+    <style typeof="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            width: 1024px;
+            height: 768px;
+            background-image: url('./Framework/style/Graphics/btn/bg.jpg');
+            background-repeat: no-repeat;
+        }
+
+        #KeyboardDiv {
+            top: 142px;
+            left: 696px;
+            position: absolute;
+            z-index: 100;
+        }
+    </style>
+    <script type="text/javascript" src="./Utilitys/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="./Framework/ScriptEngine/DynamicLoadFiles.js"></script>
+    <script type="text/javascript" src="./Framework/Plugin/Waiting/Waiting.js"></script>
+    <script type="text/javascript" src="./Framework/Plugin/Advert/Advert.js"></script>
+    <script type="text/javascript" src="./Framework/Plugin/keyboard/keyboard.js"></script>
+    <script type="text/javascript" src="./Framework/Plugin/Plugin.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var pl = new Plugin();
+            pl.Keyboard.show("1", "PageSubject", "KeyboardDiv");
+        });
+    </script>
+</head>
+<body style="text-align:center;">
+    <h1 style="color: #593b02; margin-top: 70px; font-family: Arial; ">模块测试页面</h1>
+    <div id="PageSubject">
+        <div id="KeyboardDiv"></div>
+    </div>
+    <div></div>
+</body>
+</html>

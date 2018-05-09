@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="9/13/2017 3:07:47 PM">
+	<div id="PageTop">
+		<div id="PageTitle">
+	</div>
+		<div id="ShowTime">
+	</div>
+	</div>
+	<div id="PageSubject">
+		<div id="TrabsferkInfoDIV" style="display:block;margin-left:200px;" class="">
+			<div id="TipDiv" style="margin-left:-200px;">
+				请核对转入账号信息
+			</div>
+			<div class="">
+				<span class="bigSpan">销户账号：</span>
+				<span id="CancelAccount" class="TrabsferkInfo" style="margin-left:20px"></span>
+			</div>
+			<div class="">
+				<span class="bigSpan">销户户名：</span>
+				<span id="CancelName" class="TrabsferkInfo" style="margin-left:20px"></span>
+			</div>
+			<div class="">
+				<span class="bigSpan">转入账号：</span>
+				<span id="PayeeAccount" class="TrabsferkInfo" style="margin-left:20px"></span>
+			</div>
+			<div class="">
+				<span class="bigSpan">转入户名：</span>
+				<span id="CustomerName" class="TrabsferkInfo" style="margin-left:20px"></span>
+			</div>
+			<div class="">
+				<span class="bigSpan">手机号码：</span>
+				<span id="phoneNum" class="TrabsferkInfo" style="margin-left:20px"></span>
+			</div>
+			<div class="TrabsferkInfo" style="margin-top:160px;font-size:20px;margin-left:100px;font-family:宋体">
+				<p>
+					提示：该转账交易为资金实时入账交易，
+				</p>
+				<p style="margin-left:60px;margin-top:10px;">请您认真核对转入账号信息</p>
+			</div>
+		</div>
+	</div>
+	<div id="PageButton">
+		<a href='#' class='Left_3' id='Exit'>退出</a>
+		<a href='#' class='Left_4' id='Back'>返回</a>
+		<a href="#" class="Right_4" id="OK">确定</a>
+	</div>
+
+</div>

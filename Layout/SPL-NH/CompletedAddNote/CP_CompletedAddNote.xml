@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="12/15/2015 3:22:49 PM">
+  <div id="PageTop">
+    <div id="PageTitle">
+      <img src="Framework/style/Graphics/btn/m1.jpg" style="float:left;"/>
+      <div class="title_text">加钞设定</div>
+    </div>
+    <div id="ShowTime">
+    </div>
+  </div>
+  <div class="TopText">
+    <div style="float:left;">
+      受理行号：<span id='SubBankId'>00000000-12345678号机</span>
+      <br/>
+      状态：<span id='DevStatus'>00000（00）</span>
+    </div>
+  </div>
+  <div class="TopTimer" id="LocalTime">
+    2015-12-16  10:54
+  </div>
+  <div id="PageSubject">
+    <div class="PromptDiv" id ="SuccessedDiv">
+      <input type="button" class="PromptIcon"/>
+      加钞成功！
+    </div>
+    <div class="PromptDiv" id ="FailedDiv" style="display :none">
+      <input type="button" class="PromptIcon"/>
+      加钞失败！
+    </div>
+    <div class="TipDiv" style="margin-left:435px;">
+      温馨提示：
+      <br/>
+      <br/>
+      点击右边的按钮进行确定，
+      <br/>
+      <br/>
+      返回请点击左边按钮
+    </div>
+  </div>
+  <div class="PageLeftButton" id="Exit" style="display:none"></div>
+  <div class="PageRightButton" id="OK" style="display:none"></div>
+</div>

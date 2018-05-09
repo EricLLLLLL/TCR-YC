@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+	<div id="PageContent" autogenerate_time="11/26/2015 5:42:21 PM">
+  <div id="PageTop">
+    <div id="PageTitle">
+    </div>
+    <div id="ShowTime">
+    </div>
+  </div>
+  <div id="PageSubject" class="MiddleDiv">
+    <div id="SubjectTip" style="color: red;"><p>暂只支持本行卡，敬请期待！</p>
+    请按退出键返回主页面并选择其他业务</div>
+  </div>
+  <div id="PageButton">
+    <a href="#" class="Left_4" id="Exit">退出</a>
+  </div>
+</div>

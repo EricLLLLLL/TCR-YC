@@ -1,0 +1,272 @@
+[
+   {
+      "area" : [
+         {
+            "gafeecod" : "3910",
+            "gargnnam" : "福州市"
+         },
+         {
+            "gafeecod" : "3911",
+            "gargnnam" : "闽侯县"
+         },
+         {
+            "gafeecod" : "3912",
+            "gargnnam" : "连江县"
+         },
+         {
+            "gafeecod" : "3913",
+            "gargnnam" : "罗源县"
+         },
+         {
+            "gafeecod" : "3914",
+            "gargnnam" : "闽清县"
+         },
+         {
+            "gafeecod" : "3915",
+            "gargnnam" : "永泰县"
+         },
+         {
+            "gafeecod" : "3916",
+            "gargnnam" : "长乐市"
+         },
+         {
+            "gafeecod" : "3917",
+            "gargnnam" : "福清市"
+         },
+         {
+            "gafeecod" : "3918",
+            "gargnnam" : "平潭县"
+         },
+         {
+            "gafeecod" : "3940",
+            "gargnnam" : "莆田市"
+         },
+         {
+            "gafeecod" : "3942",
+            "gargnnam" : "仙游县"
+         },
+         {
+            "gafeecod" : "3950",
+            "gargnnam" : "三明市"
+         },
+         {
+            "gafeecod" : "3951",
+            "gargnnam" : "明溪县"
+         },
+         {
+            "gafeecod" : "3952",
+            "gargnnam" : "清流县"
+         },
+         {
+            "gafeecod" : "3953",
+            "gargnnam" : "宁化县"
+         },
+         {
+            "gafeecod" : "3954",
+            "gargnnam" : "大田县"
+         },
+         {
+            "gafeecod" : "3955",
+            "gargnnam" : "尤溪县"
+         },
+         {
+            "gafeecod" : "3956",
+            "gargnnam" : "沙县"
+         },
+         {
+            "gafeecod" : "3957",
+            "gargnnam" : "将乐县"
+         },
+         {
+            "gafeecod" : "3958",
+            "gargnnam" : "泰宁县"
+         },
+         {
+            "gafeecod" : "3959",
+            "gargnnam" : "建宁县"
+         },
+         {
+            "gafeecod" : "3961",
+            "gargnnam" : "永安市"
+         },
+         {
+            "gafeecod" : "3970",
+            "gargnnam" : "泉州市"
+         },
+         {
+            "gafeecod" : "3971",
+            "gargnnam" : "惠安县"
+         },
+         {
+            "gafeecod" : "3972",
+            "gargnnam" : "晋江市"
+         },
+         {
+            "gafeecod" : "3973",
+            "gargnnam" : "南安市"
+         },
+         {
+            "gafeecod" : "3974",
+            "gargnnam" : "安溪县"
+         },
+         {
+            "gafeecod" : "3975",
+            "gargnnam" : "永春县"
+         },
+         {
+            "gafeecod" : "3976",
+            "gargnnam" : "德化县"
+         },
+         {
+            "gafeecod" : "3978",
+            "gargnnam" : "石狮市"
+         },
+         {
+            "gafeecod" : "3990",
+            "gargnnam" : "漳州市"
+         },
+         {
+            "gafeecod" : "3991",
+            "gargnnam" : "龙海市"
+         },
+         {
+            "gafeecod" : "3992",
+            "gargnnam" : "云霄县"
+         },
+         {
+            "gafeecod" : "3993",
+            "gargnnam" : "漳浦县"
+         },
+         {
+            "gafeecod" : "3994",
+            "gargnnam" : "诏安县"
+         },
+         {
+            "gafeecod" : "3995",
+            "gargnnam" : "长泰县"
+         },
+         {
+            "gafeecod" : "3996",
+            "gargnnam" : "东山县"
+         },
+         {
+            "gafeecod" : "3997",
+            "gargnnam" : "南靖县"
+         },
+         {
+            "gafeecod" : "3998",
+            "gargnnam" : "平和县"
+         },
+         {
+            "gafeecod" : "3999",
+            "gargnnam" : "华安县"
+         },
+         {
+            "gafeecod" : "4010",
+            "gargnnam" : "南平市"
+         },
+         {
+            "gafeecod" : "4012",
+            "gargnnam" : "邵武市"
+         },
+         {
+            "gafeecod" : "4013",
+            "gargnnam" : "顺昌县"
+         },
+         {
+            "gafeecod" : "4014",
+            "gargnnam" : "建阳市"
+         },
+         {
+            "gafeecod" : "4015",
+            "gargnnam" : "建瓯市"
+         },
+         {
+            "gafeecod" : "4016",
+            "gargnnam" : "浦城县"
+         },
+         {
+            "gafeecod" : "4017",
+            "gargnnam" : "武夷山市"
+         },
+         {
+            "gafeecod" : "4018",
+            "gargnnam" : "光泽县"
+         },
+         {
+            "gafeecod" : "4019",
+            "gargnnam" : "松溪县"
+         },
+         {
+            "gafeecod" : "4021",
+            "gargnnam" : "政和县"
+         },
+         {
+            "gafeecod" : "4030",
+            "gargnnam" : "宁德市"
+         },
+         {
+            "gafeecod" : "4032",
+            "gargnnam" : "福鼎市"
+         },
+         {
+            "gafeecod" : "4033",
+            "gargnnam" : "霞浦县"
+         },
+         {
+            "gafeecod" : "4034",
+            "gargnnam" : "福安市"
+         },
+         {
+            "gafeecod" : "4035",
+            "gargnnam" : "古田县"
+         },
+         {
+            "gafeecod" : "4036",
+            "gargnnam" : "屏南县"
+         },
+         {
+            "gafeecod" : "4037",
+            "gargnnam" : "寿宁县"
+         },
+         {
+            "gafeecod" : "4038",
+            "gargnnam" : "周宁县"
+         },
+         {
+            "gafeecod" : "4039",
+            "gargnnam" : "柘荣县"
+         },
+         {
+            "gafeecod" : "4050",
+            "gargnnam" : "龙岩市"
+         },
+         {
+            "gafeecod" : "4052",
+            "gargnnam" : "长汀县"
+         },
+         {
+            "gafeecod" : "4053",
+            "gargnnam" : "永定县"
+         },
+         {
+            "gafeecod" : "4054",
+            "gargnnam" : "上杭县"
+         },
+         {
+            "gafeecod" : "4055",
+            "gargnnam" : "武平县"
+         },
+         {
+            "gafeecod" : "4056",
+            "gargnnam" : "漳平市"
+         },
+         {
+            "gafeecod" : "4057",
+            "gargnnam" : "连城县"
+         }
+      ],
+      "gargnnam" : "福建省（不含厦门市）",
+      "provcod" : 35
+   }
+]

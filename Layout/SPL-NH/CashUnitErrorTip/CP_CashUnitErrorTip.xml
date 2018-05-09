@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="12/15/2015 3:22:49 PM">
+  <div id="PageTop">
+    <div id="PageTitle">
+      <img src="Framework/style/Graphics/btn/m1.jpg" style="float:left;"/>
+      <div class="title_text">错误页面</div>
+    </div>
+    <div id="ShowTime">
+    </div>
+  </div>
+  <div class="TopText">
+    <div style="float:left;">
+      受理行号：<span id='SubBankId'>00000000-12345678号机</span>
+      <br/>
+      状态：<span id='DevStatus'>00000（00）</span>
+    </div>
+  </div>
+  <div class="TopTimer" id="LocalTime">
+    2015-12-16  10:54
+  </div>
+  <div id="PageSubject">
+    <div style="margin-top:180px;margin-left:320px;font-size:22px;">
+      <img src="Framework/style/Graphics/box_ico_2.png" style="float:left;margin-top:-3px;margin-right:5px;"/>
+      <div id="tip" style="float:left;margin-top:5px;margin-right:5px;">
+        钱箱信息存在问题，请联系维护人员处理！
+      </div>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+  </div>
+</div>

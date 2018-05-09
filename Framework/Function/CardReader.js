@@ -1,0 +1,8 @@
+﻿
+(function () {
+    window.CardReader = function () {
+
+        
+    };
+
+})();;

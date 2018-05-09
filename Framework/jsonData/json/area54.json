@@ -1,0 +1,308 @@
+[
+   {
+      "area" : [
+         {
+            "gafeecod" : "7700",
+            "gargnnam" : "林周县"
+         },
+         {
+            "gafeecod" : "7710",
+            "gargnnam" : "拉萨市"
+         },
+         {
+            "gafeecod" : "7711",
+            "gargnnam" : "樟木口岸镇"
+         },
+         {
+            "gafeecod" : "7712",
+            "gargnnam" : "当雄县"
+         },
+         {
+            "gafeecod" : "7713",
+            "gargnnam" : "尼木县"
+         },
+         {
+            "gafeecod" : "7714",
+            "gargnnam" : "曲水县"
+         },
+         {
+            "gafeecod" : "7715",
+            "gargnnam" : "堆龙德庆县"
+         },
+         {
+            "gafeecod" : "7716",
+            "gargnnam" : "达孜县"
+         },
+         {
+            "gafeecod" : "7717",
+            "gargnnam" : "墨竹工卡县"
+         },
+         {
+            "gafeecod" : "7721",
+            "gargnnam" : "昌都县"
+         },
+         {
+            "gafeecod" : "7722",
+            "gargnnam" : "江达县"
+         },
+         {
+            "gafeecod" : "7723",
+            "gargnnam" : "贡觉县"
+         },
+         {
+            "gafeecod" : "7724",
+            "gargnnam" : "类乌齐县"
+         },
+         {
+            "gafeecod" : "7725",
+            "gargnnam" : "丁青县"
+         },
+         {
+            "gafeecod" : "7726",
+            "gargnnam" : "察雅县"
+         },
+         {
+            "gafeecod" : "7727",
+            "gargnnam" : "八宿县"
+         },
+         {
+            "gafeecod" : "7728",
+            "gargnnam" : "左贡县"
+         },
+         {
+            "gafeecod" : "7729",
+            "gargnnam" : "芒康县"
+         },
+         {
+            "gafeecod" : "7731",
+            "gargnnam" : "洛隆县"
+         },
+         {
+            "gafeecod" : "7732",
+            "gargnnam" : "边坝县"
+         },
+         {
+            "gafeecod" : "7741",
+            "gargnnam" : "乃东县"
+         },
+         {
+            "gafeecod" : "7742",
+            "gargnnam" : "扎囊县"
+         },
+         {
+            "gafeecod" : "7743",
+            "gargnnam" : "贡嘎县"
+         },
+         {
+            "gafeecod" : "7744",
+            "gargnnam" : "桑日县"
+         },
+         {
+            "gafeecod" : "7745",
+            "gargnnam" : "琼结县"
+         },
+         {
+            "gafeecod" : "7746",
+            "gargnnam" : "曲松县"
+         },
+         {
+            "gafeecod" : "7747",
+            "gargnnam" : "措美县"
+         },
+         {
+            "gafeecod" : "7748",
+            "gargnnam" : "洛扎县"
+         },
+         {
+            "gafeecod" : "7749",
+            "gargnnam" : "加查县"
+         },
+         {
+            "gafeecod" : "7751",
+            "gargnnam" : "隆子县"
+         },
+         {
+            "gafeecod" : "7752",
+            "gargnnam" : "错那县"
+         },
+         {
+            "gafeecod" : "7753",
+            "gargnnam" : "浪卡子县"
+         },
+         {
+            "gafeecod" : "7761",
+            "gargnnam" : "日喀则市"
+         },
+         {
+            "gafeecod" : "7762",
+            "gargnnam" : "南木林县"
+         },
+         {
+            "gafeecod" : "7763",
+            "gargnnam" : "江孜县"
+         },
+         {
+            "gafeecod" : "7764",
+            "gargnnam" : "定日县"
+         },
+         {
+            "gafeecod" : "7765",
+            "gargnnam" : "萨迦县"
+         },
+         {
+            "gafeecod" : "7766",
+            "gargnnam" : "拉孜县"
+         },
+         {
+            "gafeecod" : "7767",
+            "gargnnam" : "昂仁县"
+         },
+         {
+            "gafeecod" : "7768",
+            "gargnnam" : "谢通门县"
+         },
+         {
+            "gafeecod" : "7769",
+            "gargnnam" : "白朗县"
+         },
+         {
+            "gafeecod" : "7771",
+            "gargnnam" : "仁布县"
+         },
+         {
+            "gafeecod" : "7772",
+            "gargnnam" : "康马县"
+         },
+         {
+            "gafeecod" : "7773",
+            "gargnnam" : "定结县"
+         },
+         {
+            "gafeecod" : "7774",
+            "gargnnam" : "仲巴县"
+         },
+         {
+            "gafeecod" : "7775",
+            "gargnnam" : "亚东县"
+         },
+         {
+            "gafeecod" : "7776",
+            "gargnnam" : "吉隆县"
+         },
+         {
+            "gafeecod" : "7777",
+            "gargnnam" : "聂拉木县"
+         },
+         {
+            "gafeecod" : "7778",
+            "gargnnam" : "萨嘎县"
+         },
+         {
+            "gafeecod" : "7779",
+            "gargnnam" : "岗巴县"
+         },
+         {
+            "gafeecod" : "7791",
+            "gargnnam" : "那曲县"
+         },
+         {
+            "gafeecod" : "7792",
+            "gargnnam" : "嘉黎县"
+         },
+         {
+            "gafeecod" : "7793",
+            "gargnnam" : "比如县"
+         },
+         {
+            "gafeecod" : "7794",
+            "gargnnam" : "聂荣县"
+         },
+         {
+            "gafeecod" : "7795",
+            "gargnnam" : "安多县"
+         },
+         {
+            "gafeecod" : "7796",
+            "gargnnam" : "申扎县"
+         },
+         {
+            "gafeecod" : "7797",
+            "gargnnam" : "索县"
+         },
+         {
+            "gafeecod" : "7798",
+            "gargnnam" : "班戈县"
+         },
+         {
+            "gafeecod" : "7799",
+            "gargnnam" : "巴青县"
+         },
+         {
+            "gafeecod" : "7800",
+            "gargnnam" : "双湖特别行政区"
+         },
+         {
+            "gafeecod" : "7801",
+            "gargnnam" : "尼玛县"
+         },
+         {
+            "gafeecod" : "7811",
+            "gargnnam" : "普兰县"
+         },
+         {
+            "gafeecod" : "7812",
+            "gargnnam" : "札达县"
+         },
+         {
+            "gafeecod" : "7813",
+            "gargnnam" : "噶尔县"
+         },
+         {
+            "gafeecod" : "7814",
+            "gargnnam" : "日土县"
+         },
+         {
+            "gafeecod" : "7815",
+            "gargnnam" : "革吉县"
+         },
+         {
+            "gafeecod" : "7816",
+            "gargnnam" : "改则县"
+         },
+         {
+            "gafeecod" : "7817",
+            "gargnnam" : "措勤县"
+         },
+         {
+            "gafeecod" : "7831",
+            "gargnnam" : "林芝县"
+         },
+         {
+            "gafeecod" : "7832",
+            "gargnnam" : "工布江达县"
+         },
+         {
+            "gafeecod" : "7833",
+            "gargnnam" : "米林县"
+         },
+         {
+            "gafeecod" : "7834",
+            "gargnnam" : "墨脱县"
+         },
+         {
+            "gafeecod" : "7835",
+            "gargnnam" : "波密县"
+         },
+         {
+            "gafeecod" : "7836",
+            "gargnnam" : "察隅县"
+         },
+         {
+            "gafeecod" : "7837",
+            "gargnnam" : "朗县"
+         }
+      ],
+      "gargnnam" : "西藏自治区",
+      "provcod" : 54
+   }
+]

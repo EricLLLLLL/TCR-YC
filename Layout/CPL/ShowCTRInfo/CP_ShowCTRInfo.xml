@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div class="PageContent" id="PageContent" >
+  	<div id="PageTop">
+	    <div id="PageTitle">
+	    </div>
+	    <div id="ShowTime">
+	    </div>
+  	</div>
+  	<div id="PageSubject" class="MiddleDiv">
+	    <div id="TipDiv">
+	      	活期账户信息
+	    </div>
+	    <div class="CinfoInputDiv" style="text-align:center">
+		    账号：<input class="CinfoInput" type="text" id="cardNum" value="" unselectable="on" readonly="readonly" style="margin-left:10px;margin-top:60px"/>
+		    <br/>
+		   	余额：<input class="CinfoInput" type="text" id="Balance" value="" unselectable="on" readonly="readonly" style="margin-left:10px"/>
+		</div>
+	    <div class="TipDiv" id="CinfoTip" style="margin-top:100px;margin-left:310px;letter-spacing:1px;width: 400px;line-height:25px;text-align:center;">
+			温馨提示:<br/><br/>
+			如需继续活期转定期交易，请点击“继续”按钮<br/><br/>
+	    </div>
+  	</div>
+  	<div id="PageButton">
+	    <a href='#' class='Left_4' id='Exit'>退卡</a>
+	    <a href='#' class='Right_4' id='OK'>继续</a>
+  	</div>
+</div>

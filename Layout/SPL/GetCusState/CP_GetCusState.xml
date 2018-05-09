@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="3/6/2018 11:09:12 AM">
+	<div id="PageTop">
+		<p> 受理行号：
+      																																
+			<span id='SubBankId'></span>
+		</p>
+		<p> 状态：
+      																																
+			<span id='DevStatus'>00000（00）</span>
+		</p>
+	</div>
+	<div class="stateWrap">
+		<img src="Framework/style/Graphics/stateLine.png" alt="" srcset="" class="stateLine" />
+		<span class="stateTitle">信息提示</span>
+	</div>
+	<div id="PageSubject" class="going">
+		<img class="goingPicture" src="Framework/style/Graphics/loadingTop.gif" alt="" />
+		<p id="goingTip">正在初始化，请稍后...</p>
+	</div>
+	<div id="PageButton">
+		<!-- <button type="buton" id="Back" class="middle">返回</button> -->
+	</div>
+	<!-- 错误状态 提示 style="display:block;"  -->
+	<div id="errorWrap">
+		<div class="errorTips">
+			<div class="errorTipsText">
+				<div class="InfoTitle">信息提示
+					<span id="countDown"></span>
+				</div>
+				<div id="InfoTip">设置失败，请重试。</div>
+			</div>
+		</div>
+	</div>
+	<!-- <div id="shade" class="localWrap">
+		<div class="shadeWrapTips">
+			<p class="shadePicture"></p>
+			<p id="shadeTip">设备通讯中，请稍后...</p>
+		</div>
+	</div> -->
+</div>

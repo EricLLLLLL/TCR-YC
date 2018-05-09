@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div class="PageContent" id="PageContent">
+    <div id="PageTop">
+        <div id="PageTitle">
+        </div>
+        <div id="ShowTime">
+        </div>
+    </div>
+    <div id="PageSubject" class="MiddleDiv">
+        <div id="TipDiv">
+            请选择跨行地区信息
+        </div>
+        <!-- <input class="CinfoInput" type="text" id="AccountInput" value="" readonly="readonly" maxlength="24" style="text-align:center;"/>
+
+        <div class="TipDiv"
+             style="font-size: 16px;margin-top:20px;width: 500px;line-height:35px;margin-left:290px;letter-spacing:1px;">
+            <div class="" style="font-size: 16px;margin-top:360px;width: 500px;line-height:30px;margin-left:20px;letter-spacing:1px;">
+            
+            </div>
+        </div> -->
+        <div class="area-info">
+            <div class="province">
+                <label>省份：</label>
+                <button flag="province" code="">选择</button>
+                <input value="" readonly="readonly"/>
+            </div>
+            <div class="area">
+                <label>市/区：</label>
+                <button flag="area" code="">选择</button>
+                <input value="" readonly="readonly"/>
+            </div>
+            <div class="bank">
+                <label>银行信息：</label>
+                <button flag="bank" code="">选择</button>
+                <input value="" readonly="readonly"/>
+            </div>
+            <div class="branch">
+                <label>银行网点：</label>
+                <button flag="branch" code="">选择</button>
+                <!-- <input value="中国工商银行合肥市高新技术产业开发区支行" readonly="readonly"/> -->
+                <span></span>
+            </div>
+        </div>
+
+        <div class="area-wrap hide">
+            <ul>
+                <!-- <li>中国工商银行合肥市高新技术产业开发区支行</li>
+                <li>中国工商银行合肥市高新技术产业开发区支行</li>
+                <li>中国工商银行合肥市高新技术产业开发区支行</li>
+                <li>齐齐哈尔市齐齐哈尔市</li>
+                <li>中国工商银行合肥市高新技术产业开发区支行</li>
+                <li>中国工商银行合肥市高新技术产业开发区支行</li> -->
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+
+        <div id="TipError" class="TipError hide" style="margin-top:160px;font-size:20px;color:#e21d1d;text-align:center;"></div>
+    </div>
+    <div id="PageButton">
+        <a href='#' class='Left_3' id='Back'>返回</a>
+        <a href='#' class='Left_4' id='Exit'>退出</a>
+        <a href='#' class='Right_4 hide' id='OK'>确定</a>
+    </div>
+</div>

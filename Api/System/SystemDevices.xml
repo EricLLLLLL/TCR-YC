@@ -1,0 +1,189 @@
+﻿<?xml version="1.0"?>
+<System format="1">
+  <!-- The controls element contains a list of the HMApp device controls.
+         This list should not normally be edited. -->
+  <controls>
+    <control id="CAM">
+      <name>Camera</name>
+      <clsid>INF_Camera</clsid>
+    </control>
+    <control id="TFC">
+      <name>TesoFaceCamera</name>
+      <clsid>INF_TesoFaceCamera</clsid>
+    </control>
+    <control id="SPT">
+      <name>SystemPrinter</name>
+      <clsid>INF_SystemPrinter</clsid>
+    </control>
+    <control id="IDC">
+      <name>CardReader</name>
+      <clsid>INF_CardReader</clsid>
+    </control>
+    <control id ="CIM">
+      <name>KXCashAcceptor</name>
+      <clsid>INF_CashAcceptor</clsid>
+    </control>
+    <control id="CDM">
+      <name>KXCashDispenser</name>
+      <clsid>INF_CashDispenser</clsid>
+    </control>
+    <control id="JNL">
+      <name>KXJournalPrinter</name>
+      <clsid>INF_JournalPrinter</clsid>
+    </control>
+    <control id="PIN">
+      <name>KXPinPad</name>
+      <clsid>INF_PinPad</clsid>
+    </control>
+    <control id="PTR">
+      <name>KXReceiptPrinter</name>
+      <clsid>INF_ReceiptPrinter</clsid>
+    </control>
+    <control id="FPI">
+      <name>KXFingerPrint</name>
+      <clsid>INF_FingerPrint</clsid>
+    </control>
+    <control id="DAT">
+      <name>DAT</name>
+      <clsid>INF_DAT</clsid>
+    </control>
+    <control id="IDR">
+      <name>KXIdentityCard</name>
+      <clsid>INF_IdentityCard</clsid>
+    </control>
+    <control id="TCP">
+      <name>KXTcpCommunication</name>
+      <clsid>INF_TcpCommunication</clsid>
+    </control>
+    <control id="SCR">
+      <name>KXSwipeCardReader</name>
+      <clsid>INF_SwipeCardReader</clsid>
+    </control>
+    <control id="SIU">
+      <name>KXGuideLights</name>
+      <clsid>INF_GuideLights</clsid>
+    </control>
+	<control id="TSL">
+      <name>KXTsl</name>
+      <clsid>INF_TSL</clsid>
+    </control>
+    <control id="ASS">
+      <name>KXAss</name>
+      <clsid>CLSID:38DB9CE8-7B8B-4646-A3CA-AD8BA2F9FEED</clsid>
+    </control>
+    <control id="RPM">
+      <name>KXRPM</name>
+      <clsid>CLSID:694E01B9-EC60-4536-98B2-2A0C3C19E9E0</clsid>
+    </control>
+    <control id="FCK">
+      <name>KXFCK</name>
+      <clsid>CLSID:B1597418-A51E-4140-8698-EE865439755C</clsid>
+    </control>    
+    <control id="SYS">
+      <name>KXSYS</name>
+      <clsid>INF_SystemManager</clsid>
+    </control>
+    <control id="IME">
+      <name>KXIME</name>
+      <clsid>INF_InputMethod</clsid>
+    </control>
+    <control id="JSTOOL">
+      <name>JSTOOL</name>
+      <clsid>INF_JSTools</clsid>
+    </control>
+  </controls>
+  
+  <!-- The devices element contains a list of all the services that are configured 
+         on the platform. 
+         Edit this to contain the list of services on your own platform. -->
+  <devices>
+    <device id="CAM">
+      <serviceName>Camera</serviceName>
+      <controlName>KXCamera</controlName>
+    </device>
+    <device id="TFC">
+      <serviceName>TesoFaceCamera</serviceName>
+      <controlName>KXTesoFaceCamera</controlName>
+    </device>
+    <device id="SPT">
+      <serviceName>DocmentPrinter</serviceName>
+      <controlName>KXSystemPrinter</controlName>
+    </device>
+    <device id="IDC">
+      <serviceName>CardReader</serviceName>
+      <controlName>KXCardReader</controlName>
+    </device>
+    <device id="CIM">
+      <serviceName>CIM</serviceName>
+      <controlName>KXCashAcceptor</controlName>
+    </device>
+    <device id="CDM">
+      <serviceName>CDM</serviceName>
+      <controlName>KXCashDispenser</controlName>
+    </device>
+    <device id="PIN">
+      <serviceName>PIN300</serviceName>
+      <controlName>KXPinPad</controlName>
+    </device>
+    <device id="JNL">
+      <serviceName>JournalPrinter</serviceName>
+      <controlName>KXJournalPrinter</controlName>
+    </device>
+    <device id="PTR">
+      <serviceName>ReceiptPrinter</serviceName>
+      <controlName>KXReceiptPrinter</controlName>
+    </device>
+    <device id="FPI">
+      <serviceName>FingerPrint</serviceName>
+      <controlName>KXFingerPrint</controlName>
+    </device>
+    <device id="IDR">
+      <serviceName>IDS</serviceName>
+      <controlName>KXIdentityCard</controlName>
+    </device>
+    <device id="DAT">
+      <serviceName>DAT</serviceName>
+      <controlName>DAT</controlName>
+    </device>
+    <device id="TCP">
+      <serviceName>TcpCommunication</serviceName>
+      <controlName>KXTcpCommunication</controlName>
+    </device>
+    <device id="SCR">
+      <serviceName>BrushCard</serviceName>
+      <controlName>KXSwipeCardReader</controlName>
+    </device>
+    <device id="SIU">
+      <serviceName>SIU300</serviceName>
+      <controlName>KXGuideLights</controlName>
+    </device>
+    <device id="TSL">
+      <serviceName>TSL</serviceName>
+      <controlName>TSL</controlName>
+    </device>
+    <device id="ASS">
+      <serviceName>ASS</serviceName>
+      <controlName>KXASS</controlName>
+    </device>
+    <device id="RPM">
+      <serviceName>RPM</serviceName>
+      <controlName>KXRPM</controlName>
+    </device>
+    <device id="FCK">
+      <serviceName>FCK</serviceName>
+      <controlName>KXFCK</controlName>
+    </device>
+    <device id="SYS">
+      <serviceName>SYS</serviceName>
+      <controlName>KXSYS</controlName>
+    </device>
+    <device id="IME">
+      <serviceName>IME</serviceName>
+      <controlName>KXIME</controlName>
+    </device>
+    <device id="JSTOOL">
+      <serviceName>JSTOOL</serviceName>
+      <controlName>KXJSTOOL</controlName>
+    </device>
+  </devices>
+</System>

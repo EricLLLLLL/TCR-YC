@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="12/18/2015 2:50:04 PM">
+  <div id="PageTop">
+    <div id="PageTitle">
+      <img src="Framework/style/Graphics/btn/m1.jpg" style="float:left;"/>
+      <div class="title_text">版本信息</div>
+    </div>
+    <div id="ShowTime">
+    </div>
+  </div>
+  <div class="TopText">
+    <div style="float:left;">
+      受理行号：<span id='SubBankId'>00000000-12345678号机</span>
+      <br/>
+      状态：<span id='DevStatus'>00000（00）</span>
+    </div>
+  </div>
+  <div class="TopTimer" id="LocalTime">
+    2015-12-16  10:54
+  </div>
+  <div id="PageSubject">
+    <div class="VersionInfoDiv">
+      ▽---15：12：15    <span style="margin-left:15px;">15：12：13---▽</span>
+      <br/>
+      打印程序版本信息
+      <br/>
+      应用程序版本：TCR_ABC_01.00
+      <br/>
+      中间件版本：
+      <br/>
+      SP程序版本：
+      <br/>
+      验钞版本程序：
+    </div>
+  </div>
+  <div class="PageLeftButton" id="Exit"></div>
+  <div class="PageRightButton2" id="OK" style="display:none;"></div>
+</div>

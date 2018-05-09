@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="3/6/2018 11:09:12 AM">
+  <div id="PageTop">
+    <p> 受理行号：
+      																																                        
+      <span id='SubBankId'></span>
+																				                
+    </p>
+    <p> 状态：
+      																																                        
+      <span id='DevStatus'>00000（00）</span>
+    </p>
+  </div>
+  <div class="stateWrap">
+    <img src="Framework/style/Graphics/stateLine.png" alt="" srcset="" class="stateLine" />
+    <span class="stateTitle">密码设定</span>
+  </div>
+  <div id="PageSubject">
+    <div id="KeyboardDiv" > </div>
+    <div class="InputDiv">
+      <p>
+        <span>密钥C：</span>
+        <input class="AdminInput backgroundY" id="FirstInput" maxlength="16" type="text" value=""    />
+         <label class="span_tip" id ="user_tip"></label>
+      </p>
+      <p class="indentation">
+        <input class="AdminInput backgroundY" id="SecondInput" maxlength="16" type="text" value=""     />
+      </p>
+      <span id="ErrorTip">* 输入密钥的长度不够！</span>
+      <p>
+        <span>校验码：</span>              
+        <input class="AdminInput backgroundGrayY" id="CheckCode" maxlength="16" type="text" value=""    />
+         <label class="span_tip" id ="user_tip"></label>
+      </p>
+    </div>
+    <div class="TipDiv more" >
+      温馨提示：请输入密钥参数，请按 "<font style="color:#222222;">设定</font>" 按钮生成校验码，
+      <br/>
+      生成校验码之后，请核对是否正确，如不正确，请重新输入。
+      <br/>
+      如果校验码正确，请点击确定。
+    </div> 
+  </div>
+
+  <div id="PageButton">
+    <button type="buton"  id="Back" >返回</button>
+    <button type="buton"  id="OK" >确定</button>
+  </div>
+<button type="button" id="PageRoot">退出登录</button>
+  <!-- 错误状态 提示 style="display:block;"  -->
+  <div id="errorWrap">
+    <div class="errorTips">
+      <div class="errorTipsText">
+        <div class="InfoTitle">信息提示 																																								                                        
+          <span id="countDown"></span>
+        </div>
+        <div id="InfoTip">设置失败，请重试。</div>
+      </div>
+    </div>
+  </div>
+</div>

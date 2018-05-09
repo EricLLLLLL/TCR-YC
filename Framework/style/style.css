@@ -1,0 +1,2909 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    font-family: "SimHei";
+    color: #0d0d0d;
+}
+
+html,
+body {
+    width: 1280px;
+    height: 1024px;
+    /* background-image: url('Graphics/bg.jpg'); */
+    /* background-image: url('Graphics/backgroundPublic.png'); */
+    background-repeat: no-repeat;
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ul,
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.PSBCgreen {
+    color: #2d997e;
+}
+
+.PSBCred {
+    color: #e50014;
+}
+
+.PSBCorange {
+    color: #ed802e;
+}
+
+.folat_l {
+    float: left;
+}
+
+.folat_r {
+    float: right;
+}
+
+.PL25 {
+    padding-left: 25px;
+}
+
+button {
+    border: none;
+}
+
+button:hover {
+    border: none;
+}
+
+input,
+button,
+select,
+textarea {
+    outline: none;
+}
+
+/* :focus {outline:none;} */
+
+#PageId {
+    position: absolute;
+    width: 1280px;
+    height: 1024px;
+    background-image: url('Graphics/backgroundPublic.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#PageContent {
+    font-size: 15px;
+    color: #fff;
+    margin: 0 auto;
+    /* width: 1280px;
+    height: 1024px; */
+}
+
+/** 调出页面滚动条 **/
+
+.main-sroll html,
+.main-sroll body,
+.main-sroll #PageId,
+.main-sroll #PageContent {
+    height: 1024px;
+}
+
+/*      #PageTop {
+        width: 247px;
+        height: 75px;
+        margin-left: 20px;
+        margin-top: 13px;
+        background-image: url('Graphics/logo.png');
+    } */
+
+#PageContent #PageTitle {
+    position: absolute;
+    overflow: auto;
+    top: 185px;
+    left: 0;
+    color: #000;
+    font-size: 22px;
+    text-align: center;
+    width: 1022px;
+}
+
+#PageTop {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background: red;
+    color: #000000a3;
+}
+
+#PageTop #TimeShow {
+    display: inline-block;
+    position: absolute;
+    top: 24px;
+    left: 650px;
+    font-family: "simhei";
+    height: 45px;
+    line-height: 45px;
+    width: 550px;
+    font-size: 30px;
+    font-size: 24px;
+    font-weight: 900;
+    color: #000000a3;
+}
+
+#PageTop #ShowTime {
+    position: absolute;
+    top: 18px;
+    right: 30px;
+    height: 52px;
+    width: 52px;
+    background-image: url('Graphics/loading_top.gif');
+    background-size: 100% 100%;
+    line-height: 52px;
+    text-align: center;
+    font-size: 23px;
+    color: white;
+}
+
+#PageContent #PageSubject #InputPad {
+    position: absolute;
+    line-height: 50px;
+    top: 220px;
+    left: 300px;
+    height: 40px;
+    width: 220px;
+    font-size: 65px;
+    color: #ffffff;
+    background-color: #3a884d;
+    font-size: 33px;
+    font-weight: bolder;
+    font-family: Arial;
+    border: 2px solid #eec2c2;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-bottom-right-radius: 5px;
+    -moz-box-shadow: inset 0px 0px 8px 0px #ffffff;
+    -webkit-box-shadow: inset 0px 0px 8px 0px #ffffff;
+    box-shadow: inset 0px 0px 8px 0px #ffffff;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#PageContent #PageSubject .PageSubjectImg {
+    margin-left: 180px;
+    margin-top: 120px;
+}
+
+/*InputPwd-input*/
+
+.TipDiv {
+    color: #000;
+    font-size: 18px;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+#TipDiv {
+    margin-top: 132px;
+    text-align: center;
+    font-family: "simHei";
+    font-size: 30px;
+    color: #000
+}
+
+.title {
+    margin-top: 132px;
+    text-align: center;
+    font-family: "simHei";
+    font-size: 30px;
+    color: #000
+}
+
+/* 协议页面div样式*/
+
+/*.AgreementDiv {*/
+
+/*width: 716px;*/
+
+/*height: 586px;*/
+
+/*margin: 0 auto;*/
+
+/*margin-top: 25px;*/
+
+/*background-image: url('Graphics/agreement.png');*/
+
+/*}*/
+
+/* 密码输入页面div样式*/
+
+#InputPwd-error {
+    width: 130px;
+    color: #e21d1d;
+    font-size: 20px;
+    margin-top: 85px;
+    margin-right: 48px;
+    float: right;
+}
+
+/* 存款金额选择画面div样式*/
+
+.CinfoInputDiv {
+    margin-left: 40px;
+    font-size: 20px;
+    color: #000;
+}
+
+.CinfoInput {
+    width: 440px;
+    height: 45px;
+    outline: none;
+    margin-top: 20px;
+    margin-left: 290px;
+    border: 0;
+    background-image: url('Graphics/输入框.png');
+    background-color: transparent;
+    color: #000;
+    font-size: 30px;
+    line-height: 40px;
+    padding-left: 5px;
+    font-family: "新宋体";
+    font-weight: 300;
+}
+
+.CinfoInput2 {
+    width: 267px;
+    height: 37px;
+    padding-left: 5px;
+    padding-top: 7px;
+    outline: none;
+    border: 0;
+    background-image: url('Graphics/text.png');
+    background-color: transparent;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #000;
+    font-size: 20px;
+    background-position-y: -176px;
+}
+
+#MoneyBtn1 {
+    background-image: url('Graphics/btn_smoney.png');
+}
+
+#MoneyBtn1:hover {
+    background-image: url('Graphics/btn_smoney_hover.png');
+}
+
+/*#MoneyBtn2 {*/
+
+/*width:170px;*/
+
+/*height:82px;*/
+
+/*line-height: 80px;*/
+
+/*background-image: url('Graphics/bigRight.png');*/
+
+/*background-position:0 0;*/
+
+/*left:854px;*/
+
+/*top:495px;*/
+
+/*}*/
+
+/*#MoneyBtn2:hover {*/
+
+/*background-image: url('Graphics/bigRight_active.png');*/
+
+/*}*/
+
+#MoneyBtn3 {
+    background-image: url('Graphics/btn_bmoney2.png');
+}
+
+#MoneyBtn3:hover {
+    background-image: url('Graphics/btn_bmoney_hover2.png');
+}
+
+#MoneyBtn4 {
+    background-image: url('Graphics/button_19.png');
+}
+
+#MoneyBtn4:hover {
+    background-image: url('Graphics/button_21.png');
+}
+
+/*MoneyBtn2*/
+
+#CinfoTip {
+    width: 350px;
+    margin-left: 55px;
+    margin-top: 5px;
+}
+
+/* 存款身份证读取成功提示指纹页面div样式*/
+
+#SubjectTip {
+    float: right;
+    margin-top: 130px;
+    margin-right: 30px;
+}
+
+.ChooseBusinesstImg {
+    margin: 0 auto;
+    margin-top: 90px;
+    width: 443px;
+    height: 363px;
+    background-image: url('Graphics/loading.png');
+    border: 0;
+    outline: none;
+    color: #593b02;
+    font-size: 26px;
+}
+
+.error_tip {
+    width: 200px;
+    text-align: left;
+    padding-left: 8px;
+    color: #e21d1d;
+    font-size: 16px;
+}
+
+#KeyboardDiv {
+    top: 189px;
+    left: 573px;
+    position: absolute;
+    z-index: 100;
+}
+
+#KeyboardDiv9 {
+    position: absolute;
+    left: 300px;
+    top: 282px;
+}
+
+.btn_jia {
+    width: 34px;
+    height: 34px;
+    outline: none;
+    border: 0;
+    background-image: url('Graphics/jia.png');
+    background-color: transparent;
+    margin-left: 2px;
+}
+
+.btn_jia:hover {
+    background-image: url('Graphics/hove-jia.png');
+}
+
+.btn_jian {
+    width: 34px;
+    height: 34px;
+    outline: none;
+    border: 0;
+    background-image: url('Graphics/jian.png');
+    background-color: transparent;
+    margin-left: 3px;
+    margin-right: 2px;
+}
+
+.btn_jian:hover {
+    background-image: url('Graphics/hover-jian.png');
+}
+
+.RadioInput {
+    width: 45px;
+    height: 45px;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    background-image: url('Graphics/btn/redio_noselct.png');
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.TSelectBtn {
+    width: 67px;
+    height: 132px;
+    outline: none;
+    border: 0;
+    background-color: transparent;
+    margin-left: 93px;
+}
+
+.TellerDiv {
+    width: 250px;
+    height: 40px;
+    outline: none;
+    border: 0;
+    background-color: transparent;
+    text-align: left;
+    float: left;
+}
+
+.RadioSelect {
+    width: 36px;
+    height: 36px;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    background-image: url('Graphics/radio_bg.png');
+    margin-left: 10px;
+}
+
+/*显示黑色边框，调试用*/
+
+.blackBorder {
+    border: 1px solid black;
+}
+
+/*无有序号列表*/
+
+.NoCssUl {
+    list-style-type: none;
+}
+
+/**
+是否存款卡钞冲着画面
+ */
+
+.prompt {
+    line-height: 200%;
+    padding-left: 300px;
+    color: #000;
+    margin-top: 10px;
+    font-family: "simHei";
+    font-size: 20px;
+}
+
+.DepErrorResetTip {
+    padding-left: 0;
+    text-align: center;
+    color: #ed8312;
+    font-size: x-large;
+}
+
+/**
+转账金额输入画面
+ */
+
+.bigSpan {
+    margin-left: 20px;
+    font-family: "宋体";
+    font-size: 20px;
+    color: #000000
+}
+
+.transferWay {
+    margin-left: 20px;
+    margin-top: 15px;
+    display: inline-block;
+    font-family: "宋体";
+    font-size: 20px;
+    color: #000000
+}
+
+.check-wrap {
+    display: inline-block;
+}
+
+.check-wrap input[type="radio"] {
+    visibility: hidden;
+}
+
+.check-wrap input[type="radio"]+label {
+    margin-left: -10px;
+    display: inline-block;
+    line-height: 38px;
+    padding-left: 50px;
+    background: url('Graphics/复选框_26.png') no-repeat;
+}
+
+.check-wrap input[type="radio"]:checked+label {
+    background: url('Graphics/复选框_selected_24.png') no-repeat;
+}
+
+.CommentSelect {
+    padding-left: 10px;
+    font-size: 20px;
+    width: 176px;
+    height: 40px;
+    /*Chrome和Firefox里面的边框是不一样的，所以复写了一下*/
+    border: 1px solid #969897;
+    /*很关键：将默认的select选择框样式清除*/
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url('Graphics/arrow.png') no-repeat;
+    background-position: 155px 16px;
+    background-color: white;
+}
+
+.CommentSelect::-ms-expand {
+    display: none;
+}
+
+.CommentSelect option {
+    border: 1px solid #969897;
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+}
+
+.postScript {
+    margin-top: 10px;
+    margin-left: 150px;
+    width: 430px;
+    height: 100px;
+    outline: none;
+    overflow: auto;
+    border: 1px solid #969897;
+    font-size: 18px;
+}
+
+.TrabsferkTip {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #e21d1d;
+    text-align: center;
+}
+
+/**
+转账信息确认页面
+ */
+
+.trabsferkInfo {}
+
+.TrabsferkInfo {
+    line-height: 200%;
+    color: #000;
+    margin-top: 10px;
+    font-family: "simHei";
+    font-size: 25px;
+}
+
+.trabsferk-info .bigSpan {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+
+/**
+销户提示画面
+*/
+
+.AccountCancellationInfo {
+    line-height: 200%;
+    color: #000;
+    margin-top: 50px;
+    /* 
+    margin-left: 200px;*/
+    font-family: "宋体";
+    font-size: 28px;
+}
+
+.AccountCancelCompleteInfo {
+    line-height: 200%;
+    color: #000;
+    margin-top: 10px;
+    font-family: "simHei";
+    font-size: 20px;
+}
+
+/**
+选择转账撤销信息页面
+ */
+
+.ScrollDiv {
+    background: url('Graphics/下拉背景.png') -5px -5px no-repeat;
+    height: 410px;
+    width: 960px;
+    overflow-y: auto;
+    margin: 15px auto 0;
+}
+
+.middleTable {
+    border-collapse: collapse;
+    text-align: center;
+    /* border: 1px solid green; */
+}
+
+.middleTable tr th {
+    font-family: "simHei";
+    font-size: 20px;
+}
+
+.middleTable tr td {
+    font-family: "宋体";
+    font-size: 20px;
+}
+
+.middleTable tr {
+    height: 44px;
+}
+
+.radio-wrap input[type="radio"] {
+    visibility: hidden;
+}
+
+.radio-wrap input[type="radio"]+label {
+    width: 38px;
+    height: 38px;
+    margin-left: -10px;
+    display: inline-block;
+    background: url('Graphics/单选框_25.png') no-repeat;
+}
+
+.radio-wrap input[type="radio"]:checked+label {
+    background: url('Graphics/单选框_24.png') no-repeat;
+}
+
+/*
+输入转入账号页面
+ */
+
+.TipError {}
+
+/**
+选择销户账号页面
+ */
+
+.radioTable {
+    border-collapse: collapse;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.radioTable tr td {
+    height: 44px;
+    width: 600px;
+}
+
+.radio-line-double {
+    display: inline-block;
+}
+
+.radio-line-double input[type="radio"] {
+    visibility: hidden;
+}
+
+.radio-line-double input[type="radio"]+label {
+    margin-left: 100px;
+    display: inline-block;
+    line-height: 38px;
+    padding-left: 50px;
+    background: url('Graphics/单选框_25.png') no-repeat;
+}
+
+.radio-line-double input[type="radio"]:checked+label {
+    background: url('Graphics/单选框_24.png') no-repeat;
+}
+
+/** 指纹授权信息显示页面 **/
+
+.check_info_content {
+    width: 790px;
+    margin: 35px auto 50px;
+    font-size: 22px;
+}
+
+.check_info_content>.left-content {
+    width: 490px;
+    float: left;
+}
+
+.check_info_content>.right-content {
+    float: right;
+    width: 285px;
+    /*border: 2px solid #a8c5f1;*/
+    border-radius: 5px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.check_info_content>.right-content b {
+    display: block;
+    font-size: 24px;
+    /*color: #004085;*/
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-weight: normal;
+}
+
+.check_info_content .label {
+    height: 52px;
+    line-height: 52px;
+}
+
+.check_info_content .label.float {
+    float: left;
+    width: 240px;
+    line-height: 42px;
+}
+
+.check_info_content .label>label,
+.check_info_content .label>span {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.check_info_content .compared>span {
+    color: #e80100;
+}
+
+.check_info_content>.right-content.admin-wrap b {
+    margin-bottom: 0;
+}
+
+.admin-wrap select {
+    margin: 18px 0;
+    width: 180px;
+    color: #004084;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.photo {
+    float: left;
+    margin: 10px 50px 10px 0;
+    text-align: center;
+}
+
+.photo:last-child {
+    margin-right: 0;
+}
+
+.photo b {
+    display: block;
+    font-size: 20px;
+}
+
+.photo div {
+    padding: 3px 5px;
+    border: 2px solid #a8c5f1;
+    border-radius: 4px;
+}
+
+.photo .photo-inner img {
+    min-width: 125px;
+    min-height: 155px;
+    max-width: 125px;
+    max-height: 155px;
+}
+
+/** 跨行地区信息 **/
+
+.area-info {
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+.area-info label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+
+.area-info input {
+    width: 250px;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 10px;
+    margin: 10px 0;
+    border: none;
+    background: none;
+    font-size: 20px;
+}
+
+.area-info button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background: #018a6e;
+}
+
+.area-info button[disabled] {
+    background: #ccc;
+}
+
+.area-info .branch {
+    margin-top: 10px;
+}
+
+.area-info .branch span {
+    display: inline-block;
+    width: 250px;
+    font-size: 16px;
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.area-wrap {
+    width: 860px;
+    margin: 30px auto;
+    font-size: 20px;
+    color: #000;
+    height: 400px;
+    overflow-y: auto;
+    background: url('Graphics/下拉背景.png') -5px -5px no-repeat;
+}
+
+.area-wrap li {
+    float: left;
+    width: 98px;
+    padding: 10px;
+    list-style-type: none;
+    text-align: center;
+    height: 50px;
+    /*border-left: #ccc 1px solid;
+        border-bottom: #ccc 1px solid;*/
+}
+
+.area-wrap.branch-wrap li {
+    font-size: 16px;
+    width: 260px;
+    height: 40px;
+}
+
+/** 微信销户 **/
+
+.qrcode-wrap {
+    margin: 20px;
+    text-align: center;
+}
+
+.qrcode-wrap img {
+    margin: 20px auto;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.errTip {
+    color: red;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+/************************************/
+
+.hide {
+    display: none;
+}
+
+/* jilin */
+
+#PageContent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+/* 待机页面样式 b */
+
+#PageSubjectIndex {
+    background: url("Graphics/backgroundIndex.png") no-repeat center center;
+    position: absolute;
+    width: 1280px;
+    height: 1024px;
+    overflow: hidden;
+}
+
+/* 上部时间日期定位设备号 */
+
+#PageTop.dealTop {
+    z-index: 11111111;
+}
+
+#TimeShowIndex {
+    position: absolute;
+    top: 30px;
+    left: 484px;
+    font-size: 22px;
+    color: #000000a3;
+    font-weight: 700;
+    width: 190px;
+}
+
+#geoLocation {
+    position: absolute;
+    top: 30px;
+    left: 610px;
+    color: #000000a3;
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    width: 75px;
+    font-size: 28px;
+    padding-left: 125px;
+    font-weight: 700;
+    background: url("Graphics/geoLocation_icon.png") no-repeat center center;
+}
+
+#PageTop .numberIndex {
+    position: absolute;
+    top: 45px;
+    right: 64px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #018a6e;
+    /* color: #000000a3; */
+}
+
+#PageTop .numberIndex #numberDevice {
+    color: #018a6e;
+    /* color: #000000a3; */
+}
+
+/* 中间部分广告底图 */
+
+#AdvParentDiv {
+    position: absolute;
+    top: 115px;
+    left: 53px;
+    width: 790px;
+    height: 758px;
+    /* background: url("Graphics/advert.jpg") no-repeat center center;
+    background-size: 100% 100%; */
+}
+.box {
+    overflow: hidden;
+    position: absolute;
+    top: 115px;
+    left: 53px;
+    width: 790px;
+    height: 758px;
+}
+
+.box-in {
+    width: 2400px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.box-in li {
+    float: left;
+}
+
+
+
+/* 右侧按钮 部分*/
+
+.BusinessDiv {
+    position: absolute;
+    top: 156px;
+    left: 868px;
+    width: 360px;
+}
+
+#bigTrade,
+noCardTrade {
+    width: 360px;
+    height: 120px;
+}
+
+#bigTrade {
+    width: 360px;
+    height: 120px;
+    margin-bottom: 46px;
+    background: url("Graphics/bigTrade.png") no-repeat center center;
+}
+
+#noCardTrade {
+    width: 360px;
+    height: 120px;
+    margin-bottom: 82px;
+    background: url("Graphics/noCardTrade.png") no-repeat center center;
+}
+
+#cardTrade {
+    width: 360px;
+    height: 360px;
+    background: url("Graphics/insertIcCard.gif") no-repeat center center;
+}
+
+#bigTrade.unsupported {
+    background: url("Graphics/bigTradeN.png") no-repeat center center;
+}
+
+#noCardTrade.unsupported {
+    width: 360px;
+    height: 120px;
+    margin-bottom: 70px;
+    background: url("Graphics/noCardTradeN.png") no-repeat center center;
+}
+
+/* 待机页面样式 e */
+
+/* 公有 中间 背景 */
+
+#PageSubject {
+    position: absolute;
+    top: 125px;
+    left: 143px;
+    background-image: url("Graphics/middleBackground.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 748px;
+    width: 994px;
+}
+
+/* 步骤流程  b*/
+
+#steps {
+    box-sizing: border-box;
+    padding: 10px 16px;
+    width: 994px;
+    height: 26px;
+}
+
+/* 中间部分 未完成 */
+
+#steps li {
+    list-style: none;
+    float: left;
+    height: 26px;
+    width: 164px;
+    text-align: center;
+    line-height: 26px;
+    background-image: url("Graphics/stepMiddleBefore.png");
+    /* background-size: 100% 100%; */
+    margin: 0px -2px;
+}
+
+/* 最后一步  未完成 */
+
+#steps li:last-child {
+    background-image: url("Graphics/stepOverBefore.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* 第一步  已完成*/
+
+#steps li:first-child {
+    background-image: url("Graphics/stepBegin.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* 最后一步 已完成 */
+
+#steps li.over {
+    background-image: url("Graphics/stepOver.png");
+    background-size: 100% 100%;
+    margin: 0px -2px;
+}
+
+/* 中间部分 已完成 */
+
+#steps li.middle {
+    background-image: url("Graphics/stepMiddle.png");
+    background-size: 100% 100%;
+    /* margin: 0px -2px; */
+    margin: 0px -2px;
+}
+
+/* 未完成 数字 白色字体 */
+
+#steps li .stepNum,
+#steps li:first-child .stepNum,
+#steps li:last-child .stepNum {
+    margin-right: 10px;
+    color: white;
+}
+
+/* 完成的步骤  数字 绿色字体 */
+
+#steps li:first-child .stepNum,
+#steps li.middle .stepNum,
+#steps li.over .stepNum {
+    color: #0e8d71;
+}
+
+/* 步骤流程  e*/
+
+/* 本页 中间部分 文字说明 */
+
+.stateWrap {
+    height: 39px;
+    width: 958px;
+    margin-left: 18px;
+    margin-top: 40px;
+    border-bottom: 1px solid #0e8d71;
+}
+
+#state {
+    font-family: "simHei";
+    font-size: 32px;
+    color: #0d0d0d;
+    margin-left: 23px;
+    padding-left: 10px;
+    background-image: url("Graphics/stateLine.png");
+    background-repeat: no-repeat;
+    height: 32px;
+    line-height: 32px;
+}
+
+#stateEn {
+    font-family: "ArialMT";
+    font-size: 20px;
+    color: #0e8d71;
+}
+
+.stateComtent {
+    /* background: red; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 994px;
+}
+
+/* 网点号码 机构号码  b */
+
+#numberWrap {
+    position: absolute;
+    top: 880px;
+    right: 169px;
+    text-align: right;
+    font-size: 18px;
+    color: #0e8d71;
+}
+
+#numberWrap #numberDot,
+#numberWrap #numberDevice {
+    display: inline-block;
+    margin-right: 25px;
+    color: #0e8d71;
+}
+
+/* 网点号码 机构号码  e */
+
+/* 返回首页样式 b */
+
+
+
+#PageRoot {
+    display: inline-block;
+    position: absolute;
+    width: 210px;
+    height: 60px;
+    top: 0px;
+    left: 45px;
+    font-family: "simHei";
+    font-size: 30px;
+    color: #fff;
+    line-height: 60px;
+    border: none;
+    background: transparent;
+    text-align: left;
+    width: 250px;
+    height: 60px;
+    top: 950px;
+    left: 1020px;
+    background: url("Graphics/goto_icon.png") no-repeat left center;
+    padding-left: 40px;
+}
+
+#PageRoot.quit {
+    font-size: 41px;
+    padding-left: 60px;
+    width: 214px;
+    height: 66px;
+    line-height: 66px;
+    top: 950px;
+    left: 1060px;
+}
+
+#togoEn {
+    margin-left: -16px;
+    font-size: 25px;
+    color: #fff;
+}
+/* 返回首页样式 e */
+
+/* 下部按钮样式 b */
+
+#PageButton {
+    position: absolute;
+    top: 920px;
+    left: 0px;
+    height: 60px;
+    width: 100%;
+}
+
+/* 两个或者三个按钮 */
+
+#btnWrap {
+    width: 940px;
+    padding: 0 115px;
+}
+
+#PageButton #btnWrap button {
+    display: inline-block;
+    float: left;
+    width: 200px;
+    height: 60px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#PageButton #btnWrap button:first-child {
+    margin-left: 100px;
+}
+
+#PageButton #btnWrap button:nth-child(2) {
+    margin: 0 20px;
+}
+
+#PageButton #btnWrap button:last-child {
+    float: right;
+    margin-right: 100px;
+}
+
+/* 一个按钮 only */
+
+#btnWrap.only {
+    width: 200px;
+    padding: 0 540px;
+}
+
+#PageButton #btnWrap.only button {
+    margin: 0;
+    float: none;
+}
+
+/* 四个按钮 four*/
+
+#btnWrap.four {
+    width: 800px;
+    padding: 0 200px;
+}
+
+#PageButton #btnWrap.four button {
+    margin: 0 0px;
+}
+
+#PageButton #btnWrap #Alter {
+    background: url("Graphics/btnAlter.png") no-repeat center center;
+}
+#PageButton #btnWrap #Alter.BK {
+    background: url("Graphics/btnBK.png") no-repeat center center;
+}
+
+#PageButton #btnWrap #Exit {
+    background: url("Graphics/btnExit.png") no-repeat center center;
+}
+#PageButton #btnWrap #Exit.Cancel {
+    background: url("Graphics/btnCancel.png") no-repeat center center;
+}
+
+#PageButton #btnWrap #Back {
+    background: url("Graphics/btnBack.png") no-repeat center center;
+}
+
+#PageButton #btnWrap #OK {
+    background: url("Graphics/btnOk.png") no-repeat center center;
+}
+
+#PageButton #btnWrap #Print {
+    background: url("Graphics/btnPrint.png") no-repeat center center;
+}
+
+#PageButton #btnWrap #PrintR {
+    background: url("Graphics/btnPrintR.png") no-repeat center center;
+}
+
+#PageButton #btnWrap #Make {
+    background: url("Graphics/btnMake.png") no-repeat center center;
+}
+
+#PageButton #btnWrap #Make.Remake {
+    background: url("Graphics/btnRemake.png") no-repeat center center;
+}
+
+#PageButton #btnWrap #Continue {
+    background: url("Graphics/btnContinue.png") no-repeat center center;
+}
+
+#PageButton #btnWrap #ContinueMoney {
+    background: url("Graphics/btnContinueMoney.png") no-repeat center center;
+}
+
+#PageButton #btnWrap #ExitCard {
+    background: url("Graphics/btnCancelCard.png") no-repeat center center;
+}
+
+#PageButton #btnWrap #ExitCard.out {
+    background: url("Graphics/btnOut.png") no-repeat center center;
+}
+
+#PageButton #btnWrap #Accredit {
+    background: url("Graphics/btnAccredit.png") no-repeat center center;
+}
+
+#PageButton #btnWrap #Refuse {
+    background: url("Graphics/btnRefuse.png") no-repeat center center;
+}
+#PageButton #btnWrap #Skip {
+    background: url("Graphics/btnSkip.png") no-repeat center center;
+}
+
+/* 下部按钮样式   待调整  e  */
+
+/* 当前页面中 错误提示b */
+
+#errorWrap,
+#WorkersWrap {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    /* height: 100%;
+    width: 100%; */
+    height: 1024px;
+    width: 1280px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.errorTips,
+.WorkersTips {
+    position: absolute;
+    top: 340px;
+    left: 358px;
+    width: 572px;
+    height: 359px;
+    background-color: rgba(255, 255, 255, 1);
+    /* background: url("Graphics/errorTip.png") no-repeat center center ; */
+    border-radius: 10px;
+    z-index: 99999;
+}
+
+.errorTipsText,
+.WorkersTipsText {
+    height: 50px;
+    width: 530px;
+    margin-left: 17px;
+    margin-top: 25px;
+    border-bottom: 1px solid #0e8d71;
+    color: black;
+}
+
+.InfoTitle {
+    font-family: "simHei";
+    font-size: 32px;
+    margin-left: 10px;
+    padding-left: 20px;
+    background: url("Graphics/stateLine.png") no-repeat center left;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 900;
+    padding-right: 20px;
+}
+
+#countDown {
+    color: #ff8f00;
+    font-size: 24px;
+    float: right;
+}
+
+#InfoTip {
+    height: 180px;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+/*  当前页面中 错误提示 e */
+
+/*   当前页面中 网络通讯状态 b 交易等待广告+下部文字提示 */
+
+#networkWrap {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 1024px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+#shade{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 1024px;
+    background-color: rgba(255, 255,255, .9);
+    z-index: 999999999;
+    display: none;
+}
+.networkWrapTips {
+    position: absolute;
+    left: 242px;
+    top: 300px;
+    height: 474px;
+    width: 796px;
+    background: #fff;
+}
+
+.networkPicture {
+    background: url('Graphics/advertWait.jpg') no-repeat center center;
+    /* position: absolute; */
+    height: 374px;
+    width: 796px;
+    /* left: 174px; */
+    /* top: 90px; */
+    /* background: none; */
+    /* width: 80px; */
+    /* height: 80px; */
+    /* line-height: 80px; */
+}
+
+#networkTip {
+    /* position: absolute;
+    left: 40px;
+    top:  420px; */
+    text-align: center;
+    line-height: 100px;
+    font-size: 32px;
+    width: 100%;
+    height: 100px;
+}
+
+/* 本地交互 黑框提示 */
+
+#networkWrap.localWrap {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 1024px !important;
+    z-index: 1000;
+    /* background-color:transparent; */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* display: none; */
+}
+
+.localWrap .networkWrapTips {
+    top: 360px;
+    left: 357px;
+    height: 252px;
+    width: 566px;
+    background: #000;
+    opacity: .75;
+    border-radius: 8px;
+}
+
+.localWrap .networkPicture {
+    position: absolute;
+    top: 36px;
+    left: 243px;
+    height: 80px;
+    width: 80px;
+    vertical-align: middle;
+    background: url("Graphics/loadingTop.gif") no-repeat center left;
+}
+
+.localWrap #networkTip {
+    position: absolute;
+    top: 130px;
+    left: 0;
+    height: 100px;
+    line-height: 100px;
+    color: #fff;
+    font-size: 28px;
+}
+
+#shade.localWrap{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 1024px;
+    background-color: rgba(255, 255,255, .9);
+    /* background-color: #43c1aa; */
+    z-index: 999999999;
+    /* display: none; */
+}
+.localWrap .shadeWrapTips {
+    position: absolute;
+    /* top: 450px; */
+    top: 360px;
+    left: 357px;
+    height: 252px;
+    width: 565px;
+    background: #000;
+    opacity: .75;
+    border-radius: 8px;
+    z-index: 999999999;
+}
+
+.localWrap .shadePicture {
+    position: absolute;
+    /* top: 90px; */
+    top: 50px;
+    left: 243px;
+    background: url("Graphics/loadingTop.gif") no-repeat center left;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    z-index: 999999999;
+}
+.localWrap #shadeTip {
+    position: absolute;
+    top: 120px;
+    left: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 26px;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    z-index: 9999999999;
+}
+
+/* 当前页面中 网络通讯状态 e */
+
+/* 设备初始化页面 b */
+
+#PageSubject.openDevice {
+    position: absolute;
+    left: 243px;
+    top: 200px;
+    height: 500px;
+    width: 794px;
+    background: none;
+}
+
+#PageSubject.openDevice img {
+    position: absolute;
+    left: 357px;
+    top: 90px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px
+}
+
+/* 备选 交易广告样式   */
+
+#PageSubject.openDevice img.advertWait {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 374px;
+    width: 794px;
+}
+
+#PageSubject.openDevice img.advertWait+p.init {
+    top: 420px;
+}
+
+.init {
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+/* 设备初始化页面 e */
+
+/* 交易选择页面 b */
+
+.bussiness {
+    top: 210px;
+    left: 130px;
+    width: 1020px;
+    /* background: red; */
+}
+
+/* .queryWrap {
+    float: left;
+    width: 240px;
+} */
+
+
+.otherWrap {
+    float: left;
+    width: 340px;
+}
+
+.otherWrap button {
+    list-style: none;
+    float: left;
+}
+#INQ,
+#changePassword,
+#CWD,
+#Transfer,
+#DEP, 
+#INQ.unsupported,
+#changePassword.unsupported,
+#CWD.unsupported,
+#Transfer.unsupported,
+#DEP.unsupported{
+    display: inline-block;
+    width: 340px;
+    height: 240px;
+}
+#INQb,
+#CWDb,
+#DEPb,
+#INQb.unsupported,
+#CWDb.unsupported,
+#DEPb.unsupported{
+    display: inline-block;
+    width: 340px;;
+    height: 116px;
+}
+#INQ {
+    display: inline-block;
+    background: url("Graphics/bussQuery.png") no-repeat center left;
+    height: 480px;
+}
+#INQb {
+    display: inline-block;
+    background: url("Graphics/bussQueryB.png") no-repeat center left;
+}
+#changePassword {
+    background: url("Graphics/bussChangePassword.png") no-repeat center left;
+}
+#CWD {
+    background: url("Graphics/bussCwd.png") no-repeat center left;
+}
+#CWDb {
+    background: url("Graphics/bussCwdB.png") no-repeat center left;
+}
+
+#Transfer {
+    background: url("Graphics/bussTransfer.png") no-repeat center left;
+}
+
+#DEP {
+    background: url("Graphics/bussDep.png") no-repeat center left;
+}
+#DEPb {
+    background: url("Graphics/bussDepB.png") no-repeat center left;
+}
+
+#INQ.unsupported {
+    display: inline-block;
+    background: url("Graphics/bussQueryN.png") no-repeat center left;
+    height: 480px;
+}
+#INQb.unsupported {
+    display: inline-block;
+    background: url("Graphics/bussQueryNb.png") no-repeat center left;
+}
+
+#changePassword.unsupported {
+    background: url("Graphics/bussChangePasswordN.png") no-repeat center left;
+}
+
+#CWD.unsupported {
+    background: url("Graphics/bussCwdN.png") no-repeat center left;
+}
+#CWDb.unsupported {
+    background: url("Graphics/bussCwdNb.png") no-repeat center left;
+}
+
+#Transfer.unsupported {
+    background: url("Graphics/bussTransferN.png") no-repeat center left;
+}
+
+#DEP.unsupported {
+    background: url("Graphics/bussDepN.png") no-repeat center left;
+}
+#DEPb.unsupported {
+    background: url("Graphics/bussDepNb.png") no-repeat center left;
+}
+
+#Quit {
+    position: absolute;
+    height: 40px;
+    top: 962px;
+    left: 1012px;
+    font-family: "simHei";
+    font-size: 41px;
+    color: #fff;
+    margin-left: 25px;
+    line-height: 38px;
+    padding-left: 55px;
+    background-image: url("Graphics/goExcit_icon.png");
+    background-repeat: no-repeat;
+}
+
+.businessTip {
+    position: absolute;
+    left: 143px;
+    bottom: 150px;
+    width: 994px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 0px;
+    text-align: left;
+}
+
+.warmPromptTip.businesswarmPromptTip {
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 600px;
+    text-align: left;
+    font-size: 22px;
+}
+
+.businessTip p.numbeWrapNum {
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    font-size: 22px;
+    /* width: 300px; */
+}
+
+#numberDot {
+    color: #2d997e;
+}
+
+/* 交易选择页面 e */
+
+/* 查询类型选择页面 b */
+
+.stateComtent.queryBalType {
+    top: 378px;
+    left: 432px;
+    width: 415px;
+    height: 144px;
+}
+
+/* .queryBalType img {
+    display: inline-block;
+    height: 144px;
+    width: 169px;
+}
+
+.queryBalType img:nth-child(1) {
+    float: left;
+}
+
+.queryBalType img:nth-child(2) {
+    float: right;
+} */
+
+.queryBalType button
+{
+    display: inline-block;
+    height: 144px;
+    width: 169px;
+}
+
+.queryBalType button:first-child {
+    margin-right: 64px;
+}
+
+#queryBalance {
+    background: url("Graphics/queryBalance.png") no-repeat center center;
+}
+
+#queryDetail {
+    background: url("Graphics/queryDetail.png") no-repeat center center;
+}
+
+#queryBalance.unsupported {
+    background: url("Graphics/queryBalanceN.png") no-repeat center center;
+}
+
+#queryDetail.unsupported {
+    background: url("Graphics/queryDetailN.png") no-repeat center center;
+}
+
+/* 转账类型部分 b */
+
+#ownTransfer {
+    background: url("Graphics/transferOwn.png") no-repeat center center;
+}
+
+#otherTransfer {
+    background: url("Graphics/transferOther.png") no-repeat center center;
+}
+
+#ownTransfer.unsupported {
+    background: url("Graphics/transferOwnN.png") no-repeat center center;
+}
+
+#otherTransfer.unsupported {
+    background: url("Graphics/transferOtherN.png") no-repeat center center;
+}
+
+/* 转账类型部分 e */
+
+/* 查询类型选择页面 e */
+/* 存折类型选择页面 b */
+.bankBookType #DEP,
+.bankBookType #CWD{
+    display: inline-block;
+    height: 144px;
+    width: 169px;
+}
+
+.bankBookType #DEP {
+    background: url("Graphics/transferOwn.png") no-repeat center center;
+}
+
+.bankBookType #CWD {
+    background: url("Graphics/transferOther.png") no-repeat center center;
+}
+
+.bankBookType #DEP.unsupported {
+    background: url("Graphics/transferOwnN.png") no-repeat center center;
+}
+
+.bankBookType #CWD.unsupported {
+    background: url("Graphics/transferOtherN.png") no-repeat center center;
+}
+/* 存折类型选择页面 e */
+
+/* 账号余额显示页面 b */
+
+.showBalance {
+    position: absolute;
+    left: 440px;
+    top: 360px;
+    width: 400px;
+    line-height: 50px;
+    font-size: 22px;
+}
+
+.showBalance p span:first-child {
+    display: inline-block;
+    width: 100px;
+    text-align: justify;
+    text-justify: distribute-all-lines;
+    /*ie6-8*/
+    text-align-last: justify;
+    /* ie9*/
+    -moz-text-align-last: justify;
+    /*ff*/
+    -webkit-text-align-last: justify;
+    /*chrome 20+*/
+}
+
+/* 账号余额显示页面 e */
+
+/* 转账 或 汇款信息确认 b*/
+
+.warmPromptTip.bottomTip {
+    position: absolute;
+    top: 815px;
+    left: 143px;
+    margin-left: 70px;
+    margin-top: 0;
+    width: 924px;
+    text-align: left;
+    font-size: 22px;
+}
+
+.confirm {
+    position: absolute;
+    top: 230px;
+    left: 143px;
+    /* background: red; */
+    box-sizing: border-box;
+    padding: 30px 50px;
+}
+
+.confirm p span:first-child {
+    display: inline-block;
+    width: 120px;
+    /* text-align: justify; */
+    text-justify: distribute-all-lines;
+    /*ie6-8*/
+    text-align-last: justify;
+    /* ie9*/
+    -moz-text-align-last: justify;
+    /*ff*/
+    -webkit-text-align-last: justify;
+    /*chrome 20+*/
+}
+
+.confirm p {
+    width: 447px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 24px;
+}
+
+.confirm p.tCash {
+    margin-top: 30px;
+    width: 894px;
+    text-align: center;
+}
+
+.confirm p:nth-child(odd) {
+    float: left;
+}
+
+.confirm p:nth-child(even) {
+    float: right;
+}
+
+/*#money100,*/
+
+/*#money50,*/
+
+/*#money20,*/
+
+/*#money10,*/
+
+/*#money5,*/
+
+/*#money1 {*/
+
+/*display: none;*/
+
+/*}*/
+
+/* 转账 或 汇款信息确认 e*/
+
+/* 账户明细显示页面 b */
+
+.transDetail {
+    position: absolute;
+    left: 157px;
+    /* top: 300px; */
+    top: 270px;
+    width: 968px;
+    /* height: 480px; */
+    height: 580px;
+    /* background: url("Graphics/backgroundDetail.png") no-repeat center center; */
+    /* background: yellow; */
+    list-style: none;
+}
+
+.transDetail li {
+    /* width: 100%; */
+    width: 968px;
+    height: 50px;
+}
+
+.transDetail li span {
+    width: 242px;
+    float: left;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+}
+
+.transDetail .detailTitle span:nth-child(3) {
+    display: inline-block;
+    /* background: blue; */
+    width: 184px;
+    text-align: right;
+}
+
+.transDetail .detailTitle span:nth-child(4) {
+    display: inline-block;
+    /* text-align: right; */
+    /* margin-left: -70px; */
+    /* margin-right: 70px; */
+    /* background: red; */
+    width: 300px;
+}
+
+/* .detailLists li span.textRight {
+    text-align: right;
+    display: inline-block;
+    margin-left: -70px;
+    margin-right: 70px;
+} */
+
+/* ::-webkit-scrollbar {
+    width: 10px;
+    height: 4px;
+    background-color: #F5F5F5;
+} */
+
+.detailTitle {
+    width: 968px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.transDetail .detailTitle span {
+    display: inline-block;
+    width: 242px;
+}
+
+.detailLists {
+    width: 968px;
+    height: 530px;
+    /* overflow: auto; */
+}
+
+.detailLists li {
+    width: 968px;
+    height: 40px;
+}
+
+.detailLists li span {
+    display: inline-block;
+    font-size: 24px;
+    width: 242px;
+    ;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #333;
+}
+
+.transDetail .detailLists li span:nth-child(3n) {
+    text-align: right;
+    display: inline-block;
+    width: 184px;
+}
+
+.transDetail .detailLists li span:nth-child(4n) {
+    display: inline-block;
+    /* text-align: right; */
+    /* margin-left: -70px; */
+    /* margin-right: 70px; */
+    /* background: red; */
+    width: 300px;
+}
+
+/* 账户明细显示页面 e */
+
+/* 密码输入页面 b */
+
+.stateComtent .inputTextPWD {
+    position: absolute;
+    top: 340px;
+    left: 406px;
+    height: 49px;
+    font-size: 24px;
+}
+
+/* 新密码输入 */
+
+.stateComtent .inputTextPWD.inputTextPWDnew {
+    top: 280px;
+}
+
+.stateComtent .inputTextPWD.inputTextPWDnew2 {
+    left: 358px;
+    width: 710px;
+}
+
+.stateComtent .inputTextPWD .inputPassword {
+    height: 49px;
+    width: 323px;
+    padding-left: 10px;
+    font-size: 24px;
+    background: url("Graphics/inputPassword.png") no-repeat center center;
+}
+
+input::-webkit-input-placeholder {
+    color: #b3dbbe;
+}
+
+.inputTextPWDnew2 #disagreePWD {
+    font-size: 16px;
+    display: none;
+}
+
+/* 输入时的提示语  或者错误提示语*/
+
+.stateComtent .inputTip,
+.stateComtent .inputTipErro {
+    line-height: 40px;
+    position: absolute;
+    top: 390px;
+    left: 565px;
+    font-size: 16px;
+    color: #333;
+}
+
+.stateComtent .inputTip.transferAccount {
+    font-size: 24px;
+    margin-left: -40px;
+}
+
+.stateComtent .inputTipErro {
+    margin-top: 10px;
+    left: 530px;
+    font-size: 12px;
+}
+
+/* 演示图片部分 */
+
+.stateComtent .picturePWD {
+    position: absolute;
+    top: 434px;
+    left: 504px;
+}
+
+/* 安全提示部分 */
+
+.stateComtent .tips {
+    font-size: 20px;
+    position: absolute;
+    top: 720px;
+    left: 240px;
+    width: 100%
+}
+
+.stateComtent .tips .safetyTip {
+    height: 30px;
+    width: 323px;
+    padding-left: 22px;
+    background: url("Graphics/safetyTipIcon.png") no-repeat top left;
+}
+
+/* 密码输入页面 e */
+
+/* 输入金额页面 b */
+
+.stateComtent .inputTextCWD {
+    position: absolute;
+    top: 340px;
+    left: 406px;
+    height: 49px;
+    font-size: 24px;
+    width: 700px;
+}
+
+.stateComtent .inputTextCWD.inputSlectCWD {
+    left: 306px;
+    top: 326px;
+}
+
+.stateComtent .inputTipErro.inputSlectCWDTip {
+    position: absolute;
+    left: 580px;
+    top: 360px;
+    line-height: 30px;
+    height: 30px;
+    margin-top: 15px;
+    display: none;
+}
+
+.stateComtent .inputTextCWD .inputMoney {
+    height: 49px;
+    width: 361px;
+    padding-left: 10px;
+    font-size: 24px;
+    background: url("Graphics/inputMoney.png") no-repeat center center;
+}
+
+.cwdTipsData {
+    position: absolute;
+    top: 690px;
+    left: 390px;
+    width: 500px;
+    height: 80px;
+    line-height: 40px;
+    font-size: 22px;
+}
+
+.CwdTipsOnce {
+    padding-left: 25px;
+    background: url("Graphics/warmPrompt_icon.png") no-repeat center left;
+}
+
+.CwdTipsDay {
+    top: 470px;
+    padding-left: 30px;
+}
+
+.cwdAmount {
+    position: absolute;
+    top: 434px;
+    left: 231px;
+    width: 900px;
+    height: 264px;
+}
+
+.cwdAmount li {
+    display: inline-block;
+    float: left;
+    width: 196px;
+    height: 60px;
+    text-align: center;
+    line-height: 55px;
+    border: 2px solid #8af0cb;
+    border-radius: 10px;
+    background: #d6fdef;
+    margin-right: 100px;
+    margin-bottom: 68px;
+    font-size: 24px;
+    /* background: url("Graphics/moneyBtn.png") no-repeat center left; */
+}
+
+/* 输入金额页面 e */
+
+/* 大额取款 取款金额 b */
+
+.cwdTipsData.largeCWD {
+    position: absolute;
+    top: 390px;
+    left: 510px;
+}
+
+/* 大额取款 取款金额 e */
+
+/* 退卡页面 b */
+#PageId #PageContent.takeCardSubject {
+    width: 1280px;
+    height: 1024px;
+    background: url("Graphics/backgroundIndex.png") no-repeat center center;
+
+}
+.animatedPicture {
+    height: 460px;
+    width: 880px;
+    margin-top: 320px;
+    margin-left: 230px;
+}
+
+.warmPromptTip {
+    margin-left: 130px;
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.warmPrompt {
+    height: 20px;
+    padding-left: 15px;
+    background: url("Graphics/warmPrompt_icon.png") no-repeat center left;
+}
+
+.warmPrompt.takeCard {
+    padding-left: 25px;
+}
+
+/* 退卡页面 e */
+
+/* 客户取钞页面 b */
+
+.warmPromptOk {
+    color: orange;
+}
+
+/* 客户取钞页面 e */
+
+/* 无法打印凭条提示页面 b */
+
+.comtentTipPhoto {
+    height: 60px;
+    width: 60px;
+    vertical-align: middle;
+    margin-top: -7px;
+}
+
+.comtentTipText {
+    position: absolute;
+    top: 400px;
+    left: 300px;
+    font-size: 36px;
+    height: 60px;
+    line-height: 60px;
+    width: 680px;
+    text-align: center;
+}
+
+/* 无法打印凭条提示页面 e */
+
+/* 交易成功页面 b */
+
+.completedTransaction {
+    margin-left: 468px;
+    margin-top: 370px;
+    font-size: 48px;
+    height: 50px;
+    padding-left: 60px;
+    background: url("Graphics/completedTransaction_icon.png") no-repeat center left;
+}
+
+/* 交易成功页面 e */
+
+/* 出钞页面 b */
+
+.completedCash {
+    width: 260px;
+}
+
+.completedCash .titleTips {
+    border-bottom: 1px dashed #333;
+    padding-bottom: 16px;
+}
+
+#queryBalanc {
+    display: inline-block;
+    width: 196px;
+    height: 60px;
+    text-align: center;
+    line-height: 55px;
+    border: 2px solid #8af0cb;
+    border-radius: 10px;
+    background: #d6fdef;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* 出钞页面 e */
+
+/* 交易失败 b */
+
+.completedTransactionFailed {
+    position: absolute;
+    top: 400px;
+    left: 300px;
+    width: 680px;
+    text-align: center;
+}
+
+.completedTransactionFailed .titleFail {
+    font-size: 42px;
+    height: 80px;
+    line-height: 80px;
+    border-bottom: 1px dashed #333;
+}
+
+.completedTransactionFailed .titleFail img {
+    vertical-align: middle;
+    margin: 0 30px;
+    margin-top: -10px;
+}
+
+.completedTransactionFailed .reasonFail {
+    font-size: 20px;
+    line-height: 60px;
+}
+
+/* 交易失败 e */
+
+/* 转账受理成功 b */
+
+.tranComplete {
+    position: absolute;
+    top: 325px;
+    left: 325px;
+    font-size: 48px;
+    width: 630px;
+    height: 80px;
+    line-height: 80px;
+    /* background: url("Graphics/completedTransaction_icon.png") no-repeat center left; */
+}
+
+.tranComplete h5 {
+    width: 360px;
+    height: 80px;
+    margin: 0 132px;
+    /* margin-left: 60px; */
+    text-align: center;
+    background: url("Graphics/completedTransaction_icon.png") no-repeat center left;
+}
+
+.tranComplete p {
+    font-size: 24px;
+    /* margin-left: -60px; */
+    height: 40px;
+    line-height: 40px
+}
+
+/* 转账受理成功 e */
+
+/* 显示此笔交易手续费页面 b */
+
+.showCwdFee {
+    position: absolute;
+    top: 344px;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 22px;
+}
+
+.CwdTipsFee {
+    position: absolute;
+    top: 274px;
+    left: 420px;
+    width: 400px;
+    background: url("Graphics/warmPrompt_icon.png") no-repeat center left;
+}
+
+/* 显示此笔交易手续费页面 e */
+
+/* 大额一级菜单页面 b */
+
+.largeMenu button {
+    display: inline-block;
+    height: 152px;
+    width: 200px;
+    float: left;
+}
+
+.stateComtent.largeMenu {
+    top: 378px;
+    left: 240px;
+    width: 800px;
+    height: 152px;
+}
+
+#largeDep {
+    background: url("Graphics/largeDep.png") no-repeat center center;
+}
+
+#largeCwd {
+    background: url("Graphics/largeCwd.png") no-repeat center center;
+}
+
+#largeTran {
+    background: url("Graphics/largeTran.png") no-repeat center center;
+}
+
+#largeRemit {
+    background: url("Graphics/largeRemit.png") no-repeat center center;
+}
+
+#largeDep.unsupported {
+    background: url("Graphics/largeDepN.png") no-repeat center center;
+}
+
+#largeCwd.unsupported {
+    background: url("Graphics/largeCwdN.png") no-repeat center center;
+}
+
+#largeTran.unsupported {
+    background: url("Graphics/largeTranN.png") no-repeat center center;
+}
+
+#largeRemit.unsupported {
+    background: url("Graphics/largeRemitN.png") no-repeat center center;
+}
+
+/* 大额一级菜单页面 e */
+
+/* 暂停服务 b */
+
+.outService {
+    position: absolute;
+    left: 415px;
+    top: 415px;
+    font-size: 48px;
+    height: 114px;
+    width: 300px;
+    padding-left: 150px;
+    text-align: center;
+    background: url("Graphics/outService.png") no-repeat center left;
+}
+
+.titleTips {
+    border-bottom: 1px dashed #ed802e;
+    padding-bottom: 16px;
+}
+
+.reasonTips,
+.reasonTips span,
+cwdFeeCash {
+    margin-top: 16px;
+    font-size: 20px;
+    color: #333;
+}
+
+/* 暂停服务 e */
+
+/* 大额交易结束 b */
+
+.outService.largeOver {
+    width: 420px;
+}
+
+/* 大额交易结束 e */
+
+/* 协议画面 b*/
+
+.stateComtent.agreement {
+    position: absolute;
+    top: 240px;
+    left: 176px;
+    /* margin:240px 176px; */
+    width: 908px;
+    height: 596px;
+    background: url("Graphics/backgroundAgreement.png") no-repeat center center;
+    overflow: auto;
+    padding: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 0px
+}
+
+.agreement h5 {
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    color: #333;
+    font-size: 24px;
+}
+
+.agreement p {
+    /* padding: 10px; */
+    text-indent: 20px;
+    font-size: 18px;
+}
+
+/* 协议画面 e*/
+
+/* 指纹授权 b*/
+
+.stateComtent.auth {
+    position: absolute;
+    top: 230px;
+    left: 143px;
+    /* background: red; */
+    box-sizing: border-box;
+    padding: 30px 50px;
+}
+
+.authLists {
+    height: 160px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #999;
+}
+
+.authLists li {
+    width: 447px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 24px;
+}
+
+.authLists li.authLast {
+    width: 894px;
+}
+
+.authLists li:nth-child(odd) {
+    float: left;
+}
+
+.authLists li:nth-child(even) {
+    float: right;
+}
+
+.authPhoto {
+    height: 220px;
+    width: 140px;
+    text-align: center;
+    margin: 20px;
+    float: left;
+}
+
+.authPhoto img {
+    height: 166px;
+    width: 134px;
+    border: 3px solid #f8b551;
+    border-radius: 10px;
+}
+
+.authPhoto span {
+    height: 60px;
+    line-height: 60px;
+    font-size: 24px;
+    width: 140px;
+}
+
+.WorkersSelectWrap {
+    position: absolute;
+    /* top: 735px; */
+    /* left: 200px; */
+    font-size: 24px;
+    top: 300px;
+    left: 450px;
+}
+
+.selectOption {
+    width: 272px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 24px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 70px;
+    outline: none;
+    background: url("Graphics/arrow.png") no-repeat;
+    background-position: 230px 20px;
+    background-size: 15px 10px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    box-sizing: border-box;
+    align-items: center;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    color: black;
+    cursor: default;
+    border-width: 1px;
+    border-style: solid;
+    border-image: none;
+}
+
+/* 作废部分 b */
+
+.stateComtent .pictureFinger {
+    position: absolute;
+    top: 434px;
+    left: 549px;
+}
+
+#WorkerInfoTip {
+    height: 180px;
+    text-align: center;
+    line-height: 180px;
+    font-size: 26px;
+    font-weight: 900;
+}
+
+#WorkerInfoBtn {
+    height: 100px;
+    padding: 0 50px;
+    line-height: 100px;
+}
+
+#WorkerInfoBtn a {
+    display: inline-block;
+    width: 133px;
+    height: 40px;
+    padding: 30px;
+}
+
+#WorkerInfoBtn #Exit {
+    background: url("Graphics/btnExitSmall.png") no-repeat center center;
+}
+
+#WorkerInfoBtn #OK {
+    background: url("Graphics/btnOkSmall.png") no-repeat center center;
+}
+
+/* 作废部分 e*/
+
+/* 指纹授权 e*/
+
+/* 身份证信息显示页面 b*/
+
+.IDcardPhoto {
+    margin-top: 20px;
+    height: 184px;
+    width: 650px;
+}
+
+.IDcardPhoto img {
+    height: 184px;
+    width: 298px;
+    border-radius: 10px;
+}
+
+/* 身份证信息显示页面 e*/
+
+/* 客户信息确认页面 b */
+
+.authLists.customer {
+    height: 160px;
+    padding-bottom: 10px;
+}
+
+.authLists.customer li {
+    height: 32px;
+    line-height: 32px;
+}
+
+/* 人脸失败授权部分 b*/
+
+.authLists.faceFailed li {
+    height: 50px;
+    line-height: 50px;
+}
+
+/* 人脸失败授权部分 e*/
+
+.customerPhoto {
+    margin-left: 137px;
+    margin-top: 10px;
+    height: 166px;
+    width: 620px;
+    text-align: center;
+}
+
+.customerPhoto img {
+    height: 160px;
+    width: 134px;
+    border: 3px solid #f8b551;
+    border-radius: 10px;
+    float: left;
+}
+
+.customerPhoto img:nth-child(2) {
+    margin: 0 20px;
+    width: 294px;
+}
+
+.customerIDcardPhoto {
+    margin-left: 137px;
+    margin-top: 10px;
+    height: 184px;
+    width: 620px;
+}
+
+.customerIDcardPhoto img {
+    height: 184px;
+    width: 298px;
+    border-radius: 10px;
+    border: 3px solid #f8b551;
+}
+
+/* 客户信息确认页面 e */
+
+/* 人脸识别页面 b */
+
+.verifacePhoto {
+    height: 500px;
+    width: 894px;
+    margin-top: 100px;
+}
+
+.verifacePhoto img {
+    height: 290px;
+    width: 388px;
+    border-radius: 20px;
+    /* border: 3px solid #f8b551; */
+}
+
+/* 人脸识别页面 e */
+
+/* 打印回单页面 b */
+
+.authLists.receipt {
+    height: 280px;
+    padding-bottom: 0px;
+    border-bottom: none;
+}
+
+.authPhoto.receipt {
+    height: 220px;
+    width: 140px;
+    text-align: center;
+    margin-left: 0px;
+    float: left;
+}
+
+/* 打印回单页面 e */
+
+/* 等待 调试 b   wait.show / showNoBankCard    */
+
+#mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    background-color: black;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+#wait {
+    position: absolute;
+    z-index: 1001;
+    left: 340px;
+    top: 362px;
+    width: 600px;
+    height: 300px;
+    /* background: white; */
+}
+
+#inform {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    font-size: 32px;
+    width: 600px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    overflow: auto;
+    color: white;
+}
+
+.waitCon {
+    position: absolute;
+    width: 600px;
+    height: 150px;
+    background: url('Graphics/loadingTop.gif') center center no-repeat;
+}
+
+.NoBankCard {
+    z-index: 1001;
+    position: absolute;
+    width: 600px;
+    height: 192px;
+    background: url('Graphics/pbErrorTip.png') center center no-repeat;
+}
+
+/* 等待 调试 e   wait.show / showNoBankCard    */
+/* 手续费提示页面 b */
+.FeeTipTable{
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    width: 880px;
+    height: 200px;
+    border-collapse: collapse;
+    /* background: blue; */
+}
+.FeeTipTable caption{
+    height: 50px;
+    line-height: 50px;
+    font-size: 26px;
+    margin-bottom: 10px;
+} 
+.FeeTipTable tr{
+    /* border: none; */
+    font-size: 18px;
+}
+.FeeTipTable tr td{
+    padding-left: 10px;
+}
+.FeeVIP{
+    position: absolute;
+    top: 630px;
+    left: 200px;
+    width: 880px;
+    text-align: center;
+    font-size: 22px;
+}
+/* 手续费提示页面 e */
+/* 入页面 b */
+.warmPromptTip.CashWarmPromptTip{
+margin-top: 0px;
+margin-left: 144px;
+/* text-align: left; */
+}
+/* 入钞页面 e */

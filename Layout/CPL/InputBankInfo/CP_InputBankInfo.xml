@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div class="PageContent" id="PageContent">
+    <div id="PageTop">
+        <div id="PageTitle">
+        </div>
+        <div id="ShowTime">
+        </div>
+    </div>
+    <div id="PageSubject" class="MiddleDiv">
+        <div id="TipDiv">
+            请输入您的卡号或存折号
+        </div>
+        <input class="CinfoInput" type="text" id="AccountInput" value="" readonly="readonly" maxlength="24" style="text-align:center;"/>
+
+        <div class="TipDiv"
+             style="font-size: 16px;margin-top:20px;width: 100%;line-height:35px;margin-left:0;letter-spacing:1px;">
+            <div id="TipError" class="TipError" style="margin-top:-10px;font-size:20px;color:#e21d1d;visibility:visible;text-align:center;display:none;"></div><!--hidden visible-->
+            <div style="font-size: 16px;margin-top:360px;width: 500px;line-height:30px;margin-left:20px;letter-spacing:1px;">
+            
+            </div>
+        </div>
+        <!-- <div id="Tip" class="TipError" style="margin-top:-10px;font-size:20px;color:#e21d1d;visibility:visible;text-align:center;"></div> -->
+    </div>
+    <div id="PageButton">
+        <a href='#' class='Left_4' id='Exit'>取消</a>
+        <a href='#' class='Right_4' id='OK'>确定</a>
+    </div>
+</div>

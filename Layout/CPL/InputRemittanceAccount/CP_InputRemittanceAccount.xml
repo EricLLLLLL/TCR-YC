@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div class="PageContent" id="PageContent">
+  <div id="PageTop">
+    <span id="TimeShow">2018年2月1日 星期三 15:38</span>
+    <span id="ShowTime"></span>
+  </div>
+  <div id="PageSubject">
+    <ul id="steps">
+      <li>
+        <span class="stepNum">1</span>业务选择												                        
+      </li>
+      <li class="middle">
+        <span class="stepNum">2</span>信息读取												                        
+      </li>
+      <li class="middle">
+        <span class="stepNum">3</span>插卡												                        
+      </li>
+      <li class="middle">
+        <span class="stepNum">4</span>信息录入												                        
+      </li>
+      <li>
+        <span class="stepNum">5</span>信息确认												                        
+      </li>
+      <li >
+        <span class="stepNum">6</span>交易完成												                        
+      </li>
+    </ul>
+    <div class="stateWrap">
+      <div id="state">汇款账号														                                
+        <span id="stateEn">Remittance Account</span>
+      </div>
+    </div>
+  </div>
+  <div class="stateComtent">
+    <div class=" inputTextCWD">
+      请输入汇款账号 ：
+	  <input id="RemitNumberValue" class="inputMoney" type="text" value="" autofocus="autofocus" readonly="readonly" placeholder="请输入账号" />        
+       
+    </div>
+  </div>
+  <div id="numberWrap">
+  		网点机构号：														                  
+    <span id="numberDot">01234567</span>
+  		设备号：																		                  
+    <span id="numberDevice">12345678</span>
+  </div>
+  <div id="PageButton">
+    <div id="btnWrap">
+      <button type="button" id="Back"></button>
+      <button type="button" id="Alter" class="BK"></button>
+      <button type="button" id="OK"></button>
+       <!--<button type="button" id="Print"></button><button type="button" id="Remake"></button> -->
+    </div>
+  </div>
+
+		<button type="button" id="PageRoot">返回首页/
+						
+		<span id="togoEn">return</span></button>
+
+	<!-- 错误状态 提示   --> 
+  <div id="errorWrap">
+    <div class="errorTips">
+      <div class="errorTipsText">
+        <div class="InfoTitle">信息提示 
+          <span id="countDown"></span>
+        </div>
+        <div id="InfoTip">非本行账号，不能交易</div>
+      </div>
+    </div>
+  </div>
+  <!-- 网络通讯状态提示 -->
+  <div id="networkWrap">
+    <div class="networkWrapTips">
+      <p class="networkPicture"></p>
+      <p id="networkTip">正在验证密码，请稍后...</p>
+    </div>
+  </div>
+</div>

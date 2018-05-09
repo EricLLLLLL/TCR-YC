@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="12/18/2015 2:50:04 PM">
+	<div id="PageTop">
+		<p> 受理行号：
+      																																																																				            			
+			<span id='SubBankId'></span>
+																																												        		
+		</p>
+		<p> 状态：
+      																																																																				            			
+			<span id='DevStatus'>00000（00）</span>
+		</p>
+	</div>
+	<div class="stateWrap">
+		<img src="Framework/style/Graphics/stateLine.png" alt="" srcset="" class="stateLine" />
+		<span class="stateTitle">指纹录入</span>
+	</div>
+	<div id="PageSubject">
+		<div class="InputDiv  FingerInputDiv">
+			<div class="fingerWrap">
+			<span class="fongerText">录入指纹：</span>
+			<span class="fingerImg">
+				<img src="Framework/style/Graphics/box_ico_4.png" alt="" srcset="" id="PromptIcon1" />
+				<img src="Framework/style/Graphics/box_ico_4.png" alt="" srcset="" id="PromptIcon2" />
+				<img src="Framework/style/Graphics/box_ico_4.png" alt="" srcset="" id="PromptIcon3" /></span>
+				<label class="span_tip" id ="finger_tip"></label>
+			</span>
+			 </div>
+			<p>
+				<span >密码：</span>
+                      								
+				<input class="AdminInput backgroundY" id ="PswInput" type="password" maxlength="6" value=""  />
+				<label class="span_tip" id ="password_tip"></label>
+			</p>
+						<p>
+				<span >确认密码：</span>
+                      								
+				<input class="AdminInput backgroundY" id ="confirmInput" type="password" maxlength="6" value=""  />
+				<label class="span_tip" id ="confirm_tip"></label>
+			</p>
+		</div>
+		<div id="KeyboardDiv" class="alphabet"> </div>
+		<div class="TipDiv more">
+     		温馨提示：请把手指放在指纹仪上进行指纹录入,
+         			
+			<br />
+        请在滴~滴~滴~三声后再移开手指。若录入失败，请再次放入手指进行指纹录入。
+    			
+		</div>
+	</div>
+	<div id="PageButton">
+		<!-- <button type="button"  id="Back">返回</button> -->
+		<!-- <button type="button"  id="OK">确定</button> -->
+		<button type="button"  id="Back" class="middle">返回</button>
+	</div>
+<button type="button" id="PageRoot">退出登录</button>
+</div>

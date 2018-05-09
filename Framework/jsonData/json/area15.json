@@ -1,0 +1,360 @@
+[
+   {
+      "area" : [
+         {
+            "gafeecod" : "1910",
+            "gargnnam" : "呼和浩特市"
+         },
+         {
+            "gafeecod" : "1911",
+            "gargnnam" : "土左旗"
+         },
+         {
+            "gafeecod" : "1912",
+            "gargnnam" : "托克托县"
+         },
+         {
+            "gafeecod" : "1913",
+            "gargnnam" : "武川县"
+         },
+         {
+            "gafeecod" : "1914",
+            "gargnnam" : "和林格尔县"
+         },
+         {
+            "gafeecod" : "1915",
+            "gargnnam" : "清水河县"
+         },
+         {
+            "gafeecod" : "1920",
+            "gargnnam" : "包头市"
+         },
+         {
+            "gafeecod" : "1921",
+            "gargnnam" : "土默特右旗"
+         },
+         {
+            "gafeecod" : "1922",
+            "gargnnam" : "固阳县"
+         },
+         {
+            "gafeecod" : "1923",
+            "gargnnam" : "达尔罕茂明安联合旗"
+         },
+         {
+            "gafeecod" : "1930",
+            "gargnnam" : "乌海市"
+         },
+         {
+            "gafeecod" : "1940",
+            "gargnnam" : "赤峰市"
+         },
+         {
+            "gafeecod" : "1941",
+            "gargnnam" : "阿鲁科尔沁旗"
+         },
+         {
+            "gafeecod" : "1942",
+            "gargnnam" : "巴林左旗"
+         },
+         {
+            "gafeecod" : "1943",
+            "gargnnam" : "巴林右旗"
+         },
+         {
+            "gafeecod" : "1944",
+            "gargnnam" : "林西县"
+         },
+         {
+            "gafeecod" : "1945",
+            "gargnnam" : "克什克腾"
+         },
+         {
+            "gafeecod" : "1946",
+            "gargnnam" : "翁牛特旗"
+         },
+         {
+            "gafeecod" : "1947",
+            "gargnnam" : "喀喇沁旗"
+         },
+         {
+            "gafeecod" : "1948",
+            "gargnnam" : "宁城县"
+         },
+         {
+            "gafeecod" : "1949",
+            "gargnnam" : "敖汉旗"
+         },
+         {
+            "gafeecod" : "1960",
+            "gargnnam" : "呼伦贝尔市"
+         },
+         {
+            "gafeecod" : "1962",
+            "gargnnam" : "满州里市"
+         },
+         {
+            "gafeecod" : "1963",
+            "gargnnam" : "扎兰屯市"
+         },
+         {
+            "gafeecod" : "1964",
+            "gargnnam" : "牙克石市"
+         },
+         {
+            "gafeecod" : "1965",
+            "gargnnam" : "阿荣旗"
+         },
+         {
+            "gafeecod" : "1966",
+            "gargnnam" : "莫力达瓦达斡尔族自治旗"
+         },
+         {
+            "gafeecod" : "1967",
+            "gargnnam" : "额尔古纳市"
+         },
+         {
+            "gafeecod" : "1968",
+            "gargnnam" : "根河市"
+         },
+         {
+            "gafeecod" : "1969",
+            "gargnnam" : "鄂伦春族自治旗"
+         },
+         {
+            "gafeecod" : "1971",
+            "gargnnam" : "鄂温克族自治旗"
+         },
+         {
+            "gafeecod" : "1972",
+            "gargnnam" : "新巴尔虎右旗"
+         },
+         {
+            "gafeecod" : "1973",
+            "gargnnam" : "新巴尔虎左旗"
+         },
+         {
+            "gafeecod" : "1974",
+            "gargnnam" : "陈巴尔虎旗"
+         },
+         {
+            "gafeecod" : "1980",
+            "gargnnam" : "兴安盟"
+         },
+         {
+            "gafeecod" : "1983",
+            "gargnnam" : "科尔沁右翼中旗"
+         },
+         {
+            "gafeecod" : "1984",
+            "gargnnam" : "扎赉特旗"
+         },
+         {
+            "gafeecod" : "1985",
+            "gargnnam" : "突泉县"
+         },
+         {
+            "gafeecod" : "1986",
+            "gargnnam" : "阿尔山市"
+         },
+         {
+            "gafeecod" : "1990",
+            "gargnnam" : "通辽市"
+         },
+         {
+            "gafeecod" : "1992",
+            "gargnnam" : "霍林郭勒市"
+         },
+         {
+            "gafeecod" : "1993",
+            "gargnnam" : "科尔沁左翼中旗"
+         },
+         {
+            "gafeecod" : "1994",
+            "gargnnam" : "科尔沁左翼后旗"
+         },
+         {
+            "gafeecod" : "1995",
+            "gargnnam" : "开鲁县"
+         },
+         {
+            "gafeecod" : "1996",
+            "gargnnam" : "库伦旗"
+         },
+         {
+            "gafeecod" : "1997",
+            "gargnnam" : "奈曼旗"
+         },
+         {
+            "gafeecod" : "1998",
+            "gargnnam" : "扎鲁特旗"
+         },
+         {
+            "gafeecod" : "2010",
+            "gargnnam" : "锡林郭勒盟"
+         },
+         {
+            "gafeecod" : "2011",
+            "gargnnam" : "二连浩特市"
+         },
+         {
+            "gafeecod" : "2013",
+            "gargnnam" : "阿巴嘎旗"
+         },
+         {
+            "gafeecod" : "2014",
+            "gargnnam" : "苏尼特左旗"
+         },
+         {
+            "gafeecod" : "2015",
+            "gargnnam" : "苏尼特右旗"
+         },
+         {
+            "gafeecod" : "2016",
+            "gargnnam" : "东乌珠穆沁旗"
+         },
+         {
+            "gafeecod" : "2017",
+            "gargnnam" : "西乌珠穆沁旗"
+         },
+         {
+            "gafeecod" : "2018",
+            "gargnnam" : "太仆寺旗"
+         },
+         {
+            "gafeecod" : "2019",
+            "gargnnam" : "镶黄旗"
+         },
+         {
+            "gafeecod" : "2021",
+            "gargnnam" : "正镶白旗"
+         },
+         {
+            "gafeecod" : "2022",
+            "gargnnam" : "正蓝旗"
+         },
+         {
+            "gafeecod" : "2023",
+            "gargnnam" : "多伦县"
+         },
+         {
+            "gafeecod" : "2030",
+            "gargnnam" : "乌兰察布盟"
+         },
+         {
+            "gafeecod" : "2035",
+            "gargnnam" : "卓资县"
+         },
+         {
+            "gafeecod" : "2036",
+            "gargnnam" : "化德县"
+         },
+         {
+            "gafeecod" : "2037",
+            "gargnnam" : "商都县"
+         },
+         {
+            "gafeecod" : "2038",
+            "gargnnam" : "兴和县"
+         },
+         {
+            "gafeecod" : "2039",
+            "gargnnam" : "丰镇市"
+         },
+         {
+            "gafeecod" : "2041",
+            "gargnnam" : "凉城县"
+         },
+         {
+            "gafeecod" : "2042",
+            "gargnnam" : "察哈尔右翼前旗"
+         },
+         {
+            "gafeecod" : "2043",
+            "gargnnam" : "察哈尔右翼中旗"
+         },
+         {
+            "gafeecod" : "2044",
+            "gargnnam" : "察哈尔右翼后旗"
+         },
+         {
+            "gafeecod" : "2046",
+            "gargnnam" : "四子王旗"
+         },
+         {
+            "gafeecod" : "2050",
+            "gargnnam" : "鄂尔多斯市"
+         },
+         {
+            "gafeecod" : "2052",
+            "gargnnam" : "达拉特旗"
+         },
+         {
+            "gafeecod" : "2053",
+            "gargnnam" : "准格尔旗"
+         },
+         {
+            "gafeecod" : "2054",
+            "gargnnam" : "鄂托克前旗"
+         },
+         {
+            "gafeecod" : "2055",
+            "gargnnam" : "鄂托克旗"
+         },
+         {
+            "gafeecod" : "2056",
+            "gargnnam" : "杭锦旗"
+         },
+         {
+            "gafeecod" : "2057",
+            "gargnnam" : "乌审旗"
+         },
+         {
+            "gafeecod" : "2058",
+            "gargnnam" : "伊金霍勒旗"
+         },
+         {
+            "gafeecod" : "2070",
+            "gargnnam" : "巴彦淖尔盟"
+         },
+         {
+            "gafeecod" : "2072",
+            "gargnnam" : "五原县"
+         },
+         {
+            "gafeecod" : "2073",
+            "gargnnam" : "磴口县"
+         },
+         {
+            "gafeecod" : "2074",
+            "gargnnam" : "乌拉特前旗"
+         },
+         {
+            "gafeecod" : "2075",
+            "gargnnam" : "乌拉特中旗"
+         },
+         {
+            "gafeecod" : "2076",
+            "gargnnam" : "乌拉特后旗"
+         },
+         {
+            "gafeecod" : "2077",
+            "gargnnam" : "杭锦后旗"
+         },
+         {
+            "gafeecod" : "2080",
+            "gargnnam" : "阿拉善盟"
+         },
+         {
+            "gafeecod" : "2082",
+            "gargnnam" : "阿右旗"
+         },
+         {
+            "gafeecod" : "2083",
+            "gargnnam" : "额济纳旗"
+         }
+      ],
+      "gargnnam" : "内蒙古自治区",
+      "provcod" : 15
+   }
+]

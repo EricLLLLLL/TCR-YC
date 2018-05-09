@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="12/18/2015 2:50:04 PM">
+  <div id="PageTop">
+    <div id="PageTitle">
+      <img src="Framework/style/Graphics/btn/m1.jpg" style="float:left;"/>
+      <div class="title_text">钞箱设定</div>
+    </div>
+    <div id="ShowTime">
+    </div>
+  </div>
+  <div class="TopText">
+    <div style="float:left;">
+      受理行号：<span id='SubBankId'>00000000-12345678号机</span>
+      <br/>
+      状态：<span id='DevStatus'>00000（00）</span>
+    </div>
+  </div>
+  <div class="TopTimer" id="LocalTime">
+    2015-12-16  10:54
+  </div>
+  <div id="PageSubject">
+    <div id="KeyboardDiv"></div>
+    <div class="MouduleDiv" style="margin-top:70px;">
+      <span style="color:#50629c;font-size: 16px;">钞箱类型设定</span>
+      <span style="margin-left:25px;color:#222222;font-size: 16px;">(0=存款箱；1=取款箱；2=循环箱；3=回收箱)</span>
+      <div style="margin-top:18px;"></div>
+      钞箱1：<input class="AdminInput" id ="CashBox1TypeInput" type="text" maxlength ="1" value="2" readonly="readonly" style="margin-left:0px;margin-top:-10px;margin-right:5px;width:55px;background-position-y: -352px;text-align:center;text-indent: 0px;"/>
+      钞箱2：<input class="AdminInput" id ="CashBox2TypeInput" type="text" maxlength ="1" value="2" readonly="readonly" style="margin-left:0px;margin-top:-10px;margin-right:5px;width:55px;background-position-y: -352px;text-align:center;text-indent: 0px;"/>
+      钞箱3：<input class="AdminInput" id ="CashBox3TypeInput" type="text" maxlength ="1" value="2" readonly="readonly" style="margin-left:0px;margin-top:-10px;margin-right:5px;width:55px;background-position-y: -352px;text-align:center;text-indent: 0px;"/>
+      钞箱4：<input class="AdminInput" id ="CashBox4TypeInput" type="text" maxlength ="1" value="3" readonly="readonly" style="margin-left:0px;margin-top:-10px;margin-right:5px;width:55px;background-position-y: -352px;text-align:center;text-indent: 0px;"/>
+      钞箱5：<input class="AdminInput" id ="CashBox5TypeInput" type="text" maxlength ="1" value="2" readonly="readonly" style="margin-left:0px;margin-top:-10px;width:55px;background-position-y: -352px;text-align:center;text-indent: 0px;"/>
+      <div align="center" class="span_tip" style="margin-top:4px;">钞箱输入值不能为空！</div>
+    </div>
+    <div class="MouduleDiv">
+      <span style="color:#50629c;font-size: 16px;">钞箱面额设定</span>
+      <span style="margin-left:25px;color:#222222;font-size: 16px;">(0=100元；1=50元；2=20元；3=10元)</span>
+      <div style="margin-top:18px;"></div>
+      钞箱1：<input class="AdminInput" id ="MoneyType1Input" type="text" maxlength ="1" value="100" readonly="readonly" style="margin-left:0px;margin-top:-10px;margin-right:5px;width:55px;background-position-y: -352px;text-align:center;text-indent: 0px;"/>
+      钞箱2：<input class="AdminInput" id ="MoneyType2Input" type="text" maxlength ="1" value="50" readonly="readonly" style="margin-left:0px;margin-top:-10px;margin-right:5px;width:55px;background-position-y: -352px;text-align:center;text-indent: 0px;"/>
+      钞箱3：<input class="AdminInput" id ="MoneyType3Input" type="text" maxlength ="1" value="20" readonly="readonly" style="margin-left:0px;margin-top:-10px;margin-right:5px;width:55px;background-position-y: -352px;text-align:center;text-indent: 0px;"/>
+      钞箱4：<input class="AdminInput" id ="MoneyType4Input" type="text" maxlength ="1" value="0" readonly="readonly" style="margin-left:0px;margin-top:-10px;margin-right:5px;width:55px;background-position-y: -352px;text-align:center;text-indent: 0px;"/>
+      钞箱5：<input class="AdminInput" id ="MoneyType5Input" type="text" maxlength ="1" value="10" readonly="readonly" style="margin-left:0px;margin-top:-10px;width:55px;background-position-y: -352px;text-align:center;text-indent: 0px;"/>
+      <div align="center" class="span_tip" style="margin-top:4px;">钞箱输入值不能为空！</div>
+    </div>
+    <div class="MouduleDiv">
+      <span style="color:#50629c;font-size: 16px;">存款允许面额</span>
+      <span style="margin-left:25px;color:#222222;font-size: 16px;">(0=不支持；1=支持；)</span>
+      <div style="margin-top:18px;"></div>
+      100元：<input class="AdminInput" id ="DEPAllowMoney1Input" type="text" maxlength ="1" value="1" readonly="readonly" style="margin-left:0px;margin-top:-10px;margin-right:5px;width:55px;background-position-y: -352px;text-align:center;text-indent: 0px;"/>
+      50元：<input class="AdminInput" id ="DEPAllowMoney2Input" type="text" maxlength ="1" value="1" readonly="readonly" style="margin-left:0px;margin-top:-10px;margin-right:5px;width:55px;background-position-y: -352px;text-align:center;text-indent: 0px;"/>
+      20元：<input class="AdminInput" id ="DEPAllowMoney3Input" type="text" maxlength ="1" value="1" readonly="readonly" style="margin-left:0px;margin-top:-10px;margin-right:5px;width:55px;background-position-y: -352px;text-align:center;text-indent: 0px;"/>
+      10元：<input class="AdminInput" id ="DEPAllowMoney4Input" type="text" maxlength ="1" value="1" readonly="readonly" style="margin-left:0px;margin-top:-10px;width:55px;background-position-y: -352px;text-align:center;text-indent: 0px;"/>
+      <div align="center" class="span_tip" style="margin-top:4px;">钞箱输入值不能为空！</div>
+    </div>
+    <div class="MouduleDiv">
+      <span style="color:#50629c;font-size: 16px;">存款最大张数设定</span>
+      <div style="margin-top:18px;"></div>
+      存款最大张数：<input class="AdminInput" id ="DEPMaxNumInput" type="text" value="2800" readonly="readonly" style="margin-left:0px;margin-top:-10px;margin-right:20px;width:85px;background-position-y: -308px;text-align:center;text-indent: 0px;"/>
+      取款最大张数：<input class="AdminInput" id ="CWDMaxNumInput" type="text" value="2800" readonly="readonly" style="margin-left:0px;margin-top:-10px;width:85px;background-position-y: -308px;text-align:center;text-indent: 0px;"/>
+      <div align="center" class="span_tip" style="margin-top:4px;">钞箱输入值不能为空！</div>
+    </div>
+  </div>
+  <div class="PageLeftButton" id="Exit"></div>
+</div>

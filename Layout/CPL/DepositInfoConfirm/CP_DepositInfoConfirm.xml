@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="2/6/2018 6:21:29 PM">
+	<div id="PageTop">
+		<span id="TimeShow">2018年2月1日 星期三 15:38</span>
+		<span id="ShowTime"></span>
+	</div>
+	<div id="PageSubject">
+		<ul id="steps">
+			<li>
+				<span class="stepNum">1</span>业务选择																																																															
+			</li>
+			<li class="middle">
+				<span class="stepNum">2</span>信息读取																																																															
+			</li>
+			<li class="middle">
+				<span class="stepNum">3</span>插卡																																																															
+			</li>
+			<li  class="middle">
+				<span class="stepNum">4</span>验密																																																															
+			</li>
+			<li  class="middle">
+				<span class="stepNum">5</span>信息确认																																																															
+			</li>
+			<li >
+				<span class="stepNum">6</span>交易完成																																																															
+			</li>
+		</ul>
+		<div class="stateWrap">
+			<div id="state">存款信息确认																																																																																				
+				<span id="stateEn">Confirmation of deposit information </span>
+			</div>
+		</div>
+	</div>
+	<div class="stateComtent  confirm">
+		<p>
+			<span>户名</span>：																																														
+			<span id="depositAccountInfo"></span>
+		</p>
+		<p>
+			<span >卡号</span>：
+																																																				
+			<span id="depositNumberInfo"></span>
+		</p>
+		<p >
+			<span >存款金额</span>：																																
+			<span id="depositMoneyInfo"></span>
+		</p>
+		<!--<p id="FeeTip" style="display:none;">-->
+			<!--<span >手续费</span>：-->
+      <!---->
+			<!--<span id="depositFeeInfo"></span>-->
+		<!--</p>-->
+		<!--手续费：																																									
+			<span id="depositFeeInfo"></span>-->
+		<p id="money100">
+			<span >100元钞票</span>：
+																																																										
+			<span id="t100"></span>张
+																								
+		</p>
+		<p id="money50">
+			<span>50元钞票</span>：																																																								
+			<span id="t50"></span>张
+																								
+		</p>
+		<p id="money20">
+			<span>20元钞票</span>：																																																								
+			<span id="t20"></span>张
+																								
+		</p>
+		<p id="money10">
+			<span>10元钞票</span>：																																																								
+			<span id="t10"></span>张
+																								
+		</p>
+		<p id="money5">
+			<span>5元钞票</span>：																																																								
+			<span id="t5"></span>张
+																								
+		</p>
+		<p id="money1">
+			<span>1元钞票</span>：																																																								
+			<span id="t1"></span>张
+																								
+		</p>
+		<p class="tCash">
+			共计：																																																								
+			<span id="tCash"></span>元
+																								
+		</p>
+	</div>
+	<div class="warmPromptTip bottomTip">
+		<p class="warmPrompt PSBCgreen " style="float:left;height:36px;
+    padding-left:25px;">温馨提示:</p>
+		<p style="float:left;"> 请确认您的存款信息，</p>
+		<p style="float:left;" id="continueTip">  继续加钞请点击
+			<span class="warmPromptOk">[继续]</span>键，
+		</p>
+		<p style="float:left;" id="makeSureTip"> 完成请点击
+			<span class="warmPromptOk">[确认]</span>键。
+		</p>
+		<!-- <p style="float:left;"> 您本次交易中放入钞票已达到上限,完成请点击
+			<span class="warmPromptOk">[确认]</span>键。
+		</p> -->
+	</div>
+	<!-- <p class="warmPromptTip bottomTip"><span class="warmPrompt PSBCgreen "><img src="" alt="" srcset=""/> 温馨提示:
+																														
+		</span><span id="depositTip">
+			 请确认您的存款信息，
+			 <span id="DepCon"> 继续加钞请点击<span class="warmPromptOk">[继续]</span>键。</span><span id="DepOk" style="display:none;"> 完成请点击<span class="warmPromptOk">[确认]</span>键。</span><span id="DepOver" style="display:none;"> 您本次交易中放入钞票已达到上限,完成请点击<span class="warmPromptOk">[确认]</span>键。</span></span></p> -->
+	<div id="numberWrap">
+  		网点机构号：																																																
+		<span id="numberDot">01234567</span>
+  		设备号：																																																				
+		<span id="numberDevice">12345678</span>
+	</div>
+	<div id="PageButton">
+		<div id="btnWrap">
+			<button type="button" id="Exit"></button>
+			<button type="button" id="ContinueMoney"></button>
+			<button type="button" id="OK"></button>
+			<!-- <button type="button" id="Alter"></button><button type="button" id="Print"></button><button type="button" id="Remake"></button> -->
+		</div>
+	</div>
+
+	<!-- 错误状态 提示   -->
+	<div id="errorWrap">
+		<div class="errorTips">
+			<div class="errorTipsText">
+				<div class="InfoTitle">信息提示 																																																																																					
+					<span id="countDown"></span>
+				</div>
+				<div id="InfoTip">读证失败，请重新插入。</div>
+			</div>
+		</div>
+	</div>
+	<div id="networkWrap">
+		<div class="networkWrapTips">
+			<p class="networkPicture"></p>
+			<p id="networkTip">正在通讯中，请稍后...</p>
+		</div>
+	</div>
+</div>

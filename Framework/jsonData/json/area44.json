@@ -1,0 +1,364 @@
+[
+   {
+      "area" : [
+         {
+            "gafeecod" : "5810",
+            "gargnnam" : "广州市"
+         },
+         {
+            "gafeecod" : "5812",
+            "gargnnam" : "从化市"
+         },
+         {
+            "gafeecod" : "5813",
+            "gargnnam" : "增城市"
+         },
+         {
+            "gafeecod" : "5820",
+            "gargnnam" : "韶关市"
+         },
+         {
+            "gafeecod" : "5821",
+            "gargnnam" : "曲江县"
+         },
+         {
+            "gafeecod" : "5822",
+            "gargnnam" : "始兴县"
+         },
+         {
+            "gafeecod" : "5823",
+            "gargnnam" : "南雄市"
+         },
+         {
+            "gafeecod" : "5824",
+            "gargnnam" : "仁化县"
+         },
+         {
+            "gafeecod" : "5825",
+            "gargnnam" : "乐昌市"
+         },
+         {
+            "gafeecod" : "5826",
+            "gargnnam" : "翁源县"
+         },
+         {
+            "gafeecod" : "5827",
+            "gargnnam" : "乳源县"
+         },
+         {
+            "gafeecod" : "5828",
+            "gargnnam" : "新丰县"
+         },
+         {
+            "gafeecod" : "5850",
+            "gargnnam" : "珠海市"
+         },
+         {
+            "gafeecod" : "5860",
+            "gargnnam" : "汕头市"
+         },
+         {
+            "gafeecod" : "5861",
+            "gargnnam" : "澄海市"
+         },
+         {
+            "gafeecod" : "5863",
+            "gargnnam" : "南澳县"
+         },
+         {
+            "gafeecod" : "5864",
+            "gargnnam" : "潮阳市"
+         },
+         {
+            "gafeecod" : "5872",
+            "gargnnam" : "潮安营业部"
+         },
+         {
+            "gafeecod" : "5880",
+            "gargnnam" : "佛山市"
+         },
+         {
+            "gafeecod" : "5890",
+            "gargnnam" : "江门市"
+         },
+         {
+            "gafeecod" : "5892",
+            "gargnnam" : "台山市"
+         },
+         {
+            "gafeecod" : "5893",
+            "gargnnam" : "恩平市"
+         },
+         {
+            "gafeecod" : "5894",
+            "gargnnam" : "开平市"
+         },
+         {
+            "gafeecod" : "5895",
+            "gargnnam" : "鹤山市"
+         },
+         {
+            "gafeecod" : "5910",
+            "gargnnam" : "湛江市"
+         },
+         {
+            "gafeecod" : "5911",
+            "gargnnam" : "吴川市"
+         },
+         {
+            "gafeecod" : "5912",
+            "gargnnam" : "廉江市"
+         },
+         {
+            "gafeecod" : "5913",
+            "gargnnam" : "遂溪县"
+         },
+         {
+            "gafeecod" : "5914",
+            "gargnnam" : "雷州市"
+         },
+         {
+            "gafeecod" : "5915",
+            "gargnnam" : "徐闻县"
+         },
+         {
+            "gafeecod" : "5920",
+            "gargnnam" : "茂名市"
+         },
+         {
+            "gafeecod" : "5921",
+            "gargnnam" : "信宜市"
+         },
+         {
+            "gafeecod" : "5922",
+            "gargnnam" : "高州市"
+         },
+         {
+            "gafeecod" : "5923",
+            "gargnnam" : "电白县"
+         },
+         {
+            "gafeecod" : "5924",
+            "gargnnam" : "化州市"
+         },
+         {
+            "gafeecod" : "5930",
+            "gargnnam" : "肇庆市"
+         },
+         {
+            "gafeecod" : "5931",
+            "gargnnam" : "高要市"
+         },
+         {
+            "gafeecod" : "5932",
+            "gargnnam" : "四会市"
+         },
+         {
+            "gafeecod" : "5933",
+            "gargnnam" : "广宁县"
+         },
+         {
+            "gafeecod" : "5934",
+            "gargnnam" : "怀集县"
+         },
+         {
+            "gafeecod" : "5935",
+            "gargnnam" : "封开县"
+         },
+         {
+            "gafeecod" : "5936",
+            "gargnnam" : "德庆县"
+         },
+         {
+            "gafeecod" : "5950",
+            "gargnnam" : "惠州市"
+         },
+         {
+            "gafeecod" : "5952",
+            "gargnnam" : "博罗县"
+         },
+         {
+            "gafeecod" : "5953",
+            "gargnnam" : "惠东县"
+         },
+         {
+            "gafeecod" : "5954",
+            "gargnnam" : "龙门县"
+         },
+         {
+            "gafeecod" : "5956",
+            "gargnnam" : "大亚湾营业部"
+         },
+         {
+            "gafeecod" : "5960",
+            "gargnnam" : "梅州市"
+         },
+         {
+            "gafeecod" : "5962",
+            "gargnnam" : "大埔县"
+         },
+         {
+            "gafeecod" : "5963",
+            "gargnnam" : "丰顺县"
+         },
+         {
+            "gafeecod" : "5964",
+            "gargnnam" : "五华县"
+         },
+         {
+            "gafeecod" : "5965",
+            "gargnnam" : "兴宁市"
+         },
+         {
+            "gafeecod" : "5966",
+            "gargnnam" : "平远县"
+         },
+         {
+            "gafeecod" : "5967",
+            "gargnnam" : "蕉岭县"
+         },
+         {
+            "gafeecod" : "5970",
+            "gargnnam" : "汕尾市"
+         },
+         {
+            "gafeecod" : "5971",
+            "gargnnam" : "海丰县"
+         },
+         {
+            "gafeecod" : "5972",
+            "gargnnam" : "陆丰市"
+         },
+         {
+            "gafeecod" : "5973",
+            "gargnnam" : "陆河县"
+         },
+         {
+            "gafeecod" : "5980",
+            "gargnnam" : "河源市"
+         },
+         {
+            "gafeecod" : "5981",
+            "gargnnam" : "紫金县"
+         },
+         {
+            "gafeecod" : "5982",
+            "gargnnam" : "龙川县"
+         },
+         {
+            "gafeecod" : "5983",
+            "gargnnam" : "连平县"
+         },
+         {
+            "gafeecod" : "5984",
+            "gargnnam" : "和平县"
+         },
+         {
+            "gafeecod" : "5985",
+            "gargnnam" : "东源县"
+         },
+         {
+            "gafeecod" : "5990",
+            "gargnnam" : "阳江市"
+         },
+         {
+            "gafeecod" : "5991",
+            "gargnnam" : "阳西县"
+         },
+         {
+            "gafeecod" : "5992",
+            "gargnnam" : "阳春市"
+         },
+         {
+            "gafeecod" : "5993",
+            "gargnnam" : "阳东县"
+         },
+         {
+            "gafeecod" : "6010",
+            "gargnnam" : "清远市"
+         },
+         {
+            "gafeecod" : "6011",
+            "gargnnam" : "佛冈县"
+         },
+         {
+            "gafeecod" : "6012",
+            "gargnnam" : "英德市"
+         },
+         {
+            "gafeecod" : "6013",
+            "gargnnam" : "阳山县"
+         },
+         {
+            "gafeecod" : "6014",
+            "gargnnam" : "连州市"
+         },
+         {
+            "gafeecod" : "6015",
+            "gargnnam" : "连山县"
+         },
+         {
+            "gafeecod" : "6016",
+            "gargnnam" : "连南县"
+         },
+         {
+            "gafeecod" : "6017",
+            "gargnnam" : "清新县"
+         },
+         {
+            "gafeecod" : "6020",
+            "gargnnam" : "东莞市"
+         },
+         {
+            "gafeecod" : "6030",
+            "gargnnam" : "中山市"
+         },
+         {
+            "gafeecod" : "6040",
+            "gargnnam" : "潮州市"
+         },
+         {
+            "gafeecod" : "6042",
+            "gargnnam" : "饶平县"
+         },
+         {
+            "gafeecod" : "6050",
+            "gargnnam" : "揭阳市"
+         },
+         {
+            "gafeecod" : "6051",
+            "gargnnam" : "揭东县"
+         },
+         {
+            "gafeecod" : "6052",
+            "gargnnam" : "揭西县"
+         },
+         {
+            "gafeecod" : "6053",
+            "gargnnam" : "惠来县"
+         },
+         {
+            "gafeecod" : "6054",
+            "gargnnam" : "普宁市"
+         },
+         {
+            "gafeecod" : "6060",
+            "gargnnam" : "云浮市"
+         },
+         {
+            "gafeecod" : "6061",
+            "gargnnam" : "新兴县"
+         },
+         {
+            "gafeecod" : "6062",
+            "gargnnam" : "郁南县"
+         },
+         {
+            "gafeecod" : "6064",
+            "gargnnam" : "罗定市"
+         }
+      ],
+      "gargnnam" : "广东省（不含深圳市）",
+      "provcod" : 44
+   }
+]

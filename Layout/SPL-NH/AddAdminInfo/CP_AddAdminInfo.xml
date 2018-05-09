@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="12/18/2015 2:50:04 PM">
+  <div id="PageTop">
+    <div id="PageTitle">
+      <img src="Framework/style/Graphics/btn/m1.jpg" style="float:left;"/>
+      <div class="title_text">管理员维护</div>
+    </div>
+    <div id="ShowTime">
+    </div>
+  </div>
+  <div class="TopText">
+    <div style="float:left;">
+      受理行号：<span id='SubBankId'>00000000-12345678号机</span>
+      <br/>
+      状态：<span id='DevStatus'>00000（00）</span>
+    </div>
+  </div>
+  <div class="TopTimer">
+    2015-12-16  10:54
+  </div>
+  <div id="PageSubject">
+    <div id="KeyboardDiv"></div>
+    <div style="margin-top:85px;margin-left:78px;">
+			<table style="text-align: center;" >
+			<tr><td>账号</td><td><input class="AdminInput" id="UserInput" type="text" maxlength="6"  readonly="readonly" style="background-position-y: -132px;"/>
+			</td>
+			</tr>
+			<tr>
+			<td>密码</td><td><input class="AdminInput" id="PswInput" type="password" maxlength="6" readonly="readonly" style="background-position-y: -132px;"/>
+			</td>
+			</tr>
+			<tr><td> 确认密码</td><td><input class="AdminInput" id="ComfirmInput" type="password" maxlength="6"  readonly="readonly" style="background-position-y: -132px;"/>
+			</td>
+			</tr> 		
+			<tr>
+			<td></td><td><input type="button" value="添加管理员" class="FunctionBtn" id="addAdmin" style="margin-top:0px;margin-left:10px;"/>
+			</td>
+			</tr>			
+			</table>
+	<label class="span_tip" id ="span_tip" style="margin-left:98px;"></label>
+          		
+    </div>
+    <table class="crownsize_tabs" id="c_tab" cellpadding="0" cellspacing="0" style="margin-top:150px;">
+      <tr class="title_tr">
+        <td width="120px">序号</td>
+        <td width="230px">账号</td>
+        <td width="240px">密码</td>
+        <td width="262px">操作</td>
+      </tr>
+      <tr>
+        <td colspan="5" style="border:0;">
+          <table class="crownsizeinfo_tabs" id="tab" cellpadding="0" cellspacing="0">
+            <tr class="doub_tr">
+              <td width="120px"></td>
+              <td width="230px"></td>
+              <td width="240px"></td>
+              <td width="131px"></td>
+			  <td width="131px"></td>
+            </tr>
+            <tr>
+              <td width="120px"></td>
+              <td width="230px"></td>
+              <td width="240px"></td>
+              <td width="131px"></td>
+			  <td width="131px"></td>
+            </tr>
+            <tr class="doub_tr">
+               <td width="120px"></td>
+              <td width="230px"></td>
+              <td width="240px"></td>
+              <td width="131px"></td>
+			  <td width="131px"></td>
+            </tr>
+            <tr>
+             <td width="120px"></td>
+              <td width="230px"></td>
+              <td width="240px"></td>
+              <td width="131px"></td>
+			  <td width="131px"></td>
+            </tr>
+            <tr>
+              <td width="120px"></td>
+              <td width="230px"></td>
+              <td width="240px"></td>
+              <td width="131px"></td>
+			  <td width="131px"></td>
+            </tr>
+			 <tr>
+              <td width="120px"></td>
+              <td width="230px"></td>
+              <td width="240px"></td>
+              <td width="131px"></td>
+			  <td width="131px"></td>
+            </tr>
+			 <tr>
+              <td width="120px"></td>
+              <td width="230px"></td>
+              <td width="240px"></td>
+              <td width="131px"></td>
+			  <td width="131px"></td>
+            </tr>
+			 <tr>
+              <td width="120px"></td>
+              <td width="230px"></td>
+              <td width="240px"></td>
+              <td width="131px"></td>
+			  <td width="131px"></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <div class="span_tip" id="errortip" style="text-align:center;margin-top:20px;display:none">
+      暂无管理员数据，请添加 !
+    </div>
+    <div class="span_tip" style="position:absolute;bottom:30px;left: 90px;">
+      温馨提示：点击表格中的删除按钮删除相应管理员信息。
+    </div>
+    <div class="PageLeftButton" id="Exit"></div>
+  </div>
+</div>

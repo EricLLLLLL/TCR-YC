@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="12/18/2015 2:50:04 PM">
+  <div id="PageTop">
+    <div id="PageTitle">
+      <img src="Framework/style/Graphics/btn/m1.jpg" style="float:left;"/>
+      <div class="title_text">限额设置</div>
+    </div>
+    <div id="ShowTime">
+    </div>
+  </div>
+  <div class="TopText">
+    <div style="float:left;">
+      受理行号：<span id='SubBankId'>00000000-12345678号机</span>
+      <br/>
+      状态：<span id='DevStatus'>00000（00）</span>
+    </div>
+  </div>
+  <div class="TopTimer" id="LocalTime">
+    2015-12-16  10:54
+  </div>
+  <div id="PageSubject">
+    <div id="KeyboardDiv"></div>
+    <div class="InputDiv">
+      <span style="color:#50629c;font-size: 24px;">授权限额</span>
+      <br/>
+      <span style="margin-left:36px;">卡存款：</span><input class="AdminInput" id="DEPAuthorizedInput" type="text" maxlength="10" value="" readonly="readonly" style="margin-left:15px;background-position-y: -132px;"/>
+      <br/>
+      <span style="margin-left:36px;">折存款：</span><input class="AdminInput" id="BankbookDEPAuthorizedInput" type="text" maxlength="10" value="" readonly="readonly" style="margin-left:15px;margin-top:10px;background-position-y: -132px;"/>
+      <br/>
+      <span style="margin-left:-18px;">无折无卡存款：</span><input class="AdminInput" id="NoCardDEPAuthorizedInput" type="text" value="" readonly="readonly" maxlength="10" style="margin-left:15px;margin-top:10px;background-position-y: -132px;"/>
+      <br/>
+      <span style="margin-left:36px;">卡取款：</span><input class="AdminInput" id="CWDAuthorizedInput" type="text" value="" readonly="readonly" maxlength="10" style="margin-left:15px;margin-top:10px;background-position-y: -132px;"/>
+      <br/>
+      <span style="margin-left:36px;">折取款：</span><input class="AdminInput" id="BankbookCWDAuthorizedInput" type="text" value="" readonly="readonly" maxlength="10" style="margin-left:15px;margin-top:10px;background-position-y: -132px;"/>
+      <br/>
+      <br/>
+      <span style="color:#50629c;font-size: 24px;">交易限额</span>
+      <br/>
+      <span style="margin-left:36px;">卡存款：</span><input class="AdminInput" id="DEPQuotaInput" type="text" maxlength="10" value="" readonly="readonly" style="margin-left:15px;background-position-y: -132px;"/>
+      <!-- <span style="margin-left:36px;">转账限额：</span><input class="AdminInput" id="TransferkQuotaInput" type="text" maxlength="10" value="" readonly="readonly" style="margin-left:15px;background-position-y: -132px;"/> -->
+      <br/>
+      <span style="margin-left:36px;">折存款：</span><input class="AdminInput" id="BankbookDEPQuotaInput" type="text" maxlength="10" value="" readonly="readonly" style="margin-left:15px;margin-top:10px;background-position-y: -132px;"/>
+      <br/>
+      <span style="margin-left:-18px;">无折无卡存款：</span><input class="AdminInput" id="NoCardDEPQuotaInput" type="text" value="" readonly="readonly" maxlength="10" style="margin-left:15px;margin-top:10px;background-position-y: -132px;"/>
+      <br/>
+      <span style="margin-left:36px;">卡取款：</span><input class="AdminInput" id="CWDQuotaInput" type="text" value="" readonly="readonly" maxlength="10" style="margin-left:15px;margin-top:10px;background-position-y: -132px;"/>
+      <br/>
+      <span style="margin-left:36px;">折取款：</span><input class="AdminInput" id="BankbookCWDQuotaInput" type="text" value="" readonly="readonly" maxlength="10" style="margin-left:15px;margin-top:10px;background-position-y: -132px;"/>
+    </div>
+    <div align="center" style="margin-top:40px;display:none">
+      <div class="div_tip" id="tipdiv" style="color:red;"></div>
+    </div>
+  </div>
+  <div class="PageLeftButton" id="Exit"></div>
+</div>

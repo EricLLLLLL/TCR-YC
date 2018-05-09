@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="2/6/2018 6:21:29 PM">
+	<div id="PageTop">
+		<span id="TimeShow">2018年2月1日 星期三 15:38</span>
+		<span id="ShowTime"></span>
+	</div>
+	<div id="PageSubject">
+		<ul id="steps">
+			<li>
+				<span class="stepNum">1</span>业务选择																																													
+			</li>
+			<li class="middle">
+				<span class="stepNum">2</span>信息读取																																													
+			</li>
+			<li>
+				<span class="stepNum">3</span>插卡																																													
+			</li>
+			<li>
+				<span class="stepNum">4</span>验密																																													
+			</li>
+			<li>
+				<span class="stepNum">5</span>信息确认																																													
+			</li>
+			<li >
+				<span class="stepNum">6</span>交易完成																																													
+			</li>
+		</ul>
+		<div class="stateWrap">
+			<div id="state">转账协议													
+				<span id="stateEn">Transfer agreement</span>
+			</div>
+		</div>
+	</div>
+	<div class="stateComtent agreement">
+		<h5>中国邮政银行个人银行结算账户管理协议</h5>
+		<p>尊敬的客户：为了维护您的权益，请在同意本协议前，仔细阅读本协议各条款（特别是黑体字条款），关注您在协议中的权利、义务及责任。如您对本协议有任何疑问，请向经办行咨询。</p>
+		<p>根据《人民币银行结算账户管理办法》及相关法律法规，开户申请人（客户）与开户银行经协商一致，签订本协议。</p>
+		<p>第一条　开户申请人（客户）选择在开户银行开立个人银行结算账户（下称结算账户），开户银行接受开户申请人（客户）委托，为开户申请人（客户）提供结算账户服务。</p>
+		<p>第二条　开户申请人（客户）须按支付结算相关规定使用支付结算工具，并按开户银行有关规定支付各项结算和服务费用。</p>
+		<p>第三条　开户申请人（客户）在开户银行开立结算账户应填写开户申请书，并提供相应证明文件，接受开户银行审核，开户银行受理后，开户申请人（客户）应对开户申请书中开户银行填写内容进行核对确认。</p>
+		<p>开户申请人（客户）承诺所提交的开户资料真实、有效，如有违反，承担相应责任。</p>
+		<p>开户申请人（客户）遗失或更换预留个人印章或更换签字样本的，应依照开户银行规定向开户银行提供经签名确认的书面申请及个人身份证件。</p>
+		<p>第四条　开户申请人（客户）撤销在开户银行开立的结算账户，必须与开户银行核对该账户存款余额，并交回各种重要空白票据及结算凭证，开户银行核对无误后方可办理销户手续。开户申请人（客户）未交回各种重要空白票据及结算凭证的，须出具书面证明，由此造成的损失由开户申请人（客户）承担。</p>
+		<p> 第五条　开户申请人（客户）在开户银行开立、使用和撤销结算账户应遵守《人民币银行结算账户管理办法》及相关法律法规的规定。开户申请人（客户）使用结算账户办理结算业务时，应遵守开户银行的相关制度规定。</p>
+		<p> 第六条　开户申请人（客户）使用结算账户办理现金存取时应遵守中国人民银行关于现金管理的有关规定。</p>
+	</div>
+	<div id="numberWrap">
+  		网点机构号：																				
+		<span id="numberDot">01234567</span>
+  		设备号：													
+		<span id="numberDevice">12345678</span>
+	</div>
+	<div id="PageButton">
+		<div id="btnWrap">
+			<button type="button" id="Exit"></button>
+			<button type="button" id="OK"></button>
+			<!-- <button type="button" id="Alter"></button><button type="button" id="Print"></button><button type="button" id="Remake"></button> -->
+		</div>
+	</div>
+		<button type="button" id="PageRoot">返回首页	 		
+			<span id="togoEn">/return</span>
+		</button>
+	<!-- 错误状态 提示   -->
+	<div id="errorWrap">
+		<div class="errorTips">
+			<div class="errorTipsText">
+				<div class="InfoTitle">信息提示 											
+					<span id="countDown"></span>
+				</div>
+				<div id="InfoTip">读证失败，请重新插入。</div>
+			</div>
+		</div>
+	</div>
+	<!-- style="display:block;" -->
+	<div id="networkWrap">
+		<div class="networkWrapTips">
+			<p class="networkPicture"></p>
+			<p id="networkTip">正在通讯中，请稍后...</p>
+		</div>
+	</div>
+</div>

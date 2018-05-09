@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="12/15/2015 3:22:49 PM">
+  <div id="PageTop">
+    <div id="PageTitle">
+      <img src="Framework/style/Graphics/btn/m1.jpg" style="float:left;"/>
+      <div class="title_text">下载参数</div>
+    </div>
+    <div id="ShowTime">
+    </div>
+  </div>
+  <div class="TopText">
+    <div style="float:left;">
+      受理行号：<span id='SubBankId'>00000000-12345678号机</span>
+      <br/>
+      状态：<span id='DevStatus'>00000（00）</span>
+    </div>
+  </div>
+  <div class="TopTimer" id="LocalTime">
+    2015-12-16  10:54
+  </div>
+  <div id="PageSubject">
+    <div class="PromptTitle" id ="ChangeDiv">
+      正在下载参数，请稍后...
+      <br/>
+      <br/>
+      <img src="Framework/style/Graphics/btn/box_loading.gif" class="ImgLoading"/>
+    </div>
+    <div class="PromptDiv" id ="SuccessedDiv" style="display :none">
+      <input type="button" class="PromptIcon"/>下载参数成功!
+    </div>
+    <div class="PromptDiv" id ="faildDiv" style="display :none">
+      <input type="button" class="PromptIcon"/>下载参数失败,请退出!
+    </div>
+    <div class="TipDiv" style="margin-left:435px;">
+      温馨提示：
+      <br/>
+      <br/>
+      下载参数若失败，不能进行清机操作！
+    </div>
+  </div>
+  <div class="PageLeftButton" id="Back" style="display :none"></div>
+  <div class="PageRightButton" id="OK" style="display :none"></div>
+</div>

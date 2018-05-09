@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="3/16/2017 4:00:18 PM">
+	<div id="PageTop">
+		<div id="PageTitle">
+	</div>
+		<div id="ShowTime">
+	</div>
+	</div>
+	<div id="PageSubject">
+		<!-- <img id="Pic" src="Graphics/DIPCARD.GIF"/> -->
+	</div>
+	<div id="PageButton">
+		<a href="#" class="Left_1" id="Left_1"/>
+		<a href="#" class="Left_2" id="Left_2"/>
+		<a href="#" class="Left_3" id="Left_3"/>
+		<a href="#" class="Left_4" id="Left_4"/>
+		<a href="#" class="Right_1" id="Right_1"/>
+		<a href="#" class="Right_2" id="Right_2"/>
+		<a href="#" class="Right_3" id="Right_3"/>
+		<a href="#" class="Right_4" id="Right_4"/>
+	</div>
+
+</div>

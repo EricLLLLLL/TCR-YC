@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div class="PageContent" id="PageContent">
+    <div id="PageTop">
+        <span id="TimeShow">2018年2月1日 星期三 15:38</span>
+        <span id="ShowTime"></span>
+    </div>
+    <div id="PageSubject">
+        <ul id="steps">
+            <li>
+                <span class="stepNum">1</span>业务选择
+            </li>
+            <li class="middle">
+                <span class="stepNum">2</span>信息读取
+            </li>
+            <li class="middle">
+                <span class="stepNum">3</span>插卡
+            </li>
+            <li class="middle">
+                <span class="stepNum">4</span>验密
+            </li>
+            <li  class="middle">
+                <span class="stepNum">5</span>信息确认
+            </li>
+            <li>
+                <span class="stepNum">6</span>交易完成
+            </li>
+        </ul>
+        <div class="stateWrap">
+            <div id="state">改密码
+                <span id="stateEn">Change password</span>
+            </div>
+        </div>
+    </div>
+    <div class="stateComtent">
+        <div class="inputTextPWD inputTextPWDnew">
+            输入新密码：
+            <input id="newPWDvalue" class="inputPassword" type="password" value="" placeholder="请输入密码"
+                   autofocus="autofocus" readonly="readonly" unselectable="on"/>
+        </div>
+        <div class="inputTextPWD inputTextPWDnew2">
+            再次输入新密码：
+            <input id="newPWDvalue2" class="inputPassword" type="password" value="" placeholder="请输入密码"
+                   autofocus="autofocus" readonly="readonly" unselectable="on"/>
+
+            <span id="disagreePWD" class="PSBCred">两次密码输入不一致</span>
+        </div>
+        <p class="inputTip">*请输入6位银行卡密码</p>
+        <img class="picturePWD" src="Framework/style/Graphics/inputPassword.gif" alt="" srcset=""/>
+        <div class="tips">
+            <p class=" PSBCgreen safetyTip">安全提示</p>
+            <p>1.请您注意插卡口、出钞口、键盘及其他部位是否被非法加装，如发现可疑情况，不要办理业务；</p>
+            <p>2.请不要向任何人包括银行工作人员透露您的密码；</p>
+            <p>3.切勿轻信中奖等短信，谨防电信诈骗，不要向陌生人转账汇款；</p>
+            <p>3.如需帮忙，请拨打我行客户服务电话95580。</p>
+        </div>
+    </div>
+    <div id="numberWrap">
+        网点机构号：
+        <span id="numberDot">01234567</span>
+        设备号：
+        <span id="numberDevice">12345678</span>
+    </div>
+    <div id="PageButton">
+        <div id="btnWrap">
+            <button type="button" id="Exit"></button>
+            <!--<button type="button" id="Alter"></button>-->
+            <!--<button type="button" id="OK"></button>-->
+        </div>
+    </div>
+    <button type="button" id="PageRoot">返回首页/
+        <span id="togoEn">return</span></button>
+   
+    <!-- 错误状态 提示   -->
+    <div id="errorWrap">
+        <div class="errorTips">
+            <div class="errorTipsText">
+                <div class="InfoTitle">信息提示
+                    <span id="countDown"></span>
+                </div>
+                <div id="InfoTip">密码错误，请重新输入。</div>
+            </div>
+        </div>
+    </div>
+    <!-- 网络通讯状态提示 -->
+    <div id="networkWrap">
+        <div class="networkWrapTips">
+            <p class="networkPicture"></p>
+            <p id="networkTip">正在验证密码，请稍后...</p>
+        </div>
+    </div>
+</div>

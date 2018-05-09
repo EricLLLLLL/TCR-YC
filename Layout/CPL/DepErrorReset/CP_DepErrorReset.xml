@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="12/7/2015 4:26:25 PM">
+    <div id="PageTop">
+        <div id="ShowTime"></div>
+    </div>
+    <div id="PageSubject">
+        <div class="AgreementDiv">
+            <div style="font-family:SimHei;text-align:center;color:#000;margin-top:100px;font-size:30px;font-weight:bold;">
+                交易提示
+            </div>
+
+            <p class="prompt">
+                尊敬的客户：
+                <br/>
+                &#160;&#160;&#160;&#160;&#160;&#160;
+                由于设备故障，导致当前存款交易卡钞。
+            </p>
+            <div class="prompt DepErrorResetTip" id="partCwcTip">
+                存款部分上账成功。
+            </div>
+            <div class="prompt " id="">
+                点击【确定】按钮，机器将进行复位，并返还未上账金额;
+                <br/>点击【退出】按钮，联系银行人员处理。
+            </div>
+
+            <div class="prompt DepErrorResetTip" style="font-size:25px;color:red;display:none;" id="warning">
+                请注意清点返还的金额，如有疑问请立即与银行联系！
+            </div>
+            <!--<p class="prompt DepErrorResetTip" id="resetTip">-->
+            <!--</p>-->
+        </div>
+    </div>
+    <div id="PageButton">
+        <a href="#" class="Left_4" id="Exit" style="">退出</a>
+        <a href="#" class="Right_4" id="OK">确定</a>
+    </div>
+</div>

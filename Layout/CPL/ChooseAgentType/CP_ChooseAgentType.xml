@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="11/26/2015 5:42:21 PM">
+  <div id="PageTop">
+    <div id="PageTitle">
+    </div>
+    <div id="ShowTime">
+    </div>
+  </div>
+  <div id="PageSubject">
+    <div id="TipDiv">
+      请选择办理类型
+  </div>
+  </div>
+  <div id="PageButton">
+    <a href='#' class='Left_3' id='Back'>返回</a>
+    <a href='#' class='Left_4' id='Exit'>退出</a>
+    <a href="#" class="Right_3" id="AgentBtn" style="font-size:21px;letter-spacing:0;">代理人办理</a>
+    <a href="#" class="Right_4" id="SelfBtn">本人办理</a>
+  </div>
+</div>

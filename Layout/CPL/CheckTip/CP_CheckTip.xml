@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="9/14/2017 9:03:45 AM">
+	<div id="PageTop">
+		<div id="PageTitle">
+	</div>
+		<div id="ShowTime">
+	</div>
+	</div>
+	<div id="PageSubject">
+		<!-- <img id="Pic" src="Graphics/DIPCARD.GIF"/> -->
+	</div>
+	<div id="PageButton">
+		<a href="#" class="Left_4" id="Left_4">返回</a>
+		<a href="#" class="Right_4" id="Right_4">确定</a>
+	</div>
+
+</div>

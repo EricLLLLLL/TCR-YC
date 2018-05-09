@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div class="PageContent" id="PageContent" >
+  <div id="PageTop">
+    <div id="PageTitle">
+    </div>
+    <div id="ShowTime">
+    </div>
+  </div>
+  <div id="PageSubject" class="MiddleDiv" style="margin-top:200px">
+    <table border="0" cellpadding="0" cellspacing="0" style="text-align:center;margin:0 auto;" >
+      <tr>
+        <td id="tip_label1" style="" rowspan="2">
+          <image src="Framework/style/Graphics/box_ico_2.png"/>
+        </td>
+        <td style="">
+          <label id="tip_label" style="font-size:25px;color:#000">您的卡片已回收</label>
+        </td>
+      </tr>
+      <tr >
+        <td id="tip_label2" style="font-size:25px;color:#000">
+          <label>请联系银行管理员！！</label>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
+

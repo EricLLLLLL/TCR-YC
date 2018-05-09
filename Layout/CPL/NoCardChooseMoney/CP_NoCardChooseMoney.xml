@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="12/8/2015 3:46:58 PM">
+	<div id="PageTop">
+		<div id="PageTitle">
+		</div>
+		<div id="ShowTime">
+		</div>
+	</div>
+	<div id="PageSubject" class="MiddleDiv">
+	    <div id="TipDiv" style="margin-top:132px;text-align:center;font-family:SimHei;font-size:30px;color:#000000">
+			请确认账户信息
+	    </div>
+	    <div class="CinfoInputDiv" style="text-align:center">
+			账号：<input class="CinfoInput" type="text" id="tCardNo" value="" unselectable="on" readonly="readonly" style="margin-left: 10px;"/>
+	      	<br/>
+	      	姓名：<input class="CinfoInput" type="text" id="tName" value="" unselectable="on" readonly="readonly" style="margin-left: 10px;"/>
+	      	<br/>
+	      	币种：<input class="CinfoInput" type="text" id="tCurrency" value="人民币" unselectable="on" readonly="readonly" style="margin-left: 10px;"/>
+	    </div>
+			<div style="text-align:center;margin-top:10px;">
+			  	<p style="font-size:22px; color: red;" id="SupportValue"></p>
+			</div>
+		<!-- <div class="TipDiv" id="CinfoTip"
+			 style="margin-top:20px;margin-left:350px;letter-spacing:1px;width: 400px;line-height:25px;">
+			温馨提示:
+			<br/>
+			<br/>
+			尊敬的客户，如果您的存款金额在
+			<br/>
+			<br/>
+			<label id='MLimit2'>1</label>万元以内请选择 "<label id="MLimit8">1</label>万以内存款" 按钮，
+			<br/>
+			<br/>
+			<div>
+				超过<label id='MLimit3'>1</label>万元(包含<label id='MLimit4'>1</label>万元)
+				<br/>
+				<br/>请选择 "<label id="MLimit5">1</label>万以上存款" 按钮
+				<br/>
+			</div>
+	    </div>  --> 
+		<div class="TipDiv"
+			 style="margin-left:350px;letter-spacing:1px;width: 400px;line-height:25px;">
+			<!-- <p id='LimitMoneyTip' style='color:red;display:none'>
+				当前设备最大可存总金额为：<label id='LimitMoney' style='font-size:22px;font-weight:bold'></label>万元
+			</p> -->
+			<p id='LimitTodayMoneyTip' style='color:red;margin-top:130px;'>
+				单日单折存款限额为20万（含）元，
+				<br/><br/>当前账号可存金额￥<label id='LimitTodayMoney' style='font-size:22px;font-weight:bold'>200000</label>元
+			</p> 
+	    </div>  
+		<div id="PageButton">
+			<a href='#' class='Left_3' id='MoneyBtn5'><label id="MLimit6">1</label>万以内存款</a>
+			<a href='#' class='Left_4' id='Exit'>退出</a>
+			<a href='#' class='Right_3' id='MoneyBtn2'><label id="MLimit7">1</label>万以上存款</a>
+			<a href='#' class='Right_4' id='Back' style='display:none;'>返回</a>
+		</div>
+	</div>
+</div>

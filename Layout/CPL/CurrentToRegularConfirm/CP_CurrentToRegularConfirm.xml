@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="9/14/2017 4:07:11 PM">
+	<div id="PageTop">
+		<div id="PageTitle">
+	</div>
+		<div id="ShowTime">
+	</div>
+	</div>
+	<div id="PageSubject" style="">
+		<div id="CurrentToRegularConfirmInfo" style="display:block;margin-left:260px;" class="">
+			<div id="TipDiv" style="margin-left:-260px;">
+				活转定信息确认
+			</div>
+			<div class="">
+				<span class="bigSpan">户&#160;&#160;&#160;&#160;名：</span>
+				<span id="Username" class="TrabsferkInfo" style="margin-left:10px"></span>
+			</div>
+			<div class="">
+				<span class="bigSpan">账&#160;&#160;&#160;&#160;号：</span>
+				<span id="AccountNumber" class="TrabsferkInfo" style="margin-left:10px"></span>
+			</div>
+			<div class="">
+				<span class="bigSpan">币&#160;&#160;&#160;&#160;种：</span>
+				<span id="Moneytype" class="TrabsferkInfo" style="margin-left:10px">人民币</span>
+			</div>
+			<div class="">
+				<span class="bigSpan">利&#160;&#160;&#160;&#160;率：</span>
+				<span id="RemittanceFlag" class="TrabsferkInfo" style="margin-left:10px"></span>
+			</div>
+			<div class="">
+				<span class="bigSpan">存&#160;&#160;&#160;&#160;期：</span>
+				<span id="saveTime" class="TrabsferkInfo"  style="margin-left:10px"></span>
+			</div>
+			<div class="">
+				<span class="bigSpan">转存金额：</span>
+				<span id="TransferAmount" class="TrabsferkInfo"></span>
+			</div>
+			<div class=""  style="margin-top:5px">
+				<span class="bigSpan">大写金额：</span>
+				<span id="AmountInWords" class="TrabsferkInfo"></span>
+			</div>
+			<div class="">
+				<span class="bigSpan">转存类型：</span>
+				<span id="ArchivedType" class="TrabsferkInfo"></span>
+			</div>
+			<div class="saveToTimeWrap">
+				<span class="bigSpan">约定转存存期：</span>
+				<span id="saveToTime" class="TrabsferkInfo"></span>
+			</div>
+
+		</div>
+	</div>
+	<div id="PageButton">
+		<a href="#" class="Left_3" id="Back">返回</a>
+		<a href="#" class="Left_4" id="Exit">退卡</a>
+		<a href="#" class="Right_4" id="OK">继续</a>
+	</div>
+
+</div>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="12/15/2015 3:22:49 PM">
+  <div id="PageTop">
+    <div id="PageTitle">
+      <img src="Framework/style/Graphics/btn/m1.jpg" style="float:left;"/>
+      <div class="title_text">加钞设定</div>
+    </div>
+    <div id="ShowTime">
+    </div>
+  </div>
+  <div class="TopText">
+    <div style="float:left;">
+      受理行号：<span id='SubBankId'>00000000-12345678号机</span>
+      <br/>
+      状态：<span id='DevStatus'>00000（00）</span>
+    </div>
+  </div>
+  <div class="TopTimer" id="LocalTime">
+    2015-12-16  10:54
+  </div>
+  <div id="PageSubject">
+    <div id="WTip" style="position:absolute;top:106px;left:120px;font-size:22px;display:none">
+      <img src="Framework/style/Graphics/box_ico_2.png" style="margin-right:-5px;vertical-align:middle"/>
+      <span style="margin-right:5px;color:red;font-weight:bold;line-height:60px;display:inline">
+        保险柜门开,现金模块故障！
+      </span>
+    </div>
+    <div id="KeyboardDiv"></div>
+    <div class="InputDiv" style="margin-top:100px;margin-left:120px;">
+      <div id="CountOfUnits1" style="display:none;">
+        <label id="NoteValueLabel1">纸币钱箱</label>
+        <input class="AdminInput" name="CashBoxInput" type="text" maxlength ="4" value="" readonly="readonly" style="background-position-y: -132px;"/> 张
+        <label class="span_tip" id ="note1"></label>
+      </div>
+      <div id="CountOfUnits2" style="display:none;">
+        <label id="NoteValueLabel2">纸币钱箱</label>
+        <input class="AdminInput" name="CashBoxInput" type="text" maxlength ="4" value="" readonly="readonly" style="margin-top:10px;background-position-y: -132px;"/> 张
+        <label class="span_tip" id ="note2"></label>
+      </div>
+      <div id="CountOfUnits3" style="display:none;">
+        <label id="NoteValueLabel3">纸币钱箱</label>
+        <input class="AdminInput" name="CashBoxInput" type="text" maxlength ="4" value="" readonly="readonly" style="margin-top:10px;background-position-y: -132px;"/> 张
+        <label class="span_tip" id ="note3"></label>
+      </div>
+      <div id="CountOfUnits4" style="display:none;">
+        <label id="NoteValueLabel4">纸币钱箱</label>
+        <input class="AdminInput" name="CashBoxInput" type="text" maxlength ="4" value="0" readonly="readonly" unselectable="on" style="margin-top:10px;background-position-y: -176px;"/> 张
+        <label class="span_tip" id ="note4"></label>
+      </div>
+      <div id="CountOfUnits5" style="display:none;">
+        <label id="NoteValueLabel5">纸币钱箱</label>
+        <input class="AdminInput" name="CashBoxInput" type="text" maxlength ="4" value="" readonly="readonly" style="margin-top:10px;background-position-y: -132px;"/> 张
+        <label class="span_tip" id ="note5"></label>
+      </div>
+      <div id="CountOfUnits6" style="display:none;">
+        <label id="NoteValueLabel6">纸币钱箱</label>
+        <input class="AdminInput" name="CashBoxInput" type="text" maxlength ="4" value="" readonly="readonly" style="margin-top:10px;background-position-y: -132px;"/> 张
+        <label class="span_tip" id ="note6"></label>
+      </div>
+      <div id="CountOfUnits7" style="display:none;">
+        <label id="NoteValueLabel7">纸币钱箱</label>
+        <input class="AdminInput" name="CashBoxInput" type="text" maxlength ="4" value="" readonly="readonly" style="margin-top:10px;background-position-y: -132px;"/> 张
+        <label class="span_tip" id ="note7"></label>
+      </div>
+      <div style="display:block;margin-left:38px;">
+        <label>钱箱总金额：</label>
+        <input class="AdminInput" id="CountMoney" unselectable="on" type="text" value="" readonly="readonly" style="margin-top:10px;background-position-y: -176px;"/> 元
+      </div>
+      <div class="TipDiv" style="margin-left:0px;">
+        *100:面值100元；050:面值50元；020:面值20元
+        <br/>
+        *010:面值10元；005:面值5元；001:面值1元
+        <br/>
+        <br/>
+        温馨提示：
+        <br/>
+        请输入当前钞箱中的纸币张数，请按“设定”按钮进行设定
+      </div>
+    </div>
+  </div>
+  <div class="PageLeftButton" id="Exit"></div>
+</div>

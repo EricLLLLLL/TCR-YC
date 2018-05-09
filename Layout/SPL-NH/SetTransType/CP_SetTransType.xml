@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="12/18/2015 2:50:04 PM">
+    <div id="PageTop">
+        <div id="PageTitle">
+            <img src="Framework/style/Graphics/btn/m1.jpg" style="float:left;"/>
+            <div class="title_text">交易类型设定</div>
+        </div>
+        <div id="ShowTime">
+        </div>
+    </div>
+    <div class="TopText">
+        <div style="float:left;">
+            受理行号：
+            <span id='SubBankId'>00000000-12345678号机</span>
+            <br/>
+            状态：
+            <span id='DevStatus'>00000（00）</span>
+        </div>
+    </div>
+    <div class="TopTimer" id="LocalTime">
+        2015-12-16 10:54
+    </div>
+    <div id="PageSubject">
+        <!-- <div class="MouduleDiv" style="width:845px;height:500px;margin-top:70px;line-height:180px;overflow-y:scroll;">
+            <div style="height:165px;margin-top:-30px">
+                <span style="margin-left:42px;">银行卡取款：</span>
+                <input class="TranstypeRadio" id="BankCardCwd" type="button" name="TransRadio" flag="1"/>
+                <span style="margin-left:40px;">存折取款：</span>
+                <input class="TranstypeRadio" id="PassbookCwd" type="button" name="TransRadio" flag="1"/>
+                <span style="margin-left:40px;">银行卡存款：</span>
+                <input class="TranstypeRadio" id="BankCardDep" type="button" name="TransRadio" flag="1"/>
+            </div>
+            <div style="height:165px;margin-top:-42px">
+                <span style="margin-left:24px;">无卡无折存款：</span>
+                <input class="TranstypeRadio" id="NoCardDep" type="button" name="TransRadio" flag="1"/>
+                <span style="margin-left:40px;">零钞兑换：</span>
+                <input class="TranstypeRadio" id="ZeroExchange" type="button" name="TransRadio" flag="1"/>
+                <span style="margin-left:60px;">大额交易：</span>
+                <input class="TranstypeRadio" id="BlockTrade" type="button" name="TransRadio" flag="1"/>
+            </div>
+            <div style="height:165px;margin-top:-42px">
+                <span style="margin-left:60px;">对公存款：</span>
+                <input class="TranstypeRadio" id="CompanyDep" type="button" name="TransRadio" flag="1"/>
+                <span style="margin-left:40px;">预约取款：</span>
+                <input class="TranstypeRadio" id="OrderCWD" type="button" name="TransRadio" flag="1"/>
+                <span style="margin-left:60px;">卡折销户：</span>
+                <input class="TranstypeRadio" id="CancelAccount" type="button" name="TransRadio" flag="1"/>
+            </div>
+            <div style="height:165px;margin-top:-42px">
+                <span style="margin-left:60px;">转账汇款：</span>
+                <input class="TranstypeRadio" id="TransferRemittance" type="button" name="TransRadio" flag="1"/>
+                <span style="margin-left:40px;">转账撤销：</span>
+                <input class="TranstypeRadio" id="TransferCancellation" type="button" name="TransRadio" flag="1"/>
+                <span style="margin-left:40px;">定期转活期：</span>
+                <input class="TranstypeRadio" id="PeriodicCurrentAccount" type="button" name="TransRadio" flag="1"/>
+            </div>
+            <div style="height:165px;margin-top:-42px">
+                <span style="margin-left:40px;">活期转定期：</span>
+                <input class="TranstypeRadio" id="CurrentToRegular" type="button" name="TransRadio" flag="1"/>
+                <span style="margin-left:40px;">卡钞回存：</span>
+                <input class="TranstypeRadio" id="SaveBack" type="button" name="TransRadio" flag="1"/>
+            </div>
+        </div> -->
+
+        <div class="MouduleDiv set-btn-wrap">
+            <!-- <ul>
+                <li>
+                    <span>银行卡取款：</span>
+                    <input class="TranstypeRadio" type="button" flag="1"/>
+                </li>
+                <li>
+                    <span>存折取款：</span>
+                    <input class="TranstypeRadio" type="button" flag="0"/>
+                </li>
+                <li>
+                    <span>银行卡存款：</span>
+                    <input class="TranstypeRadio" type="button" flag="0"/>
+                </li>
+                <li>
+                    <span>无卡无折存款：</span>
+                    <input class="TranstypeRadio" type="button" flag="1"/>
+                </li>
+                <li>
+                    <span>零钞兑换：</span>
+                    <input class="TranstypeRadio" type="button" flag="1"/>
+                </li>
+                <li>
+                    <span>大额交易零兑换：</span>
+                    <input class="TranstypeRadio" type="button" flag="1"/>
+                </li>
+            </ul> -->
+        </div>
+
+        <div class="TipDiv" style="margin-left:80px;">
+            <p>温馨提示：请点击交易类型按钮进行设定，绿色按钮是 "<font style="color:#222222;">开启</font>" ，
+            </p>
+            <p style="margin-top:6px;">灰色是"<font style="color:#222222;">关闭</font>"，点击右边"<font style="color:#222222;">
+                箭头</font>"图标确定。
+            </p>
+        </div>
+    </div>
+    <div class="PageLeftButton" id="Exit"></div>
+    <div class="PageRightButton" id="OK"></div>
+</div>

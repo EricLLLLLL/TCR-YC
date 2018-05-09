@@ -1,0 +1,93 @@
+﻿<?xml version="1.0"?>
+<System format="1">
+    <!-- The controls element contains a list of the HMApp device controls.
+         This list should not normally be edited. -->
+    <controls>
+        <control id="IDC">
+            <name>CardReader</name>
+            <clsid>CLSID:82AB1866-D1D3-11D0-B7E5-00C0DF494A01</clsid>
+        </control>
+        <control id ="CIM" >
+            <name>KXCashAcceptor</name>
+            <clsid>CLSID:F1B1FADC-2052-4F50-9EB4-44465E9AA531</clsid>
+        </control>
+        <control id="CDM">
+            <name>KXCashDispenser</name>
+            <clsid>CLSID:E7392B43-7702-11D1-842E-00409503C831</clsid>
+        </control>
+        <control id="DOR">
+            <name>KXDoors</name>
+            <clsid>CLSID:3EEB0086-8B2E-11D1-B49A-444553540000</clsid>
+        </control>
+        <control id="SIU">
+            <name>KXGuideLights</name>
+            <clsid>CLSID:9F613EAA-5433-11D1-99DC-00C0DF495E51</clsid>
+        </control>
+        <control id="JNL">
+            <name>KXJournalPrinter</name>
+            <clsid>CLSID:71BF4D26-1936-11D1-A2AD-00C0DF496050</clsid>
+        </control>
+        <control id="PIN">
+            <name>KXPinPad</name>
+            <clsid>CLSID:7EFB36FC-17B3-11D1-9A70-00C0DF207823</clsid>
+        </control>
+        <control id="PTR">
+            <name>KXReceiptPrinter</name>
+            <clsid>CLSID:9852FE35-ED07-11D0-9A4B-00C0DF207823</clsid>
+        </control>
+        <control id="DAT">
+            <name>KXDat</name>
+            <clsid>CLSID:9BE4F442-1A54-4D74-BA91-DC5FC2093363</clsid>
+		</control>
+        <control id="LOG">
+            <name>KXLog</name>
+            <clsid>CLSID:476DF350-7B74-4C32-B5A0-A5605D89768E</clsid>
+        </control>
+        <control>
+            <name>KXStatementPrinter</name>
+            <clsid>CLSID:9CBD4F75-D119-11D0-A774-00C0DF418B66</clsid>
+        </control>
+        <control>
+            <name>KXBarcodeScanner</name>
+            <clsid>CLSID:733F52D7-7229-4A68-BA2F-A88807E34792</clsid>
+        </control>
+    </controls>
+
+    <!-- The devices element contains a list of all the services that are configured 
+         on the platform. 
+         Edit this to contain the list of services on your own platform. -->
+    <devices>
+        <device id="IDC">
+            <serviceName>CardReader</serviceName>
+            <controlName>KXCardReader</controlName>
+        </device>
+        <device id="CIM">
+            <serviceName>CashAcceptor</serviceName>
+            <controlName>KXCashAcceptor</controlName>
+        </device>
+        <device id="CDM">
+            <serviceName>CashDispenser</serviceName>
+            <controlName>KXCashDispenser</controlName>
+        </device>
+        <device id="PIN">
+            <serviceName>Encryptor</serviceName>
+            <controlName>KXPinPad</controlName>
+        </device>
+        <device id="JNL">
+            <serviceName>JournalPrinter</serviceName>
+            <controlName>KXJournalPrinter</controlName>
+        </device>
+        <device id="PTR">
+            <serviceName>ReceiptPrinter</serviceName>
+            <controlName>KXReceiptPrinter</controlName>
+        </device>
+		<device id="DAT">
+            <serviceName>DAT</serviceName>
+            <controlName>KXDat</controlName>
+        </device>
+		<device id="LOG">
+            <serviceName>LogActiveX</serviceName>
+            <controlName>KXLog</controlName>
+        </device>
+    </devices>
+</System>

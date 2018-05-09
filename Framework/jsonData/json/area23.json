@@ -1,0 +1,324 @@
+[
+   {
+      "area" : [
+         {
+            "gafeecod" : "2610",
+            "gargnnam" : "阿城市"
+         },
+         {
+            "gafeecod" : "2610",
+            "gargnnam" : "阿城市"
+         },
+         {
+            "gafeecod" : "2610",
+            "gargnnam" : "阿城市"
+         },
+         {
+            "gafeecod" : "2613",
+            "gargnnam" : "依兰县"
+         },
+         {
+            "gafeecod" : "2621",
+            "gargnnam" : "双城市"
+         },
+         {
+            "gafeecod" : "2622",
+            "gargnnam" : "尚志市"
+         },
+         {
+            "gafeecod" : "2623",
+            "gargnnam" : "宾县"
+         },
+         {
+            "gafeecod" : "2624",
+            "gargnnam" : "五常市"
+         },
+         {
+            "gafeecod" : "2625",
+            "gargnnam" : "巴彦县"
+         },
+         {
+            "gafeecod" : "2626",
+            "gargnnam" : "木兰县"
+         },
+         {
+            "gafeecod" : "2627",
+            "gargnnam" : "通河县"
+         },
+         {
+            "gafeecod" : "2628",
+            "gargnnam" : "方正县"
+         },
+         {
+            "gafeecod" : "2629",
+            "gargnnam" : "延寿县"
+         },
+         {
+            "gafeecod" : "2640",
+            "gargnnam" : "齐齐哈尔市"
+         },
+         {
+            "gafeecod" : "2641",
+            "gargnnam" : "龙江县"
+         },
+         {
+            "gafeecod" : "2642",
+            "gargnnam" : "讷河市"
+         },
+         {
+            "gafeecod" : "2643",
+            "gargnnam" : "依安县"
+         },
+         {
+            "gafeecod" : "2644",
+            "gargnnam" : "泰来县"
+         },
+         {
+            "gafeecod" : "2645",
+            "gargnnam" : "甘南县"
+         },
+         {
+            "gafeecod" : "2646",
+            "gargnnam" : "杜蒙县"
+         },
+         {
+            "gafeecod" : "2647",
+            "gargnnam" : "富裕县"
+         },
+         {
+            "gafeecod" : "2649",
+            "gargnnam" : "克山县"
+         },
+         {
+            "gafeecod" : "2651",
+            "gargnnam" : "克东县"
+         },
+         {
+            "gafeecod" : "2652",
+            "gargnnam" : "拜泉县"
+         },
+         {
+            "gafeecod" : "2660",
+            "gargnnam" : "鸡西市"
+         },
+         {
+            "gafeecod" : "2661",
+            "gargnnam" : "鸡东县"
+         },
+         {
+            "gafeecod" : "2662",
+            "gargnnam" : "虎林市"
+         },
+         {
+            "gafeecod" : "2663",
+            "gargnnam" : "密山市"
+         },
+         {
+            "gafeecod" : "2670",
+            "gargnnam" : "鹤岗市"
+         },
+         {
+            "gafeecod" : "2671",
+            "gargnnam" : "萝北县"
+         },
+         {
+            "gafeecod" : "2672",
+            "gargnnam" : "绥滨县"
+         },
+         {
+            "gafeecod" : "2680",
+            "gargnnam" : "双鸭山市"
+         },
+         {
+            "gafeecod" : "2681",
+            "gargnnam" : "集贤县"
+         },
+         {
+            "gafeecod" : "2682",
+            "gargnnam" : "宝清县"
+         },
+         {
+            "gafeecod" : "2683",
+            "gargnnam" : "饶河县"
+         },
+         {
+            "gafeecod" : "2684",
+            "gargnnam" : "友谊县"
+         },
+         {
+            "gafeecod" : "2690",
+            "gargnnam" : "大庆市"
+         },
+         {
+            "gafeecod" : "2691",
+            "gargnnam" : "林甸县"
+         },
+         {
+            "gafeecod" : "2693",
+            "gargnnam" : "肇源县"
+         },
+         {
+            "gafeecod" : "2694",
+            "gargnnam" : "肇州县"
+         },
+         {
+            "gafeecod" : "2710",
+            "gargnnam" : "伊春市"
+         },
+         {
+            "gafeecod" : "2711",
+            "gargnnam" : "嘉荫县"
+         },
+         {
+            "gafeecod" : "2712",
+            "gargnnam" : "铁力市"
+         },
+         {
+            "gafeecod" : "2720",
+            "gargnnam" : "佳木斯市"
+         },
+         {
+            "gafeecod" : "2721",
+            "gargnnam" : "桦南县"
+         },
+         {
+            "gafeecod" : "2723",
+            "gargnnam" : "桦川县"
+         },
+         {
+            "gafeecod" : "2725",
+            "gargnnam" : "汤原县"
+         },
+         {
+            "gafeecod" : "2727",
+            "gargnnam" : "抚远县"
+         },
+         {
+            "gafeecod" : "2729",
+            "gargnnam" : "同江市"
+         },
+         {
+            "gafeecod" : "2731",
+            "gargnnam" : "富锦市"
+         },
+         {
+            "gafeecod" : "2740",
+            "gargnnam" : "七台河市"
+         },
+         {
+            "gafeecod" : "2741",
+            "gargnnam" : "勃利县"
+         },
+         {
+            "gafeecod" : "2750",
+            "gargnnam" : "牡丹江市"
+         },
+         {
+            "gafeecod" : "2751",
+            "gargnnam" : "宁安市"
+         },
+         {
+            "gafeecod" : "2752",
+            "gargnnam" : "海林市"
+         },
+         {
+            "gafeecod" : "2753",
+            "gargnnam" : "穆棱市"
+         },
+         {
+            "gafeecod" : "2754",
+            "gargnnam" : "东宁县"
+         },
+         {
+            "gafeecod" : "2755",
+            "gargnnam" : "林口县"
+         },
+         {
+            "gafeecod" : "2757",
+            "gargnnam" : "绥芬河市"
+         },
+         {
+            "gafeecod" : "2760",
+            "gargnnam" : "绥化市"
+         },
+         {
+            "gafeecod" : "2762",
+            "gargnnam" : "安达市"
+         },
+         {
+            "gafeecod" : "2763",
+            "gargnnam" : "肇东市"
+         },
+         {
+            "gafeecod" : "2764",
+            "gargnnam" : "海伦市"
+         },
+         {
+            "gafeecod" : "2765",
+            "gargnnam" : "望奎县"
+         },
+         {
+            "gafeecod" : "2766",
+            "gargnnam" : "兰西县"
+         },
+         {
+            "gafeecod" : "2767",
+            "gargnnam" : "青冈县"
+         },
+         {
+            "gafeecod" : "2771",
+            "gargnnam" : "庆安县"
+         },
+         {
+            "gafeecod" : "2772",
+            "gargnnam" : "明水县"
+         },
+         {
+            "gafeecod" : "2773",
+            "gargnnam" : "绥棱县"
+         },
+         {
+            "gafeecod" : "2780",
+            "gargnnam" : "黑河市"
+         },
+         {
+            "gafeecod" : "2782",
+            "gargnnam" : "北安市"
+         },
+         {
+            "gafeecod" : "2783",
+            "gargnnam" : "五大连池市"
+         },
+         {
+            "gafeecod" : "2784",
+            "gargnnam" : "嫩江县"
+         },
+         {
+            "gafeecod" : "2786",
+            "gargnnam" : "逊克县"
+         },
+         {
+            "gafeecod" : "2787",
+            "gargnnam" : "孙吴县"
+         },
+         {
+            "gafeecod" : "2790",
+            "gargnnam" : "大兴安岭地区"
+         },
+         {
+            "gafeecod" : "2791",
+            "gargnnam" : "呼玛县"
+         },
+         {
+            "gafeecod" : "2792",
+            "gargnnam" : "塔河县"
+         },
+         {
+            "gafeecod" : "2793",
+            "gargnnam" : "漠河县"
+         }
+      ],
+      "gargnnam" : "黑龙江省",
+      "provcod" : 23
+   }
+]

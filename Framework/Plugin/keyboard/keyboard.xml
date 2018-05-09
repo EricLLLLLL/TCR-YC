@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div id="Keyboard" class="KeyboardNum" style="height:474px;padding-left:3.5px;padding-top:5px;background-image: url('./Framework/style/Graphics/btn/keyboardbg.png')">
+  <span name="Name_Keyboard" class="KeyboardKey">A</span>
+  <span name="Name_Keyboard" class="KeyboardKey">B</span>
+  <span name="Name_Keyboard" class="KeyboardKey">C</span>
+  <span name="Name_Keyboard" class="KeyboardKey">D</span>
+  <span name="Name_Keyboard" class="KeyboardKey">E</span>
+  <span name="Name_Keyboard" class="KeyboardKey">F</span>
+  <span name="Name_Keyboard" class="KeyboardKey">1</span>
+  <span name="Name_Keyboard" class="KeyboardKey">2</span>
+  <span name="Name_Keyboard" class="KeyboardKey">3</span>
+  <span name="Name_Keyboard" class="KeyboardKey">4</span>
+  <span name="Name_Keyboard" class="KeyboardKey">5</span>
+  <span name="Name_Keyboard" class="KeyboardKey">6</span>
+  <span name="Name_Keyboard" class="KeyboardKey">7</span>
+  <span name="Name_Keyboard" class="KeyboardKey">8</span>
+  <span name="Name_Keyboard" class="KeyboardKey">9</span>
+  <span name="Name_Keyboard" class="KeyboardKey">退格</span>
+  <span name="Name_Keyboard" class="KeyboardKey">0</span>
+  <span name="Name_Keyboard" class="KeyboardKey">清除</span>
+  <span id="KeyboardKey_set"></span>
+</div>

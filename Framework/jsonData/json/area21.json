@@ -1,0 +1,228 @@
+[
+   {
+      "area" : [
+         {
+            "gafeecod" : "2210",
+            "gargnnam" : "沈阳市"
+         },
+         {
+            "gafeecod" : "2211",
+            "gargnnam" : "新民市"
+         },
+         {
+            "gafeecod" : "2212",
+            "gargnnam" : "辽中县"
+         },
+         {
+            "gafeecod" : "2213",
+            "gargnnam" : "康平县"
+         },
+         {
+            "gafeecod" : "2214",
+            "gargnnam" : "法库县"
+         },
+         {
+            "gafeecod" : "2221",
+            "gargnnam" : "普兰店市"
+         },
+         {
+            "gafeecod" : "2222",
+            "gargnnam" : "长海县"
+         },
+         {
+            "gafeecod" : "2223",
+            "gargnnam" : "庄河市"
+         },
+         {
+            "gafeecod" : "2224",
+            "gargnnam" : "瓦房店市"
+         },
+         {
+            "gafeecod" : "2230",
+            "gargnnam" : "鞍山市"
+         },
+         {
+            "gafeecod" : "2231",
+            "gargnnam" : "台安县"
+         },
+         {
+            "gafeecod" : "2232",
+            "gargnnam" : "海城市"
+         },
+         {
+            "gafeecod" : "2233",
+            "gargnnam" : "岫岩县"
+         },
+         {
+            "gafeecod" : "2240",
+            "gargnnam" : "抚顺市"
+         },
+         {
+            "gafeecod" : "2241",
+            "gargnnam" : "抚顺县"
+         },
+         {
+            "gafeecod" : "2242",
+            "gargnnam" : "新宾县"
+         },
+         {
+            "gafeecod" : "2243",
+            "gargnnam" : "喀左县"
+         },
+         {
+            "gafeecod" : "2250",
+            "gargnnam" : "本溪市"
+         },
+         {
+            "gafeecod" : "2251",
+            "gargnnam" : "本溪县"
+         },
+         {
+            "gafeecod" : "2252",
+            "gargnnam" : "桓仁县"
+         },
+         {
+            "gafeecod" : "2260",
+            "gargnnam" : "丹东市"
+         },
+         {
+            "gafeecod" : "2261",
+            "gargnnam" : "凤城市"
+         },
+         {
+            "gafeecod" : "2263",
+            "gargnnam" : "东港市"
+         },
+         {
+            "gafeecod" : "2264",
+            "gargnnam" : "宽甸县"
+         },
+         {
+            "gafeecod" : "2270",
+            "gargnnam" : "锦州市"
+         },
+         {
+            "gafeecod" : "2272",
+            "gargnnam" : "凌海市"
+         },
+         {
+            "gafeecod" : "2273",
+            "gargnnam" : "北宁市"
+         },
+         {
+            "gafeecod" : "2274",
+            "gargnnam" : "黑山县"
+         },
+         {
+            "gafeecod" : "2275",
+            "gargnnam" : "义县"
+         },
+         {
+            "gafeecod" : "2280",
+            "gargnnam" : "营口市"
+         },
+         {
+            "gafeecod" : "2281",
+            "gargnnam" : "大石桥市"
+         },
+         {
+            "gafeecod" : "2282",
+            "gargnnam" : "盖州市"
+         },
+         {
+            "gafeecod" : "2290",
+            "gargnnam" : "阜新市"
+         },
+         {
+            "gafeecod" : "2291",
+            "gargnnam" : "阜新县"
+         },
+         {
+            "gafeecod" : "2292",
+            "gargnnam" : "彰武县"
+         },
+         {
+            "gafeecod" : "2310",
+            "gargnnam" : "辽阳市"
+         },
+         {
+            "gafeecod" : "2311",
+            "gargnnam" : "辽阳县"
+         },
+         {
+            "gafeecod" : "2312",
+            "gargnnam" : "灯塔市"
+         },
+         {
+            "gafeecod" : "2320",
+            "gargnnam" : "盘锦市"
+         },
+         {
+            "gafeecod" : "2321",
+            "gargnnam" : "大洼县"
+         },
+         {
+            "gafeecod" : "2322",
+            "gargnnam" : "盘山县"
+         },
+         {
+            "gafeecod" : "2330",
+            "gargnnam" : "铁岭市"
+         },
+         {
+            "gafeecod" : "2332",
+            "gargnnam" : "西丰县"
+         },
+         {
+            "gafeecod" : "2333",
+            "gargnnam" : "昌图县"
+         },
+         {
+            "gafeecod" : "2336",
+            "gargnnam" : "调兵山市"
+         },
+         {
+            "gafeecod" : "2337",
+            "gargnnam" : "开原市"
+         },
+         {
+            "gafeecod" : "2340",
+            "gargnnam" : "朝阳市"
+         },
+         {
+            "gafeecod" : "2342",
+            "gargnnam" : "建平县"
+         },
+         {
+            "gafeecod" : "2343",
+            "gargnnam" : "凌源市"
+         },
+         {
+            "gafeecod" : "2344",
+            "gargnnam" : "清原县"
+         },
+         {
+            "gafeecod" : "2346",
+            "gargnnam" : "北票市"
+         },
+         {
+            "gafeecod" : "2360",
+            "gargnnam" : "葫芦岛市"
+         },
+         {
+            "gafeecod" : "2361",
+            "gargnnam" : "绥中县"
+         },
+         {
+            "gafeecod" : "2362",
+            "gargnnam" : "建昌县"
+         },
+         {
+            "gafeecod" : "2363",
+            "gargnnam" : "兴城市"
+         }
+      ],
+      "gargnnam" : "辽宁省（不含大连市）",
+      "provcod" : 21
+   }
+]

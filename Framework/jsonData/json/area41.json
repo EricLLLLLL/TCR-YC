@@ -1,0 +1,516 @@
+[
+   {
+      "area" : [
+         {
+            "gafeecod" : "4910",
+            "gargnnam" : "郑州市"
+         },
+         {
+            "gafeecod" : "4910",
+            "gargnnam" : "郑州市"
+         },
+         {
+            "gafeecod" : "4911",
+            "gargnnam" : "荥阳市"
+         },
+         {
+            "gafeecod" : "4912",
+            "gargnnam" : "中牟县"
+         },
+         {
+            "gafeecod" : "4913",
+            "gargnnam" : "新郑市"
+         },
+         {
+            "gafeecod" : "4914",
+            "gargnnam" : "巩义市"
+         },
+         {
+            "gafeecod" : "4915",
+            "gargnnam" : "登封市"
+         },
+         {
+            "gafeecod" : "4916",
+            "gargnnam" : "新密市"
+         },
+         {
+            "gafeecod" : "4920",
+            "gargnnam" : "开封市"
+         },
+         {
+            "gafeecod" : "4921",
+            "gargnnam" : "杞县"
+         },
+         {
+            "gafeecod" : "4922",
+            "gargnnam" : "通许县"
+         },
+         {
+            "gafeecod" : "4923",
+            "gargnnam" : "尉氏县"
+         },
+         {
+            "gafeecod" : "4924",
+            "gargnnam" : "开封县"
+         },
+         {
+            "gafeecod" : "4925",
+            "gargnnam" : "兰考县"
+         },
+         {
+            "gafeecod" : "4930",
+            "gargnnam" : "洛阳市"
+         },
+         {
+            "gafeecod" : "4931",
+            "gargnnam" : "偃师市"
+         },
+         {
+            "gafeecod" : "4932",
+            "gargnnam" : "孟津县"
+         },
+         {
+            "gafeecod" : "4933",
+            "gargnnam" : "新安县"
+         },
+         {
+            "gafeecod" : "4934",
+            "gargnnam" : "栾川县"
+         },
+         {
+            "gafeecod" : "4935",
+            "gargnnam" : "嵩县"
+         },
+         {
+            "gafeecod" : "4936",
+            "gargnnam" : "汝阳县"
+         },
+         {
+            "gafeecod" : "4937",
+            "gargnnam" : "宜阳县"
+         },
+         {
+            "gafeecod" : "4938",
+            "gargnnam" : "洛宁县"
+         },
+         {
+            "gafeecod" : "4939",
+            "gargnnam" : "伊川县"
+         },
+         {
+            "gafeecod" : "4950",
+            "gargnnam" : "平顶山市"
+         },
+         {
+            "gafeecod" : "4951",
+            "gargnnam" : "宝丰县"
+         },
+         {
+            "gafeecod" : "4952",
+            "gargnnam" : "叶县"
+         },
+         {
+            "gafeecod" : "4953",
+            "gargnnam" : "鲁山县"
+         },
+         {
+            "gafeecod" : "4954",
+            "gargnnam" : "郏县"
+         },
+         {
+            "gafeecod" : "4956",
+            "gargnnam" : "汝州市"
+         },
+         {
+            "gafeecod" : "4957",
+            "gargnnam" : "舞钢市"
+         },
+         {
+            "gafeecod" : "4960",
+            "gargnnam" : "安阳市"
+         },
+         {
+            "gafeecod" : "4961",
+            "gargnnam" : "林州市"
+         },
+         {
+            "gafeecod" : "4962",
+            "gargnnam" : "安阳县"
+         },
+         {
+            "gafeecod" : "4963",
+            "gargnnam" : "汤阴县"
+         },
+         {
+            "gafeecod" : "4964",
+            "gargnnam" : "滑县"
+         },
+         {
+            "gafeecod" : "4965",
+            "gargnnam" : "内黄县"
+         },
+         {
+            "gafeecod" : "4970",
+            "gargnnam" : "鹤壁市"
+         },
+         {
+            "gafeecod" : "4971",
+            "gargnnam" : "浚县"
+         },
+         {
+            "gafeecod" : "4972",
+            "gargnnam" : "淇县"
+         },
+         {
+            "gafeecod" : "4980",
+            "gargnnam" : "新乡市"
+         },
+         {
+            "gafeecod" : "4981",
+            "gargnnam" : "新乡县"
+         },
+         {
+            "gafeecod" : "4982",
+            "gargnnam" : "获嘉县"
+         },
+         {
+            "gafeecod" : "4983",
+            "gargnnam" : "原阳县"
+         },
+         {
+            "gafeecod" : "4984",
+            "gargnnam" : "延津县"
+         },
+         {
+            "gafeecod" : "4985",
+            "gargnnam" : "封丘县"
+         },
+         {
+            "gafeecod" : "4986",
+            "gargnnam" : "长垣县"
+         },
+         {
+            "gafeecod" : "4987",
+            "gargnnam" : "卫辉市"
+         },
+         {
+            "gafeecod" : "4988",
+            "gargnnam" : "辉县市"
+         },
+         {
+            "gafeecod" : "5010",
+            "gargnnam" : "焦作市"
+         },
+         {
+            "gafeecod" : "5011",
+            "gargnnam" : "修武县"
+         },
+         {
+            "gafeecod" : "5012",
+            "gargnnam" : "博爱县"
+         },
+         {
+            "gafeecod" : "5013",
+            "gargnnam" : "武陟县"
+         },
+         {
+            "gafeecod" : "5014",
+            "gargnnam" : "沁阳市"
+         },
+         {
+            "gafeecod" : "5015",
+            "gargnnam" : "温县"
+         },
+         {
+            "gafeecod" : "5016",
+            "gargnnam" : "孟州市"
+         },
+         {
+            "gafeecod" : "5020",
+            "gargnnam" : "濮阳市"
+         },
+         {
+            "gafeecod" : "5021",
+            "gargnnam" : "清丰县"
+         },
+         {
+            "gafeecod" : "5022",
+            "gargnnam" : "南乐县"
+         },
+         {
+            "gafeecod" : "5023",
+            "gargnnam" : "范县"
+         },
+         {
+            "gafeecod" : "5024",
+            "gargnnam" : "台前县"
+         },
+         {
+            "gafeecod" : "5025",
+            "gargnnam" : "濮阳县"
+         },
+         {
+            "gafeecod" : "5030",
+            "gargnnam" : "许昌市"
+         },
+         {
+            "gafeecod" : "5031",
+            "gargnnam" : "长葛市"
+         },
+         {
+            "gafeecod" : "5032",
+            "gargnnam" : "许昌县"
+         },
+         {
+            "gafeecod" : "5033",
+            "gargnnam" : "鄢陵县"
+         },
+         {
+            "gafeecod" : "5034",
+            "gargnnam" : "禹州市"
+         },
+         {
+            "gafeecod" : "5035",
+            "gargnnam" : "襄城县"
+         },
+         {
+            "gafeecod" : "5040",
+            "gargnnam" : "漯河市"
+         },
+         {
+            "gafeecod" : "5041",
+            "gargnnam" : "舞阳县"
+         },
+         {
+            "gafeecod" : "5042",
+            "gargnnam" : "临颍县"
+         },
+         {
+            "gafeecod" : "5043",
+            "gargnnam" : "郾城县"
+         },
+         {
+            "gafeecod" : "5050",
+            "gargnnam" : "三门峡市"
+         },
+         {
+            "gafeecod" : "5051",
+            "gargnnam" : "渑池县"
+         },
+         {
+            "gafeecod" : "5052",
+            "gargnnam" : "陕县"
+         },
+         {
+            "gafeecod" : "5053",
+            "gargnnam" : "灵宝市"
+         },
+         {
+            "gafeecod" : "5054",
+            "gargnnam" : "卢氏县"
+         },
+         {
+            "gafeecod" : "5055",
+            "gargnnam" : "义马市"
+         },
+         {
+            "gafeecod" : "5060",
+            "gargnnam" : "商丘市"
+         },
+         {
+            "gafeecod" : "5062",
+            "gargnnam" : "虞城县"
+         },
+         {
+            "gafeecod" : "5064",
+            "gargnnam" : "民权县"
+         },
+         {
+            "gafeecod" : "5065",
+            "gargnnam" : "宁陵县"
+         },
+         {
+            "gafeecod" : "5066",
+            "gargnnam" : "睢县"
+         },
+         {
+            "gafeecod" : "5067",
+            "gargnnam" : "夏邑县"
+         },
+         {
+            "gafeecod" : "5068",
+            "gargnnam" : "柘城县"
+         },
+         {
+            "gafeecod" : "5069",
+            "gargnnam" : "永城市"
+         },
+         {
+            "gafeecod" : "5080",
+            "gargnnam" : "周口市"
+         },
+         {
+            "gafeecod" : "5082",
+            "gargnnam" : "扶沟县"
+         },
+         {
+            "gafeecod" : "5083",
+            "gargnnam" : "西华县"
+         },
+         {
+            "gafeecod" : "5084",
+            "gargnnam" : "商水县"
+         },
+         {
+            "gafeecod" : "5085",
+            "gargnnam" : "太康县"
+         },
+         {
+            "gafeecod" : "5086",
+            "gargnnam" : "鹿邑县"
+         },
+         {
+            "gafeecod" : "5087",
+            "gargnnam" : "郸城县"
+         },
+         {
+            "gafeecod" : "5088",
+            "gargnnam" : "淮阳县"
+         },
+         {
+            "gafeecod" : "5089",
+            "gargnnam" : "沈丘县"
+         },
+         {
+            "gafeecod" : "5091",
+            "gargnnam" : "项城市"
+         },
+         {
+            "gafeecod" : "5110",
+            "gargnnam" : "驻马店市"
+         },
+         {
+            "gafeecod" : "5112",
+            "gargnnam" : "确山县"
+         },
+         {
+            "gafeecod" : "5113",
+            "gargnnam" : "泌阳县"
+         },
+         {
+            "gafeecod" : "5114",
+            "gargnnam" : "遂平县"
+         },
+         {
+            "gafeecod" : "5115",
+            "gargnnam" : "西平县"
+         },
+         {
+            "gafeecod" : "5116",
+            "gargnnam" : "上蔡县"
+         },
+         {
+            "gafeecod" : "5117",
+            "gargnnam" : "汝南县"
+         },
+         {
+            "gafeecod" : "5118",
+            "gargnnam" : "平舆县"
+         },
+         {
+            "gafeecod" : "5119",
+            "gargnnam" : "新蔡县"
+         },
+         {
+            "gafeecod" : "5121",
+            "gargnnam" : "正阳县"
+         },
+         {
+            "gafeecod" : "5130",
+            "gargnnam" : "南阳市"
+         },
+         {
+            "gafeecod" : "5132",
+            "gargnnam" : "邓州市"
+         },
+         {
+            "gafeecod" : "5133",
+            "gargnnam" : "南召县"
+         },
+         {
+            "gafeecod" : "5134",
+            "gargnnam" : "方城县"
+         },
+         {
+            "gafeecod" : "5135",
+            "gargnnam" : "西峡县"
+         },
+         {
+            "gafeecod" : "5137",
+            "gargnnam" : "镇平县"
+         },
+         {
+            "gafeecod" : "5138",
+            "gargnnam" : "内乡县"
+         },
+         {
+            "gafeecod" : "5139",
+            "gargnnam" : "淅川县"
+         },
+         {
+            "gafeecod" : "5141",
+            "gargnnam" : "社旗县"
+         },
+         {
+            "gafeecod" : "5142",
+            "gargnnam" : "唐河县"
+         },
+         {
+            "gafeecod" : "5143",
+            "gargnnam" : "新野县"
+         },
+         {
+            "gafeecod" : "5144",
+            "gargnnam" : "桐柏县"
+         },
+         {
+            "gafeecod" : "5150",
+            "gargnnam" : "信阳市"
+         },
+         {
+            "gafeecod" : "5152",
+            "gargnnam" : "息县"
+         },
+         {
+            "gafeecod" : "5153",
+            "gargnnam" : "淮滨县"
+         },
+         {
+            "gafeecod" : "5155",
+            "gargnnam" : "潢川县"
+         },
+         {
+            "gafeecod" : "5156",
+            "gargnnam" : "光山县"
+         },
+         {
+            "gafeecod" : "5157",
+            "gargnnam" : "固始县"
+         },
+         {
+            "gafeecod" : "5158",
+            "gargnnam" : "商城县"
+         },
+         {
+            "gafeecod" : "5159",
+            "gargnnam" : "罗山县"
+         },
+         {
+            "gafeecod" : "5161",
+            "gargnnam" : "新县"
+         }
+      ],
+      "gargnnam" : "河南省",
+      "provcod" : 41
+   }
+]

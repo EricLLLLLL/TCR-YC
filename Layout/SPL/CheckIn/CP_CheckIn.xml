@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="12/18/2015 2:50:04 PM">
+  <div id="PageTop">
+    <p> 受理行号：
+      																																																																				      
+      <span id='SubBankId'></span>
+																																												    
+    </p>
+    <p> 状态：
+      																																																																				      
+      <span id='DevStatus'>00000（00）</span>
+    </p>
+  </div>
+  <div class="stateWrap">
+    <img src="Framework/style/Graphics/stateLine.png" alt="" srcset="" class="stateLine" />
+    <span class="stateTitle">管理员签到</span>
+  </div>
+  <div id="PageSubject">
+    <!-- <div id="KeyboardDiv" class="alphabet"></div> -->
+    <div class="InputDiv middleDiv SignDiv">
+          <p class="signButton">
+				<span >点击签到：</span>
+            <button id ="SignIn" >点击签到</button>          
+			</p>
+      <p class="FingerDiv">
+        <span >确认指纹：</span>
+                      			                
+        <input class="PromptIcon Finger" id="PromptIcon1" type="text"  />
+        
+      </p>
+
+    </div>
+    <div class="TipDiv ">
+     		温馨提示：点击签到后，请把手指放在指纹仪上，进行签到确认。
+    	</div>
+  </div>
+  <div id="PageButton">
+    <!-- <button type="button"  id="Back">返回</button> -->
+    <!-- <button type="button"  id="OK">确定</button> -->
+    <button type="button"  id="Back" class="middle">返回</button>
+  </div>
+<button type="button" id="PageRoot">退出登录</button>
+</div>

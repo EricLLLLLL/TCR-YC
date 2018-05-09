@@ -1,0 +1,80 @@
+[
+   {
+      "area" : [
+         {
+            "gafeecod" : "8710",
+            "gargnnam" : "银川市"
+         },
+         {
+            "gafeecod" : "8711",
+            "gargnnam" : "永宁县"
+         },
+         {
+            "gafeecod" : "8712",
+            "gargnnam" : "贺兰县"
+         },
+         {
+            "gafeecod" : "8713",
+            "gargnnam" : "灵武市"
+         },
+         {
+            "gafeecod" : "8720",
+            "gargnnam" : "石嘴山市"
+         },
+         {
+            "gafeecod" : "8721",
+            "gargnnam" : "平罗县"
+         },
+         {
+            "gafeecod" : "8730",
+            "gargnnam" : "吴忠市"
+         },
+         {
+            "gafeecod" : "8732",
+            "gargnnam" : "青铜峡市"
+         },
+         {
+            "gafeecod" : "8736",
+            "gargnnam" : "盐池县"
+         },
+         {
+            "gafeecod" : "8737",
+            "gargnnam" : "同心县"
+         },
+         {
+            "gafeecod" : "8740",
+            "gargnnam" : "固原市"
+         },
+         {
+            "gafeecod" : "8743",
+            "gargnnam" : "西吉县"
+         },
+         {
+            "gafeecod" : "8744",
+            "gargnnam" : "隆德县"
+         },
+         {
+            "gafeecod" : "8745",
+            "gargnnam" : "泾源县"
+         },
+         {
+            "gafeecod" : "8746",
+            "gargnnam" : "彭阳县"
+         },
+         {
+            "gafeecod" : "8750",
+            "gargnnam" : "中卫市"
+         },
+         {
+            "gafeecod" : "8751",
+            "gargnnam" : "中宁县"
+         },
+         {
+            "gafeecod" : "8752",
+            "gargnnam" : "海原县"
+         }
+      ],
+      "gargnnam" : "宁夏回族自治区",
+      "provcod" : 64
+   }
+]

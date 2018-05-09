@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="12/15/2015 3:22:48 PM">
+  <!-- <div id="PageTop"><p> 受理行号：                                                                    
+      <span id='SubBankId'></span></p><p> 状态：                                                                   
+      <span id='DevStatus'>00000（00）</span></p></div> -->
+  <div class="stateWrap">
+    <img src="Framework/style/Graphics/stateLine.png" alt="" srcset="" class="stateLine" />
+    <span class="stateTitle">设备状态</span>
+  </div>
+  <div id="PageSubject" class="status">
+    <!--处理交易状态-->
+    <div class="StateDiv CPLstatus" id="StateDiv1">
+      <div class="TradeDiv">
+        <div class="TradeIcon" id="TradeIcon1"></div> 账户余额查询
+                                    
+      </div>
+      <div class="TradeDiv">
+        <div class="TradeIcon" id="TradeIcon2"></div> 取款
+                                    
+      </div>
+      <div class="TradeDiv">
+        <div class="TradeIcon" id="TradeIcon3"></div> 存款
+                                    
+      </div>
+      <div class="TradeDiv">
+        <div class="TradeIcon" id="TradeIcon4" style="background-image:url(Framework/style/Graphics/btn/icon1.png);"></div> 存折业务
+                                        
+        <!-- </div><div class="TradeDiv"><div class="TradeIcon" id="TradeIcon5" style="background-image:url(Framework/style/Graphics/btn/icon1.png);"></div> 零钞兑换
+                  
+      </div><div class="TradeDiv"><div class="TradeIcon" id="TradeIcon6" style="background-image:url(Framework/style/Graphics/btn/icon1.png);"></div> 卡折销户 -->
+      </div>
+      <div class="TradeDiv">
+        <div class="TradeIcon" id="TradeIcon7" style="background-image:url(Framework/style/Graphics/btn/icon1.png);"></div> 转账汇款
+                                       
+        <!--  </div><div class="TradeDiv"><div class="TradeIcon" id="TradeIcon8" style="background-image:url(Framework/style/Graphics/btn/icon1.png);"></div> 转账撤销
+                  
+      </div><div class="TradeDiv"><div class="TradeIcon" id="TradeIcon9" style="background-image:url(Framework/style/Graphics/btn/icon1.png);"></div> 定期转活期
+                  
+      </div><div class="TradeDiv"><div class="TradeIcon" id="TradeIcon10" style="background-image:url(Framework/style/Graphics/btn/icon1.png);"></div> 活期转定期
+                  
+      </div><div class="TradeDiv"><div class="TradeIcon" id="TradeIcon11" style="background-image:url(Framework/style/Graphics/btn/icon1.png);"></div> 卡钞回存
+                  
+      </div><div class="TradeDiv"><div class="TradeIcon" id="TradeIcon12" style="background-image:url(Framework/style/Graphics/btn/icon1.png);"></div> 微信销户 -->
+      </div>
+      <div class="TradeDiv">
+        <div class="TradeIcon" id="TradeIcon13" style="background-image:url(Framework/style/Graphics/btn/icon1.png);"></div> 无卡交易
+
+                  
+      </div>
+      <div class="TradeDiv">
+        <div class="TradeIcon" id="TradeIcon14" style="background-image:url(Framework/style/Graphics/btn/icon1.png);"></div> 大额存款
+
+                  
+      </div>
+      <div class="TradeDiv">
+        <div class="TradeIcon" id="TradeIcon15" style="background-image:url(Framework/style/Graphics/btn/icon1.png);"></div> 大额取款
+
+                  
+      </div>
+      <div class="TradeDiv">
+        <div class="TradeIcon" id="TradeIcon16" style="background-image:url(Framework/style/Graphics/btn/icon1.png);"></div> 大额转账
+
+                  
+      </div>
+      <div class="TradeDiv">
+        <div class="TradeIcon" id="TradeIcon17" style="background-image:url(Framework/style/Graphics/btn/icon1.png);"></div> 大额现金汇款
+                                    
+      </div>
+    </div>
+    <!--模块状态-->
+    <div class="StateDiv CPLstatus" id="StateDiv3">
+      <div class="TradeDiv">
+        <div class="MoudleStateIcon" id="JNL"></div> 日志打印机
+                                    
+      </div>
+      <div class="TradeDiv">
+        <div class="MoudleStateIcon" id="PTR"></div> 凭条打印机
+                                    
+      </div>
+      <div class="TradeDiv">
+        <div class="MoudleStateIcon" id="PIN"></div> 密码键盘
+                                    
+      </div>
+      <div class="TradeDiv">
+        <div class="MoudleStateIcon" id="IDR"></div> 身份证模块
+                                    
+      </div>
+      <div class="TradeDiv">
+        <div class="MoudleStateIcon" id="CRD"></div> 读卡器
+                                    
+      </div>
+      <div class="TradeDiv">
+        <div class="MoudleStateIcon" id="FPI"></div> 指纹仪
+                                    
+      </div>
+      <div class="TradeDiv">
+        <div class="MoudleStateIcon" id="CASH"></div> 现金模块
+                                    
+      </div>
+      <div class="TradeDiv">
+        <div class="MoudleStateIcon" id=""></div> 传感器
+                                    
+      </div>
+      <div class="TradeDiv">
+        <div class="MoudleStateIcon" id="SCR"></div> 刷卡器
+
+                  
+      </div>
+      <div class="TradeDiv">
+        <div class="MoudleStateIcon" id="TFC"></div> 人脸摄像头
+
+                  
+      </div>
+      <div class="TradeDiv">
+        <div class="MoudleStateIcon" id="SPT"></div> A4打印
+                                    
+      </div>
+      <div class="TradeDiv">
+        <div class="MoudleStateIcon" id=""></div> 钞箱信息
+                                    
+      </div>
+      <div class="TradeDiv" style="width:800px;margin-top:15px;">
+        <div class="CashDiv" id="ClsCashBox1" style="">
+          钞箱
+                                                  
+          <label id="UintName1"></label>(
+                                                  
+          <label class="CurrencyNo" id="CurrencyNo1"></label>)
+                                                  
+          <input class="CashBox" id="CashBox1" type="button" style="background-image:url(Framework/style/Graphics/btn/cxzt0.png);"/>
+          <label id="MoneyNum1"></label>张
+                                                
+        </div>
+        <div class="CashDiv" id="ClsCashBox2" style="display:none">
+          钞箱
+                                                  
+          <label id="UintName2"></label>(
+                                                  
+          <label class="CurrencyNo" id="CurrencyNo2"></label>)
+                                                  
+          <input class="CashBox" id="CashBox2" type="button" style="background-image:url(Framework/style/Graphics/btn/cxzt0.png);"/>
+          <label id="MoneyNum2"></label>张
+                                                
+        </div>
+        <div class="CashDiv" id="ClsCashBox3" style="display:none">
+          钞箱
+                                                  
+          <label id="UintName3"></label>(
+                                                  
+          <label class="CurrencyNo" id="CurrencyNo3"></label>)
+                                                  
+          <input class="CashBox" id="CashBox3" type="button" style="background-image:url(Framework/style/Graphics/btn/cxzt0.png);"/>
+          <label id="MoneyNum3"></label>张
+                                                
+        </div>
+        <div class="CashDiv" id="ClsCashBox4" style="display:none">
+          钞箱
+                                                  
+          <label id="UintName4"></label>(
+                                                  
+          <label class="CurrencyNo" id="CurrencyNo4"></label>)
+                                                  
+          <input class="CashBox" id="CashBox4" type="button" style="background-image:url(Framework/style/Graphics/btn/cxzt0.png);"/>
+          <label id="MoneyNum4"></label>张
+                                                
+        </div>
+        <div class="CashDiv" id="ClsCashBox5" style="display:none">
+          钞箱
+                                                  
+          <label id="UintName5"></label>(
+                                                  
+          <label class="CurrencyNo" id="CurrencyNo5"></label>)
+                                                  
+          <input class="CashBox" id="CashBox5" type="button" style="background-image:url(Framework/style/Graphics/btn/cxzt0.png);"/>
+          <label id="MoneyNum5"></label>张
+                                                
+        </div>
+        <div class="CashDiv" id="ClsCashBox6" style="display:none">
+          钞箱
+                                                  
+          <label id="UintName6"></label>(
+                                                  
+          <label class="CurrencyNo" id="CurrencyNo6"></label>)
+                                                  
+          <input class="CashBox" id="CashBox6" type="button" style="background-image:url(Framework/style/Graphics/btn/cxzt0.png);"/>
+          <label id="MoneyNum6"></label>张
+                                                
+        </div>
+        <div class="CashDiv" id="ClsCashBox7" style="display:none">
+          钞箱
+                                                  
+          <label id="UintName7"></label>(
+                                                  
+          <label class="CurrencyNo" id="CurrencyNo7"></label>)
+                                                  
+          <input class="CashBox" id="CashBox7" type="button" style="background-image:url(Framework/style/Graphics/btn/cxzt0.png);"/>
+          <label id="MoneyNum7"></label>张
+                                                
+        </div>
+        <div class="CashDiv" id="ClsCashBox8" style="display:none">
+          钞箱
+                                                  
+          <label id="UintName8"></label>(
+                                                  
+          <label class="CurrencyNo" id="CurrencyNo8"></label>)
+                                                  
+          <input class="CashBox" id="CashBox8" type="button" style="background-image:url(Framework/style/Graphics/btn/cxzt0.png);"/>
+          <label id="MoneyNum8"></label>张
+                                                
+        </div>
+        <div class="CashDiv" id="ClsCashBox9" style="display:none">
+          钞箱
+                                                  
+          <label id="UintName9"></label>(
+                                                  
+          <label class="CurrencyNo" id="CurrencyNo9"></label>)
+                                                  
+          <input class="CashBox" id="CashBox9" type="button" style="background-image:url(Framework/style/Graphics/btn/cxzt0.png);"/>
+          <label id="MoneyNum9"></label>张
+                                                
+        </div>
+      </div>
+      <div style="position:absolute;margin-top:205px;left:182px;">
+        <label>循环箱总金额：</label>
+        <label id="AllMoney" class="CurrencyNo"></label>
+      </div>
+      <div id="WTip" style="position:absolute;margin-top:0px;margin-left:220px;font-size:16px;display:none">
+        <img src="Framework/style/Graphics/box_ico_2.png" style="margin-right:-5px;vertical-align:middle"/>
+        <span style="margin-right:5px;color:red;font-weight:bold;line-height:60px;display:inline">
+          保险柜门开！
+        </span>
+      </div>
+    </div>
+    <!--故障信息-->
+    <div id="faultInfo" class="StateDiv">
+      <!--交易名称及金额-->
+      <div class="lf" style="margin-left:24px;line-height:36px;width:278px;display:none">
+        交易名称:                                         
+        <span id="dealName"></span>
+      </div>
+      <div class="lf" style="margin-left:24px;line-height:36px;width:278px;display:none">
+        交易金额:                                         
+        <span id="dealMoney"></span>
+      </div>
+      <div class="clf" style="margin-left:24px;line-height:36px;">
+        故障内容:                                         
+        <span id="faultContent"></span>
+        <span id="faultContent2"></span>
+        <span id="faultContent3"></span>
+        <span id="normalInfo" style="display:none">
+          <img src="Framework/style/Graphics/btn/normal_info.png" style="vertical-align: middle;"/>正常运行中 . . .
+                                        
+        </span>
+      </div>
+    </div>
+    <div class="TipDiv" id="TipInfo" style="float:none">
+      <p>
+        <span class="high">高</span>
+        <span class="few">少</span>
+        <span class="without">未配置</span>
+        <span class="full">满</span>
+        <span class="empty">空</span>
+        <span class="normal">正常状态</span>
+        <span class="fault">故障状态</span>
+      </p>
+    </div>
+    <!--底部按钮-->
+    <!-- <div class="statusBtn"><input type="button" value="关闭服务" id="Service"/><input type="button" value="复 位" id="Reset"/><input type="button" value="关 机" id="Shutdown"/><input type="button" value="重 启" id="Reboot"/><input type="button" value="管理员维护" id="SuperVise" style="margin-left: 60px;margin-top:-130px;display:none"/></div> -->
+  </div>
+  <div id="PageButton" class="BtnBack" style="display:none">
+    <button type="button" id="Back" class="middle">返回</button>
+  </div>
+  <div id="PageButton" class="adminLogin" style="display:none">
+    <button type="button" id="Tadmin">技术管理员</button>
+    <button type="button" id="Badmin">业务管理员</button>
+  </div>
+  <button type="button" id="PageRoot" >开启服务</button>
+  <!-- 错误状态 提示 style="display:block;"  -->
+  <div id="errorWrap">
+    <div class="errorTips">
+      <div class="errorTipsText">
+        <div class="InfoTitle">信息提示                                               
+          <span id="countDown"></span>
+        </div>
+        <div id="InfoTip">设置失败，请重试。</div>
+      </div>
+    </div>
+  </div>
+  <!-- 通讯提示 style="display:block;" -->
+  <div id="networkWrap">
+    <div class="networkWrapTips">
+      <p class="networkPicture"></p>
+      <p id="networkTip">正在处理中，请稍后..</p>
+    </div>
+  </div>
+  <!-- <div id="shade" class="localWrap"><div class="shadeWrapTips"><p class="shadePicture"></p><p id="shadeTip">设备通讯中，请稍后...</p></div></div> -->
+</div>

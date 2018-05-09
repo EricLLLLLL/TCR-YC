@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div class="PageContent" id="PageContent" >
+  <div id="PageTop">
+    <div id="PageTitle">
+    </div>
+    <div id="ShowTime">
+    </div>
+  </div>
+  <div id="PageSubject" class="MiddleDiv">
+    <table border="0" cellpadding="0" cellspacing="0" style="text-align:left;margin:0 auto;">
+      <tr>
+        <td style="padding-top:130px;">
+          <input type="button" id="Logo-Err" style="width:51px;height:51px;background-color:transparent;border:0;outline:none;background-image:url(Framework/style/Graphics/box_ico_2.png);display:none;"/>
+        </td>
+        <td style="padding-top:130px;padding-left:10px;">
+          <label id="tip_label"></label>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div id="PageButton">
+    <a href='#' class='Left_4' id='Exit' >退出</a>
+    <a href='#' class='Right_4' id='Back' style='display:none;'>重新办理</a>
+  </div>
+</div>
+

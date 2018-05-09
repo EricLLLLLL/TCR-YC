@@ -1,0 +1,32 @@
+[
+   {
+      "area" : [
+         {
+            "gafeecod" : "4520",
+            "gargnnam" : "青岛市"
+         },
+         {
+            "gafeecod" : "4521",
+            "gargnnam" : "即墨市"
+         },
+         {
+            "gafeecod" : "4522",
+            "gargnnam" : "胶南市"
+         },
+         {
+            "gafeecod" : "4523",
+            "gargnnam" : "莱西市"
+         },
+         {
+            "gafeecod" : "4524",
+            "gargnnam" : "平度市"
+         },
+         {
+            "gafeecod" : "4525",
+            "gargnnam" : "胶州市"
+         }
+      ],
+      "gargnnam" : "青岛市",
+      "provcod" : 84
+   }
+]

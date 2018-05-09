@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="12/8/2015 1:47:48 PM">
+  <div id="PageTop">
+    <div id="PageTitle">
+      
+    </div>
+    <div id="ShowTime">
+    </div>
+  </div>
+  <div id="PageSubject">
+    <div  id="CinfoCheckTip" style="margin-left:50px;">
+      <img class="PageSubjectImg" src="Framework/style/Graphics/2.jpg" style="margin-top:130px;"/>
+      <br/>
+      <br/>
+      <br/>
+      <div style="margin-left:330px;margin-top:15px;color:#000;font-size:26px;">正在验钞，请稍候...</div>
+    </div>
+    <div id="CinfoTakeTip" class="MiddleDiv" style="margin-top:120px;text-align:center;display:none">
+      <br/>
+      <br/>
+      <div>
+
+        <img src="Framework/style/Graphics/取款动画.gif"/>
+        <br/><br/>
+        <div style="margin-top:100px;color:#000;font-size:26px;">
+        请取走不能识别的钞票
+          </div>
+      </div>
+      
+    </div>
+  </div>
+</div>

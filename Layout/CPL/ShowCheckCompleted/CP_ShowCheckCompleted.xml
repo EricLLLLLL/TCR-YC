@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="12/8/2015 3:46:58 PM">
+	<div id="PageTop">
+		<div id="PageTitle" style="margin-top:-60px;">
+		  	交易审核
+		</div>
+		<div id="ShowTime">
+		</div>
+	</div>
+ 	<div id="PageSubject" class="MiddleDiv" style="margin-top:170px;color:#333">
+	    <div class="check_info_content">
+			<div class="left-content">
+				<div class="label type-info">
+					<label>交易信息 : </label>
+					<span>无卡无折销户</span>
+				</div>
+				<div class="label">
+					<label>检查结果 : </label>
+					<span id="checkResult"></span>
+				</div>
+				<div class="label compared">
+					<label>人脸对比结果 : </label>
+					<span>同一个人</span>
+				</div>
+				<div class="photo-wrap">
+					<div class="photo">
+						<b>联网核查照片</b>
+						<div class="photo-inner">
+							<img id="CheckIdCardpic" src="Framework/style/Graphics/photo.png"/>
+						</div>
+					</div>
+					<div class="photo">
+						<b>身份证照片</b>
+						<div class="photo-inner">
+							<img id="IdCardpic" src="Framework/style/Graphics/photo.png"/>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+	        <div class="right-content text-align admin-wrap">
+		        <div id="DivTellers" class="DivTellers"></div>
+		        <div id="DivFingerTip" class="DivFingerTip"></div>
+	            <b>请审核员指纹授权</b>
+	            <select class="CustomerInfoInput_Profession select-style" id="administrator">
+	                <!-- <option value="0" id=""> 请选择柜员号 </option> -->
+	                <!-- <option value="" id=""> 1001 </option>
+	                <option value="" id=""> 1002 </option>
+	                <option value="" id=""> 1003 </option>
+	                <option value="" id=""> 1004 </option> -->
+	            </select>
+	            <img id="FrontImag" src="Framework/style/Graphics/2.gif"/>
+	        </div>
+
+    		<div class="clearfix"></div>
+	    </div>
+        <div class="TrabsferkTip">
+            <p class="errTip"></p>
+        </div>
+
+ 	</div>
+	<div id="PageButton">
+		<a href='#' class='Left_4' id='Exit'>退出</a>
+		<a href='#' class='Right_4' id='ReAuthor'>重新审核</a>
+		<!-- <a href='#' class='Right_4' id='OK'>确认</a> -->
+	</div>
+</div>

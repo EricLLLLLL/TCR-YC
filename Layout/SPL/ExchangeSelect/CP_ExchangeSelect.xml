@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="3/6/2018 11:09:12 AM">
+  <div id="PageTop">
+    <p> 受理行号：
+      																																
+      <span id='SubBankId'></span>
+																				
+    </p>
+    <p> 状态：
+      																																
+      <span id='DevStatus'>00000（00）</span>
+    </p>
+  </div>
+  <div class="stateWrap">
+    <img src="Framework/style/Graphics/stateLine.png" alt="" srcset="" class="stateLine" />
+    <span class="stateTitle">轧账加钞</span>
+  </div>
+  <div id="PageSubject">
+  <p id="NoPtrTip" style="left:530px;position:absolute;top:300px;color:red;font-size:22px;display:none;">无凭条纸！</p>
+    <div class="lists">
+      <button type="button" id="Exchange">轧账</button>
+      <button type="button" id="AddNote">加钞</button>
+      <button type="button" id="OpenShutter">打开钞门</button>
+      <button type="button" id="CloseShutter">关闭钞门</button>
+    </div>
+     <div class="TipDiv" >
+     温馨提示：请选择设定项，并按相应按钮设定
+    </div>
+  </div>  
+  <div id="PageButton">
+    <button type="button"  id="Back" class="middle">返回</button>
+  </div>
+<button type="button" id="PageRoot">退出登录</button>
+  <!-- 错误状态 提示 style="display:block;"  -->
+  <div id="errorWrap"  >
+    <div class="errorTips">
+      <div class="errorTipsText">
+        <div class="InfoTitle">信息提示 																																								
+          <span id="countDown"></span>
+        </div>
+        <div id="InfoTip">设置失败，请重试。</div>
+      </div>
+    </div>
+  </div>
+  <!-- 通讯提示 style="display:block;" -->
+  <div id="networkWrap">
+    <div class="networkWrapTips">
+      <p class="networkPicture"></p>
+      <p id="networkTip">正在处理中，请稍后..</p>
+    </div>
+  </div>
+</div>
+

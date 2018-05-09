@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div class="PageContent " id="PageContent">
+    <div id="PageTop" class="dealTop">
+        <span id="TimeShowIndex"></span>
+        <span id="geoLocation">北京</span>
+        <span class="numberIndex">设备号：                                                             
+            <span id="numberDevice">12345678</span>
+        </span>
+    </div>
+    <div id="PageSubjectIndex">
+                <!-- <div id="AdvParentDiv"></div> -->
+    <div class="box">
+        <ul class="box-in">
+            <li>
+                <img src="./Framework/style/Graphics/advert.jpg" width="790" height="758">
+            </li>
+            <li>
+                <img src="./Framework/style/Graphics/advert1.jpg" width="790" height="758">
+            </li>
+        </ul>
+    </div>
+        <div class="BusinessDiv">
+            <button type="button" id="bigTrade"></button>
+            <button type="button" id="noCardTrade"></button>
+            <button type="button" id="cardTrade"></button>
+        </div>
+        <a href='#' class='Left_SPL' id='SPL1'></a>
+        <a href='#' class='Right_SPL' id='SPL2'></a>
+    </div>
+    <div id="errorWrap">
+        <div class="errorTips">
+            <div class="errorTipsText">
+                <div class="InfoTitle">信息提示                                         
+                    <span id="countDown"></span>
+                </div>
+                <div id="InfoTip">本机不支持此交易，请重新选择交易类型。</div>
+            </div>
+        </div>
+    </div>
+    <div id="networkWrap">
+        <div class="networkWrapTips">
+            <p class="networkPicture"></p>
+            <p id="networkTip">设备通讯中，请稍后...</p>
+        </div>
+    </div>
+    <!--    style="display:block;"    -->
+	<div id="shade" class="localWrap" style="display:none;">
+		<div class="shadeWrapTips">
+			<p class="shadePicture"></p>
+			<p id="shadeTip">设备通讯中，请稍后...</p>
+		</div>
+	</div>
+</div>

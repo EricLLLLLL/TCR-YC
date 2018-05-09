@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowConfigs autogenerate_time="2018/4/27 0:03:18">
+	<FlowsItem id="BusinessItem" entrance="Start">
+		<BusinessItem id="Start" entrance="1" tracename="CC_Start_C">
+			<Item id="1" type="P" name="后屏保护页面">
+				<Response code="OK" next="2"/>
+			</Item>
+			<Item id="2" type="C" name="数据验证">
+				<Response code="Back" next="1"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="技术管理员操作" entrance="1" tracename="CC_TAdmin_C">
+			<Item id="1" type="P" name="技术管理员菜单页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="E"/>
+				<Response code="Checkstatus" next="2"/>
+				<Response code="SetParam" next="3"/>
+				<Response code="ManageKey" next="4"/>
+				<Response code="OtherManage" next="5"/>
+				<Response code="DownParam" next="6"/>
+			</Item>
+			<Item id="2" type="C" name="查看状态">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="1"/>
+			</Item>
+			<Item id="3" type="C" name="参数设置">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="1"/>
+			</Item>
+			<Item id="4" type="C" name="密钥管理">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="1"/>
+			</Item>
+			<Item id="5" type="C" name="其他管理功能">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="1"/>
+			</Item>
+			<Item id="6" type="C" name="参数下载">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="1"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="清机加钞" entrance="1" tracename="CC_Exchange_C">
+			<Item id="1" type="P" name="清机加钞画面">
+				<Response code="Exchange" next="2"/>
+				<Response code="CantAddNote" next="12"/>
+				<Response code="NeedDownload" next="13"/>
+				<Response code="AddNote" next="6"/>
+				<Response code="NoteRemainQuery" next="9"/>
+				<Response code="Statistics" next="10"/>
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="E"/>
+			</Item>
+			<Item id="2" type="P" name="是否进行清机操作">
+				<Response code="OK" next="3"/>
+				<Response code="TimeOut" next="1"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="1"/>
+			</Item>
+			<Item id="3" type="P" name="钞箱剩余金额输入页面">
+				<Response code="OK" next="4"/>
+				<Response code="TimeOut" next="1"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="1"/>
+			</Item>
+			<Item id="4" type="P" name="清机成功画面">
+				<Response code="OK" next="1"/>
+				<Response code="TimeOut" next="1"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="1"/>
+			</Item>
+			<Item id="5" type="P" name="加钞画面">
+				<Response code="OK" next="7"/>
+				<Response code="TimeOut" next="1"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="1"/>
+			</Item>
+			<Item id="6" type="P" name="是否进行加钞操作">
+				<Response code="OK" next="5"/>
+				<Response code="TimeOut" next="1"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="1"/>
+			</Item>
+			<Item id="7" type="P" name="正在加钞处理页面">
+				<Response code="OK" next="8"/>
+				<Response code="TimeOut" next="1"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="1"/>
+			</Item>
+			<Item id="8" type="P" name="加钞完成">
+				<Response code="OK" next="1"/>
+				<Response code="TimeOut" next="1"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="1"/>
+			</Item>
+			<Item id="9" type="P" name="纸币余量查询画面">
+				<Response code="OK" next="1"/>
+				<Response code="TimeOut" next="1"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="1"/>
+			</Item>
+			<Item id="10" type="P" name="数据统计打印">
+				<Response code="OK" next="11"/>
+				<Response code="TimeOut" next="1"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="1"/>
+			</Item>
+			<Item id="11" type="P" name="数据统计打印完成">
+				<Response code="OK" next="1"/>
+				<Response code="TimeOut" next="1"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="1"/>
+			</Item>
+			<Item id="12" type="P" name="提示清机画面">
+				<Response code="TimeOut" next="1"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="1"/>
+			</Item>
+			<Item id="13" type="P" name="提示下载工作参数画面">
+				<Response code="TimeOut" next="1"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="1"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="电子日志" entrance="1" tracename="CC_Digital_C">
+			<Item id="1" type="P" name="电子日志">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="2"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="2" type="P" name="电子日志信息">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="3"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="3" type="P" name="电子日志打印">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="4"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="4" type="P" name="电子日志打印完成">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="E"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="系统信息设定" entrance="1" tracename="CC_SetSysInfo_C">
+			<Item id="1" type="P" name="系统信息设定">
+				<Response code="TimeOut" next="E"/>
+				<Response code="IPSet" next="2"/>
+				<Response code="UnitSet" next="4"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="2" type="P" name="设定通讯参数">
+				<Response code="OK" next="3"/>
+				<Response code="Exit" next="1"/>
+			</Item>
+			<Item id="3" type="P" name="设定通讯参数完成">
+				<Response code="Exit" next="1"/>
+			</Item>
+			<Item id="4" type="P" name="钞箱设定">
+				<Response code="OK" next="5"/>
+				<Response code="Exit" next="1"/>
+			</Item>
+			<Item id="5" type="P" name="钞箱设定完成">
+				<Response code="Exit" next="1"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="指纹录入" entrance="1" tracename="CC_FingerSign_C">
+			<Item id="1" type="P" name="指纹录入">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="2"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="2" type="P" name="指纹录入成功">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="E"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="冠字号查询" entrance="1" tracename="CC_CrownSize_C">
+			<Item id="1" type="P" name="冠字号条件选择">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="2"/>
+				<Response code="Back" next="E"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="2" type="P" name="冠字号结果显示">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="3"/>
+				<Response code="Back" next="E"/>
+				<Response code="Exit" next="1"/>
+			</Item>
+			<Item id="3" type="P" name="冠字号结果详细显示">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Back" next="E"/>
+				<Response code="Exit" next="2"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="添加管理员" entrance="1" tracename="CC_AddNewAdmin_C">
+			<Item id="1" type="P" name="输入信息管理员密码界面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="2"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="2" type="P" name="管理员操作选择界面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="3"/>
+				<Response code="ChangePsw" next="5"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="3" type="P" name="添加管理员信息操作">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="4"/>
+				<Response code="Exit" next="2"/>
+			</Item>
+			<Item id="4" type="P" name="添加管理员信息成功页面">
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="5" type="P" name="信息管理密码修改页面">
+				<Response code="OK" next="4"/>
+				<Response code="Exit" next="2"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="授权管理" entrance="1" tracename="CC_TellerNoSet_C">
+			<Item id="1" type="P" name="输入信息管理员密码界面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="2"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="2" type="P" name="授权设置界面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="2"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="3" type="P" name="添加授权成功界面">
+				<Response code="Exit" next="2"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="密码管理" entrance="1" tracename="CC_PinManager_C">
+			<Item id="1" type="P" name="密码管理界面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="2"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="2" type="P" name="添加管理员信息成功页面">
+				<Response code="Exit" next="E"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="数据统计" entrance="1" tracename="CC_DataStatistics_C">
+			<Item id="1" type="P" name="数据统计查询界面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="2"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="2" type="P" name="数据统计结果界面">
+				<Response code="Exit" next="E"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="业务管理员操作" entrance="1" tracename="CC_BAdmin_C">
+			<Item id="1" type="P" name="业务管理员菜单页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="E"/>
+				<Response code="Checkstatus" next="2"/>
+				<Response code="TRANSACTION_TOTAL_INQURE" next="3"/>
+				<Response code="CASH_REPN" next="4"/>
+				<Response code="OtherManage" next="5"/>
+				<Response code="CLEAR_RETAINED_CARD" next="6"/>
+			</Item>
+			<Item id="2" type="C" name="查看状态">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="1"/>
+			</Item>
+			<Item id="3" type="C" name="轧账">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="1"/>
+			</Item>
+			<Item id="4" type="C" name="清机加钞">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="1"/>
+			</Item>
+			<Item id="5" type="C" name="业务管理员其他功能">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="1"/>
+			</Item>
+			<Item id="6" type="C" name="清卡">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="1"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="业务主管操作" entrance="1" tracename="CC_SMAdmin_C">
+			<Item id="1" type="P" name="业务主管菜单页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Checkstatus" next="2"/>
+				<Response code="SetParam" next="3"/>
+				<Response code="ManageKey" next="4"/>
+				<Response code="OtherManage" next="5"/>
+				<Response code="DownParam" next="6"/>
+			</Item>
+			<Item id="2" type="C" name="查看状态">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="1"/>
+			</Item>
+			<Item id="3" type="C" name="参数设置">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="1"/>
+			</Item>
+			<Item id="4" type="C" name="密钥管理">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="1"/>
+			</Item>
+			<Item id="5" type="C" name="其他管理功能">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="1"/>
+			</Item>
+			<Item id="6" type="C" name="参数下载">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="1"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="查看状态" entrance="1" tracename="CC_CheckStatus_C">
+			<Item id="1" type="P" name="部件状态画面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="E"/>
+				<Response code="Back" next="E"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="参数设置" entrance="1" tracename="CC_SetParam_C">
+			<Item id="1" type="P" name="参数设置功能子菜单">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Back" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="TerminalNumber" next="2"/>
+				<Response code="AgencyNumber" next="3"/>
+				<Response code="BankNumber" next="4"/>
+				<Response code="AddNoteMode" next="5"/>
+				<Response code="Test" next="6"/>
+				<Response code="Methods" next="7"/>
+				<Response code="Param" next="8"/>
+				<Response code="CashBox" next="9"/>
+				<Response code="Action" next="10"/>
+				<Response code="View" next="11"/>
+			</Item>
+			<Item id="2" type="P" name="终端号设置页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Back" next="1"/>
+				<Response code="Exit" next="E"/>
+				<Response code="TradeSuccess" next="12"/>
+				<Response code="TradeFail" next="13"/>
+			</Item>
+			<Item id="3" type="P" name="机构号设置">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Back" next="1"/>
+				<Response code="Exit" next="E"/>
+				<Response code="TradeSuccess" next="12"/>
+				<Response code="TradeFail" next="13"/>
+			</Item>
+			<Item id="4" type="P" name="网点机构号设置">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Back" next="1"/>
+				<Response code="Exit" next="E"/>
+				<Response code="TradeSuccess" next="12"/>
+				<Response code="TradeFail" next="13"/>
+			</Item>
+			<Item id="5" type="P" name="加钞模式设置页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Back" next="1"/>
+				<Response code="Exit" next="E"/>
+				<Response code="TradeSuccess" next="12"/>
+				<Response code="TradeFail" next="13"/>
+			</Item>
+			<Item id="6" type="P" name="通讯测试页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Back" next="1"/>
+				<Response code="Exit" next="E"/>
+				<Response code="TradeSuccess" next="12"/>
+				<Response code="TradeFail" next="13"/>
+			</Item>
+			<Item id="7" type="P" name="轧账方式设置页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Back" next="1"/>
+				<Response code="Exit" next="E"/>
+				<Response code="TradeSuccess" next="12"/>
+				<Response code="TradeFail" next="13"/>
+			</Item>
+			<Item id="8" type="P" name="设定通讯参数">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Back" next="1"/>
+				<Response code="Exit" next="E"/>
+				<Response code="TradeSuccess" next="12"/>
+				<Response code="TradeFail" next="13"/>
+			</Item>
+			<Item id="9" type="P" name="钞箱设定">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Back" next="1"/>
+				<Response code="Exit" next="E"/>
+				<Response code="TradeSuccess" next="12"/>
+				<Response code="TradeFail" next="13"/>
+			</Item>
+			<Item id="10" type="P" name="扩展功能设置页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Back" next="1"/>
+				<Response code="Exit" next="E"/>
+				<Response code="TradeSuccess" next="12"/>
+				<Response code="TradeFail" next="13"/>
+			</Item>
+			<Item id="11" type="P" name="查看通讯参数页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Back" next="1"/>
+				<Response code="Exit" next="E"/>
+				<Response code="TradeSuccess" next="12"/>
+				<Response code="TradeFail" next="13"/>
+			</Item>
+			<Item id="12" type="P" name="交易成功页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Back" next="1"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="13" type="P" name="交易失败页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Back" next="1"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="密钥管理" entrance="1" tracename="CC_ManageKey_C">
+			<Item id="1" type="P" name="密钥管理子菜单">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Masterkey" next="2"/>
+				<Response code="MACPINkey" next="3"/>
+				<Response code="InitEpp" next="3"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="E"/>
+			</Item>
+			<Item id="2" type="P" name="秘钥密码输入界面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="3"/>
+				<Response code="Exit" next="1"/>
+				<Response code="Back" next="1"/>
+			</Item>
+			<Item id="3" type="P" name="交易页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="TradeSuccess" next="4"/>
+				<Response code="TradeFail" next="5"/>
+			</Item>
+			<Item id="4" type="P" name="设置主秘钥成功页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="1"/>
+				<Response code="Exit" next="1"/>
+				<Response code="Back" next="1"/>
+			</Item>
+			<Item id="5" type="P" name="设置主秘钥失败页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="1"/>
+				<Response code="Exit" next="1"/>
+				<Response code="Back" next="1"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="其他管理功能" entrance="1" tracename="CC_OtherManage_C">
+			<Item id="1" type="P" name="其他管理功能子菜单">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Back" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="InitBusiness" next="2"/>
+				<Response code="BusinessManage" next="3"/>
+				<Response code="SystemSet" next="4"/>
+				<Response code="TradeSuccess" next="15"/>
+				<Response code="TradeFail" next="16"/>
+			</Item>
+			<Item id="2" type="P" name="初始化业务">
+				<Response code="TimeOut" next="1"/>
+				<Response code="OK" next="10"/>
+				<Response code="Back" next="1"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="3" type="P" name="业务管理">
+				<Response code="TimeOut" next="1"/>
+				<Response code="Back" next="1"/>
+				<Response code="Exit" next="E"/>
+				<Response code="ModifyAdministratorPin" next="5"/>
+				<Response code="AddBusinessAdmin" next="6"/>
+				<Response code="BusinessAdminList" next="7"/>
+			</Item>
+			<Item id="4" type="P" name="系统设置">
+				<Response code="TimeOut" next="1"/>
+				<Response code="Back" next="1"/>
+				<Response code="Exit" next="E"/>
+				<Response code="ShutdownOrNot" next="14"/>
+				<Response code="RebootOrNot" next="13"/>
+			</Item>
+			<Item id="5" type="P" name="修改技术管理员密码">
+				<Response code="TimeOut" next="1"/>
+				<Response code="Back" next="3"/>
+				<Response code="Exit" next="E"/>
+				<Response code="TradeSuccess" next="11"/>
+				<Response code="TradeFail" next="12"/>
+			</Item>
+			<Item id="6" type="P" name="添加业务主管页面">
+				<Response code="TimeOut" next="1"/>
+				<Response code="OK" next="8"/>
+				<Response code="Back" next="3"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="7" type="P" name="管理员列表页面">
+				<Response code="TimeOut" next="1"/>
+				<Response code="OK" next="3"/>
+				<Response code="Back" next="3"/>
+				<Response code="Exit" next="E"/>
+				<Response code="TradeFail" next="12"/>
+			</Item>
+			<Item id="8" type="P" name="录入指纹">
+				<Response code="TimeOut" next="1"/>
+				<Response code="OK" next="10"/>
+				<Response code="Back" next="3"/>
+				<Response code="Exit" next="E"/>
+				<Response code="TradeSuccess" next="11"/>
+				<Response code="TradeFail" next="12"/>
+			</Item>
+			<Item id="9" type="P" name="硬件检测及设置">
+				<Response code="TimeOut" next="1"/>
+				<Response code="Back" next="4"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="10" type="P" name="初始化业务交易页面">
+				<Response code="TradeSuccess" next="11"/>
+				<Response code="TradeFail" next="12"/>
+			</Item>
+			<Item id="11" type="P" name="初始化业务交易成功页面">
+				<Response code="TimeOut" next="1"/>
+				<Response code="Exit" next="E"/>
+				<Response code="InitBusiness" next="2"/>
+				<Response code="BusinessManage" next="3"/>
+				<Response code="SystemSet" next="4"/>
+				<Response code="ModifyAdministratorPin" next="5"/>
+				<Response code="AddBusinessAdmin" next="6"/>
+			</Item>
+			<Item id="12" type="P" name="初始化业务交易失败页面">
+				<Response code="TimeOut" next="1"/>
+				<Response code="Exit" next="E"/>
+				<Response code="InitBusiness" next="2"/>
+				<Response code="BusinessManage" next="3"/>
+				<Response code="SystemSet" next="4"/>
+				<Response code="ModifyAdministratorPin" next="5"/>
+				<Response code="AddBusinessAdmin" next="6"/>
+				<Response code="BusinessAdminList" next="7"/>
+			</Item>
+			<Item id="13" type="P" name="是否进行重启操作">
+				<Response code="TimeOut" next="4"/>
+				<Response code="Back" next="4"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="14" type="P" name="是否进行关机操作">
+				<Response code="TimeOut" next="4"/>
+				<Response code="Back" next="4"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="15" type="P" name="交易成功页面">
+				<Response code="Back" next="1"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="16" type="P" name="交易失败页面">
+				<Response code="Back" next="1"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="参数下载" entrance="1" tracename="CC_DownParam_C">
+			<Item id="1" type="P" name="参数下载功能子菜单">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Back" next="E"/>
+				<Response code="TradeSuccess" next="2"/>
+				<Response code="TradeFail" next="3"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="2" type="P" name="交易成功页面">
+				<Response code="Back" next="1"/>
+				<Response code="Exit" next="1"/>
+			</Item>
+			<Item id="3" type="P" name="交易失败页面">
+				<Response code="Back" next="1"/>
+				<Response code="Exit" next="1"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="轧账" entrance="1" tracename="CC_TRANSACTION_TOTAL_INQURE_C">
+			<Item id="1" type="P" name="轧账选择页面">
+				<Response code="OK" next="2"/>
+				<Response code="TimeOut" next="2"/>
+				<Response code="Exit" next="2"/>
+			</Item>
+			<Item id="2" type="P" name="轧账结果页面">
+				<Response code="OK" next="E"/>
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="E"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="清卡" entrance="1" tracename="CC_CLEAR_RETAINED_CARD_C">
+			<Item id="1" type="P" name="清卡结果页面">
+				<Response code="OK" next="E"/>
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="Back" next="E"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="业务管理员其他功能" entrance="1" tracename="CC_ProfessionOtherManage_C">
+			<Item id="1" type="P" name="业务管理其他功能子菜单">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Back" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="InitBusiness" next="2"/>
+				<Response code="BusinessManage" next="3"/>
+				<Response code="SystemSet" next="4"/>
+				<Response code="Crown" next="9"/>
+				<Response code="CheckIn" next="8"/>
+			</Item>
+			<Item id="2" type="P" name="业务管理初始化业务">
+				<Response code="TimeOut" next="1"/>
+				<Response code="OK" next="12"/>
+				<Response code="Back" next="1"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="3" type="P" name="主管业务管理">
+				<Response code="TimeOut" next="1"/>
+				<Response code="Back" next="1"/>
+				<Response code="Exit" next="E"/>
+				<Response code="ModifyManagerPin" next="5"/>
+				<Response code="AddBusinessAdmin" next="6"/>
+				<Response code="BusinessAdminList" next="7"/>
+			</Item>
+			<Item id="4" type="P" name="系统设置">
+				<Response code="TimeOut" next="1"/>
+				<Response code="Back" next="1"/>
+				<Response code="Exit" next="E"/>
+				<Response code="ShutdownOrNot" next="16"/>
+				<Response code="RebootOrNot" next="15"/>
+			</Item>
+			<Item id="5" type="P" name="修改管理员密码">
+				<Response code="TimeOut" next="1"/>
+				<Response code="Back" next="3"/>
+				<Response code="Exit" next="E"/>
+				<Response code="TradeSuccess" next="13"/>
+				<Response code="TradeFail" next="14"/>
+			</Item>
+			<Item id="6" type="P" name="添加业务管理员页面">
+				<Response code="TimeOut" next="1"/>
+				<Response code="OK" next="10"/>
+				<Response code="Back" next="3"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="7" type="P" name="管理员列表页面">
+				<Response code="TimeOut" next="1"/>
+				<Response code="OK" next="3"/>
+				<Response code="Back" next="3"/>
+				<Response code="Exit" next="E"/>
+				<Response code="TradeFail" next="14"/>
+			</Item>
+			<Item id="8" type="P" name="管理员签到页面">
+				<Response code="TimeOut" next="1"/>
+				<Response code="OK" next="17"/>
+				<Response code="Back" next="1"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="9" type="C" name="冠字号查询">
+				<Response code="TimeOut" next="1"/>
+				<Response code="Back" next="1"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="10" type="P" name="录入指纹">
+				<Response code="TimeOut" next="1"/>
+				<Response code="OK" next="12"/>
+				<Response code="Back" next="3"/>
+				<Response code="Exit" next="E"/>
+				<Response code="TradeSuccess" next="13"/>
+				<Response code="TradeFail" next="14"/>
+			</Item>
+			<Item id="11" type="P" name="硬件检测及设置">
+				<Response code="TimeOut" next="1"/>
+				<Response code="Back" next="4"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="12" type="P" name="初始化业务交易页面">
+				<Response code="TradeSuccess" next="13"/>
+				<Response code="TradeFail" next="14"/>
+			</Item>
+			<Item id="13" type="P" name="初始化业务交易成功页面">
+				<Response code="TimeOut" next="1"/>
+				<Response code="Exit" next="E"/>
+				<Response code="InitBusiness" next="2"/>
+				<Response code="BusinessManage" next="3"/>
+				<Response code="SystemSet" next="4"/>
+				<Response code="ModifyManagerPin" next="5"/>
+				<Response code="AddBusinessAdmin" next="6"/>
+				<Response code="CheckIn" next="5"/>
+			</Item>
+			<Item id="14" type="P" name="初始化业务交易失败页面">
+				<Response code="TimeOut" next="1"/>
+				<Response code="Exit" next="E"/>
+				<Response code="InitBusiness" next="2"/>
+				<Response code="BusinessManage" next="3"/>
+				<Response code="SystemSet" next="4"/>
+				<Response code="ModifyManagerPin" next="5"/>
+				<Response code="AddBusinessAdmin" next="6"/>
+				<Response code="BusinessAdminList" next="7"/>
+				<Response code="CheckIn" next="5"/>
+			</Item>
+			<Item id="15" type="P" name="是否进行重启操作">
+				<Response code="TimeOut" next="4"/>
+				<Response code="Back" next="4"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="16" type="P" name="是否进行关机操作">
+				<Response code="TimeOut" next="4"/>
+				<Response code="Back" next="4"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="17" type="P" name="管理员签到结果页面">
+				<Response code="TimeOut" next="1"/>
+				<Response code="Back" next="8"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="首次进入到后维护" entrance="1" tracename="CC_FirstTimeSPL_C">
+			<Item id="1" type="P" name="修改技术管理员密码">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Back" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="TradeSuccess" next="2"/>
+			</Item>
+			<Item id="2" type="P" name="添加业务主管页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="3"/>
+				<Response code="Back" next="E"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="3" type="P" name="录入指纹">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Back" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="TradeFail" next="9"/>
+				<Response code="TradeSuccess" next="4"/>
+			</Item>
+			<Item id="4" type="P" name="添加业务主管页面2">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="5"/>
+				<Response code="Back" next="E"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="5" type="P" name="录入指纹2">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Back" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="TradeFail" next="9"/>
+				<Response code="TradeSuccess" next="6"/>
+			</Item>
+			<Item id="6" type="P" name="添加业务管理员页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="7"/>
+				<Response code="Back" next="E"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="7" type="P" name="录入指纹3">
+				<Response code="TimeOut" next="E"/>
+				<Response code="OK" next="E"/>
+				<Response code="Back" next="E"/>
+				<Response code="Exit" next="E"/>
+				<Response code="TradeFail" next="9"/>
+				<Response code="TradeSuccess" next="8"/>
+			</Item>
+			<Item id="8" type="P" name="初始化业务交易成功页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="9" type="P" name="初始化业务交易失败页面">
+				<Response code="TimeOut" next="E"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+		</BusinessItem>
+		<BusinessItem id="数据验证" entrance="1" tracename="CC_Identify_C">
+			<Item id="1" type="P" name="获取钞箱状态画面">
+				<Response code="OK" next="2"/>
+				<Response code="Exit" next="E"/>
+				<Response code="UnitError" next="8"/>
+			</Item>
+			<Item id="2" type="P" name="部件状态画面">
+				<Response code="OK" next="3"/>
+				<Response code="Exit" next="E"/>
+			</Item>
+			<Item id="3" type="P" name="管理员登录画面">
+				<Response code="OK" next="4"/>
+				<Response code="Back" next="2"/>
+				<Response code="FirstTimeSPL" next="9"/>
+			</Item>
+			<Item id="4" type="P" name="设备初始化画面">
+				<Response code="UnitError" next="8"/>
+				<Response code="TAdmin" next="5"/>
+				<Response code="BAdmin" next="6"/>
+				<Response code="SMAdmin" next="7"/>
+			</Item>
+			<Item id="5" type="C" name="技术管理员操作">
+				<Response code="Exit" next="3"/>
+			</Item>
+			<Item id="6" type="C" name="业务管理员操作">
+				<Response code="Exit" next="3"/>
+			</Item>
+			<Item id="7" type="C" name="业务主管操作">
+				<Response code="Exit" next="3"/>
+			</Item>
+			<Item id="8" type="P" name="钞箱错误提示页面">
+				<Response code="Exit" next="3"/>
+			</Item>
+			<Item id="9" type="C" name="首次进入到后维护">
+				<Response code="Back" next="1"/>
+				<Response code="Exit" next="1"/>
+				<Response code="TimeOut" next="1"/>
+			</Item>
+		</BusinessItem>
+	</FlowsItem>
+	<PageItem id="PageList">
+		<Page id="设备初始化画面" tracename="CP_Initial" foldername="Initial" timeout="0"/>
+		<Page id="管理员登录画面" tracename="CP_AdminLogin" foldername="AdminLogin" timeout="0"/>
+		<Page id="部件状态画面" tracename="CP_UnitStatus" foldername="UnitStatus" timeout="0"/>
+		<Page id="正在复位画面" tracename="CP_ResetING" foldername="ResetING" timeout="0"/>
+		<Page id="复位完成画面" tracename="CP_CompletedReset" foldername="CompletedReset" timeout="0"/>
+		<Page id="关闭服务画面" tracename="CP_CloseServer" foldername="CloseServer" timeout="0"/>
+		<Page id="正在关机画面" tracename="CP_ShutDown" foldername="ShutDown" timeout="0"/>
+		<Page id="正在重启画面" tracename="CP_RestartING" foldername="RestartING" timeout="0"/>
+		<Page id="普通管理员维护选择画面" tracename="CP_GeneralSelect" foldername="GeneralSelect" timeout="0"/>
+		<Page id="主管理员维护选择画面" tracename="CP_MaintainSelect" foldername="MaintainSelect" timeout="0"/>
+		<Page id="清机加钞画面" tracename="CP_ExchangeSelect" foldername="ExchangeSelect" timeout="0"/>
+		<Page id="清机成功画面" tracename="CP_CompletedExchange" foldername="CompletedExchange" timeout="0"/>
+		<Page id="加钞画面" tracename="CP_AddNote" foldername="AddNote" timeout="0"/>
+		<Page id="加钞完成" tracename="CP_CompletedAddNote" foldername="CompletedAddNote" timeout="0"/>
+		<Page id="纸币余量查询画面" tracename="CP_NoteRemainQuery" foldername="NoteRemainQuery" timeout="0"/>
+		<Page id="设置加密密钥画面" tracename="CP_KeyInputPrompt" foldername="KeyInputPrompt" timeout="0"/>
+		<Page id="输入A段主密钥" tracename="CP_AMasterKey" foldername="AMasterKey" timeout="0"/>
+		<Page id="输入B段主密钥" tracename="CP_BMasterKey" foldername="BMasterKey" timeout="0"/>
+		<Page id="输入C段主密钥" tracename="CP_CMasterKey" foldername="CMasterKey" timeout="0"/>
+		<Page id="下载主密钥" tracename="CP_DownMasterKey" foldername="DownMasterKey" timeout="0"/>
+		<Page id="初始化键盘提示" tracename="CP_EPPInitPrompt" foldername="EPPInitPrompt" timeout="0"/>
+		<Page id="初始化键盘进行" tracename="CP_StartEPPInit" foldername="StartEPPInit" timeout="0"/>
+		<Page id="初始化键盘完成" tracename="CP_CompletedEPPInit" foldername="CompletedEPPInit" timeout="0"/>
+		<Page id="设定A段主密钥完成" tracename="CP_CompletedAMasterKey" foldername="CompletedAMasterKey" timeout="0"/>
+		<Page id="设定B段主密钥完成" tracename="CP_CompletedBMasterKey" foldername="CompletedBMasterKey" timeout="0"/>
+		<Page id="设定C段主密钥完成" tracename="CP_CompletedCMasterKey" foldername="CompletedCMasterKey" timeout="0"/>
+		<Page id="系统信息设定" tracename="CP_SysInfoSet" foldername="SysInfoSet" timeout="0"/>
+		<Page id="设定通讯参数" tracename="CP_SetCommunicateParam" foldername="SetCommunicateParam" timeout="0"/>
+		<Page id="设定通讯参数完成" tracename="CP_CompletedSetCommunicateParam" foldername="CompletedSetCommunicateParam" timeout="0"/>
+		<Page id="钞箱设定" tracename="CP_SetCashBox" foldername="SetCashBox" timeout="0"/>
+		<Page id="钞箱设定完成" tracename="CP_CompletedSetCashBox" foldername="CompletedSetCashBox" timeout="0"/>
+		<Page id="应用参数设定" tracename="CP_SetAPParam" foldername="SetAPParam" timeout="0"/>
+		<Page id="版本信息" tracename="CP_VersionInfo" foldername="VersionInfo" timeout="0"/>
+		<Page id="打印版本信息" tracename="CP_PrintVersionInfo" foldername="PrintVersionInfo" timeout="0"/>
+		<Page id="打印版本信息完成" tracename="CP_CompletedPrintVersionInfo" foldername="CompletedPrintVersionInfo" timeout="0"/>
+		<Page id="交易类型设定" tracename="CP_SetTransType" foldername="SetTransType" timeout="0"/>
+		<Page id="交易类型设定完成" tracename="CP_CompletedTransType" foldername="CompletedTransType" timeout="0"/>
+		<Page id="终端设置" tracename="CP_SetTerminal" foldername="SetTerminal" timeout="0"/>
+		<Page id="终端设置完成" tracename="CP_CompletedSetTerminal" foldername="CompletedSetTerminal" timeout="0"/>
+		<Page id="电子日志" tracename="CP_DigitalLog" foldername="DigitalLog" timeout="0"/>
+		<Page id="电子日志信息" tracename="CP_DigitalLogInfo" foldername="DigitalLogInfo" timeout="0"/>
+		<Page id="电子日志打印" tracename="CP_PrintDigitalLog" foldername="PrintDigitalLog" timeout="0"/>
+		<Page id="指纹录入" tracename="CP_FingerInput" foldername="FingerInput" timeout="0"/>
+		<Page id="指纹录入成功" tracename="CP_FingerInputSuccess" foldername="FingerInputSuccess" timeout="0"/>
+		<Page id="电子日志打印完成" tracename="CP_CompletedPrintDigitalLog" foldername="CompletedPrintDigitalLog" timeout="0"/>
+		<Page id="是否进行清机操作" tracename="CP_ExchangeOrNot" foldername="ExchangeOrNot" timeout="0"/>
+		<Page id="是否进行加钞操作" tracename="CP_AddCashOrNot" foldername="AddCashOrNot" timeout="0"/>
+		<Page id="正在加钞处理页面" tracename="CP_AddCashIng" foldername="AddCashIng" timeout="0"/>
+		<Page id="数据统计打印" tracename="CP_PrintStatistics" foldername="PrintStatistics" timeout="0"/>
+		<Page id="数据统计打印完成" tracename="CP_CompletedPrintStatistics" foldername="CompletedPrintStatistics" timeout="0"/>
+		<Page id="提示清机画面" tracename="CP_ExchangeTip" foldername="ExchangeTip" timeout="0"/>
+		<Page id="冠字号条件选择" tracename="CP_CrownSizeSelectType" foldername="CrownSizeSelectType" timeout="0"/>
+		<Page id="冠字号结果显示" tracename="CP_CrownSizeShowResult" foldername="CrownSizeShowResult" timeout="0"/>
+		<Page id="冠字号结果详细显示" tracename="CP_CrownSizeShowDetailResult" foldername="CrownSizeShowDetailResult" timeout="0"/>
+		<Page id="钞箱错误提示页面" tracename="CP_CashUnitErrorTip" foldername="CashUnitErrorTip" timeout="0"/>
+		<Page id="是否进行重启操作" tracename="CP_RebootOrNot" foldername="RebootOrNot" timeout="0"/>
+		<Page id="是否进行关机操作" tracename="CP_ShutdownOrNot" foldername="ShutdownOrNot" timeout="0"/>
+		<Page id="添加管理员信息操作" tracename="CP_AddAdminInfo" foldername="AddAdminInfo" timeout="0"/>
+		<Page id="添加管理员信息成功页面" tracename="CP_AddAdminInfoAccess" foldername="AddAdminInfoAccess" timeout="0"/>
+		<Page id="下载工作参数页面" tracename="CP_DownloadKey" foldername="DownloadKey" timeout="0"/>
+		<Page id="提示下载工作参数画面" tracename="CP_DownloadKeyTip" foldername="DownloadKeyTip" timeout="0"/>
+		<Page id="限额设置" tracename="CP_QuotaSet" foldername="QuotaSet" timeout="0"/>
+		<Page id="限额设置完成" tracename="CP_QuotaSetCompleted" foldername="QuotaSetCompleted" timeout="0"/>
+		<Page id="授权设置界面" tracename="CP_TellerNoSet" foldername="TellerNoSet" timeout="0"/>
+		<Page id="添加授权成功界面" tracename="CP_AddTellerInfoAccess" foldername="AddTellerInfoAccess" timeout="0"/>
+		<Page id="密码管理界面" tracename="CP_PinManager" foldername="PinManager" timeout="0"/>
+		<Page id="输入信息管理员密码界面" tracename="CP_InputSafePsw" foldername="InputSafePsw" timeout="0"/>
+		<Page id="管理员操作选择界面" tracename="CP_AdminSelect" foldername="AdminSelect" timeout="0"/>
+		<Page id="信息管理密码修改页面" tracename="CP_ChangePsw" foldername="ChangePsw" timeout="0"/>
+		<Page id="数据统计查询界面" tracename="CP_DataStatisticsSelect" foldername="DataStatisticsSelect" timeout="0"/>
+		<Page id="数据统计结果界面" tracename="CP_DataStatisticsResults" foldername="DataStatisticsResults" timeout="0"/>
+		<Page id="后屏保护页面" tracename="CP_ProtectSPL" foldername="ProtectSPL" timeout="0"/>
+		<Page id="轧账选择页面" tracename="CP_RollingSelect" foldername="RollingSelect" timeout="0"/>
+		<Page id="轧账结果页面" tracename="CP_RollingResult" foldername="RollingResult" timeout=""/>
+		<Page id="管理员签到页面" tracename="CP_SignIn" foldername="SignIn" timeout=""/>
+		<Page id="初始化CDK页面" tracename="CP_InitialCDK" foldername="InitialCDK" timeout=""/>
+		<Page id="机构号设置" tracename="CP_SetTerminalAgency" foldername="SetTerminalAgency" timeout=""/>
+		<Page id="技术管理员菜单页面" tracename="CP_TadminMenu" foldername="TadminMenu" timeout="0"/>
+		<Page id="业务管理员菜单页面" tracename="CP_BadminMenu" foldername="BadminMenu" timeout="0"/>
+		<Page id="业务主管菜单页面" tracename="CP_BMadminMenu" foldername="BMadminMenu" timeout="0"/>
+		<Page id="密钥管理子菜单" tracename="CP_KeyManagement" foldername="KeyManagement" timeout="0"/>
+		<Page id="输入MAC密钥" tracename="CP_InputMacKey" foldername="InputMacKey" timeout="120"/>
+		<Page id="输入PIN密钥" tracename="CP_InputPinKey" foldername="InputPinKey" timeout="120"/>
+		<Page id="交易页面" tracename="CP_Tradeing" foldername="Tradeing" timeout="0"/>
+		<Page id="交易成功页面" tracename="CP_TradeSuccess" foldername="TradeSuccess" timeout="3"/>
+		<Page id="交易失败页面" tracename="CP_TradeFail" foldername="TradeFail" timeout="60"/>
+		<Page id="其他管理功能子菜单" tracename="CP_OtherManage" foldername="OtherManage" timeout="120"/>
+		<Page id="初始化业务" tracename="CP_InitBusiness" foldername="InitBusiness" timeout="120"/>
+		<Page id="业务管理" tracename="CP_BusinessManage" foldername="BusinessManage" timeout="120"/>
+		<Page id="系统设置" tracename="CP_SystemSet" foldername="SystemSet" timeout="120"/>
+		<Page id="修改技术管理员密码" tracename="CP_ModifyAdministratorPin" foldername="ModifyAdministratorPin" timeout="120"/>
+		<Page id="添加业务主管页面" tracename="CP_AddBusinessSupervisor" foldername="AddBusinessSupervisor" timeout="120"/>
+		<Page id="录入指纹" tracename="CP_InputFinger" foldername="InputFinger" timeout="120"/>
+		<Page id="硬件检测及设置" tracename="CP_HardwareTestAndSet" foldername="HardwareTestAndSet" timeout="120"/>
+		<Page id="秘钥密码输入界面" tracename="CP_InputKeyPsw" foldername="InputKeyPsw" timeout="120"/>
+		<Page id="设置主秘钥失败页面" tracename="CP_MasterKeyFail" foldername="MasterKeyFail" timeout="120"/>
+		<Page id="设置主秘钥成功页面" tracename="CP_MasterKeySuccess" foldername="MasterKeySuccess" timeout="120"/>
+		<Page id="初始化业务交易页面" tracename="CP_InitTradeing" foldername="InitTradeing" timeout="0"/>
+		<Page id="初始化业务交易成功页面" tracename="CP_InitTradeSuccess" foldername="InitTradeSuccess" timeout="3"/>
+		<Page id="初始化业务交易失败页面" tracename="CP_InitTradeFail" foldername="InitTradeFail" timeout="60"/>
+		<Page id="参数设置功能子菜单" tracename="CP_ParamManagement" foldername="ParamManagement" timeout="0"/>
+		<Page id="终端号设置页面" tracename="CP_SetTerminalNumber" foldername="SetTerminalNumber" timeout="0"/>
+		<Page id="加钞模式设置页面" tracename="CP_AddNoteMode" foldername="AddNoteMode" timeout="0"/>
+		<Page id="通讯测试页面" tracename="CP_CommunicateTest" foldername="CommunicateTest" timeout="0"/>
+		<Page id="轧账方式设置页面" tracename="CP_SetRollingMethods" foldername="SetRollingMethods" timeout="0"/>
+		<Page id="扩展功能设置页面" tracename="CP_SetExtendAction" foldername="SetExtendAction" timeout="0"/>
+		<Page id="查看通讯参数页面" tracename="CP_ViewCommunicateParam" foldername="ViewCommunicateParam" timeout="0"/>
+		<Page id="参数下载功能子菜单" tracename="CP_ParamDowloadManagement" foldername="ParamDowloadManagement" timeout="0"/>
+		<Page id="控制参数下载页面" tracename="CP_ControlParamDowload" foldername="ControlParamDowload" timeout="0"/>
+		<Page id="卡表下载页面" tracename="CP_CardTabelParamDowload" foldername="CardTabelParamDowload" timeout="0"/>
+		<Page id="应用参数下载页面" tracename="CP_AplicationParamDowload" foldername="AplicationParamDowload" timeout="0"/>
+		<Page id="代理参数业务下载页面" tracename="CP_AgencyParamDowload" foldername="AgencyParamDowload" timeout="0"/>
+		<Page id="新增参数下载页面" tracename="CP_IncreaseParamDowload" foldername="IncreaseParamDowload" timeout="0"/>
+		<Page id="业务管理其他功能子菜单" tracename="CP_ProfessionOtherManage" foldername="ProfessionOtherManage" timeout="0"/>
+		<Page id="修改管理员密码" tracename="CP_ModifyManagerPin" foldername="ModifyManagerPin" timeout="0"/>
+		<Page id="签到功能" tracename="CP_CheckIn" foldername="CheckIn" timeout="0"/>
+		<Page id="清卡结果页面" tracename="CP_CLEAR_RETAINED_CARD_Result" foldername="CLEAR_RETAINED_CARD_Result" timeout="0"/>
+		<Page id="主管业务管理" tracename="CP_AdminBusinessManage" foldername="AdminBusinessManage" timeout="0"/>
+		<Page id="业务管理初始化业务" tracename="CP_ManagerInitBusiness" foldername="ManagerInitBusiness" timeout="0"/>
+		<Page id="管理员签到结果页面" tracename="CP_SignInResult" foldername="SignInResult" timeout="0"/>
+		<Page id="录入指纹2" tracename="CP_InputFinger" foldername="InputFinger" timeout="120"/>
+		<Page id="录入指纹3" tracename="CP_InputFinger" foldername="InputFinger" timeout="120"/>
+		<Page id="添加业务管理员页面" tracename="CP_AddBusinessAdmin" foldername="AddBusinessAdmin" timeout="120"/>
+		<Page id="添加业务主管页面2" tracename="CP_AddBusinessSupervisor" foldername="AddBusinessSupervisor" timeout="120"/>
+		<Page id="网点机构号设置" tracename="CP_SetBankNumber" foldername="SetBankNumber" timeout="0"/>
+		<Page id="管理员列表页面" tracename="CP_BusinessAdminList" foldername="BusinessAdminList" timeout="0"/>
+		<Page id="钞箱剩余金额输入页面" tracename="CP_InputRemainCash" foldername="InputRemainCash" timeout="0"/>
+		<Page id="获取钞箱状态画面" tracename="CP_GetCusState" foldername="GetCusState" timeout="0"/>
+	</PageItem>
+	<FunctionItem id="FunctionList">
+		<Function id="管理员状态" tracename="CF_AdminStatus" filename="InnerFunction" timeout=""/>
+	</FunctionItem>
+</FlowConfigs>

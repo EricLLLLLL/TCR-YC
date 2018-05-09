@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="9/14/2017 4:07:11 PM">
+	<div id="PageTop">
+		<div id="PageTitle">
+	</div>
+		<div id="ShowTime">
+	</div>
+	</div>
+	<div id="PageSubject" style="">
+		<div style="display:block;margin-left:260px;" class="">
+			<div id="TipDiv" style="margin-left:-260px;">
+				销户完成
+			</div>
+			<div class="">
+				<span class="bigSpan">受理卡号：</span>
+				<span id="CARDNO" class="TrabsferkInfo" style="margin-left:10px"></span>
+			</div>
+			<div class="">
+				<span class="bigSpan">客户姓名：</span>
+				<span id="CUSTOMERNAME" class="TrabsferkInfo" style="margin-left:10px"></span>
+			</div>
+			<div class="">
+				<span class="bigSpan">本金金额：</span>
+				<span id="TRANSAMOUNT" class="TrabsferkInfo" style="margin-left:10px"></span>
+			</div>
+			<div class="">
+				<span class="bigSpan">利&#160;&#160;&#160;&#160;息：</span>
+				<span id="INTEREST" class="TrabsferkInfo" style="margin-left:10px"></span>
+			</div>
+			<div class="">
+				<span class="bigSpan">应税利息：</span>
+				<span id="TAXABLE" class="TrabsferkInfo" style="margin-left:10px"></span>
+			</div>
+			<div class="">
+				<span class="bigSpan">税&#160;&#160;&#160;&#160;率：</span>
+				<span id="TAXRATE" class="TrabsferkInfo" style="margin-left:10px"></span>
+			</div>
+			<div class="">
+				<span class="bigSpan">税&#160;&#160;&#160;&#160;金：</span>
+				<span id="TAX" class="TrabsferkInfo" style="margin-left:10px"></span>
+			</div>
+			<div class="">
+				<span class="bigSpan">本息合计：</span>
+				<span id="TOTAL" class="TrabsferkInfo" style="margin-left:10px"></span>
+			</div>
+		</div>
+		<div class="errTip"></div>
+	</div>
+	<div id="PageButton">
+		<a href="#" class="Left_4" id="Exit">退出</a>
+	</div>
+
+</div>

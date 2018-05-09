@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="9/13/2017 3:07:47 PM">
+	<div id="PageTop">
+		<div id="PageTitle">
+		</div>
+		<div id="ShowTime">
+		</div>
+	</div>
+	<div id="PageSubject" style="">
+		<div id="AccountCancellationInfo" style="display:block;margin-left:200px;" class="">
+			<div id="TipDiv" style="margin-left:-200px;">
+				销户账户信息
+			</div>
+			<div class="">
+				<span class="bigSpan">账    号：</span>
+				<span id="AccountNumber" class="TrabsferkInfo" style="margin-left:20px"></span>
+			</div>
+			<div class="">
+				<span class="bigSpan">户    名：</span>
+				<span id="Username" class="TrabsferkInfo" style="margin-left:20px"></span>
+			</div>
+			<div class="">
+				<span class="bigSpan">销户本金：</span>
+				<span id="capital" class="TrabsferkInfo" style="margin-left:20px"></span>
+			</div>
+			<div class="" style="">
+				<span class="bigSpan">利    息：</span>
+				<span id="Interest" class="TrabsferkInfo"></span>
+			</div>
+			<div class=""  style="">
+				<span class="bigSpan">应税利息：</span>
+				<span id="TaxableInterest" class="TrabsferkInfo" style="margin-left:40px"></span>
+			</div>
+			<div class="">
+				<span class="bigSpan">利    率：</span>
+				<span id="InterestRate" class="TrabsferkInfo" style="margin-left:60px"></span>
+			</div>
+			<div class="">
+				<span class="bigSpan">税    金：</span>
+				<span id="Taxes" class="TrabsferkInfo"  style="margin-left:60px"></span>
+			</div>
+			<div class="">
+				<span class="bigSpan">税后本息合计：</span>
+				<span id="TotalAfterTax" class="TrabsferkInfo"  style="margin-left:60px"></span>
+			</div>
+
+		</div>
+	</div>
+	<div id="PageButton">
+		<a href="#" class="Left_4" id="Left_4">退卡</a>
+		<a href="#" class="Right_4" id="Right_4">继续</a>
+	</div>
+
+</div>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div id="Keyboard" class="KeyboardNum">
+  <span name="Name_Keyboard" class="KeyboardKey">1</span>
+  <span name="Name_Keyboard" class="KeyboardKey">2</span>
+  <span name="Name_Keyboard" class="KeyboardKey">3</span>
+  <span name="Name_Keyboard" class="KeyboardKey">4</span>
+  <span name="Name_Keyboard" class="KeyboardKey">5</span>
+  <span name="Name_Keyboard" class="KeyboardKey">6</span>
+  <span name="Name_Keyboard" class="KeyboardKey">7</span>
+  <span name="Name_Keyboard" class="KeyboardKey">8</span>
+  <span name="Name_Keyboard" class="KeyboardKey">9</span>
+  <span name="Name_Keyboard" class="KeyboardKey">*</span>
+  <span name="Name_Keyboard" class="KeyboardKey">0</span>
+  <span name="Name_Keyboard" class="KeyboardKey">清除</span>
+  <span name="Name_Keyboard" class="KeyboardKey">退格</span>
+  <span id="KeyboardKeys_set"></span>
+</div>

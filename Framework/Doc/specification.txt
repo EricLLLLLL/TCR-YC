@@ -1,0 +1,132 @@
+javascript编程
+1、在全局的代码执行时，采用include的方式导入js文件。
+   可以用以下方式写法：
+   (function(){
+   
+   //TODO: code 
+   
+   })();
+   
+2、形成一个包（或叫其他形式）：定义一个变量，变量包含了一些函数。
+    var JsAPI = {
+  	  	
+  	Register : function(){
+  		Asyn.SetName('110');
+  	},
+  	
+  	invoke : function(){
+	  	 	 Asyn.AsynExcute("json::type{name:gary,age:22}");
+	  	 	 Asyn.WaitForEvent();
+	  	 	 alert("WaitForEvent:->over time!");
+  	},
+  	
+  	asyntest : function(){
+  		  alert("provoked you!");
+  	}
+  
+  };
+  
+  调用方式如：JsAPI.Register();
+  
+ 3、导入OCX控件采用如下方式，在head标签中。
+   classid="clsid:929E6809-7705-4C38-A615-D47E0C05A411"
+	  width=150
+	  height=50
+	  align=center
+	  hspace=0
+	  vspace=0
+	  id="Asyn"
+    ></OBJECT>
+   重点匹配calssid的值与需要调用的ocx调用的值要一致，同时需要在系统中注册ocx。在我们实际的virtual studio的开发中，编译的时候已经进行了注册。
+   但是需要注意的是virtual studio的启动必须是administrator权限。
+4、ocx事件的注册采用的是attachEvent函数。
+    Asyn.attachEvent('OnReady', function (nErrCode) {
+         alert("Service connected successful:" + nErrCode);
+    });
+    其中Asyn是控件的id,也即是obj的id.ocx控件可以直接对应id，网页控件可以调用getElementById函数获取。
+    attachEvent函数一个参数是事件的类型，也就是事件的名称，第二个参数就是事件调用函数。
+    此函数在IE10及以下的版本都可以调用，但是在IE11以后微软取消这个函数，改用addEventListener函数。
+    目前测试的情况是网页基本控件调用是无问题的，但是调用ocx自动的事件时会有问题。主要是对于事件类型的参数，如何传还不清楚。
+    后续再解决IE11的兼容性问题，目前的解决方案是采用增加脚本，调用IE10或其他的版本。在head的标签中增加如下的代码即可解决。
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    具体用法修改content="IE=10".至于此代码的真正含义，后续分析。
+
+5、写按钮的onclick消息的时候需要注意字母都是小写的，出现有其中字母有大小写的字母，浏览器不报错，
+   但是也不相应事件消息。
+   在js的内置函数中都是以小写字母开头。
+6、写一个对象的标准格式：
+ 类似：
+window.FlowControl = function ( Business, page){
+      //属于Public性质
+      this.curBus = Business;
+      this.curPage = page;
+
+      //private
+      var date;
+
+      this.GetCurrent = function(){
+      	return this.curBus + this.curPage;
+      };
+
+      //属于Public性质
+      this.SetCurrentBusiness = function( curBusiness ){
+      	 this.curBus = curBusiness;
+      };
+      //属于Public性质
+      this.SetCurrentPage = function( curpage){
+      	this.curPage = curpage;
+      };
+
+      //属于private的性质
+      var displayMessage = function(){
+      	  alert("displayMessage");
+      };
+}
+
+前面的属性可以用this.curBus表示，同时也是表示这个属性是Public的，如果是Private的
+只需要 var curBus就可以，外部不可以调用。
+同时函数也是一样，在函数前面加this表示可以属于对象，可以在外面调用属于Public,如果
+把函数定义成函数表达是如：
+      var displayMessage = function(){
+      	  alert("displayMessage");
+      };
+
+7、目前版本对于IE10以下的还些问题，需要调整。
+8、console.log函数只能在IE10以上版本适用。
+9、在Index.html的system.js里面导入的函数及变量。
+   在main.html里面的js使用必须在前缀调用top.
+   如：top.API.Crd.Openconnect()
+10、对于界面的元素添加，优先考虑XML上实现，不建议jS动态实现，主要是因为不便于修改调试。
+11、需要动态插入的插件在界面效果实现方面尽量使用XML插入，不建议动态直接实现。
+12、在编写代码中尽量避免全局变量，在每个JS文件中采用
+   （function（）{
+   //code scope
+   })();
+   形式避免了全局变量的产生，应为及时你在js文件内定义了全局变量，但其实是局部变量，退出js后，变量自动释放。
+13、在编码中要参考原有的模板形式，不能随意调整模板。
+14、注册OCX的事件，事件类型就是OCX事件名，事件函数则在前面加on,如：
+      top.API.Crd.addEvent('CardInserted',onCardInserted);
+	 事件函数： 
+    function onCardInserted(){
+
+    }
+15、需要增加一个OCX对象，需要在：Api\System\CreateObject.js文件中的CreateObject对象中
+    增加对象函数。
+	this.CreateCrdObj = function(){
+     	  JSApiCrd.prototype = new JSApiCrd();
+          var obj = insertObject("CardReader","CLSID:DAFA05D7-71A6-4870-9DD5-C54C3C7450F6");
+          var JsCrd = new JSApiCrd("CardReader","Hservice",obj);
+          return JsCrd;
+     };
+	 具体实现方式参照其他模块的编写方式。
+	 同时还需要在API.js文件的API对象中添加属性；
+	 如读卡器：this.Crd = obj.CreateCrdObj();
+16、流程跳转函数：App.Cntl.ProcessDriven( Response );
+     Response代表页面的出口，需要在FlowsConfig.xlsx配置流程中体现。
+17、页面流程是FlowsConfig.xlsx配置完成，然后通过FlowXMLGenerator1.0.xls生成对应的FlowConfig.xml流程文件。
+    最终有控制组件来完成解析和跳转。如果新建一个页面生成器会自动生成一个模板，可以根据模板进行修改，得到合适
+	的js和XML文件。
+18、每个页面的超时时间都是在FlowsConfig.xlsx中的页面模块配置出来的，如果本页面不需要倒计时功能，则配置为0即可，
+     其他时间为整数且以秒为单位。至于倒计时有统一的time组件管理。
+19、
+    

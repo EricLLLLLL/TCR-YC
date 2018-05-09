@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="12/18/2015 2:50:04 PM">
+  <div id="PageTop">
+    <div id="PageTitle">
+      <img src="Framework/style/Graphics/btn/m1.jpg" style="float:left;"/>
+      <div class="title_text">应用参数设定</div>
+    </div>
+    <div id="ShowTime">
+    </div>
+  </div>
+  <div class="TopText">
+    <div style="float:left;">
+      受理行号：<span id='SubBankId'>00000000-12345678号机</span>
+      <br/>
+      状态：<span id='DevStatus'>00000（00）</span>
+    </div>
+  </div>
+  <div class="TopTimer" id="LocalTime">
+    2015-12-16  10:54
+  </div>
+  <div id="PageSubject">
+    <input type="button" value="版本信息" id="Version" class="FunctionBtn" style="margin-left:170px;"/>
+    <input type="button" value="交易类型" id="TransType" class="FunctionBtn"/>
+    <input type="button" value="终端设置" id="Terminal" class="FunctionBtn"/>
+    <input type="button" value="限额设置" id="QuotaSet" class="FunctionBtn" style="margin-left:170px;"/>
+    <br/>
+    <br/> 
+    <div class="TipDiv" style="margin-left:170px;">
+      温馨提示：请选择设定项，并按相应按钮设定
+    </div>
+  </div>
+  <div class="PageLeftButton" id="Exit"></div>
+</div>

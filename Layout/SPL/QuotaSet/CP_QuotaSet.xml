@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="12/18/2015 2:50:04 PM">
+  <div id="PageTop">
+    <p> 受理行号：
+      																																																																				                  
+      <span id='SubBankId'></span>
+																																												            
+    </p>
+    <p> 状态：
+      																																																																				                  
+      <span id='DevStatus'>00000（00）</span>
+    </p>
+  </div>
+  <div class="stateWrap">
+    <img src="Framework/style/Graphics/stateLine.png" alt="" srcset="" class="stateLine" />
+    <span class="stateTitle">控制参数下载</span>
+  </div>
+  <div id="PageSubject">
+    <div id="KeyboardDiv"  class="alphabet"> </div>
+    <div class="InputDiv middleDiv ">
+        <p>
+        <span >参数选择：</span>               			                             
+        <select id="Authorized" class="selectOption">
+          <option value ="卡存款" id="DEPQuotaInput">单次卡存款最大限额</option>
+          <option value ="卡取款" id="CWDQuotaInput">单次卡取款最大限额</option>
+          <option value ="无折无卡存款" id="NoCardDEPQuotaInput">单次卡无折无卡存款最大限额</option>
+          <option value ="无折无卡存款" id="TransferkQuotaInput">单次转账存款最大限额</option>
+          <option value ="卡存款" id="DEPAuthorizedInput">授权单次卡存款最大限额</option>
+          <option value ="卡取款" id="CWDAuthorizedInput">授权单次卡取款最大限额</option>
+          <option value ="无折无卡存款" id="NoCardDEPAuthorizedInput">授权单次卡无折无卡存款最大限额</option>
+        </select>
+      </p>
+      <p>
+        <span>金额输入 ：</span>            			                
+        <input class="AdminInput backgroundY" id="RollingInput" type="text"   value=""  slecet="on" placeholder="请输入金额" />
+       <label class="span_tip" id ="user_tip"></label>
+      </p>
+         <div  >
+      <div class="div_tip" id="tipdiv" style="color:red;"> </div>
+    </div>
+    </div>
+
+    
+  </div>
+   <div id="PageButton" >
+    <!-- <button type="button"  id="Back">返回</button> -->
+    <!-- <button type="buton" id="Remake">更正</button> -->
+    <!-- <button type="button"  id="OK">确定</button> -->
+    <button type="button"  id="Back" class="middle">返回</button>
+  </div>
+<button type="button" id="PageRoot">退出登录</button>
+</div>

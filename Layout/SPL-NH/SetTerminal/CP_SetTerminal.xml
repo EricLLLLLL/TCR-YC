@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div id="PageContent" autogenerate_time="12/18/2015 2:50:04 PM">
+  <div id="PageTop">
+    <div id="PageTitle">
+      <img src="Framework/style/Graphics/btn/m1.jpg" style="float:left;"/>
+      <div class="title_text">终端设置</div>
+    </div>
+    <div id="ShowTime">
+    </div>
+  </div>
+  <div class="TopText">
+    <div style="float:left;">
+      受理行号：<span id='SubBankId'>00000000-12345678号机</span>
+      <br/>
+      状态：<span id='DevStatus'>00000（00）</span>
+    </div>
+  </div>
+  <div class="TopTimer" id="LocalTime">
+    2015-12-16  10:54
+  </div>
+  <div id="PageSubject">
+    <div id="KeysDiv"></div>
+    <div class="InputDiv">
+      <span style="margin-left:18px;">柜员号：</span><input class="AdminInput" id ="TellerNoInput" type="text" maxlength="10" value="" readonly="readonly" style="margin-left:15px;background-position-y: -132px;"/>
+      <br/>
+      设备编号：<input class="AdminInput" id ="DeviceNoInput" type="text" value="" readonly="readonly" maxlength="10" style="margin-left:15px;margin-top:10px;background-position-y: -132px;"/>
+      <br/>
+      受理行号：<input class="AdminInput" id ="BranchNoInput" type="text" value="" readonly="readonly" maxlength="10" style="margin-left:15px;margin-top:10px;background-position-y: -132px;"/>
+    </div>
+    <div align="center" style="margin-top:40px;display:none">
+      <div class="div_tip" id="tipdiv" style="color:red;"></div>
+    </div>
+  </div>
+  <div class="PageLeftButton" id="Exit"></div>
+  <div class="PageRightButton" id="OK"></div>
+</div>

@@ -1,0 +1,376 @@
+[
+   {
+      "area" : [
+         {
+            "gafeecod" : "8810",
+            "gargnnam" : "乌鲁木齐市"
+         },
+         {
+            "gafeecod" : "8811",
+            "gargnnam" : "乌鲁木齐县"
+         },
+         {
+            "gafeecod" : "8820",
+            "gargnnam" : "克拉玛依市"
+         },
+         {
+            "gafeecod" : "8831",
+            "gargnnam" : "吐鲁番市"
+         },
+         {
+            "gafeecod" : "8832",
+            "gargnnam" : "鄯善县"
+         },
+         {
+            "gafeecod" : "8833",
+            "gargnnam" : "托克逊县"
+         },
+         {
+            "gafeecod" : "8841",
+            "gargnnam" : "哈密市"
+         },
+         {
+            "gafeecod" : "8842",
+            "gargnnam" : "巴里坤哈萨克自治县"
+         },
+         {
+            "gafeecod" : "8843",
+            "gargnnam" : "伊吾县"
+         },
+         {
+            "gafeecod" : "8844",
+            "gargnnam" : "北屯镇"
+         },
+         {
+            "gafeecod" : "8847",
+            "gargnnam" : "阿拉山口口岸"
+         },
+         {
+            "gafeecod" : "8851",
+            "gargnnam" : "昌吉市"
+         },
+         {
+            "gafeecod" : "8852",
+            "gargnnam" : "米泉市"
+         },
+         {
+            "gafeecod" : "8853",
+            "gargnnam" : "呼图壁县"
+         },
+         {
+            "gafeecod" : "8854",
+            "gargnnam" : "玛纳斯县"
+         },
+         {
+            "gafeecod" : "8855",
+            "gargnnam" : "奇台县"
+         },
+         {
+            "gafeecod" : "8856",
+            "gargnnam" : "阜康市"
+         },
+         {
+            "gafeecod" : "8857",
+            "gargnnam" : "吉木萨尔县"
+         },
+         {
+            "gafeecod" : "8858",
+            "gargnnam" : "五家渠市"
+         },
+         {
+            "gafeecod" : "8859",
+            "gargnnam" : "木垒哈萨克自治县"
+         },
+         {
+            "gafeecod" : "8871",
+            "gargnnam" : "博乐市"
+         },
+         {
+            "gafeecod" : "8872",
+            "gargnnam" : "精河县"
+         },
+         {
+            "gafeecod" : "8873",
+            "gargnnam" : "温泉县"
+         },
+         {
+            "gafeecod" : "8881",
+            "gargnnam" : "库尔勒市"
+         },
+         {
+            "gafeecod" : "8882",
+            "gargnnam" : "轮台县"
+         },
+         {
+            "gafeecod" : "8883",
+            "gargnnam" : "尉犁县"
+         },
+         {
+            "gafeecod" : "8884",
+            "gargnnam" : "若羌县"
+         },
+         {
+            "gafeecod" : "8885",
+            "gargnnam" : "且末县"
+         },
+         {
+            "gafeecod" : "8886",
+            "gargnnam" : "焉耆回族自治县"
+         },
+         {
+            "gafeecod" : "8887",
+            "gargnnam" : "和静县"
+         },
+         {
+            "gafeecod" : "8888",
+            "gargnnam" : "和硕县"
+         },
+         {
+            "gafeecod" : "8889",
+            "gargnnam" : "博湖县"
+         },
+         {
+            "gafeecod" : "8911",
+            "gargnnam" : "阿克苏市"
+         },
+         {
+            "gafeecod" : "8912",
+            "gargnnam" : "温宿县"
+         },
+         {
+            "gafeecod" : "8913",
+            "gargnnam" : "库车县"
+         },
+         {
+            "gafeecod" : "8914",
+            "gargnnam" : "沙雅县"
+         },
+         {
+            "gafeecod" : "8915",
+            "gargnnam" : "新和县"
+         },
+         {
+            "gafeecod" : "8916",
+            "gargnnam" : "拜城县"
+         },
+         {
+            "gafeecod" : "8917",
+            "gargnnam" : "乌什县"
+         },
+         {
+            "gafeecod" : "8918",
+            "gargnnam" : "阿瓦提县"
+         },
+         {
+            "gafeecod" : "8919",
+            "gargnnam" : "柯坪县"
+         },
+         {
+            "gafeecod" : "8931",
+            "gargnnam" : "阿图什市"
+         },
+         {
+            "gafeecod" : "8932",
+            "gargnnam" : "阿克陶县"
+         },
+         {
+            "gafeecod" : "8933",
+            "gargnnam" : "阿合奇县"
+         },
+         {
+            "gafeecod" : "8934",
+            "gargnnam" : "乌恰县"
+         },
+         {
+            "gafeecod" : "8941",
+            "gargnnam" : "喀什市"
+         },
+         {
+            "gafeecod" : "8942",
+            "gargnnam" : "疏附县"
+         },
+         {
+            "gafeecod" : "8943",
+            "gargnnam" : "疏勒县"
+         },
+         {
+            "gafeecod" : "8944",
+            "gargnnam" : "英吉沙县"
+         },
+         {
+            "gafeecod" : "8945",
+            "gargnnam" : "泽普县"
+         },
+         {
+            "gafeecod" : "8946",
+            "gargnnam" : "莎车县"
+         },
+         {
+            "gafeecod" : "8947",
+            "gargnnam" : "叶城县"
+         },
+         {
+            "gafeecod" : "8948",
+            "gargnnam" : "麦盖提县"
+         },
+         {
+            "gafeecod" : "8949",
+            "gargnnam" : "岳普湖县"
+         },
+         {
+            "gafeecod" : "8951",
+            "gargnnam" : "伽师县"
+         },
+         {
+            "gafeecod" : "8952",
+            "gargnnam" : "巴楚县"
+         },
+         {
+            "gafeecod" : "8953",
+            "gargnnam" : "塔什库尔干塔吉克自治县"
+         },
+         {
+            "gafeecod" : "8961",
+            "gargnnam" : "和田市"
+         },
+         {
+            "gafeecod" : "8963",
+            "gargnnam" : "墨玉县"
+         },
+         {
+            "gafeecod" : "8964",
+            "gargnnam" : "皮山县"
+         },
+         {
+            "gafeecod" : "8965",
+            "gargnnam" : "洛浦县"
+         },
+         {
+            "gafeecod" : "8966",
+            "gargnnam" : "策勒县"
+         },
+         {
+            "gafeecod" : "8967",
+            "gargnnam" : "于田县"
+         },
+         {
+            "gafeecod" : "8968",
+            "gargnnam" : "民丰县"
+         },
+         {
+            "gafeecod" : "8981",
+            "gargnnam" : "奎屯市"
+         },
+         {
+            "gafeecod" : "8991",
+            "gargnnam" : "伊宁市"
+         },
+         {
+            "gafeecod" : "8992",
+            "gargnnam" : "伊宁县"
+         },
+         {
+            "gafeecod" : "8993",
+            "gargnnam" : "察布查尔锡伯自治县"
+         },
+         {
+            "gafeecod" : "8994",
+            "gargnnam" : "霍城县"
+         },
+         {
+            "gafeecod" : "8995",
+            "gargnnam" : "巩留县"
+         },
+         {
+            "gafeecod" : "8996",
+            "gargnnam" : "新源县"
+         },
+         {
+            "gafeecod" : "8997",
+            "gargnnam" : "昭苏县"
+         },
+         {
+            "gafeecod" : "8998",
+            "gargnnam" : "特克斯县"
+         },
+         {
+            "gafeecod" : "8999",
+            "gargnnam" : "尼勒克县"
+         },
+         {
+            "gafeecod" : "9011",
+            "gargnnam" : "塔城市"
+         },
+         {
+            "gafeecod" : "9012",
+            "gargnnam" : "额敏县"
+         },
+         {
+            "gafeecod" : "9013",
+            "gargnnam" : "乌苏市"
+         },
+         {
+            "gafeecod" : "9014",
+            "gargnnam" : "沙湾县"
+         },
+         {
+            "gafeecod" : "9015",
+            "gargnnam" : "托里县"
+         },
+         {
+            "gafeecod" : "9016",
+            "gargnnam" : "裕民县"
+         },
+         {
+            "gafeecod" : "9017",
+            "gargnnam" : "和布克赛尔蒙古自治县"
+         },
+         {
+            "gafeecod" : "9021",
+            "gargnnam" : "阿勒泰市"
+         },
+         {
+            "gafeecod" : "9022",
+            "gargnnam" : "布尔津县"
+         },
+         {
+            "gafeecod" : "9023",
+            "gargnnam" : "富蕴县"
+         },
+         {
+            "gafeecod" : "9024",
+            "gargnnam" : "福海县"
+         },
+         {
+            "gafeecod" : "9025",
+            "gargnnam" : "哈巴河县"
+         },
+         {
+            "gafeecod" : "9026",
+            "gargnnam" : "青河县"
+         },
+         {
+            "gafeecod" : "9027",
+            "gargnnam" : "吉木乃县"
+         },
+         {
+            "gafeecod" : "9028",
+            "gargnnam" : "石河子市"
+         },
+         {
+            "gafeecod" : "9029",
+            "gargnnam" : "三道岭地区"
+         },
+         {
+            "gafeecod" : "9031",
+            "gargnnam" : "阿拉尔市"
+         },
+         {
+            "gafeecod" : "9032",
+            "gargnnam" : "图木舒克市"
+         }
+      ],
+      "gargnnam" : "新疆维吾尔族自治区",
+      "provcod" : 65
+   }
+]
